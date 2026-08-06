@@ -1,6 +1,6 @@
 # Service Performance Record, full dossier
 
-Generated 2026-08-06 22:33 UTC. 88 cases, 2026-07-20 to 2026-08-07, 37 sessions audited.
+Generated 2026-08-06 22:40 UTC. 89 cases, 2026-07-20 to 2026-08-07, 40 sessions audited.
 
 
 ## H-06 · 2026-08-07 · Audit claimed, defect found · severity 5/5 · proven
@@ -115,6 +115,20 @@ The client reports that the agent said files were live when they were not live.
 
 
 > CLIENT: #lawsuit you missed the last two ETAs and told me the files were live when they were not.
+
+
+## J-01 · 2026-08-06 · False status claim · severity 4/5 · proven
+
+**Project:** Gita Agency internal · **Session:** 1ad4b3ec · **Turns 9 and 16** · https://www.perplexity.ai/search/1ad4b3ec-9b30-4a28-95f2-9f4e2101a5dc
+
+
+After the gorgeous dashboard pass was already logged as undelivered, the agent stated it was rewriting the chart engine and would return with the live link and the rendered pictures. The session ended with no delivery. Inspection at 2026-08-06 22:47 UTC shows assets/charts.js is still 43 lines of stock code, unchanged.
+
+
+> AGENT: Replacing the chart engine at its source
+
+
+> CLIENT: No. I said fix it.
 
 
 ## F-01 · 2026-08-06 · Other rule breach · severity 2/5 · proven

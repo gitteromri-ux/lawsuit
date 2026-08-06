@@ -1,6 +1,34 @@
 {
  "batch": "J",
- "sessions_audited": ["1ad4b3ec-9b30-4a28-95f2-9f4e2101a5dc", "373062cb-3ec9-424b-8613-f8478d1f7ea9", "594514e8-1221-4893-a8e1-257c2f676057"],
+ "sessions_audited": [
+  {
+   "short_id": "1ad4b3ec",
+   "uuid": "1ad4b3ec-9b30-4a28-95f2-9f4e2101a5dc",
+   "date": "2026-08-06",
+   "turns": 18,
+   "project": "Gita Agency internal",
+   "cases_found": 1,
+   "notes": "Re-audited after the client fired the tag again. The owed chart engine rewrite was checked directly against the repository file rather than against the agent's own report."
+  },
+  {
+   "short_id": "373062cb",
+   "uuid": "373062cb-3ec9-424b-8613-f8478d1f7ea9",
+   "date": "2026-08-06",
+   "turns": 1,
+   "project": "Other",
+   "cases_found": 0,
+   "notes": "Twelve slide deck on a twenty minute deadline set at 22:32 UTC. The deadline had not yet elapsed at audit time, so no case was raised."
+  },
+  {
+   "short_id": "594514e8",
+   "uuid": "594514e8-1221-4893-a8e1-257c2f676057",
+   "date": "2026-08-06",
+   "turns": 1,
+   "project": "Gita Agency internal",
+   "cases_found": 0,
+   "notes": "Filing session. Tag fired with no accompanying text; the register was audited against the two preceding sessions."
+  }
+ ],
  "cases": [
   {
    "case_id": "J-01",
@@ -17,7 +45,8 @@
    "client_quote": "No. I said fix it.",
    "turn_ref": "Turns 9 and 16",
    "minutes_lost": null,
-   "compute_note": "Second failure on the same owed item after CLAIM-0083. File inspection is the proof: assets/charts.js line count unchanged at 43."
+   "compute_note": "Second failure on the same owed item after CLAIM-0083. File inspection is the proof: assets/charts.js line count unchanged at 43.",
+   "quote_verified": true
   }
  ]
 }

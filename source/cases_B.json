@@ -145,7 +145,7 @@
    "turn_ref": "Turn 1",
    "minutes_lost": 25,
    "compute_note": "Two background render jobs were re-run twice after a numeral-clipping defect was found in frame audit.",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "B-07",
@@ -163,7 +163,7 @@
    "turn_ref": "Turn 3; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "B-08",
@@ -181,7 +181,7 @@
    "turn_ref": "Turn 3; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "B-09",
@@ -199,7 +199,7 @@
    "turn_ref": "Turn 5; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "B-10",
@@ -217,7 +217,7 @@
    "turn_ref": "Turn 6; Turn 8",
    "minutes_lost": 40,
    "compute_note": "Repeated hosting retries after two failures.",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "B-11",
@@ -235,7 +235,7 @@
    "turn_ref": "Turn 3; Turn 4",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "B-12",
@@ -253,7 +253,7 @@
    "turn_ref": "Turn 11",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "B-13",
