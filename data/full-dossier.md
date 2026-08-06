@@ -1,6 +1,17 @@
 # Service Performance Record, full dossier
 
-Generated 2026-08-06 20:55 UTC. 74 cases, 2026-07-20 to 2026-08-06, 34 sessions audited.
+Generated 2026-08-06 21:05 UTC. 75 cases, 2026-07-20 to 2026-08-06, 35 sessions audited.
+
+
+## F-01 · 2026-08-06 · Other rule breach · severity 2/5 · proven
+
+**Project:** Other · **Session:** aec61b85 · **Turn 1** · https://www.perplexity.ai/search/aec61b85-f248-43ee-8627-8b52fb8e28bf
+
+
+During the build of this record the agent posted a pace line claiming 28 percent of the time budget was elapsed when the true figure was 8 percent, an inaccurate numeric status report under Rule 02. Self reported, corrected in the next message, and Recovery Mode level 2 was activated for the remainder of the task.
+
+
+> AGENT: PACE 28% elapsed / 25% delivered, ON PACE, next: repo + dashboard build while 5 auditors run
 
 
 ## B-13 · 2026-08-06 · Scope reduced · severity 5/5 · proven

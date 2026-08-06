@@ -1,7 +1,28 @@
 {
- "generated_utc": "2026-08-06T20:55:39.663334Z",
- "total_cases": 74,
+ "generated_utc": "2026-08-06T21:05:40.876326Z",
+ "total_cases": 75,
  "cases": [
+  {
+   "case_id": "F-01",
+   "session_short_id": "aec61b85",
+   "session_uuid": "aec61b85-f248-43ee-8627-8b52fb8e28bf",
+   "date": "2026-08-06",
+   "time_utc": "20:34",
+   "project": "Other",
+   "category": "RULE_BREACH_OTHER",
+   "severity": 2,
+   "proof_level": "proven",
+   "summary": "During the build of this record the agent posted a pace line claiming 28 percent of the time budget was elapsed when the true figure was 8 percent, an inaccurate numeric status report under Rule 02. Self reported, corrected in the next message, and Recovery Mode level 2 was activated for the remainder of the task.",
+   "agent_quote": "PACE 28% elapsed / 25% delivered, ON PACE, next: repo + dashboard build while 5 auditors run",
+   "client_quote": "",
+   "turn_ref": "Turn 1",
+   "minutes_lost": 0,
+   "compute_note": "No rework required. Logged because Rule 02 requires status numbers to be accurate, and an unlogged self failure would make this record selective.",
+   "_batch": "F",
+   "_n": 1,
+   "_verify_note": "agent quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
   {
    "case_id": "B-13",
    "session_short_id": "6164427a",
@@ -19,7 +40,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "B",
-   "_n": 1,
+   "_n": 2,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -40,7 +61,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "B",
-   "_n": 2,
+   "_n": 3,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -61,7 +82,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "B",
-   "_n": 3,
+   "_n": 4,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -82,7 +103,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "B",
-   "_n": 4,
+   "_n": 5,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -103,7 +124,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "B",
-   "_n": 5,
+   "_n": 6,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -124,7 +145,7 @@
    "minutes_lost": 40,
    "compute_note": "Repeated hosting retries after two failures.",
    "_batch": "B",
-   "_n": 6,
+   "_n": 7,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -145,7 +166,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "B",
-   "_n": 7,
+   "_n": 8,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -166,7 +187,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "D",
-   "_n": 8,
+   "_n": 9,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -187,7 +208,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "E",
-   "_n": 9,
+   "_n": 10,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -208,7 +229,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "B",
-   "_n": 10,
+   "_n": 11,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -229,7 +250,7 @@
    "minutes_lost": 17,
    "compute_note": "",
    "_batch": "B",
-   "_n": 11,
+   "_n": 12,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -250,7 +271,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "D",
-   "_n": 12,
+   "_n": 13,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -271,7 +292,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "D",
-   "_n": 13,
+   "_n": 14,
    "_verify_note": "client quote could not be matched verbatim in the stored transcript and was removed",
    "quote_verified": false
   },
@@ -292,7 +313,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "D",
-   "_n": 14,
+   "_n": 15,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -313,7 +334,7 @@
    "minutes_lost": 25,
    "compute_note": "Two background render jobs were re-run twice after a numeral-clipping defect was found in frame audit.",
    "_batch": "B",
-   "_n": 15,
+   "_n": 16,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -334,7 +355,7 @@
    "minutes_lost": 13,
    "compute_note": "The agent states that the defect forced a full 600-frame re-render.",
    "_batch": "D",
-   "_n": 16,
+   "_n": 17,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -355,7 +376,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "D",
-   "_n": 17,
+   "_n": 18,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -376,7 +397,7 @@
    "minutes_lost": 4,
    "compute_note": "",
    "_batch": "D",
-   "_n": 18,
+   "_n": 19,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -397,7 +418,7 @@
    "minutes_lost": 10,
    "compute_note": "",
    "_batch": "D",
-   "_n": 19,
+   "_n": 20,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -418,7 +439,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "D",
-   "_n": 20,
+   "_n": 21,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -439,7 +460,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "C",
-   "_n": 21,
+   "_n": 22,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -460,7 +481,7 @@
    "minutes_lost": null,
    "compute_note": "brand files were rebuilt again after the agent identified its glow and gradient as the smear",
    "_batch": "C2",
-   "_n": 22,
+   "_n": 23,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -481,7 +502,7 @@
    "minutes_lost": 2,
    "compute_note": "",
    "_batch": "D",
-   "_n": 23,
+   "_n": 24,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -502,7 +523,7 @@
    "minutes_lost": null,
    "compute_note": "The agent reports a SwissTransfer resume stall costing another cycle.",
    "_batch": "E",
-   "_n": 24,
+   "_n": 25,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -523,7 +544,7 @@
    "minutes_lost": null,
    "compute_note": "The rejected brute-force path was estimated by the agent at ~25 minutes; its stated preferred path was ~2 minutes.",
    "_batch": "D",
-   "_n": 25,
+   "_n": 26,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -544,7 +565,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "D",
-   "_n": 26,
+   "_n": 27,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -565,7 +586,7 @@
    "minutes_lost": 10,
    "compute_note": "",
    "_batch": "D",
-   "_n": 27,
+   "_n": 28,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -586,7 +607,7 @@
    "minutes_lost": null,
    "compute_note": "Agent described the required matte-and-composite operation as taking minutes.",
    "_batch": "D",
-   "_n": 28,
+   "_n": 29,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -607,7 +628,7 @@
    "minutes_lost": null,
    "compute_note": "A later agent-provided refund draft states that V24 was built, deployed, and presented after V23 was requested.",
    "_batch": "D",
-   "_n": 29,
+   "_n": 30,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -628,7 +649,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "D",
-   "_n": 30,
+   "_n": 31,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -649,7 +670,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "C",
-   "_n": 31,
+   "_n": 32,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -670,7 +691,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "D",
-   "_n": 32,
+   "_n": 33,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -691,7 +712,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "C2",
-   "_n": 33,
+   "_n": 34,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -712,7 +733,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "C",
-   "_n": 34,
+   "_n": 35,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -733,7 +754,7 @@
    "minutes_lost": null,
    "compute_note": "brand imagery was redone after the lockup issue",
    "_batch": "C2",
-   "_n": 35,
+   "_n": 36,
    "_verify_note": "client quote could not be matched verbatim in the stored transcript and was removed",
    "quote_verified": false
   },
@@ -754,7 +775,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "C2",
-   "_n": 36,
+   "_n": 37,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -775,7 +796,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "C2",
-   "_n": 37,
+   "_n": 38,
    "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed",
    "quote_verified": false
   },
@@ -796,7 +817,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "B",
-   "_n": 38,
+   "_n": 39,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -817,7 +838,7 @@
    "minutes_lost": null,
    "compute_note": "32 requests across stated field names and payload shapes were run before the successful specified payload.",
    "_batch": "B",
-   "_n": 39,
+   "_n": 40,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -838,7 +859,7 @@
    "minutes_lost": 2,
    "compute_note": "",
    "_batch": "E",
-   "_n": 40,
+   "_n": 41,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -859,7 +880,7 @@
    "minutes_lost": 7,
    "compute_note": "",
    "_batch": "E",
-   "_n": 41,
+   "_n": 42,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -880,7 +901,7 @@
    "minutes_lost": null,
    "compute_note": "The current Julie V25 storyboard was absent; a V24 storyboard and a proof sheet were substituted.",
    "_batch": "E",
-   "_n": 42,
+   "_n": 43,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -901,7 +922,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "D",
-   "_n": 43,
+   "_n": 44,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -922,7 +943,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "C",
-   "_n": 44,
+   "_n": 45,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -943,7 +964,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "D",
-   "_n": 45,
+   "_n": 46,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -964,7 +985,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "A",
-   "_n": 46,
+   "_n": 47,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -985,7 +1006,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "A",
-   "_n": 47,
+   "_n": 48,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1006,7 +1027,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "A",
-   "_n": 48,
+   "_n": 49,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1027,7 +1048,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "A",
-   "_n": 49,
+   "_n": 50,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1048,7 +1069,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "A",
-   "_n": 50,
+   "_n": 51,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1069,7 +1090,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "C2",
-   "_n": 51,
+   "_n": 52,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1090,7 +1111,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "C2",
-   "_n": 52,
+   "_n": 53,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1111,7 +1132,7 @@
    "minutes_lost": null,
    "compute_note": "additional smoothing pass was required after the first audit missed stutter frames",
    "_batch": "C",
-   "_n": 53,
+   "_n": 54,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1132,7 +1153,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "C2",
-   "_n": 54,
+   "_n": 55,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1153,7 +1174,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "A",
-   "_n": 55,
+   "_n": 56,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1174,7 +1195,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "A",
-   "_n": 56,
+   "_n": 57,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1195,7 +1216,7 @@
    "minutes_lost": 2,
    "compute_note": "",
    "_batch": "A",
-   "_n": 57,
+   "_n": 58,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1216,7 +1237,7 @@
    "minutes_lost": 14,
    "compute_note": "",
    "_batch": "A",
-   "_n": 58,
+   "_n": 59,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1237,7 +1258,7 @@
    "minutes_lost": null,
    "compute_note": "The asserted gallery audit did not catch that the supplied Courtney master was not the current final.",
    "_batch": "E",
-   "_n": 59,
+   "_n": 60,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1258,7 +1279,7 @@
    "minutes_lost": 156,
    "compute_note": "The unresolved prerequisite remained 156 minutes after the stated hard deadline.",
    "_batch": "E",
-   "_n": 60,
+   "_n": 61,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1279,7 +1300,7 @@
    "minutes_lost": 30,
    "compute_note": "",
    "_batch": "E",
-   "_n": 61,
+   "_n": 62,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1300,7 +1321,7 @@
    "minutes_lost": null,
    "compute_note": "Rework followed an audit that marked unresolved items as PASS.",
    "_batch": "E",
-   "_n": 62,
+   "_n": 63,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1321,7 +1342,7 @@
    "minutes_lost": null,
    "compute_note": "work re-run after the agent's own first render produced invisible dissolves",
    "_batch": "C2",
-   "_n": 63,
+   "_n": 64,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1342,7 +1363,7 @@
    "minutes_lost": null,
    "compute_note": "285 motion-visible duplicated frames were blended after the agent reported the fixes verified and live.",
    "_batch": "C2",
-   "_n": 64,
+   "_n": 65,
    "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed",
    "quote_verified": false
   },
@@ -1363,7 +1384,7 @@
    "minutes_lost": null,
    "compute_note": "Work was changed from declared parallel execution to a deliberately sequential encode.",
    "_batch": "E",
-   "_n": 65,
+   "_n": 66,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1384,7 +1405,7 @@
    "minutes_lost": null,
    "compute_note": "work re-run after the delivered 95-second file was found to have corrupted video regions",
    "_batch": "C",
-   "_n": 66,
+   "_n": 67,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1405,7 +1426,7 @@
    "minutes_lost": null,
    "compute_note": "18 versions passed an audit method that did not test the reported audio-video synchronization issue.",
    "_batch": "C2",
-   "_n": 67,
+   "_n": 68,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1426,7 +1447,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "C2",
-   "_n": 68,
+   "_n": 69,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1447,7 +1468,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "B",
-   "_n": 69,
+   "_n": 70,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1468,7 +1489,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "B",
-   "_n": 70,
+   "_n": 71,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1489,7 +1510,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "B",
-   "_n": 71,
+   "_n": 72,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1510,7 +1531,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "E",
-   "_n": 72,
+   "_n": 73,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1531,7 +1552,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "E",
-   "_n": 73,
+   "_n": 74,
    "_verify_note": "",
    "quote_verified": true
   },
@@ -1552,7 +1573,7 @@
    "minutes_lost": null,
    "compute_note": "",
    "_batch": "E",
-   "_n": 74,
+   "_n": 75,
    "_verify_note": "",
    "quote_verified": true
   }
