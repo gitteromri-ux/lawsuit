@@ -39,11 +39,14 @@ h1.mega{font-family:'Instrument Serif',serif;font-weight:400;
   font-size:clamp(58px,8.2vw,124px);line-height:.94;letter-spacing:-.02em;margin:20px 0 0}
 h1.mega em{font-style:italic;color:var(--gold)}
 .lede{max-width:940px;margin:30px 0 0;font-size:clamp(20px,2vw,25px);color:#DCE3EE;line-height:1.45}
-.numeral{position:absolute;right:2%;bottom:-70px;font-family:'Instrument Serif',serif;
-  font-size:400px;line-height:.7;color:rgba(245,247,250,.035);pointer-events:none;user-select:none}
+.numeral{position:absolute;right:3.5%;bottom:-18px;font-family:'Instrument Serif',serif;
+  font-size:clamp(180px,20vw,300px);line-height:.72;color:rgba(245,247,250,.04);
+  pointer-events:none;user-select:none;letter-spacing:-.03em}
 
 /* stat chips */
-.chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(214px,1fr));gap:18px;margin:64px 0 0}
+.chips{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;margin:64px 0 0}
+@media(max-width:1240px){.chips{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:700px){.chips{grid-template-columns:repeat(2,1fr)}}
 .chip{position:relative;background:linear-gradient(160deg,var(--panel2),var(--panel));
   border:1px solid var(--line);border-radius:20px;padding:30px 26px 26px;
   box-shadow:0 30px 70px -34px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.055);
@@ -91,6 +94,9 @@ h1.mega em{font-style:italic;color:var(--gold)}
 .badge.sev{background:rgba(233,196,106,.14);color:var(--gold);border:1px solid rgba(233,196,106,.3)}
 .badge.pf{background:rgba(56,211,159,.13);color:var(--green);border:1px solid rgba(56,211,159,.3)}
 .badge.pf.alleged{background:rgba(154,167,188,.12);color:var(--mut);border-color:rgba(154,167,188,.3)}
+.badge.vq{background:rgba(56,211,159,.10);color:#7FD9BB;border:1px solid rgba(56,211,159,.24);
+  font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.06em}
+.badge.vq.no{background:rgba(255,77,46,.12);color:#FF9D89;border-color:rgba(255,77,46,.3)}
 .badge.pj{background:rgba(76,141,255,.13);color:#8FB6FF;border:1px solid rgba(76,141,255,.3)}
 .case h3{margin:0 0 14px;font-size:clamp(22px,2.1vw,29px);font-weight:800;line-height:1.24;max-width:1080px}
 .q{margin:14px 0 0;padding:18px 22px;border-radius:12px;background:rgba(0,0,0,.42);

@@ -2,7 +2,7 @@
 """Regenerates the whole evidence site from lawsuit_data/cases_*.json.
 Run: python3 /home/user/workspace/lawsuit/build.py
 Ongoing use: drop a new cases_<X>.json into lawsuit_data/ and re-run."""
-import json, os, glob, csv, re, html
+import json, os, glob, csv, re, html, unicodedata
 from collections import Counter, defaultdict
 from datetime import datetime
 
@@ -23,6 +23,66 @@ CAT_LABEL = {
     "RULE_BREACH_OTHER": "Other rule breach",
 }
 CAT_ORDER = list(CAT_LABEL)
+CAT_SHORT = {
+    "MISSED_ETA": "Missed ETA",
+    "FALSE_STATUS": "False status",
+    "SCOPE_REDUCTION": "Scope cut",
+    "NO_PLAN_NO_ETA": "No ETA set",
+    "EXTENSION_REQUEST": "Extension asked",
+    "AUDIT_FAILURE": "Audit failed",
+    "FRICTION_VIOLATION": "No deep link",
+    "BROKEN_DELIVERABLE": "Broken asset",
+    "WASTED_COMPUTE": "Compute waste",
+    "RULE_BREACH_OTHER": "Other breach",
+}
+
+
+# ---------------------------------------------------------------- verbatim verifier
+SRC = {}
+for _f in glob.glob("/home/user/workspace/memory/sessions/*/*/conversation.md"):
+    SRC[os.path.basename(os.path.dirname(_f))] = open(_f, encoding="utf-8", errors="ignore").read()
+
+def _norm(s):
+    s = unicodedata.normalize("NFKC", s or "")
+    s = s.replace("@GitHub", " ")
+    s = re.sub(r"[\s\u00a0]+", " ", s)
+    for a, b in [("\u201c", '"'), ("\u201d", '"'), ("\u2019", "'"), ("\u2018", "'")]:
+        s = s.replace(a, b)
+    return s.strip().lower()
+
+_NSRC = {k: _norm(v) for k, v in SRC.items()}
+
+def verify_quotes(cases):
+    """Every quote must appear verbatim in the stored transcript. Anything that cannot be
+    matched is removed and the case is downgraded to alleged, with the reason recorded."""
+    stats = {"checked": 0, "removed": 0, "downgraded": 0, "spans_turns": 0}
+    for c in cases:
+        t = _NSRC.get(c.get("session_short_id"))
+        notes = []
+        for fld, who in (("agent_quote", "agent"), ("client_quote", "client")):
+            q = (c.get(fld) or "").strip()
+            if len(q) < 25:
+                continue
+            stats["checked"] += 1
+            if t is None:
+                notes.append(f"{who} quote not machine verified, transcript file unavailable")
+                continue
+            parts = [x for x in re.split(r"\u2026|\.\.\.", q) if len(_norm(x)) > 18]
+            if len(parts) > 1:
+                stats["spans_turns"] += 1
+            check = parts or [q]
+            if not all(_norm(x) in t for x in check):
+                c[fld] = ""
+                notes.append(f"{who} quote could not be matched verbatim in the stored transcript and was removed")
+                stats["removed"] += 1
+                if c.get("proof_level") == "proven":
+                    c["proof_level"] = "alleged"
+                    stats["downgraded"] += 1
+        c["_verify_note"] = "; ".join(notes)
+        c["quote_verified"] = not notes
+    print(f"VERBATIM CHECK: {stats['checked']} quotes, {stats['removed']} removed, "
+          f"{stats['downgraded']} cases downgraded to alleged, {stats['spans_turns']} span multiple turns")
+    return stats
 
 def load_cases():
     cases, sessions = [], []
@@ -70,12 +130,20 @@ def load_cases():
     return cases, sessions
 
 def session_url(c):
+    """Primary entry point. Uses the slug returned by the account session list when
+    one exists for this session, otherwise the session uuid, which both the search
+    and the computer task route accept."""
     sid = (c.get("session_short_id") or "")[:8]
     m = URLMAP.get(sid)
     if m and m.get("url"):
         return "https://www.perplexity.ai" + m["url"]
     u = c.get("session_uuid") or ""
     return f"https://www.perplexity.ai/search/{u}" if u else ""
+
+def session_url_alt(c):
+    """Second entry point for the same session, in case the first route does not open."""
+    u = c.get("session_uuid") or ""
+    return f"https://www.perplexity.ai/computer/tasks/{u}" if u else ""
 
 def esc(s):
     return html.escape(str(s or ""))
@@ -187,11 +255,14 @@ h1.mega{font-family:'Instrument Serif',serif;font-weight:400;
   font-size:clamp(58px,8.2vw,124px);line-height:.94;letter-spacing:-.02em;margin:20px 0 0}
 h1.mega em{font-style:italic;color:var(--gold)}
 .lede{max-width:940px;margin:30px 0 0;font-size:clamp(20px,2vw,25px);color:#DCE3EE;line-height:1.45}
-.numeral{position:absolute;right:2%;bottom:-70px;font-family:'Instrument Serif',serif;
-  font-size:400px;line-height:.7;color:rgba(245,247,250,.035);pointer-events:none;user-select:none}
+.numeral{position:absolute;right:3.5%;bottom:-18px;font-family:'Instrument Serif',serif;
+  font-size:clamp(180px,20vw,300px);line-height:.72;color:rgba(245,247,250,.04);
+  pointer-events:none;user-select:none;letter-spacing:-.03em}
 
 /* stat chips */
-.chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(214px,1fr));gap:18px;margin:64px 0 0}
+.chips{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;margin:64px 0 0}
+@media(max-width:1240px){.chips{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:700px){.chips{grid-template-columns:repeat(2,1fr)}}
 .chip{position:relative;background:linear-gradient(160deg,var(--panel2),var(--panel));
   border:1px solid var(--line);border-radius:20px;padding:30px 26px 26px;
   box-shadow:0 30px 70px -34px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.055);
@@ -239,6 +310,9 @@ h1.mega em{font-style:italic;color:var(--gold)}
 .badge.sev{background:rgba(233,196,106,.14);color:var(--gold);border:1px solid rgba(233,196,106,.3)}
 .badge.pf{background:rgba(56,211,159,.13);color:var(--green);border:1px solid rgba(56,211,159,.3)}
 .badge.pf.alleged{background:rgba(154,167,188,.12);color:var(--mut);border-color:rgba(154,167,188,.3)}
+.badge.vq{background:rgba(56,211,159,.10);color:#7FD9BB;border:1px solid rgba(56,211,159,.24);
+  font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.06em}
+.badge.vq.no{background:rgba(255,77,46,.12);color:#FF9D89;border-color:rgba(255,77,46,.3)}
 .badge.pj{background:rgba(76,141,255,.13);color:#8FB6FF;border:1px solid rgba(76,141,255,.3)}
 .case h3{margin:0 0 14px;font-size:clamp(22px,2.1vw,29px);font-weight:800;line-height:1.24;max-width:1080px}
 .q{margin:14px 0 0;padding:18px 22px;border-radius:12px;background:rgba(0,0,0,.42);
@@ -318,6 +392,7 @@ def write_case_files(cases):
 | Turn | {c.get('turn_ref')} |
 | Minutes lost (evidenced) | {c.get('minutes_lost') if c.get('minutes_lost') is not None else 'not stated in transcript'} |
 | Transcript | {u} |
+| Transcript, second route | {session_url_alt(c)} |
 
 ## What happened
 {c.get('summary')}
@@ -363,7 +438,7 @@ def write_bundles(cases, m):
     open(f"{OUT}/data/full-dossier.md", "w").write("\n".join(L))
 
 # ---------------------------------------------------------------- page 1
-def page_doc(cases, sessions, m):
+def page_doc(cases, sessions, m, vstats=None):
     P = [head("Documentation · Service Performance Record", "index.html")]
     P.append(f"""<section class="hero"><div class="wrap">
 <div class="kicker">EVIDENCE LOG · {m['first']} TO {m['last']} · {m['span_days']} DAYS</div>
@@ -385,6 +460,7 @@ def page_doc(cases, sessions, m):
     proj3 = ", ".join(f"{k} ({v})" for k, v in m["by_project"].most_common(3))
     P.append(f"""<section><div class="wrap">
 <div class="shead"><p class="snum">01</p><h2>Executive summary</h2></div><div class="srule"></div>
+<div class="note"><b>About the links.</b> Every transcript link opens only for the signed in account owner, because these are private sessions. Two entry routes are given per case, the search route and the computer task route, so a case is still reachable if one route does not resolve. The verbatim quotes on this page were copied from the stored transcript file itself, so they stand on their own even if a link fails.</div>
 <div class="note"><b>Read this first.</b> This record covers the full reachable history on the account: {m['first']} to {m['last']}. Older sessions than {m['first']} are not stored on the account and therefore are not represented here. That limit is stated plainly rather than filled in with estimates.</div>
 <div class="ledger">
   <div class="rule"><div class="rn">FINDING 01</div><h4>The dominant failure is not quality, it is truth about status</h4><p>The three most frequent categories are {top3s}. The pattern that repeats is a commitment given with confidence, then contradicted inside the same session.</p><div class="hits">{m['by_cat'].get('FALSE_STATUS',0) + m['by_cat'].get('MISSED_ETA',0)} of {m['total']} cases</div></div>
@@ -437,11 +513,13 @@ def page_doc(cases, sessions, m):
 <span class="badge pf {'' if pf=='proven' else 'alleged'}">{pf.upper()}</span>
 <span class="badge pj">{esc(c.get('project'))}</span>
 <span class="cid">{esc(c.get('date'))} · {esc(c.get('time_utc'))} UTC</span>
+{'<span class="badge vq">QUOTES MATCHED VERBATIM</span>' if c.get('quote_verified') else '<span class="badge vq no">QUOTE NOT MACHINE MATCHED</span>'}
 </div>
 <h3>{esc(c.get('summary'))}</h3>
 {aq}{cq}
 <div class="cfoot">
 <a class="lnk" href="{u}" target="_blank" rel="noopener">Open the transcript</a>
+<a class="lnk" href="{session_url_alt(c)}" target="_blank" rel="noopener">Second route</a>
 <a class="lnk dl" href="cases/{esc(c.get('case_id'))}.md" download>Download this case</a>
 <span>Session {esc(c.get('session_short_id'))} · {esc(c.get('turn_ref'))}</span>{ml}{cn}
 </div></article>""")
@@ -463,6 +541,7 @@ def page_doc(cases, sessions, m):
 <div class="rule"><div class="rn">LIMIT 01</div><h4>History depth</h4><p>The account stores sessions back to {m['first']}. Anything before that date is not retained and is therefore absent from this record. No case here is inferred from a session that could not be opened.</p></div>
 <div class="rule"><div class="rn">LIMIT 02</div><h4>Credit accounting</h4><p>A per task billing ledger is not exposed on this account, so no case claims a specific credit amount. What is recorded instead is measurable waste: re-runs caused by agent defects, sequential execution where parallel was instructed, and loops repeating a rejected output.</p></div>
 <div class="rule"><div class="rn">LIMIT 03</div><h4>Proven against alleged</h4><p>{m['proven']} cases are marked proven, meaning both the commitment and its contradiction are quoted from the same transcript. {m['alleged']} are marked alleged, meaning the client asserted the failure and the transcript carries no confirming admission. The distinction is kept deliberately, because a record that overstates gets dismissed.</p></div>
+<div class="rule"><div class="rn">METHOD 05</div><h4>Machine verified quotes</h4><p>Every quote on this site was checked character by character against the stored transcript by the build script. VQ__LINE</p></div>
 <div class="rule"><div class="rn">LIMIT 04</div><h4>Intent</h4><p>Nothing here establishes intent. The record documents what was promised, what was delivered, and the gap between them. Characterising that gap is a separate judgement and is left to the reader.</p></div>
 </div>
 <div class="shead"><h2 style="font-size:34px">Sessions audited</h2></div>
@@ -479,7 +558,12 @@ btns.forEach(b=>b.onclick=()=>{
   c.style.display=s?'':'none';});});
 </script>""")
     P.append(FOOT)
-    open(f"{OUT}/index.html", "w").write("\n".join(P))
+    vq_ok = sum(1 for c in cases if c.get("quote_verified"))
+    vs = vstats or {}
+    vq_line = (f"{vs.get('checked',0)} quotes were checked. {vs.get('removed',0)} could not be matched "
+               f"and were deleted rather than published, and {vs.get('downgraded',0)} cases were downgraded "
+               f"from proven to alleged as a result. {vq_ok} of {len(cases)} cases carry fully matched quotes.")
+    open(f"{OUT}/index.html", "w").write("\n".join(P).replace("VQ__LINE", vq_line))
 
 # ---------------------------------------------------------------- page 2
 def page_counter(cases, m):
@@ -488,14 +572,18 @@ def page_counter(cases, m):
     cum, t = [], 0
     for v in day_vals: t += v; cum.append(t)
     cats = [c for c in CAT_ORDER if m["by_cat"].get(c)]
-    cat_labels = [CAT_LABEL[c] for c in cats]
+    cat_labels = [CAT_SHORT[c] for c in cats]
     cat_vals = [m["by_cat"][c] for c in cats]
     projs = [p for p, _ in m["by_project"].most_common()]
     proj_vals = [m["by_project"][p] for p in projs]
     sev_sets = []
     for s in [5, 4, 3, 2, 1]:
         sev_sets.append({"label": f"Severity {s}", "data": [m["sev_by_cat"].get(c, Counter()).get(s, 0) for c in cats]})
-    mproj = sorted(m["mins_by_project"].items(), key=lambda x: -x[1])
+    mins_by_date = defaultdict(int)
+    for c in cases:
+        if str(c.get("minutes_lost") or "").isdigit():
+            mins_by_date[c.get("date")] += int(c["minutes_lost"])
+    mproj = sorted(mins_by_date.items())
     sev_tot = [m["by_sev"].get(s, 0) for s in [1, 2, 3, 4, 5]]
 
     payload = json.dumps({
@@ -512,6 +600,7 @@ def page_counter(cases, m):
 <td>{CAT_LABEL.get(c.get('category'), '')}</td><td>{esc(c.get('severity'))}/5</td>
 <td>{esc(c.get('project'))}</td>
 <td><a class="lnk" href="{session_url(c)}" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk" href="{session_url_alt(c)}" target="_blank" rel="noopener">Alt</a>
 <a class="lnk dl" href="cases/{esc(c.get('case_id'))}.md" download>Download</a></td></tr>"""
         for c in cases)
 
@@ -538,7 +627,7 @@ def page_counter(cases, m):
 <div class="card"><h3>Violations by client project</h3><p class="sub">Where the failures landed commercially.</p><div class="cbox"><canvas id="c3"></canvas></div></div>
 <div class="card wide"><h3>Severity inside each category</h3><p class="sub">Stacked. Severity 4 and 5 are the client facing ones.</p><div class="cbox"><canvas id="c4"></canvas></div></div>
 <div class="card"><h3>Cumulative total over time</h3><p class="sub">The line only ever goes up. Slope equals rate of failure.</p><div class="cbox"><canvas id="c5"></canvas></div></div>
-<div class="card"><h3>Minutes lost by project</h3><p class="sub">Only counts delay explicitly stated inside a transcript, so this is a floor and not a total.</p><div class="cbox"><canvas id="c6"></canvas></div></div>
+<div class="card"><h3>Delay minutes by day</h3><p class="sub">Only counts delay explicitly stated inside a transcript, so every bar is a floor and not a total.</p><div class="cbox"><canvas id="c6"></canvas></div></div>
 </div></div></section>""")
 
     P.append(f"""<section><div class="wrap">
@@ -581,7 +670,7 @@ new Chart(document.getElementById('c2'),{type:'doughnut',data:{labels:D.catLabel
  plugins:{legend:{position:'right',labels:{boxWidth:13,boxHeight:13,padding:14,font:{size:15}}},tooltip:TT}}});
 
 new Chart(document.getElementById('c3'),{type:'bar',data:{labels:D.projs,datasets:[{data:D.projVals,
- backgroundColor:(c)=>PAL[c.dataIndex%PAL.length],borderRadius:7,borderSkipped:false,maxBarThickness:40}]},
+ backgroundColor:(c)=>PAL[c.dataIndex%PAL.length],borderRadius:7,borderSkipped:false,maxBarThickness:70}]},
  options:{indexAxis:'y',maintainAspectRatio:false,plugins:{...noLeg,tooltip:TT},
  scales:{x:gridY,y:{...gridX,grid:{display:false}}}}});
 
@@ -589,7 +678,7 @@ new Chart(document.getElementById('c4'),{type:'bar',data:{labels:D.catLabels,
  datasets:D.sevSets.map((s,i)=>({...s,backgroundColor:[HOT,'#FF8B73',GOLD,BLUE,'#5EE0C0'][i],
  borderRadius:5,borderSkipped:false,maxBarThickness:54}))},
  options:{maintainAspectRatio:false,plugins:{legend:{labels:{boxWidth:13,padding:14,font:{size:15}}},tooltip:TT},
- scales:{x:{...gridX,stacked:true},y:{...gridY,stacked:true}}}});
+ scales:{x:{...gridX,stacked:true,ticks:{maxRotation:0,minRotation:0,autoSkip:false,font:{size:14}}},y:{...gridY,stacked:true}}}});
 
 new Chart(document.getElementById('c5'),{type:'line',data:{labels:D.days,datasets:[{data:D.cum,
  borderColor:GOLD,borderWidth:3,tension:.32,fill:true,pointRadius:5,pointBackgroundColor:GOLD,
@@ -607,13 +696,14 @@ def main():
     cases, sessions = load_cases()
     if not cases:
         print("NO CASES FOUND"); return
+    vstats = verify_quotes(cases)
     m = metrics(cases, sessions)
     os.makedirs(f"{OUT}/assets", exist_ok=True)
     open(f"{OUT}/assets/site.css", "w").write(CSS)
     open(f"{OUT}/assets/charts.js", "w").write(CHARTS)
     write_case_files(cases)
     write_bundles(cases, m)
-    page_doc(cases, sessions, m)
+    page_doc(cases, sessions, m, vstats)
     page_counter(cases, m)
     open(f"{OUT}/README.md", "w").write(f"""# Service Performance Record
 

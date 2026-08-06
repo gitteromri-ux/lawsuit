@@ -21,7 +21,7 @@ new Chart(document.getElementById('c2'),{type:'doughnut',data:{labels:D.catLabel
  plugins:{legend:{position:'right',labels:{boxWidth:13,boxHeight:13,padding:14,font:{size:15}}},tooltip:TT}}});
 
 new Chart(document.getElementById('c3'),{type:'bar',data:{labels:D.projs,datasets:[{data:D.projVals,
- backgroundColor:(c)=>PAL[c.dataIndex%PAL.length],borderRadius:7,borderSkipped:false,maxBarThickness:40}]},
+ backgroundColor:(c)=>PAL[c.dataIndex%PAL.length],borderRadius:7,borderSkipped:false,maxBarThickness:70}]},
  options:{indexAxis:'y',maintainAspectRatio:false,plugins:{...noLeg,tooltip:TT},
  scales:{x:gridY,y:{...gridX,grid:{display:false}}}}});
 
@@ -29,7 +29,7 @@ new Chart(document.getElementById('c4'),{type:'bar',data:{labels:D.catLabels,
  datasets:D.sevSets.map((s,i)=>({...s,backgroundColor:[HOT,'#FF8B73',GOLD,BLUE,'#5EE0C0'][i],
  borderRadius:5,borderSkipped:false,maxBarThickness:54}))},
  options:{maintainAspectRatio:false,plugins:{legend:{labels:{boxWidth:13,padding:14,font:{size:15}}},tooltip:TT},
- scales:{x:{...gridX,stacked:true},y:{...gridY,stacked:true}}}});
+ scales:{x:{...gridX,stacked:true,ticks:{maxRotation:0,minRotation:0,autoSkip:false,font:{size:14}}},y:{...gridY,stacked:true}}}});
 
 new Chart(document.getElementById('c5'),{type:'line',data:{labels:D.days,datasets:[{data:D.cum,
  borderColor:GOLD,borderWidth:3,tension:.32,fill:true,pointRadius:5,pointBackgroundColor:GOLD,
