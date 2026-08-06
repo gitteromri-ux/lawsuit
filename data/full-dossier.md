@@ -1,6 +1,6 @@
 # Service Performance Record, full dossier
 
-Generated 2026-08-06 21:26 UTC. 79 cases, 2026-07-20 to 2026-08-06, 35 sessions audited.
+Generated 2026-08-06 21:59 UTC. 79 cases, 2026-07-20 to 2026-08-06, 35 sessions audited.
 
 
 ## F-01 · 2026-08-06 · Other rule breach · severity 2/5 · proven

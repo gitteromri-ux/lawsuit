@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-06T21:26:07.273233+00:00",
+ "generated_utc": "2026-08-06T21:59:54.322772+00:00",
  "total_cases": 79,
  "cases": [
   {
@@ -20,6 +20,7 @@
    "compute_note": "No rework required. Logged because Rule 02 requires status numbers to be accurate, and an unlogged self failure would make this record selective.",
    "quote_verified": false,
    "_batch": "F",
+   "claim_no": "CLAIM-0079",
    "_n": 1,
    "_verify_note": "agent quote not machine verified, transcript file unavailable"
   },
@@ -41,6 +42,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0078",
    "_n": 2,
    "_verify_note": ""
   },
@@ -62,6 +64,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0077",
    "_n": 3,
    "_verify_note": ""
   },
@@ -83,6 +86,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0074",
    "_n": 4,
    "_verify_note": ""
   },
@@ -104,6 +108,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0075",
    "_n": 5,
    "_verify_note": ""
   },
@@ -125,6 +130,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0076",
    "_n": 6,
    "_verify_note": ""
   },
@@ -146,6 +152,7 @@
    "compute_note": "Repeated hosting retries after two failures.",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0073",
    "_n": 7,
    "_verify_note": ""
   },
@@ -167,6 +174,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0072",
    "_n": 8,
    "_verify_note": ""
   },
@@ -188,6 +196,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0071",
    "_n": 9,
    "_verify_note": ""
   },
@@ -209,6 +218,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0070",
    "_n": 10,
    "_verify_note": ""
   },
@@ -230,6 +240,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0069",
    "_n": 11,
    "_verify_note": ""
   },
@@ -251,6 +262,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "G2",
+   "claim_no": "CLAIM-0068",
    "_n": 12,
    "_verify_note": ""
   },
@@ -272,6 +284,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0067",
    "_n": 13,
    "_verify_note": ""
   },
@@ -293,6 +306,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0065",
    "_n": 14,
    "_verify_note": ""
   },
@@ -314,6 +328,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0066",
    "_n": 15,
    "_verify_note": ""
   },
@@ -335,6 +350,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0064",
    "_n": 16,
    "_verify_note": ""
   },
@@ -356,6 +372,7 @@
    "compute_note": "Two background render jobs were re-run twice after a numeral-clipping defect was found in frame audit.",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0063",
    "_n": 17,
    "_verify_note": ""
   },
@@ -377,6 +394,7 @@
    "compute_note": "The agent states that the defect forced a full 600-frame re-render.",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0062",
    "_n": 18,
    "_verify_note": ""
   },
@@ -398,6 +416,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0061",
    "_n": 19,
    "_verify_note": ""
   },
@@ -419,6 +438,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0060",
    "_n": 20,
    "_verify_note": ""
   },
@@ -440,6 +460,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0059",
    "_n": 21,
    "_verify_note": ""
   },
@@ -461,6 +482,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0058",
    "_n": 22,
    "_verify_note": ""
   },
@@ -482,6 +504,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "C",
+   "claim_no": "CLAIM-0056",
    "_n": 23,
    "_verify_note": ""
   },
@@ -503,6 +526,7 @@
    "compute_note": "brand files were rebuilt again after the agent identified its glow and gradient as the smear",
    "quote_verified": true,
    "_batch": "C2",
+   "claim_no": "CLAIM-0057",
    "_n": 24,
    "_verify_note": ""
   },
@@ -524,6 +548,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0055",
    "_n": 25,
    "_verify_note": ""
   },
@@ -545,6 +570,7 @@
    "compute_note": "The agent reports a SwissTransfer resume stall costing another cycle.",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0054",
    "_n": 26,
    "_verify_note": ""
   },
@@ -566,6 +592,7 @@
    "compute_note": "The rejected brute-force path was estimated by the agent at ~25 minutes; its stated preferred path was ~2 minutes.",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0053",
    "_n": 27,
    "_verify_note": ""
   },
@@ -587,6 +614,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0052",
    "_n": 28,
    "_verify_note": ""
   },
@@ -608,6 +636,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0051",
    "_n": 29,
    "_verify_note": ""
   },
@@ -629,6 +658,7 @@
    "compute_note": "Agent described the required matte-and-composite operation as taking minutes.",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0050",
    "_n": 30,
    "_verify_note": ""
   },
@@ -650,6 +680,7 @@
    "compute_note": "A later agent-provided refund draft states that V24 was built, deployed, and presented after V23 was requested.",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0049",
    "_n": 31,
    "_verify_note": ""
   },
@@ -671,6 +702,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0048",
    "_n": 32,
    "_verify_note": ""
   },
@@ -692,6 +724,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "C",
+   "claim_no": "CLAIM-0047",
    "_n": 33,
    "_verify_note": ""
   },
@@ -713,6 +746,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0046",
    "_n": 34,
    "_verify_note": ""
   },
@@ -734,6 +768,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "C2",
+   "claim_no": "CLAIM-0045",
    "_n": 35,
    "_verify_note": ""
   },
@@ -755,6 +790,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "C",
+   "claim_no": "CLAIM-0043",
    "_n": 36,
    "_verify_note": ""
   },
@@ -776,6 +812,7 @@
    "compute_note": "brand imagery was redone after the lockup issue",
    "quote_verified": true,
    "_batch": "C2",
+   "claim_no": "CLAIM-0044",
    "_n": 37,
    "_verify_note": ""
   },
@@ -797,6 +834,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "C2",
+   "claim_no": "CLAIM-0041",
    "_n": 38,
    "_verify_note": ""
   },
@@ -818,6 +856,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "C2",
+   "claim_no": "CLAIM-0042",
    "_n": 39,
    "_verify_note": ""
   },
@@ -839,6 +878,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0040",
    "_n": 40,
    "_verify_note": ""
   },
@@ -860,6 +900,7 @@
    "compute_note": "32 requests across stated field names and payload shapes were run before the successful specified payload.",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0039",
    "_n": 41,
    "_verify_note": ""
   },
@@ -881,6 +922,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0038",
    "_n": 42,
    "_verify_note": ""
   },
@@ -902,6 +944,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0037",
    "_n": 43,
    "_verify_note": ""
   },
@@ -923,6 +966,7 @@
    "compute_note": "The current Julie V25 storyboard was absent; a V24 storyboard and a proof sheet were substituted.",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0036",
    "_n": 44,
    "_verify_note": ""
   },
@@ -944,6 +988,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0035",
    "_n": 45,
    "_verify_note": ""
   },
@@ -965,6 +1010,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "C",
+   "claim_no": "CLAIM-0034",
    "_n": 46,
    "_verify_note": ""
   },
@@ -986,6 +1032,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "D",
+   "claim_no": "CLAIM-0033",
    "_n": 47,
    "_verify_note": ""
   },
@@ -1007,6 +1054,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "A",
+   "claim_no": "CLAIM-0032",
    "_n": 48,
    "_verify_note": ""
   },
@@ -1028,6 +1076,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "A",
+   "claim_no": "CLAIM-0031",
    "_n": 49,
    "_verify_note": ""
   },
@@ -1049,6 +1098,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "A",
+   "claim_no": "CLAIM-0030",
    "_n": 50,
    "_verify_note": ""
   },
@@ -1070,6 +1120,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "A",
+   "claim_no": "CLAIM-0029",
    "_n": 51,
    "_verify_note": ""
   },
@@ -1091,6 +1142,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "A",
+   "claim_no": "CLAIM-0028",
    "_n": 52,
    "_verify_note": ""
   },
@@ -1112,6 +1164,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "C2",
+   "claim_no": "CLAIM-0027",
    "_n": 53,
    "_verify_note": ""
   },
@@ -1133,6 +1186,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "C2",
+   "claim_no": "CLAIM-0026",
    "_n": 54,
    "_verify_note": ""
   },
@@ -1154,6 +1208,7 @@
    "compute_note": "additional smoothing pass was required after the first audit missed stutter frames",
    "quote_verified": true,
    "_batch": "C",
+   "claim_no": "CLAIM-0025",
    "_n": 55,
    "_verify_note": ""
   },
@@ -1175,6 +1230,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "C2",
+   "claim_no": "CLAIM-0024",
    "_n": 56,
    "_verify_note": ""
   },
@@ -1196,6 +1252,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "A",
+   "claim_no": "CLAIM-0023",
    "_n": 57,
    "_verify_note": ""
   },
@@ -1217,6 +1274,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "A",
+   "claim_no": "CLAIM-0022",
    "_n": 58,
    "_verify_note": ""
   },
@@ -1238,6 +1296,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "A",
+   "claim_no": "CLAIM-0021",
    "_n": 59,
    "_verify_note": ""
   },
@@ -1259,6 +1318,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "A",
+   "claim_no": "CLAIM-0020",
    "_n": 60,
    "_verify_note": ""
   },
@@ -1280,6 +1340,7 @@
    "compute_note": "The asserted gallery audit did not catch that the supplied Courtney master was not the current final.",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0019",
    "_n": 61,
    "_verify_note": ""
   },
@@ -1301,6 +1362,7 @@
    "compute_note": "The unresolved prerequisite remained 156 minutes after the stated hard deadline.",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0018",
    "_n": 62,
    "_verify_note": ""
   },
@@ -1322,6 +1384,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0016",
    "_n": 63,
    "_verify_note": ""
   },
@@ -1343,6 +1406,7 @@
    "compute_note": "Rework followed an audit that marked unresolved items as PASS.",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0017",
    "_n": 64,
    "_verify_note": ""
   },
@@ -1364,6 +1428,7 @@
    "compute_note": "work re-run after the agent's own first render produced invisible dissolves",
    "quote_verified": true,
    "_batch": "C2",
+   "claim_no": "CLAIM-0014",
    "_n": 65,
    "_verify_note": ""
   },
@@ -1385,6 +1450,7 @@
    "compute_note": "285 motion-visible duplicated frames were blended after the agent reported the fixes verified and live.",
    "quote_verified": true,
    "_batch": "C2",
+   "claim_no": "CLAIM-0015",
    "_n": 66,
    "_verify_note": ""
   },
@@ -1406,6 +1472,7 @@
    "compute_note": "Work was changed from declared parallel execution to a deliberately sequential encode.",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0013",
    "_n": 67,
    "_verify_note": ""
   },
@@ -1427,6 +1494,7 @@
    "compute_note": "work re-run after the delivered 95-second file was found to have corrupted video regions",
    "quote_verified": true,
    "_batch": "C",
+   "claim_no": "CLAIM-0012",
    "_n": 68,
    "_verify_note": ""
   },
@@ -1448,6 +1516,7 @@
    "compute_note": "18 versions passed an audit method that did not test the reported audio-video synchronization issue.",
    "quote_verified": true,
    "_batch": "C2",
+   "claim_no": "CLAIM-0010",
    "_n": 69,
    "_verify_note": ""
   },
@@ -1469,6 +1538,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "C2",
+   "claim_no": "CLAIM-0011",
    "_n": 70,
    "_verify_note": ""
   },
@@ -1490,6 +1560,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0009",
    "_n": 71,
    "_verify_note": ""
   },
@@ -1511,6 +1582,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0008",
    "_n": 72,
    "_verify_note": ""
   },
@@ -1532,6 +1604,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "B",
+   "claim_no": "CLAIM-0007",
    "_n": 73,
    "_verify_note": ""
   },
@@ -1553,6 +1626,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "G3",
+   "claim_no": "CLAIM-0006",
    "_n": 74,
    "_verify_note": ""
   },
@@ -1574,6 +1648,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0005",
    "_n": 75,
    "_verify_note": ""
   },
@@ -1595,6 +1670,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "G3",
+   "claim_no": "CLAIM-0004",
    "_n": 76,
    "_verify_note": ""
   },
@@ -1616,6 +1692,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "G3",
+   "claim_no": "CLAIM-0003",
    "_n": 77,
    "_verify_note": ""
   },
@@ -1637,6 +1714,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0002",
    "_n": 78,
    "_verify_note": ""
   },
@@ -1658,6 +1736,7 @@
    "compute_note": "",
    "quote_verified": true,
    "_batch": "E",
+   "claim_no": "CLAIM-0001",
    "_n": 79,
    "_verify_note": ""
   }

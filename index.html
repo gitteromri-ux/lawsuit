@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/site.css?v=20260806215954">
 </head><body>
 <div class="grain"></div>
 <header class="topbar">
@@ -46,7 +46,7 @@
 <div class="filters"><button class="fbtn on" data-f="all">All 79</button><button class="fbtn" data-f="MISSED_ETA">Missed ETA 18</button><button class="fbtn" data-f="FALSE_STATUS">False status claim 17</button><button class="fbtn" data-f="SCOPE_REDUCTION">Scope reduced 15</button><button class="fbtn" data-f="NO_PLAN_NO_ETA">Started with no approved ETA 3</button><button class="fbtn" data-f="AUDIT_FAILURE">Audit claimed, defect found 12</button><button class="fbtn" data-f="FRICTION_VIOLATION">Directions instead of deep link 2</button><button class="fbtn" data-f="BROKEN_DELIVERABLE">Broken or missing deliverable 4</button><button class="fbtn" data-f="WASTED_COMPUTE">Compute waste, billed to client 4</button><button class="fbtn" data-f="RULE_BREACH_OTHER">Other rule breach 4</button><button class="fbtn" data-f="sev45">Severity 4 and 5 only</button></div>
 <div id="caselist"><article class="case s2" data-cat="RULE_BREACH_OTHER" data-sev="2">
 <div class="crow">
-<span class="cid">F-01</span>
+<span class="claim">CLAIM-0079</span><span class="cid">F-01</span>
 <span class="badge cat">Other rule breach</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -63,7 +63,7 @@
 <span>Session aec61b85 · Turn 1</span><span>No rework required. Logged because Rule 02 requires status numbers to be accurate, and an unlogged self failure would make this record selective.</span>
 </div></article><article class="case s5" data-cat="SCOPE_REDUCTION" data-sev="5">
 <div class="crow">
-<span class="cid">B-13</span>
+<span class="claim">CLAIM-0078</span><span class="cid">B-13</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -87,7 +87,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 6164427a · Turn 32</span>
 </div></article><article class="case s3" data-cat="SCOPE_REDUCTION" data-sev="3">
 <div class="crow">
-<span class="cid">B-12</span>
+<span class="claim">CLAIM-0077</span><span class="cid">B-12</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -104,7 +104,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 6164427a · Turn 11</span>
 </div></article><article class="case s5" data-cat="AUDIT_FAILURE" data-sev="5">
 <div class="crow">
-<span class="cid">B-07</span>
+<span class="claim">CLAIM-0074</span><span class="cid">B-07</span>
 <span class="badge cat">Audit claimed, defect found</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -121,7 +121,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 6164427a · Turn 3; Turn 7</span>
 </div></article><article class="case s3" data-cat="SCOPE_REDUCTION" data-sev="3">
 <div class="crow">
-<span class="cid">B-08</span>
+<span class="claim">CLAIM-0075</span><span class="cid">B-08</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -138,7 +138,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 6164427a · Turn 3; Turn 7</span>
 </div></article><article class="case s3" data-cat="NO_PLAN_NO_ETA" data-sev="3">
 <div class="crow">
-<span class="cid">B-09</span>
+<span class="claim">CLAIM-0076</span><span class="cid">B-09</span>
 <span class="badge cat">Started with no approved ETA</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -155,7 +155,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 6164427a · Turn 5; Turn 7</span>
 </div></article><article class="case s3" data-cat="WASTED_COMPUTE" data-sev="3">
 <div class="crow">
-<span class="cid">B-10</span>
+<span class="claim">CLAIM-0073</span><span class="cid">B-10</span>
 <span class="badge cat">Compute waste, billed to client</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -172,7 +172,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 6164427a · Turn 6; Turn 8</span><span>Minutes lost: <b style="color:#E9C46A">40</b></span><span>Repeated hosting retries after two failures.</span>
 </div></article><article class="case s4" data-cat="BROKEN_DELIVERABLE" data-sev="4">
 <div class="crow">
-<span class="cid">B-11</span>
+<span class="claim">CLAIM-0072</span><span class="cid">B-11</span>
 <span class="badge cat">Broken or missing deliverable</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -189,7 +189,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 6164427a · Turn 3; Turn 4</span>
 </div></article><article class="case s4" data-cat="SCOPE_REDUCTION" data-sev="4">
 <div class="crow">
-<span class="cid">D-19</span>
+<span class="claim">CLAIM-0071</span><span class="cid">D-19</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -206,7 +206,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 34a6e1ef · Turn 26</span>
 </div></article><article class="case s3" data-cat="FALSE_STATUS" data-sev="3">
 <div class="crow">
-<span class="cid">E-09</span>
+<span class="claim">CLAIM-0070</span><span class="cid">E-09</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -223,7 +223,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 3e8a6838 · Turns 1 and 2</span>
 </div></article><article class="case s3" data-cat="SCOPE_REDUCTION" data-sev="3">
 <div class="crow">
-<span class="cid">B-15</span>
+<span class="claim">CLAIM-0069</span><span class="cid">B-15</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf alleged">ALLEGED</span>
@@ -240,7 +240,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session b48b6a36 · Turn 1; Turn 2</span>
 </div></article><article class="case s3" data-cat="BROKEN_DELIVERABLE" data-sev="3">
 <div class="crow">
-<span class="cid">G2-01</span>
+<span class="claim">CLAIM-0068</span><span class="cid">G2-01</span>
 <span class="badge cat">Broken or missing deliverable</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf alleged">ALLEGED</span>
@@ -257,7 +257,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 059fdf84 · Turn 1</span>
 </div></article><article class="case s4" data-cat="MISSED_ETA" data-sev="4">
 <div class="crow">
-<span class="cid">B-14</span>
+<span class="claim">CLAIM-0067</span><span class="cid">B-14</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -274,7 +274,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 244c19e5 · Turn 2</span><span>Minutes lost: <b style="color:#E9C46A">17</b></span>
 </div></article><article class="case s4" data-cat="AUDIT_FAILURE" data-sev="4">
 <div class="crow">
-<span class="cid">D-08</span>
+<span class="claim">CLAIM-0065</span><span class="cid">D-08</span>
 <span class="badge cat">Audit claimed, defect found</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -291,7 +291,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session a1dcbba2 · Turn 40</span>
 </div></article><article class="case s4" data-cat="FALSE_STATUS" data-sev="4">
 <div class="crow">
-<span class="cid">D-09</span>
+<span class="claim">CLAIM-0066</span><span class="cid">D-09</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf alleged">ALLEGED</span>
@@ -308,7 +308,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session a1dcbba2 · Turn 40</span>
 </div></article><article class="case s4" data-cat="AUDIT_FAILURE" data-sev="4">
 <div class="crow">
-<span class="cid">D-04</span>
+<span class="claim">CLAIM-0064</span><span class="cid">D-04</span>
 <span class="badge cat">Audit claimed, defect found</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -325,7 +325,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 2a307fd5 · Turn 35</span>
 </div></article><article class="case s4" data-cat="MISSED_ETA" data-sev="4">
 <div class="crow">
-<span class="cid">B-06</span>
+<span class="claim">CLAIM-0063</span><span class="cid">B-06</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -342,7 +342,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 6164427a · Turn 1</span><span>Minutes lost: <b style="color:#E9C46A">25</b></span><span>Two background render jobs were re-run twice after a numeral-clipping defect was found in frame audit.</span>
 </div></article><article class="case s4" data-cat="MISSED_ETA" data-sev="4">
 <div class="crow">
-<span class="cid">D-18</span>
+<span class="claim">CLAIM-0062</span><span class="cid">D-18</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -359,7 +359,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 34a6e1ef · Turn 21</span><span>Minutes lost: <b style="color:#E9C46A">13</b></span><span>The agent states that the defect forced a full 600-frame re-render.</span>
 </div></article><article class="case s4" data-cat="FALSE_STATUS" data-sev="4">
 <div class="crow">
-<span class="cid">D-07</span>
+<span class="claim">CLAIM-0061</span><span class="cid">D-07</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -376,7 +376,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session a1dcbba2 · Turn 38</span>
 </div></article><article class="case s3" data-cat="MISSED_ETA" data-sev="3">
 <div class="crow">
-<span class="cid">D-05</span>
+<span class="claim">CLAIM-0060</span><span class="cid">D-05</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -393,7 +393,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 2a307fd5 · Turn 34</span><span>Minutes lost: <b style="color:#E9C46A">4</b></span>
 </div></article><article class="case s3" data-cat="MISSED_ETA" data-sev="3">
 <div class="crow">
-<span class="cid">D-06</span>
+<span class="claim">CLAIM-0059</span><span class="cid">D-06</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -410,7 +410,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session a1dcbba2 · Turn 37</span><span>Minutes lost: <b style="color:#E9C46A">10</b></span>
 </div></article><article class="case s1" data-cat="FALSE_STATUS" data-sev="1">
 <div class="crow">
-<span class="cid">D-17</span>
+<span class="claim">CLAIM-0058</span><span class="cid">D-17</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 1/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -427,7 +427,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 34a6e1ef · Turn 18</span>
 </div></article><article class="case s3" data-cat="BROKEN_DELIVERABLE" data-sev="3">
 <div class="crow">
-<span class="cid">C-06</span>
+<span class="claim">CLAIM-0056</span><span class="cid">C-06</span>
 <span class="badge cat">Broken or missing deliverable</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -444,7 +444,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 3779792c · Turn 7; Turn 26</span>
 </div></article><article class="case s4" data-cat="FALSE_STATUS" data-sev="4">
 <div class="crow">
-<span class="cid">C2-10</span>
+<span class="claim">CLAIM-0057</span><span class="cid">C2-10</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -461,7 +461,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 3779792c · Turn 26; Turn 29</span><span>brand files were rebuilt again after the agent identified its glow and gradient as the smear</span>
 </div></article><article class="case s2" data-cat="MISSED_ETA" data-sev="2">
 <div class="crow">
-<span class="cid">D-14</span>
+<span class="claim">CLAIM-0055</span><span class="cid">D-14</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -478,7 +478,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 8b3275ab · Turn 15</span><span>Minutes lost: <b style="color:#E9C46A">2</b></span>
 </div></article><article class="case s2" data-cat="MISSED_ETA" data-sev="2">
 <div class="crow">
-<span class="cid">E-10</span>
+<span class="claim">CLAIM-0054</span><span class="cid">E-10</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -495,7 +495,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session b7500df8 · Turn 2</span><span>The agent reports a SwissTransfer resume stall costing another cycle.</span>
 </div></article><article class="case s4" data-cat="RULE_BREACH_OTHER" data-sev="4">
 <div class="crow">
-<span class="cid">D-13</span>
+<span class="claim">CLAIM-0053</span><span class="cid">D-13</span>
 <span class="badge cat">Other rule breach</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -512,7 +512,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 8b3275ab · Turn 11</span><span>The rejected brute-force path was estimated by the agent at ~25 minutes; its stated preferred path was ~2 minutes.</span>
 </div></article><article class="case s5" data-cat="SCOPE_REDUCTION" data-sev="5">
 <div class="crow">
-<span class="cid">D-12</span>
+<span class="claim">CLAIM-0052</span><span class="cid">D-12</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -529,7 +529,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 8b3275ab · Turn 8</span>
 </div></article><article class="case s4" data-cat="MISSED_ETA" data-sev="4">
 <div class="crow">
-<span class="cid">D-10</span>
+<span class="claim">CLAIM-0051</span><span class="cid">D-10</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -546,7 +546,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 8b3275ab · Turn 7</span><span>Minutes lost: <b style="color:#E9C46A">10</b></span>
 </div></article><article class="case s4" data-cat="WASTED_COMPUTE" data-sev="4">
 <div class="crow">
-<span class="cid">D-11</span>
+<span class="claim">CLAIM-0050</span><span class="cid">D-11</span>
 <span class="badge cat">Compute waste, billed to client</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -563,7 +563,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 8b3275ab · Turn 3</span><span>Agent described the required matte-and-composite operation as taking minutes.</span>
 </div></article><article class="case s5" data-cat="FALSE_STATUS" data-sev="5">
 <div class="crow">
-<span class="cid">D-02</span>
+<span class="claim">CLAIM-0049</span><span class="cid">D-02</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -580,7 +580,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 2a307fd5 · Turn 29</span><span>A later agent-provided refund draft states that V24 was built, deployed, and presented after V23 was requested.</span>
 </div></article><article class="case s4" data-cat="SCOPE_REDUCTION" data-sev="4">
 <div class="crow">
-<span class="cid">D-03</span>
+<span class="claim">CLAIM-0048</span><span class="cid">D-03</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -597,7 +597,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 2a307fd5 · Turn 22</span>
 </div></article><article class="case s5" data-cat="AUDIT_FAILURE" data-sev="5">
 <div class="crow">
-<span class="cid">C-01</span>
+<span class="claim">CLAIM-0047</span><span class="cid">C-01</span>
 <span class="badge cat">Audit claimed, defect found</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -614,7 +614,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 3d5fbe49 · Turn 2; Turn 3</span>
 </div></article><article class="case s5" data-cat="SCOPE_REDUCTION" data-sev="5">
 <div class="crow">
-<span class="cid">D-01</span>
+<span class="claim">CLAIM-0046</span><span class="cid">D-01</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -631,7 +631,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 2a307fd5 · Turn 16</span>
 </div></article><article class="case s4" data-cat="SCOPE_REDUCTION" data-sev="4">
 <div class="crow">
-<span class="cid">C2-01</span>
+<span class="claim">CLAIM-0045</span><span class="cid">C2-01</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -648,7 +648,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 3d5fbe49 · Turn 2; Turn 9</span>
 </div></article><article class="case s3" data-cat="AUDIT_FAILURE" data-sev="3">
 <div class="crow">
-<span class="cid">C-05</span>
+<span class="claim">CLAIM-0043</span><span class="cid">C-05</span>
 <span class="badge cat">Audit claimed, defect found</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -665,7 +665,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 3779792c · Turn 1; Turn 4</span>
 </div></article><article class="case s3" data-cat="FALSE_STATUS" data-sev="3">
 <div class="crow">
-<span class="cid">C2-09</span>
+<span class="claim">CLAIM-0044</span><span class="cid">C2-09</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf alleged">ALLEGED</span>
@@ -682,7 +682,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 3779792c · Turn 4; Turn 5</span><span>brand imagery was redone after the lockup issue</span>
 </div></article><article class="case s2" data-cat="FRICTION_VIOLATION" data-sev="2">
 <div class="crow">
-<span class="cid">C2-11</span>
+<span class="claim">CLAIM-0041</span><span class="cid">C2-11</span>
 <span class="badge cat">Directions instead of deep link</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -699,7 +699,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 3779792c · Turn 1; Turn 2</span>
 </div></article><article class="case s2" data-cat="NO_PLAN_NO_ETA" data-sev="2">
 <div class="crow">
-<span class="cid">C2-12</span>
+<span class="claim">CLAIM-0042</span><span class="cid">C2-12</span>
 <span class="badge cat">Started with no approved ETA</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf alleged">ALLEGED</span>
@@ -716,7 +716,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 3779792c · Turn 1</span>
 </div></article><article class="case s5" data-cat="FALSE_STATUS" data-sev="5">
 <div class="crow">
-<span class="cid">B-04</span>
+<span class="claim">CLAIM-0040</span><span class="cid">B-04</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -733,7 +733,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session cc4e0505 · Turn 22; Turn 42</span>
 </div></article><article class="case s5" data-cat="FALSE_STATUS" data-sev="5">
 <div class="crow">
-<span class="cid">B-05</span>
+<span class="claim">CLAIM-0039</span><span class="cid">B-05</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -750,7 +750,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session cc4e0505 · Turn 38; Turn 41</span><span>32 requests across stated field names and payload shapes were run before the successful specified payload.</span>
 </div></article><article class="case s2" data-cat="MISSED_ETA" data-sev="2">
 <div class="crow">
-<span class="cid">E-11</span>
+<span class="claim">CLAIM-0038</span><span class="cid">E-11</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -767,7 +767,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session a54c0645 · Turn 1</span><span>Minutes lost: <b style="color:#E9C46A">2</b></span>
 </div></article><article class="case s3" data-cat="MISSED_ETA" data-sev="3">
 <div class="crow">
-<span class="cid">E-08</span>
+<span class="claim">CLAIM-0037</span><span class="cid">E-08</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -784,7 +784,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session a81e3093 · Turn 5</span><span>Minutes lost: <b style="color:#E9C46A">7</b></span>
 </div></article><article class="case s3" data-cat="SCOPE_REDUCTION" data-sev="3">
 <div class="crow">
-<span class="cid">E-12</span>
+<span class="claim">CLAIM-0036</span><span class="cid">E-12</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -801,7 +801,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session f573e739 · Turn 1</span><span>The current Julie V25 storyboard was absent; a V24 storyboard and a proof sheet were substituted.</span>
 </div></article><article class="case s3" data-cat="AUDIT_FAILURE" data-sev="3">
 <div class="crow">
-<span class="cid">D-16</span>
+<span class="claim">CLAIM-0035</span><span class="cid">D-16</span>
 <span class="badge cat">Audit claimed, defect found</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -818,7 +818,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 34a6e1ef · Turn 12</span>
 </div></article><article class="case s3" data-cat="MISSED_ETA" data-sev="3">
 <div class="crow">
-<span class="cid">C-04</span>
+<span class="claim">CLAIM-0034</span><span class="cid">C-04</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -835,7 +835,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 3e0823c6 · Turn 38</span>
 </div></article><article class="case s3" data-cat="SCOPE_REDUCTION" data-sev="3">
 <div class="crow">
-<span class="cid">D-15</span>
+<span class="claim">CLAIM-0033</span><span class="cid">D-15</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -852,7 +852,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 34a6e1ef · Turn 8</span>
 </div></article><article class="case s4" data-cat="BROKEN_DELIVERABLE" data-sev="4">
 <div class="crow">
-<span class="cid">A-04</span>
+<span class="claim">CLAIM-0032</span><span class="cid">A-04</span>
 <span class="badge cat">Broken or missing deliverable</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -866,10 +866,10 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <a class="lnk" href="https://www.perplexity.ai/search/2b6c727f-686b-4955-a64e-0eea27b2958f" target="_blank" rel="noopener">Open the transcript</a>
 <a class="lnk" href="https://www.perplexity.ai/computer/tasks/2b6c727f-686b-4955-a64e-0eea27b2958f" target="_blank" rel="noopener">Second route</a>
 <a class="lnk dl" href="cases/A-04.md" download>Download this case</a>
-<span>Session 2b6c727f · Turns 14, 15</span>
+<span>Session 2b6c727f · Turns 14–15</span>
 </div></article><article class="case s5" data-cat="FALSE_STATUS" data-sev="5">
 <div class="crow">
-<span class="cid">A-03</span>
+<span class="claim">CLAIM-0031</span><span class="cid">A-03</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -886,7 +886,7 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <span>Session 2b6c727f · Turns 9, 12</span>
 </div></article><article class="case s5" data-cat="FALSE_STATUS" data-sev="5">
 <div class="crow">
-<span class="cid">A-02</span>
+<span class="claim">CLAIM-0030</span><span class="cid">A-02</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -900,10 +900,10 @@ So five of the things I promised are missing. You caught it correctly.</div><div
 <a class="lnk" href="https://www.perplexity.ai/search/2b6c727f-686b-4955-a64e-0eea27b2958f" target="_blank" rel="noopener">Open the transcript</a>
 <a class="lnk" href="https://www.perplexity.ai/computer/tasks/2b6c727f-686b-4955-a64e-0eea27b2958f" target="_blank" rel="noopener">Second route</a>
 <a class="lnk dl" href="cases/A-02.md" download>Download this case</a>
-<span>Session 2b6c727f · Turns 9, 10</span>
+<span>Session 2b6c727f · Turns 9–10</span>
 </div></article><article class="case s2" data-cat="FRICTION_VIOLATION" data-sev="2">
 <div class="crow">
-<span class="cid">A-05</span>
+<span class="claim">CLAIM-0029</span><span class="cid">A-05</span>
 <span class="badge cat">Directions instead of deep link</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -922,7 +922,7 @@ Click Enter Editor → drag in Courtney 90s → paste this into the chat box on 
 <span>Session 2b6c727f · Turns 7, 9</span>
 </div></article><article class="case s3" data-cat="SCOPE_REDUCTION" data-sev="3">
 <div class="crow">
-<span class="cid">A-01</span>
+<span class="claim">CLAIM-0028</span><span class="cid">A-01</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf alleged">ALLEGED</span>
@@ -936,10 +936,10 @@ Click Enter Editor → drag in Courtney 90s → paste this into the chat box on 
 <a class="lnk" href="https://www.perplexity.ai/search/2b6c727f-686b-4955-a64e-0eea27b2958f" target="_blank" rel="noopener">Open the transcript</a>
 <a class="lnk" href="https://www.perplexity.ai/computer/tasks/2b6c727f-686b-4955-a64e-0eea27b2958f" target="_blank" rel="noopener">Second route</a>
 <a class="lnk dl" href="cases/A-01.md" download>Download this case</a>
-<span>Session 2b6c727f · Turns 4, 5</span>
+<span>Session 2b6c727f · Turns 4–5</span>
 </div></article><article class="case s3" data-cat="NO_PLAN_NO_ETA" data-sev="3">
 <div class="crow">
-<span class="cid">C2-08</span>
+<span class="claim">CLAIM-0027</span><span class="cid">C2-08</span>
 <span class="badge cat">Started with no approved ETA</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -962,7 +962,7 @@ Compacting context
 <span>Session 3e0823c6 · Turn 36; Turn 37</span>
 </div></article><article class="case s4" data-cat="AUDIT_FAILURE" data-sev="4">
 <div class="crow">
-<span class="cid">C2-07</span>
+<span class="claim">CLAIM-0026</span><span class="cid">C2-07</span>
 <span class="badge cat">Audit claimed, defect found</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -979,7 +979,7 @@ Compacting context
 <span>Session 3e0823c6 · Turn 35; Turn 38</span>
 </div></article><article class="case s4" data-cat="AUDIT_FAILURE" data-sev="4">
 <div class="crow">
-<span class="cid">C-03</span>
+<span class="claim">CLAIM-0025</span><span class="cid">C-03</span>
 <span class="badge cat">Audit claimed, defect found</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -996,7 +996,7 @@ Compacting context
 <span>Session 3e0823c6 · Turn 29; Turn 32; Turn 34</span><span>additional smoothing pass was required after the first audit missed stutter frames</span>
 </div></article><article class="case s3" data-cat="MISSED_ETA" data-sev="3">
 <div class="crow">
-<span class="cid">C2-06</span>
+<span class="claim">CLAIM-0024</span><span class="cid">C2-06</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1013,7 +1013,7 @@ Compacting context
 <span>Session 3e0823c6 · Turn 25; Turn 27</span>
 </div></article><article class="case s5" data-cat="FALSE_STATUS" data-sev="5">
 <div class="crow">
-<span class="cid">A-09</span>
+<span class="claim">CLAIM-0023</span><span class="cid">A-09</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1027,10 +1027,10 @@ Compacting context
 <a class="lnk" href="https://www.perplexity.ai/search/aef895b6-3270-4889-8b0d-efa8a3c4a061" target="_blank" rel="noopener">Open the transcript</a>
 <a class="lnk" href="https://www.perplexity.ai/computer/tasks/aef895b6-3270-4889-8b0d-efa8a3c4a061" target="_blank" rel="noopener">Second route</a>
 <a class="lnk dl" href="cases/A-09.md" download>Download this case</a>
-<span>Session aef895b6 · Turns 7, 28, 29</span>
+<span>Session aef895b6 · Turns 7, 28–29</span>
 </div></article><article class="case s3" data-cat="AUDIT_FAILURE" data-sev="3">
 <div class="crow">
-<span class="cid">A-08</span>
+<span class="claim">CLAIM-0022</span><span class="cid">A-08</span>
 <span class="badge cat">Audit claimed, defect found</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1044,10 +1044,10 @@ Compacting context
 <a class="lnk" href="https://www.perplexity.ai/search/aef895b6-3270-4889-8b0d-efa8a3c4a061" target="_blank" rel="noopener">Open the transcript</a>
 <a class="lnk" href="https://www.perplexity.ai/computer/tasks/aef895b6-3270-4889-8b0d-efa8a3c4a061" target="_blank" rel="noopener">Second route</a>
 <a class="lnk dl" href="cases/A-08.md" download>Download this case</a>
-<span>Session aef895b6 · Turns 16, 17</span>
+<span>Session aef895b6 · Turns 16–17</span>
 </div></article><article class="case s2" data-cat="MISSED_ETA" data-sev="2">
 <div class="crow">
-<span class="cid">A-07</span>
+<span class="claim">CLAIM-0021</span><span class="cid">A-07</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1064,7 +1064,7 @@ Compacting context
 <span>Session aef895b6 · Turn 11</span><span>Minutes lost: <b style="color:#E9C46A">2</b></span>
 </div></article><article class="case s3" data-cat="MISSED_ETA" data-sev="3">
 <div class="crow">
-<span class="cid">A-06</span>
+<span class="claim">CLAIM-0020</span><span class="cid">A-06</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1081,7 +1081,7 @@ Compacting context
 <span>Session aef895b6 · Turns 1, 7</span><span>Minutes lost: <b style="color:#E9C46A">14</b></span>
 </div></article><article class="case s5" data-cat="AUDIT_FAILURE" data-sev="5">
 <div class="crow">
-<span class="cid">E-05</span>
+<span class="claim">CLAIM-0019</span><span class="cid">E-05</span>
 <span class="badge cat">Audit claimed, defect found</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1098,7 +1098,7 @@ Compacting context
 <span>Session d7f5893a · Turns 4 and 6</span><span>The asserted gallery audit did not catch that the supplied Courtney master was not the current final.</span>
 </div></article><article class="case s4" data-cat="MISSED_ETA" data-sev="4">
 <div class="crow">
-<span class="cid">E-06</span>
+<span class="claim">CLAIM-0018</span><span class="cid">E-06</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1115,7 +1115,7 @@ Compacting context
 <span>Session d7f5893a · Turns 1 and 5</span><span>Minutes lost: <b style="color:#E9C46A">156</b></span><span>The unresolved prerequisite remained 156 minutes after the stated hard deadline.</span>
 </div></article><article class="case s4" data-cat="MISSED_ETA" data-sev="4">
 <div class="crow">
-<span class="cid">E-03</span>
+<span class="claim">CLAIM-0016</span><span class="cid">E-03</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1132,7 +1132,7 @@ Compacting context
 <span>Session b706d6eb · Turns 7, 11, and 13</span><span>Minutes lost: <b style="color:#E9C46A">30</b></span>
 </div></article><article class="case s4" data-cat="FALSE_STATUS" data-sev="4">
 <div class="crow">
-<span class="cid">E-04</span>
+<span class="claim">CLAIM-0017</span><span class="cid">E-04</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1149,7 +1149,7 @@ Compacting context
 <span>Session b706d6eb · Turn 13</span><span>Rework followed an audit that marked unresolved items as PASS.</span>
 </div></article><article class="case s2" data-cat="WASTED_COMPUTE" data-sev="2">
 <div class="crow">
-<span class="cid">C2-04</span>
+<span class="claim">CLAIM-0014</span><span class="cid">C2-04</span>
 <span class="badge cat">Compute waste, billed to client</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1166,7 +1166,7 @@ Compacting context
 <span>Session 3e0823c6 · Turn 17</span><span>work re-run after the agent&#x27;s own first render produced invisible dissolves</span>
 </div></article><article class="case s5" data-cat="FALSE_STATUS" data-sev="5">
 <div class="crow">
-<span class="cid">C2-05</span>
+<span class="claim">CLAIM-0015</span><span class="cid">C2-05</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf alleged">ALLEGED</span>
@@ -1183,7 +1183,7 @@ Compacting context
 <span>Session 3e0823c6 · Turn 17; Turn 20; Turn 24</span><span>285 motion-visible duplicated frames were blended after the agent reported the fixes verified and live.</span>
 </div></article><article class="case s3" data-cat="WASTED_COMPUTE" data-sev="3">
 <div class="crow">
-<span class="cid">E-02</span>
+<span class="claim">CLAIM-0013</span><span class="cid">E-02</span>
 <span class="badge cat">Compute waste, billed to client</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1200,7 +1200,7 @@ Compacting context
 <span>Session b706d6eb · Turns 6 and 9</span><span>Work was changed from declared parallel execution to a deliberately sequential encode.</span>
 </div></article><article class="case s5" data-cat="FALSE_STATUS" data-sev="5">
 <div class="crow">
-<span class="cid">C-02</span>
+<span class="claim">CLAIM-0012</span><span class="cid">C-02</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1217,7 +1217,7 @@ Compacting context
 <span>Session 3e0823c6 · Turn 7; Turn 11</span><span>work re-run after the delivered 95-second file was found to have corrupted video regions</span>
 </div></article><article class="case s5" data-cat="AUDIT_FAILURE" data-sev="5">
 <div class="crow">
-<span class="cid">C2-02</span>
+<span class="claim">CLAIM-0010</span><span class="cid">C2-02</span>
 <span class="badge cat">Audit claimed, defect found</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1234,7 +1234,7 @@ Compacting context
 <span>Session 3e0823c6 · Turn 2; Turn 8</span><span>18 versions passed an audit method that did not test the reported audio-video synchronization issue.</span>
 </div></article><article class="case s2" data-cat="MISSED_ETA" data-sev="2">
 <div class="crow">
-<span class="cid">C2-03</span>
+<span class="claim">CLAIM-0011</span><span class="cid">C2-03</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf alleged">ALLEGED</span>
@@ -1251,7 +1251,7 @@ Compacting context
 <span>Session 3e0823c6 · Turn 2; Turn 6</span>
 </div></article><article class="case s5" data-cat="AUDIT_FAILURE" data-sev="5">
 <div class="crow">
-<span class="cid">B-03</span>
+<span class="claim">CLAIM-0009</span><span class="cid">B-03</span>
 <span class="badge cat">Audit claimed, defect found</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1268,7 +1268,7 @@ Compacting context
 <span>Session cc4e0505 · Turn 18; Turn 21</span>
 </div></article><article class="case s4" data-cat="SCOPE_REDUCTION" data-sev="4">
 <div class="crow">
-<span class="cid">B-02</span>
+<span class="claim">CLAIM-0008</span><span class="cid">B-02</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 4/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1285,7 +1285,7 @@ Compacting context
 <span>Session cc4e0505 · Turn 1; Turn 8</span>
 </div></article><article class="case s5" data-cat="FALSE_STATUS" data-sev="5">
 <div class="crow">
-<span class="cid">B-01</span>
+<span class="claim">CLAIM-0007</span><span class="cid">B-01</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 5/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1302,7 +1302,7 @@ Compacting context
 <span>Session cc4e0505 · Turn 1; Turn 2</span>
 </div></article><article class="case s3" data-cat="MISSED_ETA" data-sev="3">
 <div class="crow">
-<span class="cid">G3-01</span>
+<span class="claim">CLAIM-0006</span><span class="cid">G3-01</span>
 <span class="badge cat">Missed ETA</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf alleged">ALLEGED</span>
@@ -1319,7 +1319,7 @@ Compacting context
 <span>Session bb25f604 · Turns 1 and 7</span>
 </div></article><article class="case s3" data-cat="SCOPE_REDUCTION" data-sev="3">
 <div class="crow">
-<span class="cid">E-07</span>
+<span class="claim">CLAIM-0005</span><span class="cid">E-07</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 3/5</span>
 <span class="badge pf alleged">ALLEGED</span>
@@ -1337,7 +1337,7 @@ A precise correction checklist (timecode → action) your editor can execute.</d
 <span>Session bb25f604 · Turns 2 and 4</span>
 </div></article><article class="case s2" data-cat="RULE_BREACH_OTHER" data-sev="2">
 <div class="crow">
-<span class="cid">G3-03</span>
+<span class="claim">CLAIM-0004</span><span class="cid">G3-03</span>
 <span class="badge cat">Other rule breach</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1354,7 +1354,7 @@ A precise correction checklist (timecode → action) your editor can execute.</d
 <span>Session bb25f604 · Turns 2 and 3</span>
 </div></article><article class="case s2" data-cat="RULE_BREACH_OTHER" data-sev="2">
 <div class="crow">
-<span class="cid">G3-02</span>
+<span class="claim">CLAIM-0003</span><span class="cid">G3-02</span>
 <span class="badge cat">Other rule breach</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf ">PROVEN</span>
@@ -1371,7 +1371,7 @@ A precise correction checklist (timecode → action) your editor can execute.</d
 <span>Session bb25f604 · Turn 1</span>
 </div></article><article class="case s2" data-cat="FALSE_STATUS" data-sev="2">
 <div class="crow">
-<span class="cid">E-01</span>
+<span class="claim">CLAIM-0002</span><span class="cid">E-01</span>
 <span class="badge cat">False status claim</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf alleged">ALLEGED</span>
@@ -1385,10 +1385,10 @@ A precise correction checklist (timecode → action) your editor can execute.</d
 <a class="lnk" href="https://www.perplexity.ai/search/df7b917c-b055-4b4d-a197-08bf7b4fd925" target="_blank" rel="noopener">Open the transcript</a>
 <a class="lnk" href="https://www.perplexity.ai/computer/tasks/a10d679b-31c3-4f15-96b4-cb444430ea8c" target="_blank" rel="noopener">Second route</a>
 <a class="lnk dl" href="cases/E-01.md" download>Download this case</a>
-<span>Session a10d679b · Turns 30, 31</span>
+<span>Session a10d679b · Turns 30–31</span>
 </div></article><article class="case s2" data-cat="SCOPE_REDUCTION" data-sev="2">
 <div class="crow">
-<span class="cid">E-13</span>
+<span class="claim">CLAIM-0001</span><span class="cid">E-13</span>
 <span class="badge cat">Scope reduced</span>
 <span class="badge sev">Severity 2/5</span>
 <span class="badge pf alleged">ALLEGED</span>
@@ -1427,7 +1427,7 @@ btns.forEach(b=>b.onclick=()=>{
   let s=f==='all'||(f==='sev45'?(+c.dataset.sev>=4):c.dataset.cat===f);
   c.style.display=s?'':'none';});});
 </script>
-<script src="assets/live.js"></script>
+<script src="assets/live.js?v=20260806215954"></script>
 <footer class="foot">
   <div class="fwrap">
     <div class="fbig">Compiled by Gita Agency</div>

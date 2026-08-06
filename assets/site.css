@@ -92,6 +92,8 @@ h1.mega em{font-style:italic;color:var(--gold)}
 .case.s3{border-left-color:var(--gold)} .case.s2,.case.s1{border-left-color:var(--blue)}
 .crow{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:14px}
 .cid{font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:700;color:var(--mut)}
+.claim{font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:700;color:#05060A;
+  background:var(--gold);padding:5px 12px;border-radius:6px;letter-spacing:.04em}
 .badge{padding:6px 14px;border-radius:999px;font-size:15px;font-weight:700;letter-spacing:.01em}
 .badge.cat{background:rgba(255,77,46,.14);color:#FF8B73;border:1px solid rgba(255,77,46,.32)}
 .badge.sev{background:rgba(233,196,106,.14);color:var(--gold);border:1px solid rgba(233,196,106,.3)}
@@ -132,6 +134,42 @@ h1.mega em{font-style:italic;color:var(--gold)}
 .cbox.tall{height:470px}
 @media(max-width:1020px){.card,.card.wide{grid-column:span 12}.wrap{padding:0 22px}
   .topbar{padding:16px 22px;flex-direction:column;align-items:flex-start}.numeral{display:none}}
+
+/* designed segmented strips, bespoke */
+.striplabel{font-family:'JetBrains Mono',monospace;font-size:14px;letter-spacing:.14em;
+  color:var(--mut);margin:26px 0 12px;font-weight:700}
+.strip{display:flex;gap:5px;height:104px;border-radius:14px;overflow:hidden}
+.strip .seg{position:relative;display:flex;flex-direction:column;justify-content:flex-end;
+  padding:14px 16px;min-width:74px;overflow:hidden;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 18px 40px -22px #000;transition:.3s}
+.strip .seg:hover{transform:translateY(-4px)}
+.strip .seg .sv{font-family:'Instrument Serif',serif;font-size:40px;line-height:.85;color:#fff}
+.strip .seg .sk{font-size:14px;font-weight:600;color:rgba(255,255,255,.82);margin-top:6px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.strip .seg .sp{position:absolute;top:12px;right:14px;font-family:'JetBrains Mono',monospace;
+  font-size:13px;font-weight:700;color:rgba(255,255,255,.62)}
+.strip.sev .c0{background:linear-gradient(160deg,#FF4D2E,#B32210)}
+.strip.sev .c1{background:linear-gradient(160deg,#FF8B73,#C24A32)}
+.strip.sev .c2{background:linear-gradient(160deg,#E9C46A,#A9832B)}
+.strip.sev .c3{background:linear-gradient(160deg,#4C8DFF,#1E4EA8)}
+.strip.sev .c4{background:linear-gradient(160deg,#5EE0C0,#1E8C74)}
+.strip.proj .c0{background:linear-gradient(160deg,#4C8DFF,#183C82)}
+.strip.proj .c1{background:linear-gradient(160deg,#B96BFF,#5A2192)}
+.strip.proj .c2{background:linear-gradient(160deg,#38D39F,#146B51)}
+.strip.proj .c3{background:linear-gradient(160deg,#E9C46A,#8A6A21)}
+.strip .seg.c4 .sk,.strip .seg.c3 .sk{color:rgba(255,255,255,.9)}
+
+/* card furniture: measurement grid, corner ticks, oversized numeral */
+.card{background-image:
+  linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);
+  background-size:100% 44px,44px 100%;background-position:0 0}
+.card:after{content:attr(data-num);position:absolute;right:22px;bottom:-26px;
+  font-family:'Instrument Serif',serif;font-size:170px;line-height:.7;
+  color:rgba(245,247,250,.028);pointer-events:none;user-select:none}
+.card .tick{position:absolute;width:16px;height:16px;pointer-events:none;opacity:.5}
+.card .tick.tl{top:14px;left:14px;border-top:1.5px solid rgba(255,77,46,.7);border-left:1.5px solid rgba(255,77,46,.7)}
+.card .tick.br{bottom:14px;right:14px;border-bottom:1.5px solid rgba(255,77,46,.35);border-right:1.5px solid rgba(255,77,46,.35)}
 
 /* downloads table */
 .dl-table{width:100%;border-collapse:separate;border-spacing:0 12px}

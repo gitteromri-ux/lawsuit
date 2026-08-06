@@ -133,6 +133,10 @@ def load_cases():
                 cid = f"{c.get('case_id')}-{c['_batch']}{n}"; n += 1
             c["case_id"] = cid
         used.add(cid)
+    # official claim numbering, chronological and permanent
+    chrono = sorted(cases, key=lambda c: (c.get("date", ""), c.get("time_utc", ""), c.get("case_id", "")))
+    for i, c in enumerate(chrono, 1):
+        c["claim_no"] = f"CLAIM-{i:04d}"
     # stable sort: newest first, then severity
     def key(c):
         return (c.get("date", ""), c.get("time_utc", ""))
@@ -198,6 +202,8 @@ def metrics(cases, sessions):
     return m
 
 # ---------------------------------------------------------------- shared head
+ASSET_V = datetime.now(datetime_timezone.utc).strftime("%Y%m%d%H%M%S")
+
 def head(title, active):
     tabs = [("index.html", "Documentation"), ("counter.html", "Counter")]
     nav = "".join(
@@ -210,7 +216,7 @@ def head(title, active):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/site.css?v={ASSET_V}">
 </head><body>
 <div class="grain"></div>
 <header class="topbar">
@@ -321,6 +327,8 @@ h1.mega em{font-style:italic;color:var(--gold)}
 .case.s3{border-left-color:var(--gold)} .case.s2,.case.s1{border-left-color:var(--blue)}
 .crow{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:14px}
 .cid{font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:700;color:var(--mut)}
+.claim{font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:700;color:#05060A;
+  background:var(--gold);padding:5px 12px;border-radius:6px;letter-spacing:.04em}
 .badge{padding:6px 14px;border-radius:999px;font-size:15px;font-weight:700;letter-spacing:.01em}
 .badge.cat{background:rgba(255,77,46,.14);color:#FF8B73;border:1px solid rgba(255,77,46,.32)}
 .badge.sev{background:rgba(233,196,106,.14);color:var(--gold);border:1px solid rgba(233,196,106,.3)}
@@ -362,6 +370,42 @@ h1.mega em{font-style:italic;color:var(--gold)}
 @media(max-width:1020px){.card,.card.wide{grid-column:span 12}.wrap{padding:0 22px}
   .topbar{padding:16px 22px;flex-direction:column;align-items:flex-start}.numeral{display:none}}
 
+/* designed segmented strips, bespoke */
+.striplabel{font-family:'JetBrains Mono',monospace;font-size:14px;letter-spacing:.14em;
+  color:var(--mut);margin:26px 0 12px;font-weight:700}
+.strip{display:flex;gap:5px;height:104px;border-radius:14px;overflow:hidden}
+.strip .seg{position:relative;display:flex;flex-direction:column;justify-content:flex-end;
+  padding:14px 16px;min-width:74px;overflow:hidden;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 18px 40px -22px #000;transition:.3s}
+.strip .seg:hover{transform:translateY(-4px)}
+.strip .seg .sv{font-family:'Instrument Serif',serif;font-size:40px;line-height:.85;color:#fff}
+.strip .seg .sk{font-size:14px;font-weight:600;color:rgba(255,255,255,.82);margin-top:6px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.strip .seg .sp{position:absolute;top:12px;right:14px;font-family:'JetBrains Mono',monospace;
+  font-size:13px;font-weight:700;color:rgba(255,255,255,.62)}
+.strip.sev .c0{background:linear-gradient(160deg,#FF4D2E,#B32210)}
+.strip.sev .c1{background:linear-gradient(160deg,#FF8B73,#C24A32)}
+.strip.sev .c2{background:linear-gradient(160deg,#E9C46A,#A9832B)}
+.strip.sev .c3{background:linear-gradient(160deg,#4C8DFF,#1E4EA8)}
+.strip.sev .c4{background:linear-gradient(160deg,#5EE0C0,#1E8C74)}
+.strip.proj .c0{background:linear-gradient(160deg,#4C8DFF,#183C82)}
+.strip.proj .c1{background:linear-gradient(160deg,#B96BFF,#5A2192)}
+.strip.proj .c2{background:linear-gradient(160deg,#38D39F,#146B51)}
+.strip.proj .c3{background:linear-gradient(160deg,#E9C46A,#8A6A21)}
+.strip .seg.c4 .sk,.strip .seg.c3 .sk{color:rgba(255,255,255,.9)}
+
+/* card furniture: measurement grid, corner ticks, oversized numeral */
+.card{background-image:
+  linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);
+  background-size:100% 44px,44px 100%;background-position:0 0}
+.card:after{content:attr(data-num);position:absolute;right:22px;bottom:-26px;
+  font-family:'Instrument Serif',serif;font-size:170px;line-height:.7;
+  color:rgba(245,247,250,.028);pointer-events:none;user-select:none}
+.card .tick{position:absolute;width:16px;height:16px;pointer-events:none;opacity:.5}
+.card .tick.tl{top:14px;left:14px;border-top:1.5px solid rgba(255,77,46,.7);border-left:1.5px solid rgba(255,77,46,.7)}
+.card .tick.br{bottom:14px;right:14px;border-bottom:1.5px solid rgba(255,77,46,.35);border-right:1.5px solid rgba(255,77,46,.35)}
+
 /* downloads table */
 .dl-table{width:100%;border-collapse:separate;border-spacing:0 12px}
 .dl-table th{text-align:left;font-size:15px;letter-spacing:.1em;color:var(--mut);
@@ -395,10 +439,11 @@ def write_case_files(cases):
     os.makedirs(d, exist_ok=True)
     for c in cases:
         u = session_url(c)
-        body = f"""# Case {c.get('case_id')}
+        body = f"""# {c.get('claim_no')} · Case {c.get('case_id')}
 
 | Field | Value |
 |---|---|
+| Official claim number | {c.get('claim_no')} |
 | Date | {c.get('date')} {c.get('time_utc','')} UTC |
 | Project | {c.get('project')} |
 | Category | {CAT_LABEL.get(c.get('category'), c.get('category'))} |
@@ -523,7 +568,7 @@ def page_doc(cases, sessions, m, vstats=None):
         cn = f'<span>{esc(c.get("compute_note"))}</span>' if c.get("compute_note") else ""
         blocks.append(f"""<article class="case s{sev}" data-cat="{esc(c.get('category'))}" data-sev="{sev}">
 <div class="crow">
-<span class="cid">{esc(c.get('case_id'))}</span>
+<span class="claim">{esc(c.get('claim_no'))}</span><span class="cid">{esc(c.get('case_id'))}</span>
 <span class="badge cat">{CAT_LABEL.get(c.get('category'), esc(c.get('category')))}</span>
 <span class="badge sev">Severity {sev}/5</span>
 <span class="badge pf {'' if pf=='proven' else 'alleged'}">{pf.upper()}</span>
@@ -573,7 +618,7 @@ btns.forEach(b=>b.onclick=()=>{
   let s=f==='all'||(f==='sev45'?(+c.dataset.sev>=4):c.dataset.cat===f);
   c.style.display=s?'':'none';});});
 </script>""")
-    P.append('<script src="assets/live.js"></script>')
+    P.append(f'<script src="assets/live.js?v={ASSET_V}"></script>')
     P.append(FOOT)
     vq_ok = sum(1 for c in cases if c.get("quote_verified"))
     vs = vstats or {}
@@ -581,6 +626,15 @@ btns.forEach(b=>b.onclick=()=>{
                f"and were deleted rather than published, and {vs.get('downgraded',0)} cases were downgraded "
                f"from proven to alleged as a result. {vq_ok} of {len(cases)} cases carry fully matched quotes.")
     open(f"{OUT}/index.html", "w").write("\n".join(P).replace("VQ__LINE", vq_line))
+
+def strip_html(items, total, cls):
+    segs = []
+    for i, (k, v) in enumerate(items):
+        pct = round(100.0 * v / total) if total else 0
+        segs.append(f'<div class="seg c{i}" style="flex:{max(v,1)}">'
+                    f'<span class="sv">{v}</span><span class="sk">{html.escape(str(k))}</span>'
+                    f'<span class="sp">{pct}%</span></div>')
+    return f'<div class="strip {cls}">{"".join(segs)}</div>'
 
 # ---------------------------------------------------------------- page 2
 def page_counter(cases, m):
@@ -602,6 +656,11 @@ def page_counter(cases, m):
             mins_by_date[c.get("date")] += int(c["minutes_lost"])
     mproj = sorted(mins_by_date.items())
     sev_tot = [m["by_sev"].get(s, 0) for s in [1, 2, 3, 4, 5]]
+    by_sess = Counter(c.get("session_short_id") for c in cases).most_common(15)
+    sess_titles = {}
+    for c in cases:
+        sess_titles.setdefault(c.get("session_short_id"), c.get("project", ""))
+    proj_spread = m["by_project"].most_common()
 
     payload = json.dumps({
         "days": days, "dayVals": day_vals, "cum": cum,
@@ -610,10 +669,13 @@ def page_counter(cases, m):
         "sevSets": sev_sets, "sevTot": sev_tot,
         "mprojL": [k for k, _ in mproj], "mprojV": [v for _, v in mproj],
         "proven": m["proven"], "alleged": m["alleged"],
+        "sessL": [k for k, _ in by_sess], "sessV": [v for _, v in by_sess],
+        "sessP": [sess_titles.get(k, "") for k, _ in by_sess],
+        "total": m["total"],
     }, ensure_ascii=False)
 
     rows = "".join(
-        f"""<tr><td><b>{esc(c.get('case_id'))}</b></td><td>{esc(c.get('date'))}</td>
+        f"""<tr><td><b>{esc(c.get('claim_no'))}</b><br><span class="cid">{esc(c.get('case_id'))}</span></td><td>{esc(c.get('date'))}</td>
 <td>{CAT_LABEL.get(c.get('category'), '')}</td><td>{esc(c.get('severity'))}/5</td>
 <td>{esc(c.get('project'))}</td>
 <td><a class="lnk" href="{session_url(c)}" target="_blank" rel="noopener">Transcript</a>
@@ -645,12 +707,16 @@ def page_counter(cases, m):
 </div>
 <div class="shead"><p class="snum">02</p><h2>Six views of the same record</h2></div><div class="srule"></div>
 <div class="dash">
-<div class="card wide"><h3>Violations per day</h3><p class="sub">Every documented failure, placed on the day it happened. Height equals count.</p><div class="cbox tall"><canvas id="c1"></canvas></div></div>
-<div class="card"><h3>Violations by type</h3><p class="sub">Share of the total record held by each category of breach.</p><div class="cbox"><canvas id="c2"></canvas></div></div>
-<div class="card"><h3>Violations by client project</h3><p class="sub">Where the failures landed commercially.</p><div class="cbox"><canvas id="c3"></canvas></div></div>
-<div class="card wide"><h3>Severity inside each category</h3><p class="sub">Stacked. Severity 4 and 5 are the client facing ones.</p><div class="cbox"><canvas id="c4"></canvas></div></div>
-<div class="card"><h3>Cumulative total over time</h3><p class="sub">The line only ever goes up. Slope equals rate of failure.</p><div class="cbox"><canvas id="c5"></canvas></div></div>
-<div class="card"><h3>Delay minutes by day</h3><p class="sub">Only counts delay explicitly stated inside a transcript, so every bar is a floor and not a total.</p><div class="cbox"><canvas id="c6"></canvas></div></div>
+<div data-num="01" class="card wide"><h3><span class="tick tl"></span><span class="tick br"></span>Violations per day</h3><p class="sub">Every documented failure, placed on the day it happened. Height equals count.</p><div class="cbox tall"><canvas id="c1"></canvas></div></div>
+<div data-num="02" class="card"><h3><span class="tick tl"></span><span class="tick br"></span>Violations by type</h3><p class="sub">Share of the total record held by each category of breach.</p><div class="cbox"><canvas id="c2"></canvas></div></div>
+<div data-num="03" class="card"><h3><span class="tick tl"></span><span class="tick br"></span>The worst sessions</h3><p class="sub">Documented failures per work session, heaviest at the top.</p><div class="cbox tall"><canvas id="c3"></canvas></div></div>
+<div data-num="04" class="card wide"><h3><span class="tick tl"></span><span class="tick br"></span>How the record splits</h3><p class="sub">Two readings of the same seventy nine cases. Width equals share.</p>
+<div class="striplabel">By severity</div>__SEV_STRIP__
+<div class="striplabel">By client project</div>__PROJ_STRIP__
+</div>
+<div data-num="05" class="card wide"><h3><span class="tick tl"></span><span class="tick br"></span>Severity inside each category</h3><p class="sub">Stacked. Severity 4 and 5 are the client facing ones.</p><div class="cbox"><canvas id="c4"></canvas></div></div>
+<div data-num="06" class="card"><h3><span class="tick tl"></span><span class="tick br"></span>Cumulative total over time</h3><p class="sub">The line only ever goes up. Slope equals rate of failure.</p><div class="cbox"><canvas id="c5"></canvas></div></div>
+<div data-num="07" class="card"><h3><span class="tick tl"></span><span class="tick br"></span>Delay minutes by day</h3><p class="sub">Only counts delay explicitly stated inside a transcript, so every bar is a floor and not a total.</p><div class="cbox"><canvas id="c6"></canvas></div></div>
 </div></div></section>""")
 
     P.append(f"""<section><div class="wrap">
@@ -660,14 +726,19 @@ def page_counter(cases, m):
 <a href="data/cases.csv" download><span class="t">Full dataset, CSV</span><span class="d">Opens in Excel or Sheets, one row per case</span></a>
 <a href="data/full-dossier.md" download><span class="t">Full written dossier</span><span class="d">Every case with both verbatim quotes, print ready</span></a>
 </div>
-<table class="dl-table"><thead><tr><th>CASE</th><th>DATE</th><th>TYPE</th><th>SEVERITY</th><th>PROJECT</th><th>FILES</th></tr></thead>
+<table class="dl-table"><thead><tr><th>CLAIM</th><th>DATE</th><th>TYPE</th><th>SEVERITY</th><th>PROJECT</th><th>FILES</th></tr></thead>
 <tbody>{rows}</tbody></table>
 </div></section>""")
 
+    sev_names = {5: "Severity 5, critical", 4: "Severity 4, severe", 3: "Severity 3, material",
+                 2: "Severity 2, minor", 1: "Severity 1, trivial"}
+    sev_items = [(sev_names[s], m["by_sev"].get(s, 0)) for s in [5, 4, 3, 2, 1] if m["by_sev"].get(s, 0)]
+    P = ["\n".join(P).replace("__SEV_STRIP__", strip_html(sev_items, m["total"], "sev"))
+         .replace("__PROJ_STRIP__", strip_html(proj_spread, m["total"], "proj"))]
     P.append("""<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>""")
     P.append(f"<script>const D={payload};</script>")
-    P.append("""<script src="assets/charts.js"></script>""")
-    P.append('<script src="assets/live.js"></script>')
+    P.append(f'<script src="assets/charts.js?v={ASSET_V}"></script>')
+    P.append(f'<script src="assets/live.js?v={ASSET_V}"></script>')
     P.append(FOOT)
     open(f"{OUT}/counter.html", "w").write("\n".join(P))
 
@@ -742,6 +813,49 @@ def freeze_verification(cases):
             json.dump(d, open(f, "w"), indent=1, ensure_ascii=False)
             print("froze verification into", os.path.basename(f))
 
+def write_notice(cases, m):
+    """The formal claim register. Sequentially numbered, timestamped, quote backed."""
+    stamp = datetime.now(datetime_timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    L = ["# Notice of Claims, Service Performance Record",
+         "",
+         "**Claimant:** Omri Gitter, Gita Agency  ",
+         "**Account:** gitter.omri@gita-agency.com  ",
+         "**Service under claim:** Perplexity Computer  ",
+         f"**Claims registered to date:** {m['total']}  ",
+         f"**Period covered:** {m['first']} to {m['last']}  ",
+         f"**Register last updated:** {stamp}",
+         "",
+         "Each claim below is a separate documented failure of the agreed operating terms. "
+         "Each carries a permanent claim number, the timestamp of the incident, the category of "
+         "failure, a severity rating, and the verbatim text from the stored conversation transcript "
+         "on which it rests. Quotes were machine matched against the stored transcript at build time; "
+         "any quote that could not be matched was deleted rather than published, and the claim was "
+         "downgraded from proven to alleged.",
+         "",
+         "| Claim | Date, UTC | Category | Severity | Project | Standing | Evidence |",
+         "|---|---|---|---|---|---|---|"]
+    chrono = sorted(cases, key=lambda c: (c.get("date", ""), c.get("time_utc", "")))
+    for c in chrono:
+        L.append(f"| **{c.get('claim_no')}** | {c.get('date')} {c.get('time_utc')} | "
+                 f"{CAT_LABEL.get(c.get('category'), '')} | {c.get('severity')}/5 | {c.get('project')} | "
+                 f"{str(c.get('proof_level','')).upper()} | [{c.get('case_id')}](cases/{c.get('case_id')}.md) |")
+    L += ["", "## Summary of claims by category", "",
+          "| Category | Claims |", "|---|---|"]
+    for k, v in m["by_cat"].most_common():
+        L.append(f"| {CAT_LABEL.get(k, k)} | {v} |")
+    L += ["", f"**Total claims registered: {m['total']}.** "
+          f"{m['proven']} proven with both sides quoted from the same transcript, {m['alleged']} alleged. "
+          f"{m['critical']} rated severity 4 or 5. "
+          f"{m['minutes_lost']} minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.",
+          "",
+          "No claim in this register states a credit amount, because a per task billing ledger is not "
+          "exposed on the account. Compute waste claims record measurable facts instead: work re-executed "
+          "because of a defect the agent introduced, sequential execution where parallel execution was "
+          "instructed, and loops repeating an output already rejected.",
+          "",
+          "Register held at https://github.com/gitteromri-ux/lawsuit . Commit history is the audit trail."]
+    open(f"{OUT}/NOTICE.md", "w").write("\n".join(L))
+
 def main():
     cases, sessions = load_cases()
     if not cases:
@@ -756,6 +870,7 @@ def main():
     write_bundles(cases, m)
     page_doc(cases, sessions, m, vstats)
     page_counter(cases, m)
+    write_notice(cases, m)
     open(f"{OUT}/README.md", "w").write(f"""# Service Performance Record
 
 Documented audit of AI agent service failures on the account of Gita Agency, covering {m['first']} to {m['last']}.
