@@ -4,11 +4,17 @@ Run: python3 /home/user/workspace/lawsuit/build.py
 Ongoing use: drop a new cases_<X>.json into lawsuit_data/ and re-run."""
 import json, os, glob, csv, re, html, unicodedata
 from collections import Counter, defaultdict
-from datetime import datetime
+from datetime import datetime, timezone as datetime_timezone
 
-DATA = "/home/user/workspace/lawsuit_data"
-OUT = "/home/user/workspace/lawsuit"
-URLMAP = json.load(open(f"{DATA}/url_map.json"))
+# Source data lives inside the repo so the automation can rebuild without the sandbox.
+REPO = os.path.dirname(os.path.abspath(__file__))
+DATA = os.environ.get("CASE_DATA") or (os.path.join(REPO, "source")
+        if os.path.isdir(os.path.join(REPO, "source")) else "/home/user/workspace/lawsuit_data")
+OUT = os.environ.get("CASE_OUT") or REPO
+try:
+    URLMAP = json.load(open(f"{DATA}/url_map.json"))
+except Exception:
+    URLMAP = {}
 
 CAT_LABEL = {
     "MISSED_ETA": "Missed ETA",
@@ -38,6 +44,8 @@ CAT_SHORT = {
 
 
 # ---------------------------------------------------------------- verbatim verifier
+# Transcript sources are only present in the authoring sandbox. When absent, quotes keep
+# whatever verification state they were published with instead of being wrongly deleted.
 SRC = {}
 for _f in glob.glob("/home/user/workspace/memory/sessions/*/*/conversation.md"):
     SRC[os.path.basename(os.path.dirname(_f))] = open(_f, encoding="utf-8", errors="ignore").read()
@@ -65,6 +73,10 @@ def verify_quotes(cases):
                 continue
             stats["checked"] += 1
             if t is None:
+                if c.get("quote_verified") is True:
+                    continue
+                if c.get("_batch") == "ISSUES":
+                    continue
                 notes.append(f"{who} quote not machine verified, transcript file unavailable")
                 continue
             parts = [x for x in re.split(r"\u2026|\.\.\.", q) if len(_norm(x)) > 18]
@@ -190,7 +202,8 @@ def head(title, active):
     tabs = [("index.html", "Documentation"), ("counter.html", "Counter")]
     nav = "".join(
         f'<a class="tab{" on" if h == active else ""}" href="{h}">{t}</a>' for h, t in tabs
-    )
+    ) + ('<a class="tab add" href="https://github.com/gitteromri-ux/lawsuit/issues/new?template=new-case.yml"'
+         ' target="_blank" rel="noopener">Log a new case</a>')
     return f"""<!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title}</title>
@@ -239,6 +252,9 @@ a{color:inherit}
   color:var(--mut);border:1px solid transparent;transition:.2s}
 .tab:hover{color:var(--txt);background:rgba(255,255,255,.04)}
 .tab.on{color:#05060A;background:var(--txt);box-shadow:0 10px 34px rgba(245,247,250,.18)}
+.tab.add{background:var(--hot);color:#fff;border-color:var(--hot);
+  box-shadow:0 10px 34px rgba(255,77,46,.42)}
+.tab.add:hover{background:#FF6244;color:#fff}
 
 .wrap{max-width:1400px;margin:0 auto;padding:0 40px}
 section{position:relative}
@@ -414,7 +430,7 @@ Quotes copied verbatim from that transcript. No text was reconstructed or paraph
 
 def write_bundles(cases, m):
     os.makedirs(f"{OUT}/data", exist_ok=True)
-    json.dump({"generated_utc": datetime.utcnow().isoformat() + "Z",
+    json.dump({"generated_utc": datetime.now(datetime_timezone.utc).isoformat(),
                "total_cases": len(cases), "cases": cases},
               open(f"{OUT}/data/cases.json", "w"), indent=1, ensure_ascii=False)
     cols = ["case_id", "date", "time_utc", "project", "category", "severity", "proof_level",
@@ -427,7 +443,7 @@ def write_bundles(cases, m):
             r = {k: c.get(k) for k in cols}; r["transcript_url"] = session_url(c); w.writerow(r)
     # full dossier
     L = [f"# Service Performance Record, full dossier",
-         f"\nGenerated {datetime.utcnow():%Y-%m-%d %H:%M} UTC. {m['total']} cases, "
+         f"\nGenerated {datetime.now(datetime_timezone.utc):%Y-%m-%d %H:%M} UTC. {m['total']} cases, "
          f"{m['first']} to {m['last']}, {m['sessions_audited']} sessions audited.\n"]
     for c in cases:
         L.append(f"\n## {c['case_id']} · {c.get('date')} · {CAT_LABEL.get(c.get('category'),'')} · severity {c.get('severity')}/5 · {c.get('proof_level')}")
@@ -620,7 +636,13 @@ def page_counter(cases, m):
 </div></div></section>""")
 
     P.append(f"""<section><div class="wrap">
-<div class="shead"><p class="snum">01</p><h2>Six views of the same record</h2></div><div class="srule"></div>
+<div class="shead"><p class="snum">01</p><h2>Add a case in twenty seconds</h2></div><div class="srule"></div>
+<div class="big-dl">
+<a href="https://github.com/gitteromri-ux/lawsuit/issues/new?template=new-case.yml" target="_blank" rel="noopener" style="border-color:rgba(255,77,46,.5);background:linear-gradient(150deg,rgba(255,77,46,.18),rgba(11,15,23,1))"><span class="t">Log a new case</span><span class="d">Four dropdowns and one sentence. Press submit and this page updates itself, no other step</span></a>
+<a href="https://github.com/gitteromri-ux/lawsuit/issues?q=is%3Aissue" target="_blank" rel="noopener"><span class="t">Cases I filed myself</span><span class="d">Everything you submitted through the form, with the case number it became</span></a>
+<a href="https://github.com/gitteromri-ux/lawsuit" target="_blank" rel="noopener"><span class="t">The repository</span><span class="d">Source data, build script and the robot that keeps this page current</span></a>
+</div>
+<div class="shead"><p class="snum">02</p><h2>Six views of the same record</h2></div><div class="srule"></div>
 <div class="dash">
 <div class="card wide"><h3>Violations per day</h3><p class="sub">Every documented failure, placed on the day it happened. Height equals count.</p><div class="cbox tall"><canvas id="c1"></canvas></div></div>
 <div class="card"><h3>Violations by type</h3><p class="sub">Share of the total record held by each category of breach.</p><div class="cbox"><canvas id="c2"></canvas></div></div>
@@ -631,7 +653,7 @@ def page_counter(cases, m):
 </div></div></section>""")
 
     P.append(f"""<section><div class="wrap">
-<div class="shead"><p class="snum">02</p><h2>Download the evidence</h2></div><div class="srule"></div>
+<div class="shead"><p class="snum">03</p><h2>Download the evidence</h2></div><div class="srule"></div>
 <div class="big-dl">
 <a href="data/cases.json" download><span class="t">Full dataset, JSON</span><span class="d">{m['total']} cases, every field, machine readable</span></a>
 <a href="data/cases.csv" download><span class="t">Full dataset, CSV</span><span class="d">Opens in Excel or Sheets, one row per case</span></a>
@@ -692,11 +714,38 @@ new Chart(document.getElementById('c6'),{type:'bar',data:{labels:D.mprojL,datase
  options:{maintainAspectRatio:false,plugins:{...noLeg,tooltip:TT},scales:{x:gridX,y:gridY}}});
 """
 
+def freeze_verification(cases):
+    """Write the verification outcome back into the source files. The transcripts only exist
+    in the authoring sandbox, so the result has to be recorded for later rebuilds."""
+    if not SRC:
+        return
+    by_id = {c["case_id"]: c for c in cases}
+    for f in sorted(glob.glob(f"{DATA}/cases_*.json")):
+        if ".validated." in f:
+            continue
+        d = json.load(open(f))
+        touched = False
+        for c in d.get("cases", []):
+            m = by_id.get(c.get("case_id"))
+            if not m:
+                continue
+            if c.get("quote_verified") != m.get("quote_verified"):
+                c["quote_verified"] = m.get("quote_verified"); touched = True
+            for fld in ("agent_quote", "client_quote"):
+                if (c.get(fld) or "") != (m.get(fld) or ""):
+                    c[fld] = m.get(fld) or ""; touched = True
+            if c.get("proof_level") != m.get("proof_level"):
+                c["proof_level"] = m.get("proof_level"); touched = True
+        if touched:
+            json.dump(d, open(f, "w"), indent=1, ensure_ascii=False)
+            print("froze verification into", os.path.basename(f))
+
 def main():
     cases, sessions = load_cases()
     if not cases:
         print("NO CASES FOUND"); return
     vstats = verify_quotes(cases)
+    freeze_verification(cases)
     m = metrics(cases, sessions)
     os.makedirs(f"{OUT}/assets", exist_ok=True)
     open(f"{OUT}/assets/site.css", "w").write(CSS)

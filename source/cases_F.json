@@ -1,0 +1,34 @@
+{
+ "batch": "F",
+ "sessions_audited": [
+  {
+   "short_id": "aec61b85",
+   "uuid": "aec61b85-f248-43ee-8627-8b52fb8e28bf",
+   "date": "2026-08-06",
+   "turns": 1,
+   "project": "Other",
+   "cases_found": 1,
+   "notes": "This session, the build of this record itself. Self logged."
+  }
+ ],
+ "cases": [
+  {
+   "case_id": "F-01",
+   "session_short_id": "aec61b85",
+   "session_uuid": "aec61b85-f248-43ee-8627-8b52fb8e28bf",
+   "date": "2026-08-06",
+   "time_utc": "20:34",
+   "project": "Other",
+   "category": "RULE_BREACH_OTHER",
+   "severity": 2,
+   "proof_level": "proven",
+   "summary": "During the build of this record the agent posted a pace line claiming 28 percent of the time budget was elapsed when the true figure was 8 percent, an inaccurate numeric status report under Rule 02. Self reported, corrected in the next message, and Recovery Mode level 2 was activated for the remainder of the task.",
+   "agent_quote": "PACE 28% elapsed / 25% delivered, ON PACE, next: repo + dashboard build while 5 auditors run",
+   "client_quote": "",
+   "turn_ref": "Turn 1",
+   "minutes_lost": 0,
+   "compute_note": "No rework required. Logged because Rule 02 requires status numbers to be accurate, and an unlogged self failure would make this record selective.",
+   "quote_verified": false
+  }
+ ]
+}

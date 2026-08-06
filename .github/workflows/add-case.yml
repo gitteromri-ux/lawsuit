@@ -1,0 +1,68 @@
+name: Add case and rebuild
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  add:
+    if: github.event_name == 'workflow_dispatch' || contains(join(github.event.issue.labels.*.name, ','), 'case')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Turn the issue into a case
+        id: parse
+        if: github.event_name != 'workflow_dispatch'
+        run: python scripts/issue_to_case.py
+        env:
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+
+      - name: Rebuild the whole site
+        run: python build.py
+
+      - name: Commit and publish
+        run: |
+          git config user.name "case robot"
+          git config user.email "actions@github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "Add ${{ steps.parse.outputs.case_id || 'rebuild' }} and rebuild the record"
+            git push
+          fi
+
+      - name: Confirm on the issue
+        if: github.event_name != 'workflow_dispatch' && steps.parse.outputs.case_id != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const id = "${{ steps.parse.outputs.case_id }}";
+            const total = "${{ steps.parse.outputs.total }}";
+            await github.rest.issues.createComment({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: [
+                "Logged as **" + id + "**. It is on the record now.",
+                "",
+                "Documentation tab: https://gitteromri-ux.github.io/lawsuit/",
+                "Counter tab: https://gitteromri-ux.github.io/lawsuit/counter.html",
+                "This case as a file: https://gitteromri-ux.github.io/lawsuit/cases/" + id + ".md",
+                "",
+                "Cases added through this form so far: " + total + ". Charts and totals are already updated."
+              ].join("\n")
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number, state: "closed"
+            });

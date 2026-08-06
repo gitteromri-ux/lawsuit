@@ -1,0 +1,97 @@
+name: Log a new case
+description: Add one violation to the record. Fill this in, press submit, the site updates itself.
+title: "CASE: "
+labels: ["case"]
+body:
+  - type: markdown
+    attributes:
+      value: "Fill this in and press the green submit button. The site rebuilds on its own within about a minute. Nothing else to do."
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened
+      description: One or two sentences is enough. Plain words.
+      placeholder: Promised the four resized videos by 14:30, sent them at 15:40, and told me they were done before they existed.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: What kind of failure
+      options:
+        - Missed ETA
+        - False status claim
+        - Scope reduced
+        - Started with no approved ETA
+        - Asked for an extension
+        - Audit claimed, defect found
+        - Broken or missing deliverable
+        - Compute waste, billed to me
+        - Directions instead of a deep link
+        - Other rule breach
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: How bad
+      options:
+        - 5, critical, client facing damage or a lie about delivered work
+        - 4, severe, blew a real deadline
+        - 3, material, cost me real time
+        - 2, minor
+        - 1, trivial
+    validations:
+      required: true
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Which project
+      options:
+        - Longevity Life Academy
+        - French Atelier
+        - eTeacher
+        - Personalix
+        - Hana
+        - Keren Or
+        - Gita Agency internal
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: thread
+    attributes:
+      label: Thread link or session id
+      description: Paste the browser address of the conversation. Leave blank if you do not have it.
+      placeholder: https://www.perplexity.ai/search/...
+
+  - type: textarea
+    id: agent_quote
+    attributes:
+      label: What the agent said, copied exactly
+      description: Paste the exact sentence. This is what makes a case stick. Leave blank if you do not have it.
+
+  - type: textarea
+    id: client_quote
+    attributes:
+      label: What you said, copied exactly
+      description: Optional.
+
+  - type: input
+    id: minutes
+    attributes:
+      label: Minutes lost
+      description: Numbers only. Leave blank if you do not know.
+      placeholder: "40"
+
+  - type: input
+    id: when
+    attributes:
+      label: Date
+      description: YYYY-MM-DD. Leave blank and today is used.
+      placeholder: "2026-08-07"

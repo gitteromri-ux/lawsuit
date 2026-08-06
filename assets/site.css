@@ -23,6 +23,9 @@ a{color:inherit}
   color:var(--mut);border:1px solid transparent;transition:.2s}
 .tab:hover{color:var(--txt);background:rgba(255,255,255,.04)}
 .tab.on{color:#05060A;background:var(--txt);box-shadow:0 10px 34px rgba(245,247,250,.18)}
+.tab.add{background:var(--hot);color:#fff;border-color:var(--hot);
+  box-shadow:0 10px 34px rgba(255,77,46,.42)}
+.tab.add:hover{background:#FF6244;color:#fff}
 
 .wrap{max-width:1400px;margin:0 auto;padding:0 40px}
 section{position:relative}

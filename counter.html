@@ -9,7 +9,7 @@
 <div class="grain"></div>
 <header class="topbar">
   <div class="brand"><span class="mark"></span> Service Performance Record</div>
-  <nav class="tabs"><a class="tab" href="index.html">Documentation</a><a class="tab on" href="counter.html">Counter</a></nav>
+  <nav class="tabs"><a class="tab" href="index.html">Documentation</a><a class="tab on" href="counter.html">Counter</a><a class="tab add" href="https://github.com/gitteromri-ux/lawsuit/issues/new?template=new-case.yml" target="_blank" rel="noopener">Log a new case</a></nav>
 </header>
 
 <section class="hero" style="padding-bottom:40px"><div class="wrap">
@@ -26,7 +26,13 @@
   <div class="chip blue"><span class="n">332</span><span class="l">Minutes lost, evidenced in transcript text</span></div>
 </div></div></section>
 <section><div class="wrap">
-<div class="shead"><p class="snum">01</p><h2>Six views of the same record</h2></div><div class="srule"></div>
+<div class="shead"><p class="snum">01</p><h2>Add a case in twenty seconds</h2></div><div class="srule"></div>
+<div class="big-dl">
+<a href="https://github.com/gitteromri-ux/lawsuit/issues/new?template=new-case.yml" target="_blank" rel="noopener" style="border-color:rgba(255,77,46,.5);background:linear-gradient(150deg,rgba(255,77,46,.18),rgba(11,15,23,1))"><span class="t">Log a new case</span><span class="d">Four dropdowns and one sentence. Press submit and this page updates itself, no other step</span></a>
+<a href="https://github.com/gitteromri-ux/lawsuit/issues?q=is%3Aissue" target="_blank" rel="noopener"><span class="t">Cases I filed myself</span><span class="d">Everything you submitted through the form, with the case number it became</span></a>
+<a href="https://github.com/gitteromri-ux/lawsuit" target="_blank" rel="noopener"><span class="t">The repository</span><span class="d">Source data, build script and the robot that keeps this page current</span></a>
+</div>
+<div class="shead"><p class="snum">02</p><h2>Six views of the same record</h2></div><div class="srule"></div>
 <div class="dash">
 <div class="card wide"><h3>Violations per day</h3><p class="sub">Every documented failure, placed on the day it happened. Height equals count.</p><div class="cbox tall"><canvas id="c1"></canvas></div></div>
 <div class="card"><h3>Violations by type</h3><p class="sub">Share of the total record held by each category of breach.</p><div class="cbox"><canvas id="c2"></canvas></div></div>
@@ -36,7 +42,7 @@
 <div class="card"><h3>Delay minutes by day</h3><p class="sub">Only counts delay explicitly stated inside a transcript, so every bar is a floor and not a total.</p><div class="cbox"><canvas id="c6"></canvas></div></div>
 </div></div></section>
 <section><div class="wrap">
-<div class="shead"><p class="snum">02</p><h2>Download the evidence</h2></div><div class="srule"></div>
+<div class="shead"><p class="snum">03</p><h2>Download the evidence</h2></div><div class="srule"></div>
 <div class="big-dl">
 <a href="data/cases.json" download><span class="t">Full dataset, JSON</span><span class="d">75 cases, every field, machine readable</span></a>
 <a href="data/cases.csv" download><span class="t">Full dataset, CSV</span><span class="d">Opens in Excel or Sheets, one row per case</span></a>

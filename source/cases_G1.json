@@ -1,0 +1,15 @@
+{
+  "batch": "G1",
+  "sessions_audited": [
+    {
+      "short_id": "e10608ab",
+      "uuid": "e10608ab-5118-4798-b6ab-81fcd3ba34f8",
+      "date": "2026-08-06",
+      "turns": 1,
+      "project": "Longevity Life Academy",
+      "cases_found": 0,
+      "notes": "Reviewed every turn in full; no new supported case found. The sole response set contingent future commitments and the transcript ends before any execution, elapsed deadline, delivery, or client-reported defect is shown."
+    }
+  ],
+  "cases": []
+}
