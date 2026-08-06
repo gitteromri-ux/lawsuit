@@ -1,0 +1,23 @@
+{
+ "batch": "J",
+ "sessions_audited": ["1ad4b3ec-9b30-4a28-95f2-9f4e2101a5dc", "373062cb-3ec9-424b-8613-f8478d1f7ea9", "594514e8-1221-4893-a8e1-257c2f676057"],
+ "cases": [
+  {
+   "case_id": "J-01",
+   "session_short_id": "1ad4b3ec",
+   "session_uuid": "1ad4b3ec-9b30-4a28-95f2-9f4e2101a5dc",
+   "date": "2026-08-06",
+   "time_utc": "22:26",
+   "project": "Gita Agency internal",
+   "category": "FALSE_STATUS",
+   "severity": 4,
+   "proof_level": "proven",
+   "summary": "After the gorgeous dashboard pass was already logged as undelivered, the agent stated it was rewriting the chart engine and would return with the live link and the rendered pictures. The session ended with no delivery. Inspection at 2026-08-06 22:47 UTC shows assets/charts.js is still 43 lines of stock code, unchanged.",
+   "agent_quote": "Replacing the chart engine at its source",
+   "client_quote": "No. I said fix it.",
+   "turn_ref": "Turns 9 and 16",
+   "minutes_lost": null,
+   "compute_note": "Second failure on the same owed item after CLAIM-0083. File inspection is the proof: assets/charts.js line count unchanged at 43."
+  }
+ ]
+}
