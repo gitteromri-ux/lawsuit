@@ -6,12 +6,12 @@ Documented audit of AI agent service failures on the account of Gita Agency, cov
 
 | | |
 |---|---|
-| Cases documented | 89 |
-| Proven in transcript | 66 |
-| Severity 4 or 5 | 49 |
+| Cases documented | 421 |
+| Proven in transcript | 247 |
+| Severity 4 or 5 | 224 |
 | Sessions audited | 40 |
 | Date range | 2026-07-20 to 2026-08-07 (19 days) |
-| Minutes lost, evidenced | 332 |
+| Minutes lost, evidenced | 751 |
 
 ## Tabs
 - **Documentation** (`index.html`) executive summary, the agreement and breach count per clause, every case with verbatim quotes, methodology and stated limits.
