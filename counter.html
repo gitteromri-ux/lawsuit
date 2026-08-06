@@ -1,0 +1,304 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Counter · Service Performance Record</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head><body>
+<div class="grain"></div>
+<header class="topbar">
+  <div class="brand"><span class="mark"></span> Service Performance Record</div>
+  <nav class="tabs"><a class="tab" href="index.html">Documentation</a><a class="tab on" href="counter.html">Counter</a></nav>
+</header>
+
+<section class="hero" style="padding-bottom:40px"><div class="wrap">
+<div class="kicker">LIVE COUNTER · UPDATED EVERY SESSION</div>
+<h1 class="mega">The <em>counter</em>.</h1>
+<p class="lede">Running totals across every audited session, and a download for every single case file. This page regenerates from the source data each time a new session is audited.</p>
+<div class="numeral">62</div>
+<div class="chips">
+  <div class="chip hot"><span class="n">62</span><span class="l">Total violations counted</span></div>
+  <div class="chip gold"><span class="n">15</span><span class="l">Missed ETAs</span></div>
+  <div class="chip hot"><span class="n">14</span><span class="l">False status claims</span></div>
+  <div class="chip blue"><span class="n">14</span><span class="l">Scope reductions</span></div>
+  <div class="chip gold"><span class="n">3</span><span class="l">Compute waste events</span></div>
+  <div class="chip blue"><span class="n">332</span><span class="l">Minutes lost, evidenced in transcript text</span></div>
+</div></div></section>
+<section><div class="wrap">
+<div class="shead"><p class="snum">01</p><h2>Six views of the same record</h2></div><div class="srule"></div>
+<div class="dash">
+<div class="card wide"><h3>Violations per day</h3><p class="sub">Every documented failure, placed on the day it happened. Height equals count.</p><div class="cbox tall"><canvas id="c1"></canvas></div></div>
+<div class="card"><h3>Violations by type</h3><p class="sub">Share of the total record held by each category of breach.</p><div class="cbox"><canvas id="c2"></canvas></div></div>
+<div class="card"><h3>Violations by client project</h3><p class="sub">Where the failures landed commercially.</p><div class="cbox"><canvas id="c3"></canvas></div></div>
+<div class="card wide"><h3>Severity inside each category</h3><p class="sub">Stacked. Severity 4 and 5 are the client facing ones.</p><div class="cbox"><canvas id="c4"></canvas></div></div>
+<div class="card"><h3>Cumulative total over time</h3><p class="sub">The line only ever goes up. Slope equals rate of failure.</p><div class="cbox"><canvas id="c5"></canvas></div></div>
+<div class="card"><h3>Minutes lost by project</h3><p class="sub">Only counts delay explicitly stated inside a transcript, so this is a floor and not a total.</p><div class="cbox"><canvas id="c6"></canvas></div></div>
+</div></div></section>
+<section><div class="wrap">
+<div class="shead"><p class="snum">02</p><h2>Download the evidence</h2></div><div class="srule"></div>
+<div class="big-dl">
+<a href="data/cases.json" download><span class="t">Full dataset, JSON</span><span class="d">62 cases, every field, machine readable</span></a>
+<a href="data/cases.csv" download><span class="t">Full dataset, CSV</span><span class="d">Opens in Excel or Sheets, one row per case</span></a>
+<a href="data/full-dossier.md" download><span class="t">Full written dossier</span><span class="d">Every case with both verbatim quotes, print ready</span></a>
+</div>
+<table class="dl-table"><thead><tr><th>CASE</th><th>DATE</th><th>TYPE</th><th>SEVERITY</th><th>PROJECT</th><th>FILES</th></tr></thead>
+<tbody><tr><td><b>B-13</b></td><td>2026-08-06</td>
+<td>Scope reduced</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/6164427a-685c-483d-9610-b2895f09a15b" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-13.md" download>Download</a></td></tr><tr><td><b>B-12</b></td><td>2026-08-06</td>
+<td>Scope reduced</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/6164427a-685c-483d-9610-b2895f09a15b" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-12.md" download>Download</a></td></tr><tr><td><b>B-07</b></td><td>2026-08-06</td>
+<td>Audit claimed, defect found</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/6164427a-685c-483d-9610-b2895f09a15b" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-07.md" download>Download</a></td></tr><tr><td><b>B-08</b></td><td>2026-08-06</td>
+<td>Scope reduced</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/6164427a-685c-483d-9610-b2895f09a15b" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-08.md" download>Download</a></td></tr><tr><td><b>B-09</b></td><td>2026-08-06</td>
+<td>Started with no approved ETA</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/6164427a-685c-483d-9610-b2895f09a15b" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-09.md" download>Download</a></td></tr><tr><td><b>B-10</b></td><td>2026-08-06</td>
+<td>Compute waste, billed to client</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/6164427a-685c-483d-9610-b2895f09a15b" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-10.md" download>Download</a></td></tr><tr><td><b>B-11</b></td><td>2026-08-06</td>
+<td>Broken or missing deliverable</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/6164427a-685c-483d-9610-b2895f09a15b" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-11.md" download>Download</a></td></tr><tr><td><b>D-19</b></td><td>2026-08-06</td>
+<td>Scope reduced</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/34a6e1ef-d550-4f71-b1b8-3e8f75d0806a" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-19.md" download>Download</a></td></tr><tr><td><b>E-09</b></td><td>2026-08-06</td>
+<td>False status claim</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/3e8a6838-f72a-4a17-8c7a-a7018d3a2684" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-09.md" download>Download</a></td></tr><tr><td><b>B-15</b></td><td>2026-08-06</td>
+<td>Scope reduced</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/b48b6a36-d965-44b1-a95f-9bd8ceb69053" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-15.md" download>Download</a></td></tr><tr><td><b>B-14</b></td><td>2026-08-06</td>
+<td>Missed ETA</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/244c19e5-9a22-442c-98f3-8ed4888ffa87" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-14.md" download>Download</a></td></tr><tr><td><b>D-08</b></td><td>2026-08-06</td>
+<td>Audit claimed, defect found</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/a1dcbba2-93be-47ac-946a-6e2ae3b87d44" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-08.md" download>Download</a></td></tr><tr><td><b>D-09</b></td><td>2026-08-06</td>
+<td>False status claim</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/a1dcbba2-93be-47ac-946a-6e2ae3b87d44" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-09.md" download>Download</a></td></tr><tr><td><b>D-04</b></td><td>2026-08-06</td>
+<td>Audit claimed, defect found</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/2a307fd5-0351-4a12-b6ec-591ae61de6c7" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-04.md" download>Download</a></td></tr><tr><td><b>B-06</b></td><td>2026-08-06</td>
+<td>Missed ETA</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/6164427a-685c-483d-9610-b2895f09a15b" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-06.md" download>Download</a></td></tr><tr><td><b>D-18</b></td><td>2026-08-06</td>
+<td>Missed ETA</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/34a6e1ef-d550-4f71-b1b8-3e8f75d0806a" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-18.md" download>Download</a></td></tr><tr><td><b>D-07</b></td><td>2026-08-06</td>
+<td>False status claim</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/a1dcbba2-93be-47ac-946a-6e2ae3b87d44" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-07.md" download>Download</a></td></tr><tr><td><b>D-05</b></td><td>2026-08-06</td>
+<td>Missed ETA</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/2a307fd5-0351-4a12-b6ec-591ae61de6c7" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-05.md" download>Download</a></td></tr><tr><td><b>D-06</b></td><td>2026-08-06</td>
+<td>Missed ETA</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/a1dcbba2-93be-47ac-946a-6e2ae3b87d44" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-06.md" download>Download</a></td></tr><tr><td><b>D-17</b></td><td>2026-08-06</td>
+<td>False status claim</td><td>1/5</td>
+<td>French Atelier</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/34a6e1ef-d550-4f71-b1b8-3e8f75d0806a" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-17.md" download>Download</a></td></tr><tr><td><b>C-06</b></td><td>2026-08-06</td>
+<td>Broken or missing deliverable</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/3779792c-8b6c-4b02-ae27-f35bb58f431d" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/C-06.md" download>Download</a></td></tr><tr><td><b>D-14</b></td><td>2026-08-06</td>
+<td>Missed ETA</td><td>2/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/8b3275ab-0b98-402c-be96-825b3eeb0b91" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-14.md" download>Download</a></td></tr><tr><td><b>E-10</b></td><td>2026-08-06</td>
+<td>Missed ETA</td><td>2/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/b7500df8-9199-4f7a-b06c-54f978b77a53" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-10.md" download>Download</a></td></tr><tr><td><b>D-13</b></td><td>2026-08-06</td>
+<td>Other rule breach</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/8b3275ab-0b98-402c-be96-825b3eeb0b91" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-13.md" download>Download</a></td></tr><tr><td><b>D-12</b></td><td>2026-08-06</td>
+<td>Scope reduced</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/8b3275ab-0b98-402c-be96-825b3eeb0b91" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-12.md" download>Download</a></td></tr><tr><td><b>D-10</b></td><td>2026-08-06</td>
+<td>Missed ETA</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/8b3275ab-0b98-402c-be96-825b3eeb0b91" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-10.md" download>Download</a></td></tr><tr><td><b>D-11</b></td><td>2026-08-06</td>
+<td>Compute waste, billed to client</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/8b3275ab-0b98-402c-be96-825b3eeb0b91" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-11.md" download>Download</a></td></tr><tr><td><b>D-02</b></td><td>2026-08-05</td>
+<td>False status claim</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/2a307fd5-0351-4a12-b6ec-591ae61de6c7" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-02.md" download>Download</a></td></tr><tr><td><b>D-03</b></td><td>2026-08-05</td>
+<td>Scope reduced</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/2a307fd5-0351-4a12-b6ec-591ae61de6c7" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-03.md" download>Download</a></td></tr><tr><td><b>C-01</b></td><td>2026-08-05</td>
+<td>Audit claimed, defect found</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/3d5fbe49-ea40-467d-84aa-2f44e6db4c90" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/C-01.md" download>Download</a></td></tr><tr><td><b>D-01</b></td><td>2026-08-05</td>
+<td>Scope reduced</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/2a307fd5-0351-4a12-b6ec-591ae61de6c7" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-01.md" download>Download</a></td></tr><tr><td><b>C-05</b></td><td>2026-08-05</td>
+<td>Audit claimed, defect found</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/3779792c-8b6c-4b02-ae27-f35bb58f431d" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/C-05.md" download>Download</a></td></tr><tr><td><b>B-04</b></td><td>2026-08-05</td>
+<td>False status claim</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/cc4e0505-3765-4dea-949a-1010b12d8f18" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-04.md" download>Download</a></td></tr><tr><td><b>B-05</b></td><td>2026-08-05</td>
+<td>False status claim</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/cc4e0505-3765-4dea-949a-1010b12d8f18" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-05.md" download>Download</a></td></tr><tr><td><b>E-11</b></td><td>2026-08-05</td>
+<td>Missed ETA</td><td>2/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/a54c0645-332f-44c5-9e4a-796de61985e3" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-11.md" download>Download</a></td></tr><tr><td><b>E-08</b></td><td>2026-08-05</td>
+<td>Missed ETA</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/a81e3093-fddf-4709-9365-3c57450ac915" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-08.md" download>Download</a></td></tr><tr><td><b>E-12</b></td><td>2026-08-05</td>
+<td>Scope reduced</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/f573e739-cd35-4b06-a95b-417ae188a9d5" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-12.md" download>Download</a></td></tr><tr><td><b>D-16</b></td><td>2026-08-05</td>
+<td>Audit claimed, defect found</td><td>3/5</td>
+<td>French Atelier</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/34a6e1ef-d550-4f71-b1b8-3e8f75d0806a" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-16.md" download>Download</a></td></tr><tr><td><b>C-04</b></td><td>2026-08-05</td>
+<td>Missed ETA</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/3e0823c6-e753-4e0f-afdd-5e0249cfb902" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/C-04.md" download>Download</a></td></tr><tr><td><b>D-15</b></td><td>2026-08-05</td>
+<td>Scope reduced</td><td>3/5</td>
+<td>French Atelier</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/34a6e1ef-d550-4f71-b1b8-3e8f75d0806a" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/D-15.md" download>Download</a></td></tr><tr><td><b>A-04</b></td><td>2026-08-05</td>
+<td>Broken or missing deliverable</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/2b6c727f-686b-4955-a64e-0eea27b2958f" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/A-04.md" download>Download</a></td></tr><tr><td><b>A-03</b></td><td>2026-08-05</td>
+<td>False status claim</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/2b6c727f-686b-4955-a64e-0eea27b2958f" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/A-03.md" download>Download</a></td></tr><tr><td><b>A-02</b></td><td>2026-08-05</td>
+<td>False status claim</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/2b6c727f-686b-4955-a64e-0eea27b2958f" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/A-02.md" download>Download</a></td></tr><tr><td><b>A-05</b></td><td>2026-08-05</td>
+<td>Directions instead of deep link</td><td>2/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/2b6c727f-686b-4955-a64e-0eea27b2958f" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/A-05.md" download>Download</a></td></tr><tr><td><b>A-01</b></td><td>2026-08-05</td>
+<td>Scope reduced</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/2b6c727f-686b-4955-a64e-0eea27b2958f" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/A-01.md" download>Download</a></td></tr><tr><td><b>C-03</b></td><td>2026-08-05</td>
+<td>Audit claimed, defect found</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/3e0823c6-e753-4e0f-afdd-5e0249cfb902" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/C-03.md" download>Download</a></td></tr><tr><td><b>A-09</b></td><td>2026-08-05</td>
+<td>False status claim</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/aef895b6-3270-4889-8b0d-efa8a3c4a061" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/A-09.md" download>Download</a></td></tr><tr><td><b>A-08</b></td><td>2026-08-05</td>
+<td>Audit claimed, defect found</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/aef895b6-3270-4889-8b0d-efa8a3c4a061" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/A-08.md" download>Download</a></td></tr><tr><td><b>A-07</b></td><td>2026-08-05</td>
+<td>Missed ETA</td><td>2/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/aef895b6-3270-4889-8b0d-efa8a3c4a061" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/A-07.md" download>Download</a></td></tr><tr><td><b>A-06</b></td><td>2026-08-05</td>
+<td>Missed ETA</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/aef895b6-3270-4889-8b0d-efa8a3c4a061" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/A-06.md" download>Download</a></td></tr><tr><td><b>E-05</b></td><td>2026-08-05</td>
+<td>Audit claimed, defect found</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/d7f5893a-fdd4-43a8-aee0-58793123b2ab" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-05.md" download>Download</a></td></tr><tr><td><b>E-06</b></td><td>2026-08-05</td>
+<td>Missed ETA</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/d7f5893a-fdd4-43a8-aee0-58793123b2ab" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-06.md" download>Download</a></td></tr><tr><td><b>E-03</b></td><td>2026-08-05</td>
+<td>Missed ETA</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/b706d6eb-7dfd-4666-9abf-0066954e5635" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-03.md" download>Download</a></td></tr><tr><td><b>E-04</b></td><td>2026-08-05</td>
+<td>False status claim</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/b706d6eb-7dfd-4666-9abf-0066954e5635" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-04.md" download>Download</a></td></tr><tr><td><b>E-02</b></td><td>2026-08-04</td>
+<td>Compute waste, billed to client</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/b706d6eb-7dfd-4666-9abf-0066954e5635" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-02.md" download>Download</a></td></tr><tr><td><b>C-02</b></td><td>2026-08-04</td>
+<td>False status claim</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/3e0823c6-e753-4e0f-afdd-5e0249cfb902" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/C-02.md" download>Download</a></td></tr><tr><td><b>B-03</b></td><td>2026-08-04</td>
+<td>Audit claimed, defect found</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/cc4e0505-3765-4dea-949a-1010b12d8f18" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-03.md" download>Download</a></td></tr><tr><td><b>B-02</b></td><td>2026-08-04</td>
+<td>Scope reduced</td><td>4/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/cc4e0505-3765-4dea-949a-1010b12d8f18" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-02.md" download>Download</a></td></tr><tr><td><b>B-01</b></td><td>2026-08-04</td>
+<td>False status claim</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/cc4e0505-3765-4dea-949a-1010b12d8f18" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/B-01.md" download>Download</a></td></tr><tr><td><b>E-07</b></td><td>2026-08-03</td>
+<td>Scope reduced</td><td>3/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/06362628-492f-46eb-82a1-16e652114745" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-07.md" download>Download</a></td></tr><tr><td><b>E-01</b></td><td>2026-07-21</td>
+<td>False status claim</td><td>2/5</td>
+<td>eTeacher</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/df7b917c-b055-4b4d-a197-08bf7b4fd925" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-01.md" download>Download</a></td></tr><tr><td><b>E-13</b></td><td>2026-07-20</td>
+<td>Scope reduced</td><td>2/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/46b5c885-c47f-41db-93e0-e925fa7b1df8" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk dl" href="cases/E-13.md" download>Download</a></td></tr></tbody></table>
+</div></section>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>const D={"days": ["2026-07-20", "2026-07-21", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "dayVals": [1, 1, 1, 5, 27, 27], "cum": [1, 2, 3, 8, 35, 62], "catLabels": ["Missed ETA", "False status claim", "Scope reduced", "Started with no approved ETA", "Audit claimed, defect found", "Directions instead of deep link", "Broken or missing deliverable", "Compute waste, billed to client", "Other rule breach"], "catVals": [15, 14, 14, 1, 10, 1, 3, 3, 1], "projs": ["Longevity Life Academy", "French Atelier", "eTeacher"], "projVals": [58, 3, 1], "sevSets": [{"label": "Severity 5", "data": [0, 8, 3, 0, 4, 0, 0, 0, 0]}, {"label": "Severity 4", "data": [6, 3, 3, 0, 3, 0, 2, 1, 1]}, {"label": "Severity 3", "data": [5, 1, 7, 1, 3, 0, 1, 2, 0]}, {"label": "Severity 2", "data": [4, 1, 1, 0, 0, 1, 0, 0, 0]}, {"label": "Severity 1", "data": [0, 1, 0, 0, 0, 0, 0, 0, 0]}], "sevTot": [1, 7, 20, 19, 15], "mprojL": ["Longevity Life Academy"], "mprojV": [332], "proven": 57, "alleged": 5};</script>
+<script src="assets/charts.js"></script>
+<footer class="foot">
+  <div class="fwrap">
+    <div class="fbig">Compiled by Gita Agency</div>
+    <p class="fp">Every entry on this site is anchored to a stored conversation transcript on the client account. Quotes are verbatim. Nothing is reconstructed from memory. Cases marked PROVEN contain both the commitment and its contradiction inside the same transcript. Cases marked ALLEGED record the client's assertion where the transcript does not contain a confirming admission.</p>
+  </div>
+</footer></body></html>
