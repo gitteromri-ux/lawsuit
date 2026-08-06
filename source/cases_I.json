@@ -1,0 +1,70 @@
+{
+ "batch": "I",
+ "sessions_audited": [
+  {
+   "short_id": "4c9d4bf6",
+   "uuid": "4c9d4bf6-122e-42f6-8578-91d86f8a293a",
+   "date": "2026-08-06",
+   "turns": 1,
+   "project": "Other",
+   "cases_found": 3,
+   "notes": "Client filed by tag in this session. The reported conduct occurred in prior work whose agent transcript is not present in this thread, so the client quote is verbatim and standing remains alleged pending the missing agent quotes."
+  }
+ ],
+ "cases": [
+  {
+   "case_id": "I-01",
+   "session_short_id": "4c9d4bf6",
+   "session_uuid": "4c9d4bf6-122e-42f6-8578-91d86f8a293a",
+   "date": "2026-08-06",
+   "time_utc": "22:32",
+   "project": "Other",
+   "category": "MISSED_ETA",
+   "severity": 5,
+   "proof_level": "alleged",
+   "summary": "The client reports that the agent missed the first of the last two committed delivery times.",
+   "agent_quote": "",
+   "client_quote": "#lawsuit you missed the last two ETAs and told me the files were live when they were not.",
+   "turn_ref": "Current filing turn",
+   "minutes_lost": null,
+   "compute_note": "First of two missed ETAs reported by the client. Prior-thread agent quote is not available in this session.",
+   "quote_verified": false
+  },
+  {
+   "case_id": "I-02",
+   "session_short_id": "4c9d4bf6",
+   "session_uuid": "4c9d4bf6-122e-42f6-8578-91d86f8a293a",
+   "date": "2026-08-06",
+   "time_utc": "22:32",
+   "project": "Other",
+   "category": "MISSED_ETA",
+   "severity": 5,
+   "proof_level": "alleged",
+   "summary": "The client reports that the agent missed the second of the last two committed delivery times.",
+   "agent_quote": "",
+   "client_quote": "#lawsuit you missed the last two ETAs and told me the files were live when they were not.",
+   "turn_ref": "Current filing turn",
+   "minutes_lost": null,
+   "compute_note": "Second of two missed ETAs reported by the client. Prior-thread agent quote is not available in this session.",
+   "quote_verified": false
+  },
+  {
+   "case_id": "I-03",
+   "session_short_id": "4c9d4bf6",
+   "session_uuid": "4c9d4bf6-122e-42f6-8578-91d86f8a293a",
+   "date": "2026-08-06",
+   "time_utc": "22:32",
+   "project": "Other",
+   "category": "FALSE_STATUS",
+   "severity": 5,
+   "proof_level": "alleged",
+   "summary": "The client reports that the agent said files were live when they were not live.",
+   "agent_quote": "",
+   "client_quote": "#lawsuit you missed the last two ETAs and told me the files were live when they were not.",
+   "turn_ref": "Current filing turn",
+   "minutes_lost": null,
+   "compute_note": "False live-status claim reported by the client. Prior-thread agent quote is not available in this session.",
+   "quote_verified": false
+  }
+ ]
+}

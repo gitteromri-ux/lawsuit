@@ -3,9 +3,9 @@
 **Claimant:** Omri Gitter, Gita Agency  
 **Account:** gitter.omri@gita-agency.com  
 **Service under claim:** Perplexity Computer  
-**Claims registered to date:** 85  
+**Claims registered to date:** 88  
 **Period covered:** 2026-07-20 to 2026-08-07  
-**Register last updated:** 2026-08-06 22:23 UTC
+**Register last updated:** 2026-08-06 22:33 UTC
 
 Each claim below is a separate documented failure of the agreed operating terms. Each carries a permanent claim number, the timestamp of the incident, the category of failure, a severity rating, and the verbatim text from the stored conversation transcript on which it rests. Quotes were machine matched against the stored transcript at build time; any quote that could not be matched was deleted rather than published, and the claim was downgraded from proven to alleged.
 
@@ -73,7 +73,7 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | **CLAIM-0060** | 2026-08-06 11:26 | Missed ETA | 3/5 | Longevity Life Academy | PROVEN | [D-05](cases/D-05.md) |
 | **CLAIM-0061** | 2026-08-06 11:37 | False status claim | 4/5 | Longevity Life Academy | PROVEN | [D-07](cases/D-07.md) |
 | **CLAIM-0062** | 2026-08-06 11:45 | Missed ETA | 4/5 | Longevity Life Academy | PROVEN | [D-18](cases/D-18.md) |
-| **CLAIM-0063** | 2026-08-06 11:50 | Missed ETA | 4/5 | Longevity Life Academy | PROVEN | [B-06](cases/B-06.md) |
+| **CLAIM-0063** | 2026-08-06 11:50 | Missed ETA | 4/5 | Longevity Life Academy | ALLEGED | [B-06](cases/B-06.md) |
 | **CLAIM-0064** | 2026-08-06 11:53 | Audit claimed, defect found | 4/5 | Longevity Life Academy | PROVEN | [D-04](cases/D-04.md) |
 | **CLAIM-0065** | 2026-08-06 12:00 | Audit claimed, defect found | 4/5 | Longevity Life Academy | PROVEN | [D-08](cases/D-08.md) |
 | **CLAIM-0066** | 2026-08-06 12:00 | False status claim | 4/5 | Longevity Life Academy | ALLEGED | [D-09](cases/D-09.md) |
@@ -82,27 +82,30 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | **CLAIM-0069** | 2026-08-06 12:47 | Scope reduced | 3/5 | Longevity Life Academy | ALLEGED | [B-15](cases/B-15.md) |
 | **CLAIM-0070** | 2026-08-06 15:28 | False status claim | 3/5 | Longevity Life Academy | PROVEN | [E-09](cases/E-09.md) |
 | **CLAIM-0071** | 2026-08-06 17:01 | Scope reduced | 4/5 | Longevity Life Academy | PROVEN | [D-19](cases/D-19.md) |
-| **CLAIM-0072** | 2026-08-06 17:40 | Broken or missing deliverable | 4/5 | Longevity Life Academy | PROVEN | [B-11](cases/B-11.md) |
-| **CLAIM-0073** | 2026-08-06 18:15 | Compute waste, billed to client | 3/5 | Longevity Life Academy | PROVEN | [B-10](cases/B-10.md) |
-| **CLAIM-0074** | 2026-08-06 18:16 | Audit claimed, defect found | 5/5 | Longevity Life Academy | PROVEN | [B-07](cases/B-07.md) |
-| **CLAIM-0075** | 2026-08-06 18:16 | Scope reduced | 3/5 | Longevity Life Academy | PROVEN | [B-08](cases/B-08.md) |
-| **CLAIM-0076** | 2026-08-06 18:16 | Started with no approved ETA | 3/5 | Longevity Life Academy | PROVEN | [B-09](cases/B-09.md) |
-| **CLAIM-0077** | 2026-08-06 18:28 | Scope reduced | 3/5 | Longevity Life Academy | PROVEN | [B-12](cases/B-12.md) |
+| **CLAIM-0072** | 2026-08-06 17:40 | Broken or missing deliverable | 4/5 | Longevity Life Academy | ALLEGED | [B-11](cases/B-11.md) |
+| **CLAIM-0073** | 2026-08-06 18:15 | Compute waste, billed to client | 3/5 | Longevity Life Academy | ALLEGED | [B-10](cases/B-10.md) |
+| **CLAIM-0074** | 2026-08-06 18:16 | Audit claimed, defect found | 5/5 | Longevity Life Academy | ALLEGED | [B-07](cases/B-07.md) |
+| **CLAIM-0075** | 2026-08-06 18:16 | Scope reduced | 3/5 | Longevity Life Academy | ALLEGED | [B-08](cases/B-08.md) |
+| **CLAIM-0076** | 2026-08-06 18:16 | Started with no approved ETA | 3/5 | Longevity Life Academy | ALLEGED | [B-09](cases/B-09.md) |
+| **CLAIM-0077** | 2026-08-06 18:28 | Scope reduced | 3/5 | Longevity Life Academy | ALLEGED | [B-12](cases/B-12.md) |
 | **CLAIM-0078** | 2026-08-06 19:42 | Scope reduced | 5/5 | Longevity Life Academy | PROVEN | [B-13](cases/B-13.md) |
 | **CLAIM-0079** | 2026-08-06 20:34 | Other rule breach | 2/5 | Other | PROVEN | [F-01](cases/F-01.md) |
-| **CLAIM-0080** | 2026-08-07 00:59 | Scope reduced | 4/5 | Gita Agency internal | PROVEN | [H-02](cases/H-02.md) |
-| **CLAIM-0081** | 2026-08-07 01:00 | False status claim | 5/5 | Gita Agency internal | PROVEN | [H-04](cases/H-04.md) |
-| **CLAIM-0082** | 2026-08-07 01:02 | False status claim | 5/5 | Gita Agency internal | PROVEN | [H-03](cases/H-03.md) |
-| **CLAIM-0083** | 2026-08-07 01:13 | Other rule breach | 4/5 | Longevity Life Academy | ALLEGED | [H-01](cases/H-01.md) |
-| **CLAIM-0084** | 2026-08-07 01:15 | Directions instead of deep link | 4/5 | Gita Agency internal | PROVEN | [H-05](cases/H-05.md) |
-| **CLAIM-0085** | 2026-08-07 01:22 | Audit claimed, defect found | 5/5 | Gita Agency internal | PROVEN | [H-06](cases/H-06.md) |
+| **CLAIM-0080** | 2026-08-06 22:32 | Missed ETA | 5/5 | Other | ALLEGED | [I-01](cases/I-01.md) |
+| **CLAIM-0081** | 2026-08-06 22:32 | Missed ETA | 5/5 | Other | ALLEGED | [I-02](cases/I-02.md) |
+| **CLAIM-0082** | 2026-08-06 22:32 | False status claim | 5/5 | Other | ALLEGED | [I-03](cases/I-03.md) |
+| **CLAIM-0083** | 2026-08-07 00:59 | Scope reduced | 4/5 | Gita Agency internal | PROVEN | [H-02](cases/H-02.md) |
+| **CLAIM-0084** | 2026-08-07 01:00 | False status claim | 5/5 | Gita Agency internal | PROVEN | [H-04](cases/H-04.md) |
+| **CLAIM-0085** | 2026-08-07 01:02 | False status claim | 5/5 | Gita Agency internal | PROVEN | [H-03](cases/H-03.md) |
+| **CLAIM-0086** | 2026-08-07 01:13 | Other rule breach | 4/5 | Longevity Life Academy | ALLEGED | [H-01](cases/H-01.md) |
+| **CLAIM-0087** | 2026-08-07 01:15 | Directions instead of deep link | 4/5 | Gita Agency internal | PROVEN | [H-05](cases/H-05.md) |
+| **CLAIM-0088** | 2026-08-07 01:22 | Audit claimed, defect found | 5/5 | Gita Agency internal | PROVEN | [H-06](cases/H-06.md) |
 
 ## Summary of claims by category
 
 | Category | Claims |
 |---|---|
-| False status claim | 19 |
-| Missed ETA | 18 |
+| False status claim | 20 |
+| Missed ETA | 20 |
 | Scope reduced | 16 |
 | Audit claimed, defect found | 13 |
 | Other rule breach | 5 |
@@ -111,7 +114,7 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | Directions instead of deep link | 3 |
 | Started with no approved ETA | 3 |
 
-**Total claims registered: 85.** 72 proven with both sides quoted from the same transcript, 13 alleged. 45 rated severity 4 or 5. 332 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
+**Total claims registered: 88.** 65 proven with both sides quoted from the same transcript, 23 alleged. 48 rated severity 4 or 5. 332 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
 
 No claim in this register states a credit amount, because a per task billing ledger is not exposed on the account. Compute waste claims record measurable facts instead: work re-executed because of a defect the agent introduced, sequential execution where parallel execution was instructed, and loops repeating an output already rejected.
 

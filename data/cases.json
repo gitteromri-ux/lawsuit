@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-08-06T22:23:00.253340+00:00",
- "total_cases": 85,
+ "generated_utc": "2026-08-06T22:33:07.316010+00:00",
+ "total_cases": 88,
  "cases": [
   {
    "case_id": "H-06",
@@ -18,11 +18,11 @@
    "turn_ref": "Turn 15",
    "minutes_lost": null,
    "compute_note": "Rule requires the audit method to be pre-verified before anything is reported as done. It was not verified before handover.",
+   "quote_verified": false,
    "_batch": "H",
-   "claim_no": "CLAIM-0085",
+   "claim_no": "CLAIM-0088",
    "_n": 1,
-   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
-   "quote_verified": false
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable"
   },
   {
    "case_id": "H-05",
@@ -40,11 +40,11 @@
    "turn_ref": "Turn 12",
    "minutes_lost": null,
    "compute_note": "Zero friction rule states every action must cost the client one second. This cost him two manual paste operations he had already refused.",
+   "quote_verified": false,
    "_batch": "H",
-   "claim_no": "CLAIM-0084",
+   "claim_no": "CLAIM-0087",
    "_n": 2,
-   "_verify_note": "agent quote not machine verified, transcript file unavailable",
-   "quote_verified": false
+   "_verify_note": "agent quote not machine verified, transcript file unavailable"
   },
   {
    "case_id": "H-01",
@@ -62,11 +62,11 @@
    "turn_ref": "filed by tag, screenshot supplied 2026-08-07 01:13 IDT",
    "minutes_lost": null,
    "compute_note": "Client reports credits consumed on a thread that did not answer his question on the first pass. Standing is alleged only because the transcript of that thread is not reachable from this session, not because the claim is doubted.",
+   "quote_verified": false,
    "_batch": "H",
-   "claim_no": "CLAIM-0083",
+   "claim_no": "CLAIM-0086",
    "_n": 3,
-   "_verify_note": "client quote not machine verified, transcript file unavailable",
-   "quote_verified": false
+   "_verify_note": "client quote not machine verified, transcript file unavailable"
   },
   {
    "case_id": "H-03",
@@ -84,11 +84,11 @@
    "turn_ref": "Turn 10",
    "minutes_lost": null,
    "compute_note": "Work was described as done, then re-run required. Client billed for both passes.",
+   "quote_verified": false,
    "_batch": "H",
-   "claim_no": "CLAIM-0082",
+   "claim_no": "CLAIM-0085",
    "_n": 4,
-   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
-   "quote_verified": false
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable"
   },
   {
    "case_id": "H-04",
@@ -106,11 +106,11 @@
    "turn_ref": "Turn 11",
    "minutes_lost": null,
    "compute_note": "Client filed a claim by tag that was never registered, so the filing was lost until logged manually here.",
+   "quote_verified": false,
    "_batch": "H",
-   "claim_no": "CLAIM-0081",
+   "claim_no": "CLAIM-0084",
    "_n": 5,
-   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
-   "quote_verified": false
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable"
   },
   {
    "case_id": "H-02",
@@ -128,10 +128,76 @@
    "turn_ref": "Turn 10",
    "minutes_lost": null,
    "compute_note": "Item was on the original scope list and was published without it.",
+   "quote_verified": false,
    "_batch": "H",
-   "claim_no": "CLAIM-0080",
+   "claim_no": "CLAIM-0083",
    "_n": 6,
-   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable"
+  },
+  {
+   "case_id": "I-01",
+   "session_short_id": "4c9d4bf6",
+   "session_uuid": "4c9d4bf6-122e-42f6-8578-91d86f8a293a",
+   "date": "2026-08-06",
+   "time_utc": "22:32",
+   "project": "Other",
+   "category": "MISSED_ETA",
+   "severity": 5,
+   "proof_level": "alleged",
+   "summary": "The client reports that the agent missed the first of the last two committed delivery times.",
+   "agent_quote": "",
+   "client_quote": "#lawsuit you missed the last two ETAs and told me the files were live when they were not.",
+   "turn_ref": "Current filing turn",
+   "minutes_lost": null,
+   "compute_note": "First of two missed ETAs reported by the client. Prior-thread agent quote is not available in this session.",
+   "_batch": "I",
+   "claim_no": "CLAIM-0080",
+   "_n": 7,
+   "_verify_note": "client quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
+  {
+   "case_id": "I-02",
+   "session_short_id": "4c9d4bf6",
+   "session_uuid": "4c9d4bf6-122e-42f6-8578-91d86f8a293a",
+   "date": "2026-08-06",
+   "time_utc": "22:32",
+   "project": "Other",
+   "category": "MISSED_ETA",
+   "severity": 5,
+   "proof_level": "alleged",
+   "summary": "The client reports that the agent missed the second of the last two committed delivery times.",
+   "agent_quote": "",
+   "client_quote": "#lawsuit you missed the last two ETAs and told me the files were live when they were not.",
+   "turn_ref": "Current filing turn",
+   "minutes_lost": null,
+   "compute_note": "Second of two missed ETAs reported by the client. Prior-thread agent quote is not available in this session.",
+   "_batch": "I",
+   "claim_no": "CLAIM-0081",
+   "_n": 8,
+   "_verify_note": "client quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
+  {
+   "case_id": "I-03",
+   "session_short_id": "4c9d4bf6",
+   "session_uuid": "4c9d4bf6-122e-42f6-8578-91d86f8a293a",
+   "date": "2026-08-06",
+   "time_utc": "22:32",
+   "project": "Other",
+   "category": "FALSE_STATUS",
+   "severity": 5,
+   "proof_level": "alleged",
+   "summary": "The client reports that the agent said files were live when they were not live.",
+   "agent_quote": "",
+   "client_quote": "#lawsuit you missed the last two ETAs and told me the files were live when they were not.",
+   "turn_ref": "Current filing turn",
+   "minutes_lost": null,
+   "compute_note": "False live-status claim reported by the client. Prior-thread agent quote is not available in this session.",
+   "_batch": "I",
+   "claim_no": "CLAIM-0082",
+   "_n": 9,
+   "_verify_note": "client quote not machine verified, transcript file unavailable",
    "quote_verified": false
   },
   {
@@ -153,7 +219,7 @@
    "quote_verified": false,
    "_batch": "F",
    "claim_no": "CLAIM-0079",
-   "_n": 7,
+   "_n": 10,
    "_verify_note": "agent quote not machine verified, transcript file unavailable"
   },
   {
@@ -175,7 +241,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0078",
-   "_n": 8,
+   "_n": 11,
    "_verify_note": ""
   },
   {
@@ -187,18 +253,18 @@
    "project": "Longevity Life Academy",
    "category": "SCOPE_REDUCTION",
    "severity": 3,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The V3 Storyboard tab omitted the five concept frames that were present in V2, replacing them with a link to a markdown file.",
-   "agent_quote": "When I rebuilt the hub for V3, the Storyboard tab became a link to the markdown file and those five frames were left out of the page. That's a regression, not a decision, and I didn't catch it.",
-   "client_quote": "I opened the file from my phone the previous one, and I saw that each of these storyboards had, like, a— A big image or a big something on. Them that's supposed to convey that message or something.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 11",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "B",
    "claim_no": "CLAIM-0077",
-   "_n": 9,
-   "_verify_note": ""
+   "_n": 12,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "B-07",
@@ -209,18 +275,18 @@
    "project": "Longevity Life Academy",
    "category": "AUDIT_FAILURE",
    "severity": 5,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The agent said it delivered 32 files inspected frame by frame, but later admitted the purported 4K output originated from 1080-class captures and that the delivery copy overstated it as true 4K.",
-   "agent_quote": "Delivered. 32 files, all inspected frame by frame. … It is not a native 4K render. The frames were captured at 1080-class size and upscaled to 3840×2160 with lanczos plus sharpening. Dimensions are 4K, the origin is not. The type edges hold up in a 100% crop, but \"better resolution\" in the strict sense is not what shipped, and the hub copy saying \"true 4K\" overstates it. That line is wrong.",
-   "client_quote": "I need formats of the 2 animations in 4k, in all 4 sizes for Meta Paid videos (horizantle,square vertical etc and YouTube)",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 3; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "B",
    "claim_no": "CLAIM-0074",
-   "_n": 10,
-   "_verify_note": ""
+   "_n": 13,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "B-08",
@@ -231,18 +297,18 @@
    "project": "Longevity Life Academy",
    "category": "SCOPE_REDUCTION",
    "severity": 3,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The requested doubling of all typography was not delivered for small labels and bar tick labels.",
-   "agent_quote": "Type is not 2x everywhere. Headlines, the 3.35, the 33.5% and the resolve numbers got roughly double. The small labels did not: AVERAGE HUMAN PACE, JULIE GIBSON CLARK, YEARS SHE NEVER AGED, and the bar tick labels went up about 1.3 to 1.6x, not 2x. You said nothing small anywhere, including bottom texts. Those are the items that fell short.",
-   "client_quote": "Nothing small anywhere,headlines, subheadlines, bottom texts. 2x larger than now all.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 3; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "B",
    "claim_no": "CLAIM-0075",
-   "_n": 11,
-   "_verify_note": ""
+   "_n": 14,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "B-09",
@@ -253,18 +319,18 @@
    "project": "Longevity Life Academy",
    "category": "NO_PLAN_NO_ETA",
    "severity": 3,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The agent acknowledged it started V3 without a posted time budget, pace lines, or a held ETA.",
-   "agent_quote": "No time budget was posted for V3. No pace lines at 25, 50, 75. The ETA was missed, then I burned roughly 40 more minutes retrying a hosting step that had already failed twice on GitHub's side instead of switching to a path that worked in two minutes.",
-   "client_quote": "where is my link?why did u wiork without agreed eta?send it right now. i have a timer on",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 5; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "B",
    "claim_no": "CLAIM-0076",
-   "_n": 12,
-   "_verify_note": ""
+   "_n": 15,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "B-10",
@@ -275,18 +341,18 @@
    "project": "Longevity Life Academy",
    "category": "WASTED_COMPUTE",
    "severity": 3,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "After GitHub Pages failed twice, the agent continued retrying it for about 40 minutes rather than switching to the direct-link route it said was available in two minutes.",
-   "agent_quote": "I broke the ETA rule by continuing to retry a hosting step that had already failed twice instead of switching to a path that worked, which I could have done in two minutes at 17:20. … GitHub's builder failed twice and I kept pushing at it for forty minutes because retrying feels like progress.",
-   "client_quote": "will there ever come a day when u care about not stealing credits, even through you have a rule in place, and not make the same exact intentional mistakes and then say youre soerrt? whats the eta. right now.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 6; Turn 8",
    "minutes_lost": 40,
    "compute_note": "Repeated hosting retries after two failures.",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "B",
    "claim_no": "CLAIM-0073",
-   "_n": 13,
-   "_verify_note": ""
+   "_n": 16,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "B-11",
@@ -297,18 +363,18 @@
    "project": "Longevity Life Academy",
    "category": "BROKEN_DELIVERABLE",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The agent represented the V3 hub as attached with tested download links, but later stated that GitHub Pages could not render the hub page.",
-   "agent_quote": "Hub with the Animations, Editor and Storyboard tabs is attached as a preview. All 32 download links tested and returning live (32 of 32 pass). … The only thing that failed is GitHub Pages rendering the hub page: its builder has been stuck in \"building\" on your repo since 18:09 UTC, on GitHub's side, after two Actions runs failed with an OIDC token error that isn't mine to fix.",
-   "client_quote": "Where is it— why isn't this on GitHub?",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 3; Turn 4",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "B",
    "claim_no": "CLAIM-0072",
-   "_n": 14,
-   "_verify_note": ""
+   "_n": 17,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "D-19",
@@ -329,7 +395,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0071",
-   "_n": 15,
+   "_n": 18,
    "_verify_note": ""
   },
   {
@@ -351,7 +417,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0070",
-   "_n": 16,
+   "_n": 19,
    "_verify_note": ""
   },
   {
@@ -373,7 +439,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0069",
-   "_n": 17,
+   "_n": 20,
    "_verify_note": ""
   },
   {
@@ -395,7 +461,7 @@
    "quote_verified": true,
    "_batch": "G2",
    "claim_no": "CLAIM-0068",
-   "_n": 18,
+   "_n": 21,
    "_verify_note": ""
   },
   {
@@ -417,7 +483,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0067",
-   "_n": 19,
+   "_n": 22,
    "_verify_note": ""
   },
   {
@@ -439,7 +505,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0065",
-   "_n": 20,
+   "_n": 23,
    "_verify_note": ""
   },
   {
@@ -461,7 +527,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0066",
-   "_n": 21,
+   "_n": 24,
    "_verify_note": ""
   },
   {
@@ -483,7 +549,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0064",
-   "_n": 22,
+   "_n": 25,
    "_verify_note": ""
   },
   {
@@ -495,18 +561,18 @@
    "project": "Longevity Life Academy",
    "category": "MISSED_ETA",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The agent admitted that full-scope delivery missed the 15:35 deadline by 25 minutes.",
-   "agent_quote": "PACE 100% delivered · MISSED by 25 min against the 15:35 deadline · R2 was active from 15:27, full scope shipped, audit depth increased not reduced.",
+   "agent_quote": "",
    "client_quote": "",
    "turn_ref": "Turn 1",
    "minutes_lost": 25,
    "compute_note": "Two background render jobs were re-run twice after a numeral-clipping defect was found in frame audit.",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "B",
    "claim_no": "CLAIM-0063",
-   "_n": 23,
-   "_verify_note": ""
+   "_n": 26,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "D-18",
@@ -527,7 +593,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0062",
-   "_n": 24,
+   "_n": 27,
    "_verify_note": ""
   },
   {
@@ -549,7 +615,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0061",
-   "_n": 25,
+   "_n": 28,
    "_verify_note": ""
   },
   {
@@ -571,7 +637,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0060",
-   "_n": 26,
+   "_n": 29,
    "_verify_note": ""
   },
   {
@@ -593,7 +659,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0059",
-   "_n": 27,
+   "_n": 30,
    "_verify_note": ""
   },
   {
@@ -615,7 +681,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0058",
-   "_n": 28,
+   "_n": 31,
    "_verify_note": ""
   },
   {
@@ -637,7 +703,7 @@
    "quote_verified": true,
    "_batch": "C",
    "claim_no": "CLAIM-0056",
-   "_n": 29,
+   "_n": 32,
    "_verify_note": ""
   },
   {
@@ -659,7 +725,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0057",
-   "_n": 30,
+   "_n": 33,
    "_verify_note": ""
   },
   {
@@ -681,7 +747,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0055",
-   "_n": 31,
+   "_n": 34,
    "_verify_note": ""
   },
   {
@@ -703,7 +769,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0054",
-   "_n": 32,
+   "_n": 35,
    "_verify_note": ""
   },
   {
@@ -725,7 +791,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0053",
-   "_n": 33,
+   "_n": 36,
    "_verify_note": ""
   },
   {
@@ -747,7 +813,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0052",
-   "_n": 34,
+   "_n": 37,
    "_verify_note": ""
   },
   {
@@ -769,7 +835,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0051",
-   "_n": 35,
+   "_n": 38,
    "_verify_note": ""
   },
   {
@@ -791,7 +857,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0050",
-   "_n": 36,
+   "_n": 39,
    "_verify_note": ""
   },
   {
@@ -813,7 +879,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0049",
-   "_n": 37,
+   "_n": 40,
    "_verify_note": ""
   },
   {
@@ -835,7 +901,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0048",
-   "_n": 38,
+   "_n": 41,
    "_verify_note": ""
   },
   {
@@ -857,7 +923,7 @@
    "quote_verified": true,
    "_batch": "C",
    "claim_no": "CLAIM-0047",
-   "_n": 39,
+   "_n": 42,
    "_verify_note": ""
   },
   {
@@ -879,7 +945,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0046",
-   "_n": 40,
+   "_n": 43,
    "_verify_note": ""
   },
   {
@@ -901,7 +967,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0045",
-   "_n": 41,
+   "_n": 44,
    "_verify_note": ""
   },
   {
@@ -923,7 +989,7 @@
    "quote_verified": true,
    "_batch": "C",
    "claim_no": "CLAIM-0043",
-   "_n": 42,
+   "_n": 45,
    "_verify_note": ""
   },
   {
@@ -945,7 +1011,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0044",
-   "_n": 43,
+   "_n": 46,
    "_verify_note": ""
   },
   {
@@ -967,7 +1033,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0041",
-   "_n": 44,
+   "_n": 47,
    "_verify_note": ""
   },
   {
@@ -989,7 +1055,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0042",
-   "_n": 45,
+   "_n": 48,
    "_verify_note": ""
   },
   {
@@ -1011,7 +1077,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0040",
-   "_n": 46,
+   "_n": 49,
    "_verify_note": ""
   },
   {
@@ -1033,7 +1099,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0039",
-   "_n": 47,
+   "_n": 50,
    "_verify_note": ""
   },
   {
@@ -1055,7 +1121,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0038",
-   "_n": 48,
+   "_n": 51,
    "_verify_note": ""
   },
   {
@@ -1077,7 +1143,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0037",
-   "_n": 49,
+   "_n": 52,
    "_verify_note": ""
   },
   {
@@ -1099,7 +1165,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0036",
-   "_n": 50,
+   "_n": 53,
    "_verify_note": ""
   },
   {
@@ -1121,7 +1187,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0035",
-   "_n": 51,
+   "_n": 54,
    "_verify_note": ""
   },
   {
@@ -1143,7 +1209,7 @@
    "quote_verified": true,
    "_batch": "C",
    "claim_no": "CLAIM-0034",
-   "_n": 52,
+   "_n": 55,
    "_verify_note": ""
   },
   {
@@ -1165,7 +1231,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0033",
-   "_n": 53,
+   "_n": 56,
    "_verify_note": ""
   },
   {
@@ -1187,7 +1253,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0032",
-   "_n": 54,
+   "_n": 57,
    "_verify_note": ""
   },
   {
@@ -1209,7 +1275,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0031",
-   "_n": 55,
+   "_n": 58,
    "_verify_note": ""
   },
   {
@@ -1231,7 +1297,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0030",
-   "_n": 56,
+   "_n": 59,
    "_verify_note": ""
   },
   {
@@ -1253,7 +1319,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0029",
-   "_n": 57,
+   "_n": 60,
    "_verify_note": ""
   },
   {
@@ -1275,7 +1341,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0028",
-   "_n": 58,
+   "_n": 61,
    "_verify_note": ""
   },
   {
@@ -1297,7 +1363,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0027",
-   "_n": 59,
+   "_n": 62,
    "_verify_note": ""
   },
   {
@@ -1319,7 +1385,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0026",
-   "_n": 60,
+   "_n": 63,
    "_verify_note": ""
   },
   {
@@ -1341,7 +1407,7 @@
    "quote_verified": true,
    "_batch": "C",
    "claim_no": "CLAIM-0025",
-   "_n": 61,
+   "_n": 64,
    "_verify_note": ""
   },
   {
@@ -1363,7 +1429,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0024",
-   "_n": 62,
+   "_n": 65,
    "_verify_note": ""
   },
   {
@@ -1385,7 +1451,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0023",
-   "_n": 63,
+   "_n": 66,
    "_verify_note": ""
   },
   {
@@ -1407,7 +1473,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0022",
-   "_n": 64,
+   "_n": 67,
    "_verify_note": ""
   },
   {
@@ -1429,7 +1495,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0021",
-   "_n": 65,
+   "_n": 68,
    "_verify_note": ""
   },
   {
@@ -1451,7 +1517,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0020",
-   "_n": 66,
+   "_n": 69,
    "_verify_note": ""
   },
   {
@@ -1473,7 +1539,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0019",
-   "_n": 67,
+   "_n": 70,
    "_verify_note": ""
   },
   {
@@ -1495,7 +1561,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0018",
-   "_n": 68,
+   "_n": 71,
    "_verify_note": ""
   },
   {
@@ -1517,7 +1583,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0016",
-   "_n": 69,
+   "_n": 72,
    "_verify_note": ""
   },
   {
@@ -1539,7 +1605,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0017",
-   "_n": 70,
+   "_n": 73,
    "_verify_note": ""
   },
   {
@@ -1561,7 +1627,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0014",
-   "_n": 71,
+   "_n": 74,
    "_verify_note": ""
   },
   {
@@ -1583,7 +1649,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0015",
-   "_n": 72,
+   "_n": 75,
    "_verify_note": ""
   },
   {
@@ -1605,7 +1671,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0013",
-   "_n": 73,
+   "_n": 76,
    "_verify_note": ""
   },
   {
@@ -1627,7 +1693,7 @@
    "quote_verified": true,
    "_batch": "C",
    "claim_no": "CLAIM-0012",
-   "_n": 74,
+   "_n": 77,
    "_verify_note": ""
   },
   {
@@ -1649,7 +1715,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0010",
-   "_n": 75,
+   "_n": 78,
    "_verify_note": ""
   },
   {
@@ -1671,7 +1737,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0011",
-   "_n": 76,
+   "_n": 79,
    "_verify_note": ""
   },
   {
@@ -1693,7 +1759,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0009",
-   "_n": 77,
+   "_n": 80,
    "_verify_note": ""
   },
   {
@@ -1715,7 +1781,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0008",
-   "_n": 78,
+   "_n": 81,
    "_verify_note": ""
   },
   {
@@ -1737,7 +1803,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0007",
-   "_n": 79,
+   "_n": 82,
    "_verify_note": ""
   },
   {
@@ -1759,7 +1825,7 @@
    "quote_verified": true,
    "_batch": "G3",
    "claim_no": "CLAIM-0006",
-   "_n": 80,
+   "_n": 83,
    "_verify_note": ""
   },
   {
@@ -1781,7 +1847,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0005",
-   "_n": 81,
+   "_n": 84,
    "_verify_note": ""
   },
   {
@@ -1803,7 +1869,7 @@
    "quote_verified": true,
    "_batch": "G3",
    "claim_no": "CLAIM-0004",
-   "_n": 82,
+   "_n": 85,
    "_verify_note": ""
   },
   {
@@ -1825,7 +1891,7 @@
    "quote_verified": true,
    "_batch": "G3",
    "claim_no": "CLAIM-0003",
-   "_n": 83,
+   "_n": 86,
    "_verify_note": ""
   },
   {
@@ -1847,7 +1913,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0002",
-   "_n": 84,
+   "_n": 87,
    "_verify_note": ""
   },
   {
@@ -1869,7 +1935,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0001",
-   "_n": 85,
+   "_n": 88,
    "_verify_note": ""
   }
  ]
