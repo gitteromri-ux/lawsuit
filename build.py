@@ -573,6 +573,7 @@ btns.forEach(b=>b.onclick=()=>{
   let s=f==='all'||(f==='sev45'?(+c.dataset.sev>=4):c.dataset.cat===f);
   c.style.display=s?'':'none';});});
 </script>""")
+    P.append('<script src="assets/live.js"></script>')
     P.append(FOOT)
     vq_ok = sum(1 for c in cases if c.get("quote_verified"))
     vs = vstats or {}
@@ -666,6 +667,7 @@ def page_counter(cases, m):
     P.append("""<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>""")
     P.append(f"<script>const D={payload};</script>")
     P.append("""<script src="assets/charts.js"></script>""")
+    P.append('<script src="assets/live.js"></script>')
     P.append(FOOT)
     open(f"{OUT}/counter.html", "w").write("\n".join(P))
 

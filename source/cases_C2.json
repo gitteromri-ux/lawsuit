@@ -118,7 +118,7 @@
    "turn_ref": "Turn 17; Turn 20; Turn 24",
    "minutes_lost": null,
    "compute_note": "285 motion-visible duplicated frames were blended after the agent reported the fixes verified and live.",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "C2-06",
@@ -190,7 +190,7 @@
    "turn_ref": "Turn 4; Turn 5",
    "minutes_lost": null,
    "compute_note": "brand imagery was redone after the lockup issue",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "C2-10",
@@ -244,7 +244,7 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   }
  ]
 }

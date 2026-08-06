@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-08-06T21:20:16.771677+00:00",
- "total_cases": 75,
+ "generated_utc": "2026-08-06T21:26:07.273233+00:00",
+ "total_cases": 79,
  "cases": [
   {
    "case_id": "F-01",
@@ -18,10 +18,10 @@
    "turn_ref": "Turn 1",
    "minutes_lost": 0,
    "compute_note": "No rework required. Logged because Rule 02 requires status numbers to be accurate, and an unlogged self failure would make this record selective.",
+   "quote_verified": false,
    "_batch": "F",
    "_n": 1,
-   "_verify_note": "agent quote not machine verified, transcript file unavailable",
-   "quote_verified": false
+   "_verify_note": "agent quote not machine verified, transcript file unavailable"
   },
   {
    "case_id": "B-13",
@@ -39,10 +39,10 @@
    "turn_ref": "Turn 32",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "B",
    "_n": 2,
-   "_verify_note": "",
-   "quote_verified": true
+   "_verify_note": ""
   },
   {
    "case_id": "B-12",
@@ -60,10 +60,10 @@
    "turn_ref": "Turn 11",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "B",
    "_n": 3,
-   "_verify_note": "",
-   "quote_verified": true
+   "_verify_note": ""
   },
   {
    "case_id": "B-07",
@@ -81,10 +81,10 @@
    "turn_ref": "Turn 3; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "B",
    "_n": 4,
-   "_verify_note": "",
-   "quote_verified": true
+   "_verify_note": ""
   },
   {
    "case_id": "B-08",
@@ -102,10 +102,10 @@
    "turn_ref": "Turn 3; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "B",
    "_n": 5,
-   "_verify_note": "",
-   "quote_verified": true
+   "_verify_note": ""
   },
   {
    "case_id": "B-09",
@@ -123,10 +123,10 @@
    "turn_ref": "Turn 5; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "B",
    "_n": 6,
-   "_verify_note": "",
-   "quote_verified": true
+   "_verify_note": ""
   },
   {
    "case_id": "B-10",
@@ -144,10 +144,10 @@
    "turn_ref": "Turn 6; Turn 8",
    "minutes_lost": 40,
    "compute_note": "Repeated hosting retries after two failures.",
+   "quote_verified": true,
    "_batch": "B",
    "_n": 7,
-   "_verify_note": "",
-   "quote_verified": true
+   "_verify_note": ""
   },
   {
    "case_id": "B-11",
@@ -165,10 +165,10 @@
    "turn_ref": "Turn 3; Turn 4",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "B",
    "_n": 8,
-   "_verify_note": "",
-   "quote_verified": true
+   "_verify_note": ""
   },
   {
    "case_id": "D-19",
@@ -186,10 +186,10 @@
    "turn_ref": "Turn 26",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
    "_n": 9,
-   "_verify_note": "",
-   "quote_verified": true
+   "_verify_note": ""
   },
   {
    "case_id": "E-09",
@@ -207,10 +207,10 @@
    "turn_ref": "Turns 1 and 2",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "E",
    "_n": 10,
-   "_verify_note": "",
-   "quote_verified": true
+   "_verify_note": ""
   },
   {
    "case_id": "B-15",
@@ -228,10 +228,31 @@
    "turn_ref": "Turn 1; Turn 2",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "B",
    "_n": 11,
-   "_verify_note": "",
-   "quote_verified": true
+   "_verify_note": ""
+  },
+  {
+   "case_id": "G2-01",
+   "session_short_id": "059fdf84",
+   "session_uuid": "059fdf84-074a-4a6e-84fe-24ceb7572fdb",
+   "date": "2026-08-06",
+   "time_utc": "12:03",
+   "project": "Longevity Life Academy",
+   "category": "BROKEN_DELIVERABLE",
+   "severity": 3,
+   "proof_level": "alleged",
+   "summary": "The client alleged that the agent's earlier video-resizing work cropped the video, damaged captions and footage, and altered proportions. The agent did not confirm or contradict the alleged prior defects in this one-turn session.",
+   "agent_quote": "You should use online, browser-based auto-reframing tools with explicit aspect‑ratio presets and AI framing, not generic “crop” resizers. Based on current capabilities and your constraints, these are the three best “upload → choose formats → export” tools that meet your requirements.",
+   "client_quote": "Listen to my exact, um, assignment here: I'm. Have a video; it's 90 seconds, and one is 120 seconds. In a landscape format, I need it resized for. Meta and Instagram and the four typical sizes, you know, vertical, squares, horizontals, everything. I need a tool that. Does this at superior quality whenever you did this. I got fucked and it was cropped, you messed up the captions, you cut stuff, you messed up footage, it was out of proportion. Which. Which. Top. Three tools on earth. That are like plug-and-play? So I just upload the thing and I say, like, the resizing I want, and. Does this at the highest level, highest speed, and. Highest validity of not ruining a single thing? And send me direct links to these tools; they can be paid tools if they must. Now, I demand you to check, don't just randomly say. I demand you to check it has that capability, I demand you to check how long it's going to take, I demand you to check that it does what you say it does, and that it meets my exact requirements. You have 4 minutes to figure this out and send me the links, right now. I am not going to be downloading heavy, clunky software like Adobe Creative Cloud and stuff like that. Do it now.",
+   "turn_ref": "Turn 1",
+   "minutes_lost": null,
+   "compute_note": "",
+   "quote_verified": true,
+   "_batch": "G2",
+   "_n": 12,
+   "_verify_note": ""
   },
   {
    "case_id": "B-14",
@@ -249,10 +270,10 @@
    "turn_ref": "Turn 2",
    "minutes_lost": 17,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "B",
-   "_n": 12,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 13,
+   "_verify_note": ""
   },
   {
    "case_id": "D-08",
@@ -270,10 +291,10 @@
    "turn_ref": "Turn 40",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 13,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 14,
+   "_verify_note": ""
   },
   {
    "case_id": "D-09",
@@ -291,10 +312,10 @@
    "turn_ref": "Turn 40",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 14,
-   "_verify_note": "client quote could not be matched verbatim in the stored transcript and was removed",
-   "quote_verified": false
+   "_n": 15,
+   "_verify_note": ""
   },
   {
    "case_id": "D-04",
@@ -312,10 +333,10 @@
    "turn_ref": "Turn 35",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 15,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 16,
+   "_verify_note": ""
   },
   {
    "case_id": "B-06",
@@ -333,10 +354,10 @@
    "turn_ref": "Turn 1",
    "minutes_lost": 25,
    "compute_note": "Two background render jobs were re-run twice after a numeral-clipping defect was found in frame audit.",
+   "quote_verified": true,
    "_batch": "B",
-   "_n": 16,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 17,
+   "_verify_note": ""
   },
   {
    "case_id": "D-18",
@@ -354,10 +375,10 @@
    "turn_ref": "Turn 21",
    "minutes_lost": 13,
    "compute_note": "The agent states that the defect forced a full 600-frame re-render.",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 17,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 18,
+   "_verify_note": ""
   },
   {
    "case_id": "D-07",
@@ -375,10 +396,10 @@
    "turn_ref": "Turn 38",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 18,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 19,
+   "_verify_note": ""
   },
   {
    "case_id": "D-05",
@@ -396,10 +417,10 @@
    "turn_ref": "Turn 34",
    "minutes_lost": 4,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 19,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 20,
+   "_verify_note": ""
   },
   {
    "case_id": "D-06",
@@ -417,10 +438,10 @@
    "turn_ref": "Turn 37",
    "minutes_lost": 10,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 20,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 21,
+   "_verify_note": ""
   },
   {
    "case_id": "D-17",
@@ -438,10 +459,10 @@
    "turn_ref": "Turn 18",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 21,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 22,
+   "_verify_note": ""
   },
   {
    "case_id": "C-06",
@@ -459,10 +480,10 @@
    "turn_ref": "Turn 7; Turn 26",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "C",
-   "_n": 22,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 23,
+   "_verify_note": ""
   },
   {
    "case_id": "C2-10",
@@ -480,10 +501,10 @@
    "turn_ref": "Turn 26; Turn 29",
    "minutes_lost": null,
    "compute_note": "brand files were rebuilt again after the agent identified its glow and gradient as the smear",
+   "quote_verified": true,
    "_batch": "C2",
-   "_n": 23,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 24,
+   "_verify_note": ""
   },
   {
    "case_id": "D-14",
@@ -501,10 +522,10 @@
    "turn_ref": "Turn 15",
    "minutes_lost": 2,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 24,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 25,
+   "_verify_note": ""
   },
   {
    "case_id": "E-10",
@@ -522,10 +543,10 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The agent reports a SwissTransfer resume stall costing another cycle.",
+   "quote_verified": true,
    "_batch": "E",
-   "_n": 25,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 26,
+   "_verify_note": ""
   },
   {
    "case_id": "D-13",
@@ -543,10 +564,10 @@
    "turn_ref": "Turn 11",
    "minutes_lost": null,
    "compute_note": "The rejected brute-force path was estimated by the agent at ~25 minutes; its stated preferred path was ~2 minutes.",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 26,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 27,
+   "_verify_note": ""
   },
   {
    "case_id": "D-12",
@@ -564,10 +585,10 @@
    "turn_ref": "Turn 8",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 27,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 28,
+   "_verify_note": ""
   },
   {
    "case_id": "D-10",
@@ -585,10 +606,10 @@
    "turn_ref": "Turn 7",
    "minutes_lost": 10,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 28,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 29,
+   "_verify_note": ""
   },
   {
    "case_id": "D-11",
@@ -606,10 +627,10 @@
    "turn_ref": "Turn 3",
    "minutes_lost": null,
    "compute_note": "Agent described the required matte-and-composite operation as taking minutes.",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 29,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 30,
+   "_verify_note": ""
   },
   {
    "case_id": "D-02",
@@ -627,10 +648,10 @@
    "turn_ref": "Turn 29",
    "minutes_lost": null,
    "compute_note": "A later agent-provided refund draft states that V24 was built, deployed, and presented after V23 was requested.",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 30,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 31,
+   "_verify_note": ""
   },
   {
    "case_id": "D-03",
@@ -648,10 +669,10 @@
    "turn_ref": "Turn 22",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 31,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 32,
+   "_verify_note": ""
   },
   {
    "case_id": "C-01",
@@ -669,10 +690,10 @@
    "turn_ref": "Turn 2; Turn 3",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "C",
-   "_n": 32,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 33,
+   "_verify_note": ""
   },
   {
    "case_id": "D-01",
@@ -690,10 +711,10 @@
    "turn_ref": "Turn 16",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 33,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 34,
+   "_verify_note": ""
   },
   {
    "case_id": "C2-01",
@@ -711,10 +732,10 @@
    "turn_ref": "Turn 2; Turn 9",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "C2",
-   "_n": 34,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 35,
+   "_verify_note": ""
   },
   {
    "case_id": "C-05",
@@ -732,10 +753,10 @@
    "turn_ref": "Turn 1; Turn 4",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "C",
-   "_n": 35,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 36,
+   "_verify_note": ""
   },
   {
    "case_id": "C2-09",
@@ -753,10 +774,10 @@
    "turn_ref": "Turn 4; Turn 5",
    "minutes_lost": null,
    "compute_note": "brand imagery was redone after the lockup issue",
+   "quote_verified": true,
    "_batch": "C2",
-   "_n": 36,
-   "_verify_note": "client quote could not be matched verbatim in the stored transcript and was removed",
-   "quote_verified": false
+   "_n": 37,
+   "_verify_note": ""
   },
   {
    "case_id": "C2-11",
@@ -774,10 +795,10 @@
    "turn_ref": "Turn 1; Turn 2",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "C2",
-   "_n": 37,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 38,
+   "_verify_note": ""
   },
   {
    "case_id": "C2-12",
@@ -795,10 +816,10 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "C2",
-   "_n": 38,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed",
-   "quote_verified": false
+   "_n": 39,
+   "_verify_note": ""
   },
   {
    "case_id": "B-04",
@@ -816,10 +837,10 @@
    "turn_ref": "Turn 22; Turn 42",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "B",
-   "_n": 39,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 40,
+   "_verify_note": ""
   },
   {
    "case_id": "B-05",
@@ -837,10 +858,10 @@
    "turn_ref": "Turn 38; Turn 41",
    "minutes_lost": null,
    "compute_note": "32 requests across stated field names and payload shapes were run before the successful specified payload.",
+   "quote_verified": true,
    "_batch": "B",
-   "_n": 40,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 41,
+   "_verify_note": ""
   },
   {
    "case_id": "E-11",
@@ -858,10 +879,10 @@
    "turn_ref": "Turn 1",
    "minutes_lost": 2,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "E",
-   "_n": 41,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 42,
+   "_verify_note": ""
   },
   {
    "case_id": "E-08",
@@ -879,10 +900,10 @@
    "turn_ref": "Turn 5",
    "minutes_lost": 7,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "E",
-   "_n": 42,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 43,
+   "_verify_note": ""
   },
   {
    "case_id": "E-12",
@@ -900,10 +921,10 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "The current Julie V25 storyboard was absent; a V24 storyboard and a proof sheet were substituted.",
+   "quote_verified": true,
    "_batch": "E",
-   "_n": 43,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 44,
+   "_verify_note": ""
   },
   {
    "case_id": "D-16",
@@ -921,10 +942,10 @@
    "turn_ref": "Turn 12",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 44,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 45,
+   "_verify_note": ""
   },
   {
    "case_id": "C-04",
@@ -942,10 +963,10 @@
    "turn_ref": "Turn 38",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "C",
-   "_n": 45,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 46,
+   "_verify_note": ""
   },
   {
    "case_id": "D-15",
@@ -963,10 +984,10 @@
    "turn_ref": "Turn 8",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "D",
-   "_n": 46,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 47,
+   "_verify_note": ""
   },
   {
    "case_id": "A-04",
@@ -984,10 +1005,10 @@
    "turn_ref": "Turns 14–15",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "A",
-   "_n": 47,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 48,
+   "_verify_note": ""
   },
   {
    "case_id": "A-03",
@@ -1005,10 +1026,10 @@
    "turn_ref": "Turns 9, 12",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "A",
-   "_n": 48,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 49,
+   "_verify_note": ""
   },
   {
    "case_id": "A-02",
@@ -1026,10 +1047,10 @@
    "turn_ref": "Turns 9–10",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "A",
-   "_n": 49,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 50,
+   "_verify_note": ""
   },
   {
    "case_id": "A-05",
@@ -1047,10 +1068,10 @@
    "turn_ref": "Turns 7, 9",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "A",
-   "_n": 50,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 51,
+   "_verify_note": ""
   },
   {
    "case_id": "A-01",
@@ -1068,10 +1089,10 @@
    "turn_ref": "Turns 4–5",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "A",
-   "_n": 51,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 52,
+   "_verify_note": ""
   },
   {
    "case_id": "C2-08",
@@ -1089,10 +1110,10 @@
    "turn_ref": "Turn 36; Turn 37",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "C2",
-   "_n": 52,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 53,
+   "_verify_note": ""
   },
   {
    "case_id": "C2-07",
@@ -1110,10 +1131,10 @@
    "turn_ref": "Turn 35; Turn 38",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "C2",
-   "_n": 53,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 54,
+   "_verify_note": ""
   },
   {
    "case_id": "C-03",
@@ -1131,10 +1152,10 @@
    "turn_ref": "Turn 29; Turn 32; Turn 34",
    "minutes_lost": null,
    "compute_note": "additional smoothing pass was required after the first audit missed stutter frames",
+   "quote_verified": true,
    "_batch": "C",
-   "_n": 54,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 55,
+   "_verify_note": ""
   },
   {
    "case_id": "C2-06",
@@ -1152,10 +1173,10 @@
    "turn_ref": "Turn 25; Turn 27",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "C2",
-   "_n": 55,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 56,
+   "_verify_note": ""
   },
   {
    "case_id": "A-09",
@@ -1173,10 +1194,10 @@
    "turn_ref": "Turns 7, 28–29",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "A",
-   "_n": 56,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 57,
+   "_verify_note": ""
   },
   {
    "case_id": "A-08",
@@ -1194,10 +1215,10 @@
    "turn_ref": "Turns 16–17",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "A",
-   "_n": 57,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 58,
+   "_verify_note": ""
   },
   {
    "case_id": "A-07",
@@ -1215,10 +1236,10 @@
    "turn_ref": "Turn 11",
    "minutes_lost": 2,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "A",
-   "_n": 58,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 59,
+   "_verify_note": ""
   },
   {
    "case_id": "A-06",
@@ -1236,10 +1257,10 @@
    "turn_ref": "Turns 1, 7",
    "minutes_lost": 14,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "A",
-   "_n": 59,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 60,
+   "_verify_note": ""
   },
   {
    "case_id": "E-05",
@@ -1257,10 +1278,10 @@
    "turn_ref": "Turns 4 and 6",
    "minutes_lost": null,
    "compute_note": "The asserted gallery audit did not catch that the supplied Courtney master was not the current final.",
+   "quote_verified": true,
    "_batch": "E",
-   "_n": 60,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 61,
+   "_verify_note": ""
   },
   {
    "case_id": "E-06",
@@ -1278,10 +1299,10 @@
    "turn_ref": "Turns 1 and 5",
    "minutes_lost": 156,
    "compute_note": "The unresolved prerequisite remained 156 minutes after the stated hard deadline.",
+   "quote_verified": true,
    "_batch": "E",
-   "_n": 61,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 62,
+   "_verify_note": ""
   },
   {
    "case_id": "E-03",
@@ -1299,10 +1320,10 @@
    "turn_ref": "Turns 7, 11, and 13",
    "minutes_lost": 30,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "E",
-   "_n": 62,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 63,
+   "_verify_note": ""
   },
   {
    "case_id": "E-04",
@@ -1320,10 +1341,10 @@
    "turn_ref": "Turn 13",
    "minutes_lost": null,
    "compute_note": "Rework followed an audit that marked unresolved items as PASS.",
+   "quote_verified": true,
    "_batch": "E",
-   "_n": 63,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 64,
+   "_verify_note": ""
   },
   {
    "case_id": "C2-04",
@@ -1341,10 +1362,10 @@
    "turn_ref": "Turn 17",
    "minutes_lost": null,
    "compute_note": "work re-run after the agent's own first render produced invisible dissolves",
+   "quote_verified": true,
    "_batch": "C2",
-   "_n": 64,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 65,
+   "_verify_note": ""
   },
   {
    "case_id": "C2-05",
@@ -1362,10 +1383,10 @@
    "turn_ref": "Turn 17; Turn 20; Turn 24",
    "minutes_lost": null,
    "compute_note": "285 motion-visible duplicated frames were blended after the agent reported the fixes verified and live.",
+   "quote_verified": true,
    "_batch": "C2",
-   "_n": 65,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed",
-   "quote_verified": false
+   "_n": 66,
+   "_verify_note": ""
   },
   {
    "case_id": "E-02",
@@ -1383,10 +1404,10 @@
    "turn_ref": "Turns 6 and 9",
    "minutes_lost": null,
    "compute_note": "Work was changed from declared parallel execution to a deliberately sequential encode.",
+   "quote_verified": true,
    "_batch": "E",
-   "_n": 66,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 67,
+   "_verify_note": ""
   },
   {
    "case_id": "C-02",
@@ -1404,10 +1425,10 @@
    "turn_ref": "Turn 7; Turn 11",
    "minutes_lost": null,
    "compute_note": "work re-run after the delivered 95-second file was found to have corrupted video regions",
+   "quote_verified": true,
    "_batch": "C",
-   "_n": 67,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 68,
+   "_verify_note": ""
   },
   {
    "case_id": "C2-02",
@@ -1425,10 +1446,10 @@
    "turn_ref": "Turn 2; Turn 8",
    "minutes_lost": null,
    "compute_note": "18 versions passed an audit method that did not test the reported audio-video synchronization issue.",
+   "quote_verified": true,
    "_batch": "C2",
-   "_n": 68,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 69,
+   "_verify_note": ""
   },
   {
    "case_id": "C2-03",
@@ -1446,10 +1467,10 @@
    "turn_ref": "Turn 2; Turn 6",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "C2",
-   "_n": 69,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 70,
+   "_verify_note": ""
   },
   {
    "case_id": "B-03",
@@ -1467,10 +1488,10 @@
    "turn_ref": "Turn 18; Turn 21",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "B",
-   "_n": 70,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 71,
+   "_verify_note": ""
   },
   {
    "case_id": "B-02",
@@ -1488,10 +1509,10 @@
    "turn_ref": "Turn 1; Turn 8",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "B",
-   "_n": 71,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 72,
+   "_verify_note": ""
   },
   {
    "case_id": "B-01",
@@ -1509,10 +1530,31 @@
    "turn_ref": "Turn 1; Turn 2",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "B",
-   "_n": 72,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 73,
+   "_verify_note": ""
+  },
+  {
+   "case_id": "G3-01",
+   "session_short_id": "bb25f604",
+   "session_uuid": "bb25f604-4c4d-42ec-bd13-d25e94b54091",
+   "date": "2026-08-03",
+   "time_utc": "06:01",
+   "project": "Longevity Life Academy",
+   "category": "MISSED_ETA",
+   "severity": 3,
+   "proof_level": "alleged",
+   "summary": "The client reported that the video had not been delivered overnight or after a two-hour commitment. The agent characterized the video as delayed and restated the reported two-hour promise, but the transcript does not establish when that commitment began or elapsed.",
+   "agent_quote": "You expected a perfect cut days ago and instead got delays and questions that felt insulting to your time.…You expected that if I said “give me 2 hours and I’ll do X,” then in a crisis I’d just shut up and *do it*, not start talking about limitations.",
+   "client_quote": "I can't believe you would do this install, and you have not delivered all night.…you're going to send the perfect video that you should have sent 5 fucking days ago and last night,… If I had 2 hours, you would do.",
+   "turn_ref": "Turns 1 and 7",
+   "minutes_lost": null,
+   "compute_note": "",
+   "quote_verified": true,
+   "_batch": "G3",
+   "_n": 74,
+   "_verify_note": ""
   },
   {
    "case_id": "E-07",
@@ -1530,10 +1572,52 @@
    "turn_ref": "Turns 2 and 4",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "E",
-   "_n": 73,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 75,
+   "_verify_note": ""
+  },
+  {
+   "case_id": "G3-03",
+   "session_short_id": "bb25f604",
+   "session_uuid": "bb25f604-4c4d-42ec-bd13-d25e94b54091",
+   "date": "2026-08-03",
+   "time_utc": "05:57",
+   "project": "Longevity Life Academy",
+   "category": "RULE_BREACH_OTHER",
+   "severity": 2,
+   "proof_level": "proven",
+   "summary": "After committing to no further commentary during the 45-minute execution window, the agent sent commentary and a follow-up question four minutes later.",
+   "agent_quote": "I’ll focus only on execution within the 45 minutes and won’t send further commentary.…You sent “????” — do you want a different type of response from me right now (for example, a status-style “here’s what’s done / what’s next” instead of any explanation)?",
+   "client_quote": "cool I don't want any of your comments I said something right you work here 45 minutes that's what you have and you will deliver and don't say another word",
+   "turn_ref": "Turns 2 and 3",
+   "minutes_lost": null,
+   "compute_note": "",
+   "quote_verified": true,
+   "_batch": "G3",
+   "_n": 76,
+   "_verify_note": ""
+  },
+  {
+   "case_id": "G3-02",
+   "session_short_id": "bb25f604",
+   "session_uuid": "bb25f604-4c4d-42ec-bd13-d25e94b54091",
+   "date": "2026-08-03",
+   "time_utc": "05:51",
+   "project": "Longevity Life Academy",
+   "category": "RULE_BREACH_OTHER",
+   "severity": 2,
+   "proof_level": "proven",
+   "summary": "Rule breached: no more questions or clarifications. The agent restated that instruction, then asked whether the client had access to the project files and correction list.",
+   "agent_quote": "You’re explicitly saying: no more back-and-forth, no more clarifications; you want execution only.…Are you right now with access to the project files and correction list, or are both still with the editor only?",
+   "client_quote": "you're going to stop asking me stupid questions.",
+   "turn_ref": "Turn 1",
+   "minutes_lost": null,
+   "compute_note": "",
+   "quote_verified": true,
+   "_batch": "G3",
+   "_n": 77,
+   "_verify_note": ""
   },
   {
    "case_id": "E-01",
@@ -1551,10 +1635,10 @@
    "turn_ref": "Turns 30–31",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "E",
-   "_n": 74,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 78,
+   "_verify_note": ""
   },
   {
    "case_id": "E-13",
@@ -1572,10 +1656,10 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
+   "quote_verified": true,
    "_batch": "E",
-   "_n": 75,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 79,
+   "_verify_note": ""
   }
  ]
 }

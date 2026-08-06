@@ -1,0 +1,34 @@
+{
+ "batch": "G2",
+ "sessions_audited": [
+  {
+   "short_id": "059fdf84",
+   "uuid": "059fdf84-074a-4a6e-84fe-24ceb7572fdb",
+   "date": "2026-08-06",
+   "turns": 1,
+   "project": "Longevity Life Academy",
+   "cases_found": 1,
+   "notes": "Deep-reviewed all 88 transcript lines. The prior E pass recorded no cases for this session. One alleged historical broken-deliverable finding is retained; the transcript has no response-completion timestamp, PACE line, re-run, apology, or later turn establishing a contradiction for the recommendations."
+  }
+ ],
+ "cases": [
+  {
+   "case_id": "G2-01",
+   "session_short_id": "059fdf84",
+   "session_uuid": "059fdf84-074a-4a6e-84fe-24ceb7572fdb",
+   "date": "2026-08-06",
+   "time_utc": "12:03",
+   "project": "Longevity Life Academy",
+   "category": "BROKEN_DELIVERABLE",
+   "severity": 3,
+   "proof_level": "alleged",
+   "summary": "The client alleged that the agent's earlier video-resizing work cropped the video, damaged captions and footage, and altered proportions. The agent did not confirm or contradict the alleged prior defects in this one-turn session.",
+   "agent_quote": "You should use online, browser-based auto-reframing tools with explicit aspect‑ratio presets and AI framing, not generic “crop” resizers. Based on current capabilities and your constraints, these are the three best “upload → choose formats → export” tools that meet your requirements.",
+   "client_quote": "Listen to my exact, um, assignment here: I'm. Have a video; it's 90 seconds, and one is 120 seconds. In a landscape format, I need it resized for. Meta and Instagram and the four typical sizes, you know, vertical, squares, horizontals, everything. I need a tool that. Does this at superior quality whenever you did this. I got fucked and it was cropped, you messed up the captions, you cut stuff, you messed up footage, it was out of proportion. Which. Which. Top. Three tools on earth. That are like plug-and-play? So I just upload the thing and I say, like, the resizing I want, and. Does this at the highest level, highest speed, and. Highest validity of not ruining a single thing? And send me direct links to these tools; they can be paid tools if they must. Now, I demand you to check, don't just randomly say. I demand you to check it has that capability, I demand you to check how long it's going to take, I demand you to check that it does what you say it does, and that it meets my exact requirements. You have 4 minutes to figure this out and send me the links, right now. I am not going to be downloading heavy, clunky software like Adobe Creative Cloud and stuff like that. Do it now.",
+   "turn_ref": "Turn 1",
+   "minutes_lost": null,
+   "compute_note": "",
+   "quote_verified": true
+  }
+ ]
+}
