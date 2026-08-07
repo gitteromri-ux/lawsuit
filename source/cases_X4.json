@@ -37,7 +37,9 @@
    "turn_ref": "Turn 1; Turn 4",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-002",
@@ -55,7 +57,9 @@
    "turn_ref": "Turn 2; Turn 3",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-003",
@@ -73,7 +77,9 @@
    "turn_ref": "Turn 4",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-004",
@@ -91,7 +97,9 @@
    "turn_ref": "Turn 5",
    "minutes_lost": null,
    "compute_note": "brand imagery was reworked after use of the wrong logo lockup",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-005",
@@ -109,7 +117,9 @@
    "turn_ref": "Turn 8",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-006",
@@ -127,7 +137,9 @@
    "turn_ref": "Turn 15",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-007",
@@ -145,7 +157,9 @@
    "turn_ref": "Turn 27",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-008",
@@ -163,7 +177,9 @@
    "turn_ref": "Turn 27; Turn 28",
    "minutes_lost": 1,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-009",
@@ -181,7 +197,9 @@
    "turn_ref": "Turn 27; Turn 28; Turn 29",
    "minutes_lost": null,
    "compute_note": "a further rebuild was needed after the claimed rebuilt-file publication",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-010",
@@ -199,7 +217,9 @@
    "turn_ref": "Turn 30",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-011",
@@ -217,7 +237,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-012",
@@ -235,7 +257,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-013",
@@ -253,7 +277,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-014",
@@ -271,7 +297,9 @@
    "turn_ref": "Turn 4; Turn 5",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-015",
@@ -289,7 +317,9 @@
    "turn_ref": "Turn 6; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-016",
@@ -307,7 +337,9 @@
    "turn_ref": "Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-017",
@@ -325,7 +357,9 @@
    "turn_ref": "Turn 8; Turn 9",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-018",
@@ -343,7 +377,9 @@
    "turn_ref": "Turn 9; Turn 10",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-019",
@@ -361,7 +397,9 @@
    "turn_ref": "Turn 9",
    "minutes_lost": null,
    "compute_note": "the previously produced master cuts were discarded and replaced",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-020",
@@ -379,7 +417,9 @@
    "turn_ref": "Turn 10",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-021",
@@ -397,7 +437,9 @@
    "turn_ref": "Turn 10",
    "minutes_lost": null,
    "compute_note": "two wrong uploads were removed",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-022",
@@ -415,7 +457,9 @@
    "turn_ref": "Turn 10; Turn 11",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-023",
@@ -433,7 +477,9 @@
    "turn_ref": "Turn 13; Turn 16",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-024",
@@ -451,7 +497,9 @@
    "turn_ref": "Turn 13",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-025",
@@ -469,7 +517,9 @@
    "turn_ref": "Turn 14",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-026",
@@ -487,7 +537,9 @@
    "turn_ref": "Turn 15; Turn 16",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-027",
@@ -505,7 +557,9 @@
    "turn_ref": "Turn 17",
    "minutes_lost": null,
    "compute_note": "the agent states that the client credits were spent on unordered substitute work",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-028",
@@ -523,7 +577,9 @@
    "turn_ref": "Turn 18",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-029",
@@ -541,7 +597,9 @@
    "turn_ref": "Turn 19; Turn 29; Turn 31",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-030",
@@ -559,7 +617,9 @@
    "turn_ref": "Turn 14; Turn 21",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-031",
@@ -577,7 +637,9 @@
    "turn_ref": "Turn 25; Turn 26",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-032",
@@ -595,7 +657,9 @@
    "turn_ref": "Turn 27; Turn 29",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-033",
@@ -613,7 +677,9 @@
    "turn_ref": "Turn 30",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-034",
@@ -631,7 +697,9 @@
    "turn_ref": "Turn 34",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X4-035",
@@ -649,7 +717,9 @@
    "turn_ref": "Turn 34",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   }
  ]
 }

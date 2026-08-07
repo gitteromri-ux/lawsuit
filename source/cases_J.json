@@ -46,7 +46,9 @@
    "turn_ref": "Turns 9 and 16",
    "minutes_lost": null,
    "compute_note": "Second failure on the same owed item after CLAIM-0083. File inspection is the proof: assets/charts.js line count unchanged at 43.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   }
  ]
 }

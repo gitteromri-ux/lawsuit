@@ -37,7 +37,9 @@
    "turn_ref": "Turns 4–5",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "A-02",
@@ -55,7 +57,9 @@
    "turn_ref": "Turns 9–10",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "A-03",
@@ -73,7 +77,9 @@
    "turn_ref": "Turns 9, 12",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "A-04",
@@ -91,7 +97,9 @@
    "turn_ref": "Turns 14–15",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "A-05",
@@ -109,7 +117,9 @@
    "turn_ref": "Turns 7, 9",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "A-06",
@@ -127,7 +137,9 @@
    "turn_ref": "Turns 1, 7",
    "minutes_lost": 14,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "A-07",
@@ -145,7 +157,9 @@
    "turn_ref": "Turn 11",
    "minutes_lost": 2,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "A-08",
@@ -163,7 +177,9 @@
    "turn_ref": "Turns 16–17",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "A-09",
@@ -181,7 +197,9 @@
    "turn_ref": "Turns 7, 28–29",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   }
  ]
 }

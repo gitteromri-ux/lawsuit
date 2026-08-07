@@ -208,7 +208,9 @@
    "turn_ref": "Turns 30–31",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "E-02",
@@ -226,7 +228,9 @@
    "turn_ref": "Turns 6 and 9",
    "minutes_lost": null,
    "compute_note": "Work was changed from declared parallel execution to a deliberately sequential encode.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "E-03",
@@ -244,7 +248,9 @@
    "turn_ref": "Turns 7, 11, and 13",
    "minutes_lost": 30,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "E-04",
@@ -262,7 +268,9 @@
    "turn_ref": "Turn 13",
    "minutes_lost": null,
    "compute_note": "Rework followed an audit that marked unresolved items as PASS.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "E-05",
@@ -280,7 +288,9 @@
    "turn_ref": "Turns 4 and 6",
    "minutes_lost": null,
    "compute_note": "The asserted gallery audit did not catch that the supplied Courtney master was not the current final.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "E-06",
@@ -298,7 +308,9 @@
    "turn_ref": "Turns 1 and 5",
    "minutes_lost": 156,
    "compute_note": "The unresolved prerequisite remained 156 minutes after the stated hard deadline.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "E-07",
@@ -316,7 +328,9 @@
    "turn_ref": "Turns 2 and 4",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "E-08",
@@ -334,7 +348,9 @@
    "turn_ref": "Turn 5",
    "minutes_lost": 7,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "E-09",
@@ -352,7 +368,9 @@
    "turn_ref": "Turns 1 and 2",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "E-10",
@@ -370,7 +388,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The agent reports a SwissTransfer resume stall costing another cycle.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "E-11",
@@ -388,7 +408,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": 2,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "E-12",
@@ -406,7 +428,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "The current Julie V25 storyboard was absent; a V24 storyboard and a proof sheet were substituted.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "E-13",
@@ -424,7 +448,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   }
  ]
 }

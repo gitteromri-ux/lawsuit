@@ -55,7 +55,9 @@
    "turn_ref": "Turn 1; Turn 2",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-02",
@@ -73,7 +75,9 @@
    "turn_ref": "Turn 1; Turn 8",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-03",
@@ -91,7 +95,9 @@
    "turn_ref": "Turn 18; Turn 21",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-04",
@@ -109,7 +115,9 @@
    "turn_ref": "Turn 22; Turn 42",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-05",
@@ -127,7 +135,9 @@
    "turn_ref": "Turn 38; Turn 41",
    "minutes_lost": null,
    "compute_note": "32 requests across stated field names and payload shapes were run before the successful specified payload.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-06",
@@ -145,7 +155,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": 25,
    "compute_note": "Two background render jobs were re-run twice after a numeral-clipping defect was found in frame audit.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-07",
@@ -163,7 +175,9 @@
    "turn_ref": "Turn 3; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-08",
@@ -181,7 +195,9 @@
    "turn_ref": "Turn 3; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-09",
@@ -199,7 +215,9 @@
    "turn_ref": "Turn 5; Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-10",
@@ -217,7 +235,9 @@
    "turn_ref": "Turn 6; Turn 8",
    "minutes_lost": 40,
    "compute_note": "Repeated hosting retries after two failures.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-11",
@@ -235,7 +255,9 @@
    "turn_ref": "Turn 3; Turn 4",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-12",
@@ -253,7 +275,9 @@
    "turn_ref": "Turn 11",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-13",
@@ -271,7 +295,9 @@
    "turn_ref": "Turn 32",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-14",
@@ -289,7 +315,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": 17,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "B-15",
@@ -307,7 +335,9 @@
    "turn_ref": "Turn 1; Turn 2",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   }
  ]
 }

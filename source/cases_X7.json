@@ -181,7 +181,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-002",
@@ -199,7 +201,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-003",
@@ -217,7 +221,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-004",
@@ -235,7 +241,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-005",
@@ -253,7 +261,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-006",
@@ -271,7 +281,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": 200,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-007",
@@ -289,7 +301,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "Initial data render contained the wrong amount.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-008",
@@ -307,7 +321,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "Re-render was attributed to a first-render label collision.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-009",
@@ -325,7 +341,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "Re-render was attributed to a first-render numeral-overflow defect.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-010",
@@ -343,7 +361,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-011",
@@ -361,7 +381,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The 4K web files were re-encoded from approximately 57 Mbps to approximately 12 Mbps.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-012",
@@ -379,7 +401,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-013",
@@ -397,7 +421,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-014",
@@ -415,7 +441,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-015",
@@ -433,7 +461,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-016",
@@ -451,7 +481,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-017",
@@ -469,7 +501,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-018",
@@ -487,7 +521,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "The agent expressly reported a regeneration caused by its first-pass defect.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X7-019",
@@ -505,7 +541,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   }
  ]
 }

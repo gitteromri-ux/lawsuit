@@ -175,6 +175,7 @@ def metrics(cases, sessions):
     m["sessions_audited"] = len({s.get("short_id") for s in sessions}) or m["sessions_with"]
     mins = [int(c["minutes_lost"]) for c in cases if str(c.get("minutes_lost") or "").isdigit()]
     m["minutes_lost"] = sum(mins)
+    m["financial_usd"] = sum(int(c["financial_usd"]) for c in cases if str(c.get("financial_usd") or "").isdigit())
     m["hours_lost"] = round(sum(mins) / 60.0, 1)
     m["minutes_evidenced_cases"] = len(mins)
     dates = sorted(c.get("date", "") for c in cases if c.get("date"))
@@ -452,6 +453,8 @@ def write_case_files(cases):
 | Session | {c.get('session_short_id')} ({c.get('session_uuid')}) |
 | Turn | {c.get('turn_ref')} |
 | Minutes lost (evidenced) | {c.get('minutes_lost') if c.get('minutes_lost') is not None else 'not stated in transcript'} |
+| Financial implication, USD | {('%s' % format(int(c['financial_usd']),',')) if str(c.get('financial_usd') or '').isdigit() else 'pending proof from claimant'} |
+| Financial note | {c.get('financial_note') or 'pending, proof to be added by claimant'} |
 | Transcript | {u} |
 | Transcript, second route | {session_url_alt(c)} |
 
@@ -479,7 +482,7 @@ def write_bundles(cases, m):
                "total_cases": len(cases), "cases": cases},
               open(f"{OUT}/data/cases.json", "w"), indent=1, ensure_ascii=False)
     cols = ["case_id", "date", "time_utc", "project", "category", "severity", "proof_level",
-            "summary", "minutes_lost", "session_short_id", "session_uuid", "turn_ref",
+            "summary", "minutes_lost", "financial_usd", "financial_note", "session_short_id", "session_uuid", "turn_ref",
             "agent_quote", "client_quote", "compute_note"]
     with open(f"{OUT}/data/cases.csv", "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols + ["transcript_url"], extrasaction="ignore")
@@ -695,6 +698,7 @@ def page_counter(cases, m):
   <div class="chip hot"><span class="n">{m['by_cat'].get('FALSE_STATUS',0)}</span><span class="l">False status claims</span></div>
   <div class="chip blue"><span class="n">{m['by_cat'].get('SCOPE_REDUCTION',0)}</span><span class="l">Scope reductions</span></div>
   <div class="chip gold"><span class="n">{m['by_cat'].get('WASTED_COMPUTE',0)}</span><span class="l">Compute waste events</span></div>
+  <div class="chip blue"><span class="n">${m['financial_usd']:,}</span><span class="l">Financial implication claimed, USD, proof pending</span></div>
   <div class="chip blue"><span class="n">{m['minutes_lost']}</span><span class="l">Minutes lost, evidenced in transcript text</span></div>
 </div></div></section>""")
 
@@ -832,12 +836,13 @@ def write_notice(cases, m):
          "any quote that could not be matched was deleted rather than published, and the claim was "
          "downgraded from proven to alleged.",
          "",
-         "| Claim | Date, UTC | Category | Severity | Project | Standing | Evidence |",
-         "|---|---|---|---|---|---|---|"]
+         "| Claim | Date, UTC | Category | Severity | Project | Financial implication, USD | Standing | Evidence |",
+         "|---|---|---|---|---|---|---|---|"]
     chrono = sorted(cases, key=lambda c: (c.get("date", ""), c.get("time_utc", "")))
     for c in chrono:
         L.append(f"| **{c.get('claim_no')}** | {c.get('date')} {c.get('time_utc')} | "
                  f"{CAT_LABEL.get(c.get('category'), '')} | {c.get('severity')}/5 | {c.get('project')} | "
+                 f"{format(int(c['financial_usd']),',') if str(c.get('financial_usd') or '').isdigit() else 'pending'} | "
                  f"{str(c.get('proof_level','')).upper()} | [{c.get('case_id')}](cases/{c.get('case_id')}.md) |")
     L += ["", "## Summary of claims by category", "",
           "| Category | Claims |", "|---|---|"]
@@ -885,6 +890,7 @@ Documented audit of AI agent service failures on the account of Gita Agency, cov
 | Sessions audited | {m['sessions_audited']} |
 | Date range | {m['first']} to {m['last']} ({m['span_days']} days) |
 | Minutes lost, evidenced | {m['minutes_lost']} |
+| Financial implication claimed, USD | {m['financial_usd']:,} |
 
 ## Tabs
 - **Documentation** (`index.html`) executive summary, the agreement and breach count per clause, every case with verbatim quotes, methodology and stated limits.

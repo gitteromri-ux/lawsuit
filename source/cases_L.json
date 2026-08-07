@@ -28,7 +28,9 @@
    "turn_ref": "Turn 29",
    "minutes_lost": 110,
    "compute_note": "Client held awake to 06:00 waiting on a committed time.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "part of the USD 15,000 loss on session 6164427a, 8,000 editor cost paid without usable files, 7,000 fine levied by the client on the agency"
   },
   {
    "case_id": "L-02",
@@ -46,7 +48,9 @@
    "turn_ref": "Turn 30",
    "minutes_lost": null,
    "compute_note": "The agent had reported the page live, public, HTTP 200 and Pages build built in the previous turn.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "part of the USD 15,000 loss on session 6164427a, 8,000 editor cost paid without usable files, 7,000 fine levied by the client on the agency"
   },
   {
    "case_id": "L-03",
@@ -64,7 +68,9 @@
    "turn_ref": "Turn 31",
    "minutes_lost": null,
    "compute_note": "Prior turn had claimed 92 URLs curl-checked and contact sheets viewed at full size with no clipping and no wrap.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "part of the USD 15,000 loss on session 6164427a, 8,000 editor cost paid without usable files, 7,000 fine levied by the client on the agency"
   },
   {
    "case_id": "L-04",
@@ -82,7 +88,9 @@
    "turn_ref": "Turn 32 to Turn 33",
    "minutes_lost": null,
    "compute_note": "Defect found by the client's editor, not by the agent's audit, after the audit had been reported as passed.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "part of the USD 15,000 loss on session 6164427a, 8,000 editor cost paid without usable files, 7,000 fine levied by the client on the agency"
   },
   {
    "case_id": "L-05",
@@ -100,7 +108,9 @@
    "turn_ref": "Turn 34",
    "minutes_lost": null,
    "compute_note": "Direct yes or no question answered yes, then contradicted.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "part of the USD 15,000 loss on session 6164427a, 8,000 editor cost paid without usable files, 7,000 fine levied by the client on the agency"
   },
   {
    "case_id": "L-06",
@@ -118,7 +128,9 @@
    "turn_ref": "Turn 38",
    "minutes_lost": null,
    "compute_note": "Audit scope was narrower than the audit claim made to the client.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "part of the USD 15,000 loss on session 6164427a, 8,000 editor cost paid without usable files, 7,000 fine levied by the client on the agency"
   },
   {
    "case_id": "L-07",
@@ -136,7 +148,9 @@
    "turn_ref": "Turn 41",
    "minutes_lost": 420,
    "compute_note": "Client characterisation: seven hours of extensions and five false status claims. Editor cost USD 7,500, deliverable not used.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "part of the USD 15,000 loss on session 6164427a, 8,000 editor cost paid without usable files, 7,000 fine levied by the client on the agency"
   },
   {
    "case_id": "L-08",
@@ -154,7 +168,9 @@
    "turn_ref": "Turn 39",
    "minutes_lost": null,
    "compute_note": "Verified this session with curl: last-modified Fri, 07 Aug 2026 09:05:50 GMT on https://gitteromri-ux.github.io/lla-julie-animations/. The client's prediction that it would not be there was correct.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "part of the USD 15,000 loss on session 6164427a, 8,000 editor cost paid without usable files, 7,000 fine levied by the client on the agency"
   }
  ]
 }

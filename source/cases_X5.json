@@ -46,7 +46,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-001",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -64,7 +66,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-002",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -82,7 +86,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-003",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -100,7 +106,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-004",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -118,7 +126,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-005",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -136,7 +146,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-006",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -154,7 +166,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-007",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -172,7 +186,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-008",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -190,7 +206,9 @@
    "minutes_lost": 7,
    "compute_note": "",
    "case_id": "X5-009",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -208,7 +226,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-010",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -226,7 +246,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-011",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -244,7 +266,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-012",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -262,7 +286,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-013",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -280,7 +306,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-014",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -298,7 +326,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-015",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -316,7 +346,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-016",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -334,7 +366,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-017",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -352,7 +386,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-018",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -370,7 +406,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-019",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -388,7 +426,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-020",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -406,7 +446,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-021",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "a1dcbba2",
@@ -424,7 +466,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-022",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -442,7 +486,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-023",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -460,7 +506,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-024",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -478,7 +526,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-025",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -496,7 +546,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-026",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -514,7 +566,9 @@
    "minutes_lost": null,
    "compute_note": "Repeated defective output admitted by the agent.",
    "case_id": "X5-027",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -532,7 +586,9 @@
    "minutes_lost": null,
    "compute_note": "Agent admitted selecting the hardest route instead of a short deterministic composite.",
    "case_id": "X5-028",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -550,7 +606,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-029",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -568,7 +626,9 @@
    "minutes_lost": null,
    "compute_note": "Repeated full rebuilds without a source of truth.",
    "case_id": "X5-030",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -586,7 +646,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-031",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -604,7 +666,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-032",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -622,7 +686,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-033",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -640,7 +706,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-034",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -658,7 +726,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-035",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -676,7 +746,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-036",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -694,7 +766,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-037",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -712,7 +786,9 @@
    "minutes_lost": null,
    "compute_note": "Agent compared the rejected 25-minute brute-force route with a two-minute manifest read.",
    "case_id": "X5-038",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -730,7 +806,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-039",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "8b3275ab",
@@ -748,7 +826,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-040",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -766,7 +846,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-041",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -784,7 +866,9 @@
    "minutes_lost": null,
    "compute_note": "Client explicitly required five simultaneous agents; the response shows only separate status lines.",
    "case_id": "X5-042",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -802,7 +886,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-043",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -820,7 +906,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-044",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -838,7 +926,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-045",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -856,7 +946,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-046",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -874,7 +966,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-047",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -892,7 +986,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-048",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -910,7 +1006,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-049",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -928,7 +1026,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-050",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -946,7 +1046,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-051",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -964,7 +1066,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-052",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -982,7 +1086,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-053",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1000,7 +1106,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-054",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1018,7 +1126,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-055",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1036,7 +1146,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-056",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1054,7 +1166,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-057",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1072,7 +1186,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-058",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1090,7 +1206,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-059",
-   "quote_verified": false
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1108,7 +1226,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-060",
-   "quote_verified": false
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1126,7 +1246,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-061",
-   "quote_verified": false
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1144,7 +1266,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-062",
-   "quote_verified": false
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1162,7 +1286,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-063",
-   "quote_verified": false
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1180,7 +1306,9 @@
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-064",
-   "quote_verified": false
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   }
  ]
 }

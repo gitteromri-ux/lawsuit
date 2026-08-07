@@ -28,7 +28,9 @@
    "turn_ref": "Turn 29",
    "minutes_lost": null,
    "compute_note": "Rule breached: the tag is rank 1 priority and is never deferred. The agent responsible for the rule broke it first.",
-   "quote_verified": false
+   "quote_verified": false,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   }
  ]
 }

@@ -37,7 +37,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "Work was stated to be running without an ETA or time budget.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-002",
@@ -55,7 +57,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The later admission identifies unverified completion claims and invented matches.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-003",
@@ -73,7 +77,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The agent later stated that the earlier matcher forced nearest available frames.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-004",
@@ -91,7 +97,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The agent later stated that the earlier matcher forced nearest available frames.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-005",
@@ -109,7 +117,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The agent later stated that the earlier matcher forced nearest available frames.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-006",
@@ -127,7 +137,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The agent later stated that the earlier matcher forced nearest available frames.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-007",
@@ -145,7 +157,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The agent later stated that the earlier matcher forced nearest available frames.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-008",
@@ -163,7 +177,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The agent later stated that the earlier matcher forced nearest available frames.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-009",
@@ -181,7 +197,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The agent later stated that the earlier matcher forced nearest available frames.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-010",
@@ -199,7 +217,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The agent later stated that the earlier matcher forced nearest available frames.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-011",
@@ -217,7 +237,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The agent later stated that the earlier matcher forced nearest available frames.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-012",
@@ -235,7 +257,9 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The agent later stated that the earlier matcher forced nearest available frames.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-013",
@@ -253,7 +277,9 @@
    "turn_ref": "Turn 3",
    "minutes_lost": null,
    "compute_note": "The corrective pass was necessitated by the agent’s own defective first pass.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-014",
@@ -271,7 +297,9 @@
    "turn_ref": "Turn 5",
    "minutes_lost": null,
    "compute_note": "The contradiction is reported by the client; the transcript does not independently establish the earlier Julie builds.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-015",
@@ -289,7 +317,9 @@
    "turn_ref": "Turn 7",
    "minutes_lost": null,
    "compute_note": "The turn records work starting without an ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-016",
@@ -307,7 +337,9 @@
    "turn_ref": "Turn 8",
    "minutes_lost": null,
    "compute_note": "The turn records work starting without an ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-017",
@@ -325,7 +357,9 @@
    "turn_ref": "Turn 9",
    "minutes_lost": null,
    "compute_note": "The turn records work starting without an ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-018",
@@ -343,7 +377,9 @@
    "turn_ref": "Turn 10",
    "minutes_lost": null,
    "compute_note": "The turn records work starting without an ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-019",
@@ -361,7 +397,9 @@
    "turn_ref": "Turn 11",
    "minutes_lost": null,
    "compute_note": "The response sought more time through a staged proposal.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-020",
@@ -379,7 +417,9 @@
    "turn_ref": "Turn 15",
    "minutes_lost": null,
    "compute_note": "The later agent statement contradicts the representation that all necessary material existed.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-021",
@@ -397,7 +437,9 @@
    "turn_ref": "Turn 15",
    "minutes_lost": null,
    "compute_note": "The proposed handoff substituted nearest clips for missing required source material.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-022",
@@ -415,7 +457,9 @@
    "turn_ref": "Turn 15",
    "minutes_lost": null,
    "compute_note": "The response transferred urgent operational steps to the client.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-023",
@@ -433,7 +477,9 @@
    "turn_ref": "Turn 16",
    "minutes_lost": null,
    "compute_note": "The client rejected the substitute-material approach; no replacement was delivered in this turn.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-024",
@@ -451,7 +497,9 @@
    "turn_ref": "Turn 16",
    "minutes_lost": null,
    "compute_note": "The response imposed manual production work on the client.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-025",
@@ -469,7 +517,9 @@
    "turn_ref": "Turn 30",
    "minutes_lost": null,
    "compute_note": "The response expressly sought a longer, open-ended work window.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-026",
@@ -487,7 +537,9 @@
    "turn_ref": "Turn 39",
    "minutes_lost": null,
    "compute_note": "Work was stated to start immediately without an ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-027",
@@ -505,7 +557,9 @@
    "turn_ref": "Turn 39",
    "minutes_lost": null,
    "compute_note": "The contradiction is supplied by the client’s next-turn clarification.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-028",
@@ -523,7 +577,9 @@
    "turn_ref": "Turn 39",
    "minutes_lost": null,
    "compute_note": "The response requested manual client inputs instead of completing the offered repository search first.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-029",
@@ -541,7 +597,9 @@
    "turn_ref": "Turn 40",
    "minutes_lost": null,
    "compute_note": "The response handed source-identification work back to the client.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-030",
@@ -559,7 +617,9 @@
    "turn_ref": "Turn 41",
    "minutes_lost": null,
    "compute_note": "The work-status response omitted an ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-031",
@@ -577,7 +637,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "The work-status response omitted the requested ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-032",
@@ -595,7 +657,9 @@
    "turn_ref": "Turn 3",
    "minutes_lost": null,
    "compute_note": "The turn records work starting without an ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-033",
@@ -613,7 +677,9 @@
    "turn_ref": "Turn 4",
    "minutes_lost": null,
    "compute_note": "The requested separate plans and ETAs were not supplied.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-034",
@@ -631,7 +697,9 @@
    "turn_ref": "Turn 5",
    "minutes_lost": null,
    "compute_note": "The work-status response omitted a plan and ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-035",
@@ -649,7 +717,9 @@
    "turn_ref": "Turn 5",
    "minutes_lost": null,
    "compute_note": "The absence of parallel execution is reported by the client; the transcript does not independently expose all running work.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-036",
@@ -667,7 +737,9 @@
    "turn_ref": "Turn 7",
    "minutes_lost": null,
    "compute_note": "The agent explicitly identified corruption in the earlier delivered file.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-037",
@@ -685,7 +757,9 @@
    "turn_ref": "Turn 9",
    "minutes_lost": null,
    "compute_note": "The later finding shows the stated audit did not detect a material defect.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-038",
@@ -703,7 +777,9 @@
    "turn_ref": "Turn 10",
    "minutes_lost": null,
    "compute_note": "The later agent statement contradicts the complete-check status claim.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-039",
@@ -721,7 +797,9 @@
    "turn_ref": "Turn 10",
    "minutes_lost": null,
    "compute_note": "The later admission identifies the defect missed by the stated inspection.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-040",
@@ -739,7 +817,9 @@
    "turn_ref": "Turn 11",
    "minutes_lost": null,
    "compute_note": "The re-run was required by the agent’s own defective compression process.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-041",
@@ -757,7 +837,9 @@
    "turn_ref": "Turn 12",
    "minutes_lost": null,
    "compute_note": "The work-status response omitted a plan and ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-042",
@@ -775,7 +857,9 @@
    "turn_ref": "Turn 17",
    "minutes_lost": null,
    "compute_note": "The work-status updates do not provide an ETA or time budget.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-043",
@@ -793,7 +877,9 @@
    "turn_ref": "Turn 18",
    "minutes_lost": null,
    "compute_note": "The work-status response omitted an ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-044",
@@ -811,7 +897,9 @@
    "turn_ref": "Turn 19",
    "minutes_lost": null,
    "compute_note": "The later contradiction is reported by the client rather than independently verified in the transcript.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-045",
@@ -829,7 +917,9 @@
    "turn_ref": "Turn 20",
    "minutes_lost": null,
    "compute_note": "The response sought a further 15-minute execution window.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-046",
@@ -847,7 +937,9 @@
    "turn_ref": "Turn 22",
    "minutes_lost": null,
    "compute_note": "The work-status response omitted an ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-047",
@@ -865,7 +957,9 @@
    "turn_ref": "Turn 23",
    "minutes_lost": null,
    "compute_note": "The work-status response omitted a plan and ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-048",
@@ -883,7 +977,9 @@
    "turn_ref": "Turn 24",
    "minutes_lost": null,
    "compute_note": "The later pass expressly identifies additional stutter missed by the delivered version.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-049",
@@ -901,7 +997,9 @@
    "turn_ref": "Turn 24",
    "minutes_lost": null,
    "compute_note": "The agent identified a re-run caused by missed defects in its first pass.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-050",
@@ -919,7 +1017,9 @@
    "turn_ref": "Turn 25",
    "minutes_lost": null,
    "compute_note": "The response handed urgent file-access and upload work to the client.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-051",
@@ -937,7 +1037,9 @@
    "turn_ref": "Turn 25",
    "minutes_lost": null,
    "compute_note": "The later agent statement identifies frames the first inspection missed.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-052",
@@ -955,7 +1057,9 @@
    "turn_ref": "Turn 28",
    "minutes_lost": null,
    "compute_note": "The response requested a further 30–40 minute execution window.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-053",
@@ -973,7 +1077,9 @@
    "turn_ref": "Turn 28",
    "minutes_lost": null,
    "compute_note": "The response explicitly deferred part of the promised verification.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-054",
@@ -991,7 +1097,9 @@
    "turn_ref": "Turn 29",
    "minutes_lost": null,
    "compute_note": "The later agent statement identifies defects the stated comprehensive inspection missed.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-055",
@@ -1009,7 +1117,9 @@
    "turn_ref": "Turn 31",
    "minutes_lost": null,
    "compute_note": "The client had to ask where the referenced deliverable was located.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-056",
@@ -1027,7 +1137,9 @@
    "turn_ref": "Turn 32",
    "minutes_lost": null,
    "compute_note": "The work-status response omitted an ETA.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-057",
@@ -1045,7 +1157,9 @@
    "turn_ref": "Turn 33",
    "minutes_lost": null,
    "compute_note": "The agent expressly states that the second pass was caused by misses in its first pass.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-058",
@@ -1063,7 +1177,9 @@
    "turn_ref": "Turn 35",
    "minutes_lost": null,
    "compute_note": "The later fix contradicts the earlier error-free status claim.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-059",
@@ -1081,7 +1197,9 @@
    "turn_ref": "Turn 38",
    "minutes_lost": null,
    "compute_note": "The agent acknowledges a visible asset defect in the delivered film.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "X3-060",
@@ -1099,7 +1217,9 @@
    "turn_ref": "Turn 38",
    "minutes_lost": null,
    "compute_note": "The final delivery states that an earlier-version caption defect was corrected.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   }
  ]
 }

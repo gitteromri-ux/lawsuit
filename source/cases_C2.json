@@ -46,7 +46,9 @@
    "turn_ref": "Turn 2; Turn 9",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C2-02",
@@ -64,7 +66,9 @@
    "turn_ref": "Turn 2; Turn 8",
    "minutes_lost": null,
    "compute_note": "18 versions passed an audit method that did not test the reported audio-video synchronization issue.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C2-03",
@@ -82,7 +86,9 @@
    "turn_ref": "Turn 2; Turn 6",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C2-04",
@@ -100,7 +106,9 @@
    "turn_ref": "Turn 17",
    "minutes_lost": null,
    "compute_note": "work re-run after the agent's own first render produced invisible dissolves",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C2-05",
@@ -118,7 +126,9 @@
    "turn_ref": "Turn 17; Turn 20; Turn 24",
    "minutes_lost": null,
    "compute_note": "285 motion-visible duplicated frames were blended after the agent reported the fixes verified and live.",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C2-06",
@@ -136,7 +146,9 @@
    "turn_ref": "Turn 25; Turn 27",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C2-07",
@@ -154,7 +166,9 @@
    "turn_ref": "Turn 35; Turn 38",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C2-08",
@@ -172,7 +186,9 @@
    "turn_ref": "Turn 36; Turn 37",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C2-09",
@@ -190,7 +206,9 @@
    "turn_ref": "Turn 4; Turn 5",
    "minutes_lost": null,
    "compute_note": "brand imagery was redone after the lockup issue",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C2-10",
@@ -208,7 +226,9 @@
    "turn_ref": "Turn 26; Turn 29",
    "minutes_lost": null,
    "compute_note": "brand files were rebuilt again after the agent identified its glow and gradient as the smear",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C2-11",
@@ -226,7 +246,9 @@
    "turn_ref": "Turn 1; Turn 2",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C2-12",
@@ -244,7 +266,9 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   }
  ]
 }

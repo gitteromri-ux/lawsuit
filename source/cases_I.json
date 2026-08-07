@@ -28,7 +28,9 @@
    "turn_ref": "Current filing turn",
    "minutes_lost": null,
    "compute_note": "First of two missed ETAs reported by the client. Prior-thread agent quote is not available in this session.",
-   "quote_verified": false
+   "quote_verified": false,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "I-02",
@@ -46,7 +48,9 @@
    "turn_ref": "Current filing turn",
    "minutes_lost": null,
    "compute_note": "Second of two missed ETAs reported by the client. Prior-thread agent quote is not available in this session.",
-   "quote_verified": false
+   "quote_verified": false,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "I-03",
@@ -64,7 +68,9 @@
    "turn_ref": "Current filing turn",
    "minutes_lost": null,
    "compute_note": "False live-status claim reported by the client. Prior-thread agent quote is not available in this session.",
-   "quote_verified": false
+   "quote_verified": false,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   }
  ]
 }

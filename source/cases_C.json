@@ -46,7 +46,9 @@
    "turn_ref": "Turn 2; Turn 3",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C-02",
@@ -64,7 +66,9 @@
    "turn_ref": "Turn 7; Turn 11",
    "minutes_lost": null,
    "compute_note": "work re-run after the delivered 95-second file was found to have corrupted video regions",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C-03",
@@ -82,7 +86,9 @@
    "turn_ref": "Turn 29; Turn 32; Turn 34",
    "minutes_lost": null,
    "compute_note": "additional smoothing pass was required after the first audit missed stutter frames",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C-04",
@@ -100,7 +106,9 @@
    "turn_ref": "Turn 38",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C-05",
@@ -118,7 +126,9 @@
    "turn_ref": "Turn 1; Turn 4",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   },
   {
    "case_id": "C-06",
@@ -136,7 +146,9 @@
    "turn_ref": "Turn 7; Turn 26",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": true,
+   "financial_usd": null,
+   "financial_note": "pending, proof to be added by claimant"
   }
  ]
 }
