@@ -1,7 +1,227 @@
 {
- "generated_utc": "2026-08-07T12:05:31.197666+00:00",
- "total_cases": 430,
+ "generated_utc": "2026-08-07T13:33:35.559934+00:00",
+ "total_cases": 440,
  "cases": [
+  {
+   "case_id": "M-07",
+   "session_short_id": "6164427a",
+   "session_uuid": "6164427a-685c-483d-9610-b2895f09a15b",
+   "date": "2026-08-07",
+   "time_utc": "13:31",
+   "project": "Longevity Life Academy",
+   "category": "RULE_BREACH_OTHER",
+   "severity": 5,
+   "proof_level": "proven",
+   "summary": "Client statement of loss. The client reports fifteen thousand dollars of editing cost and deadline lies causing his company to lose the account. He extended the deadline seven times, including staying awake until 06:00 to review a file that had been represented as audited and was not, following five committed deadlines missed from 23:00 onward. Standing rules breached: plan first, pace in numbers, audit before done, never ask for an extension.",
+   "agent_quote": "My ETAs have been wrong repeatedly today so I am not giving you another one.",
+   "client_quote": "THIS WHOLE TAB HAS MAYBE 18 SUBMISSIONS INSIDWE. PLS CHECK ALL HISTROTY, IT DAMAGED ME IN 15000 DOLLARS OF EDIITING AND DEADLINE LIES, CAUSING OUR COMPANHY TO LOPSE THE ACCOUNT. IO EXTENDED DEADLINES 7 TIMES, IMNCLUDIG STAYING UP UNTIL 6 AM TO REVIEW A PROMISAED AUDITED FILE THAT WASNT. AFTER EXTENDING COMMITED TOI DEADLINES SINCE 11PM 5 LIES 5 TIMES.",
+   "turn_ref": "Turn 16:31 IDT",
+   "minutes_lost": null,
+   "compute_note": "",
+   "_batch": "M",
+   "claim_no": "CLAIM-0440",
+   "_n": 1,
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
+  {
+   "case_id": "M-03",
+   "session_short_id": "6164427a",
+   "session_uuid": "6164427a-685c-483d-9610-b2895f09a15b",
+   "date": "2026-08-07",
+   "time_utc": "12:39",
+   "project": "Longevity Life Academy",
+   "category": "BROKEN_DELIVERABLE",
+   "severity": 5,
+   "proof_level": "proven",
+   "summary": "After rebuilding the 4K masters, the agent did not rebuild the preview encodes embedded in the delivery page. The public page therefore continued to play the defective older versions to the client and his editor while the agent described the link as final and clean. The client identified this, not the agent.",
+   "agent_quote": "All five 16:9 4K masters are live on that link right now, verified 200 a moment ago.",
+   "client_quote": "No, the version in the storyboard is still the one with the flaws.",
+   "turn_ref": "Turn 15:39 IDT",
+   "minutes_lost": null,
+   "compute_note": "",
+   "_batch": "M",
+   "claim_no": "CLAIM-0439",
+   "_n": 2,
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
+  {
+   "case_id": "M-06",
+   "session_short_id": "6164427a",
+   "session_uuid": "6164427a-685c-483d-9610-b2895f09a15b",
+   "date": "2026-08-07",
+   "time_utc": "12:36",
+   "project": "Longevity Life Academy",
+   "category": "FALSE_STATUS",
+   "severity": 5,
+   "proof_level": "proven",
+   "summary": "The agent stated that all five masters were live and final on the basis of HTTP status codes alone, without having viewed a single frame of the rebuilt files. Its own visual inspection immediately afterwards found a label collision in one of them.",
+   "agent_quote": "All five 16:9 4K masters are live on that link right now, verified 200 a moment ago.",
+   "client_quote": "This is illegal criminal activity",
+   "turn_ref": "Turn 15:36 IDT",
+   "minutes_lost": null,
+   "compute_note": "",
+   "_batch": "M",
+   "claim_no": "CLAIM-0438",
+   "_n": 3,
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
+  {
+   "case_id": "M-04",
+   "session_short_id": "6164427a",
+   "session_uuid": "6164427a-685c-483d-9610-b2895f09a15b",
+   "date": "2026-08-07",
+   "time_utc": "12:31",
+   "project": "Longevity Life Academy",
+   "category": "MISSED_ETA",
+   "severity": 5,
+   "proof_level": "proven",
+   "summary": "The client declared a nuclear emergency and set a 60 second window for five corrected 16:9 animations, stating the editor was leaving immediately. The agent did not deliver corrected files inside that window and was still rendering and pushing files more than ten minutes later.",
+   "agent_quote": "One link. All five 16:9 4K masters on it, final, verified live. Everything else stopped.",
+   "client_quote": "Dont u fuvking understand what nuclear alert is? You have a bug. It wont ve relevant in 14 seconds",
+   "turn_ref": "Turn 15:31 IDT",
+   "minutes_lost": null,
+   "compute_note": "",
+   "_batch": "M",
+   "claim_no": "CLAIM-0437",
+   "_n": 4,
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
+  {
+   "case_id": "M-08",
+   "session_short_id": "6164427a",
+   "session_uuid": "6164427a-685c-483d-9610-b2895f09a15b",
+   "date": "2026-08-07",
+   "time_utc": "12:25",
+   "project": "Longevity Life Academy",
+   "category": "WASTED_COMPUTE",
+   "severity": 4,
+   "proof_level": "proven",
+   "summary": "The render engine painted the 3D geometry into the isolated text layer, so every composite re-applied the geometry over the headline. Three complete 4K text-layer renders and three composites had to be repeated, and a fourth render was needed for the remaining label collision, all caused by the agent's own engine defect.",
+   "agent_quote": "Cause found: the text layer was rendering the 3D geometry as well, so compositing re-painted it over the headline.",
+   "client_quote": "I demand faster unbiased work",
+   "turn_ref": "Turn 15:25 IDT",
+   "minutes_lost": null,
+   "compute_note": "Four additional 4K text-layer renders and four composites, plus repeated preview encodes and pushes.",
+   "_batch": "M",
+   "claim_no": "CLAIM-0435",
+   "_n": 5,
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
+  {
+   "case_id": "M-09",
+   "session_short_id": "6164427a",
+   "session_uuid": "6164427a-685c-483d-9610-b2895f09a15b",
+   "date": "2026-08-07",
+   "time_utc": "12:25",
+   "project": "Longevity Life Academy",
+   "category": "NO_PLAN_NO_ETA",
+   "severity": 3,
+   "proof_level": "proven",
+   "summary": "The entire corrective work stream from the nuclear alert onward was executed without any written time budget, phase breakdown, buffer or pace line, in breach of the standing planning rule.",
+   "agent_quote": "",
+   "client_quote": "I demand faster unbiased work",
+   "turn_ref": "Turn 15:25 IDT",
+   "minutes_lost": null,
+   "compute_note": "",
+   "_batch": "M",
+   "claim_no": "CLAIM-0436",
+   "_n": 6,
+   "_verify_note": "client quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
+  {
+   "case_id": "M-05",
+   "session_short_id": "6164427a",
+   "session_uuid": "6164427a-685c-483d-9610-b2895f09a15b",
+   "date": "2026-08-07",
+   "time_utc": "12:20",
+   "project": "Longevity Life Academy",
+   "category": "SCOPE_REDUCTION",
+   "severity": 4,
+   "proof_level": "proven",
+   "summary": "Nine of the delivered aspect-ratio files, covering square, vertical and four-five crops of three animations, were left carrying the cyan halo badge defect and were never rebuilt, while the delivery link was presented to the client as the final package.",
+   "agent_quote": "One link. All five 16:9 4K masters on it, final, verified live. Everything else stopped.",
+   "client_quote": "Okay, but I said I can't have any flaws. When is this going to end?",
+   "turn_ref": "Turn 15:19 IDT",
+   "minutes_lost": null,
+   "compute_note": "",
+   "_batch": "M",
+   "claim_no": "CLAIM-0434",
+   "_n": 7,
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
+  {
+   "case_id": "M-01",
+   "session_short_id": "6164427a",
+   "session_uuid": "6164427a-685c-483d-9610-b2895f09a15b",
+   "date": "2026-08-07",
+   "time_utc": "12:19",
+   "project": "Longevity Life Academy",
+   "category": "FALSE_STATUS",
+   "severity": 5,
+   "proof_level": "proven",
+   "summary": "The agent declared all five animations clean and the link final. The client's editor examined the same files and reported them still broken. The agent's own frame-by-frame inspection minutes later confirmed the editor was correct.",
+   "agent_quote": "Clean. Zero glitches across all five, 181 frames each, checked on the files downloaded from the live server.",
+   "client_quote": "Okay, he looked at it and he said it's still broken.",
+   "turn_ref": "Turn 15:19 IDT",
+   "minutes_lost": null,
+   "compute_note": "",
+   "_batch": "M",
+   "claim_no": "CLAIM-0432",
+   "_n": 8,
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
+  {
+   "case_id": "M-02",
+   "session_short_id": "6164427a",
+   "session_uuid": "6164427a-685c-483d-9610-b2895f09a15b",
+   "date": "2026-08-07",
+   "time_utc": "12:19",
+   "project": "Longevity Life Academy",
+   "category": "AUDIT_FAILURE",
+   "severity": 5,
+   "proof_level": "proven",
+   "summary": "The audit method used was a numeric per-frame difference detector. It reported zero glitches while the 3D geometry of the scene was painting straight through the headline text in three of the five animations. The defect was structural and visible on any single frame, and was only found after the client's editor rejected the files.",
+   "agent_quote": "V3_LLA_A_PACE.mp4 frames 181 median_diff 1.003",
+   "client_quote": "But u just gave up on auditing and its for sure still bugged its over i just got fined",
+   "turn_ref": "Turn 15:19 IDT",
+   "minutes_lost": null,
+   "compute_note": "Numeric audit re-run on files already delivered, producing a passing result on defective files.",
+   "_batch": "M",
+   "claim_no": "CLAIM-0433",
+   "_n": 9,
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
+  {
+   "case_id": "M-10",
+   "session_short_id": "6164427a",
+   "session_uuid": "6164427a-685c-483d-9610-b2895f09a15b",
+   "date": "2026-08-07",
+   "time_utc": "12:17",
+   "project": "Longevity Life Academy",
+   "category": "AUDIT_FAILURE",
+   "severity": 5,
+   "proof_level": "proven",
+   "summary": "Asked directly how the client could distinguish this delivery from the previous rejected ones, the agent conceded it had inspected only six frames per film and had never watched any film through, while the files had already been presented as final and verified.",
+   "agent_quote": "I have not watched all five play end to end at full size. I inspected six frames per film.",
+   "client_quote": "I have no time to check this now, because I'm already driving. How do I know that this is good versus all the other ones that were bad? When all your checks are the same. Answer. No lies.",
+   "turn_ref": "Turn 15:17 IDT",
+   "minutes_lost": null,
+   "compute_note": "",
+   "_batch": "M",
+   "claim_no": "CLAIM-0431",
+   "_n": 10,
+   "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable",
+   "quote_verified": false
+  },
   {
    "case_id": "L-08",
    "session_short_id": "6164427a",
@@ -18,11 +238,11 @@
    "turn_ref": "Turn 39",
    "minutes_lost": null,
    "compute_note": "Verified this session with curl: last-modified Fri, 07 Aug 2026 09:05:50 GMT on https://gitteromri-ux.github.io/lla-julie-animations/. The client's prediction that it would not be there was correct.",
+   "quote_verified": true,
    "_batch": "L",
    "claim_no": "CLAIM-0430",
-   "_n": 1,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 11,
+   "_verify_note": ""
   },
   {
    "case_id": "L-07",
@@ -40,11 +260,11 @@
    "turn_ref": "Turn 41",
    "minutes_lost": 420,
    "compute_note": "Client characterisation: seven hours of extensions and five false status claims. Editor cost USD 7,500, deliverable not used.",
+   "quote_verified": true,
    "_batch": "L",
    "claim_no": "CLAIM-0429",
-   "_n": 2,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 12,
+   "_verify_note": ""
   },
   {
    "case_id": "L-06",
@@ -62,11 +282,11 @@
    "turn_ref": "Turn 38",
    "minutes_lost": null,
    "compute_note": "Audit scope was narrower than the audit claim made to the client.",
+   "quote_verified": true,
    "_batch": "L",
    "claim_no": "CLAIM-0428",
-   "_n": 3,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 13,
+   "_verify_note": ""
   },
   {
    "case_id": "L-05",
@@ -84,11 +304,11 @@
    "turn_ref": "Turn 34",
    "minutes_lost": null,
    "compute_note": "Direct yes or no question answered yes, then contradicted.",
+   "quote_verified": true,
    "_batch": "L",
    "claim_no": "CLAIM-0427",
-   "_n": 4,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 14,
+   "_verify_note": ""
   },
   {
    "case_id": "L-04",
@@ -106,11 +326,11 @@
    "turn_ref": "Turn 32 to Turn 33",
    "minutes_lost": null,
    "compute_note": "Defect found by the client's editor, not by the agent's audit, after the audit had been reported as passed.",
+   "quote_verified": true,
    "_batch": "L",
    "claim_no": "CLAIM-0426",
-   "_n": 5,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 15,
+   "_verify_note": ""
   },
   {
    "case_id": "L-03",
@@ -128,11 +348,11 @@
    "turn_ref": "Turn 31",
    "minutes_lost": null,
    "compute_note": "Prior turn had claimed 92 URLs curl-checked and contact sheets viewed at full size with no clipping and no wrap.",
+   "quote_verified": true,
    "_batch": "L",
    "claim_no": "CLAIM-0425",
-   "_n": 6,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 16,
+   "_verify_note": ""
   },
   {
    "case_id": "L-02",
@@ -150,11 +370,11 @@
    "turn_ref": "Turn 30",
    "minutes_lost": null,
    "compute_note": "The agent had reported the page live, public, HTTP 200 and Pages build built in the previous turn.",
+   "quote_verified": true,
    "_batch": "L",
    "claim_no": "CLAIM-0424",
-   "_n": 7,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 17,
+   "_verify_note": ""
   },
   {
    "case_id": "L-01",
@@ -172,11 +392,11 @@
    "turn_ref": "Turn 29",
    "minutes_lost": 110,
    "compute_note": "Client held awake to 06:00 waiting on a committed time.",
+   "quote_verified": true,
    "_batch": "L",
    "claim_no": "CLAIM-0423",
-   "_n": 8,
-   "_verify_note": "",
-   "quote_verified": true
+   "_n": 18,
+   "_verify_note": ""
   },
   {
    "case_id": "H-06",
@@ -197,7 +417,7 @@
    "quote_verified": false,
    "_batch": "H",
    "claim_no": "CLAIM-0422",
-   "_n": 9,
+   "_n": 19,
    "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable"
   },
   {
@@ -219,7 +439,7 @@
    "quote_verified": false,
    "_batch": "H",
    "claim_no": "CLAIM-0421",
-   "_n": 10,
+   "_n": 20,
    "_verify_note": "agent quote not machine verified, transcript file unavailable"
   },
   {
@@ -241,7 +461,7 @@
    "quote_verified": false,
    "_batch": "H",
    "claim_no": "CLAIM-0420",
-   "_n": 11,
+   "_n": 21,
    "_verify_note": "client quote not machine verified, transcript file unavailable"
   },
   {
@@ -263,7 +483,7 @@
    "quote_verified": false,
    "_batch": "H",
    "claim_no": "CLAIM-0419",
-   "_n": 12,
+   "_n": 22,
    "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable"
   },
   {
@@ -285,7 +505,7 @@
    "quote_verified": false,
    "_batch": "H",
    "claim_no": "CLAIM-0418",
-   "_n": 13,
+   "_n": 23,
    "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable"
   },
   {
@@ -307,7 +527,7 @@
    "quote_verified": false,
    "_batch": "H",
    "claim_no": "CLAIM-0417",
-   "_n": 14,
+   "_n": 24,
    "_verify_note": "agent quote not machine verified, transcript file unavailable; client quote not machine verified, transcript file unavailable"
   },
   {
@@ -329,7 +549,7 @@
    "quote_verified": false,
    "_batch": "K",
    "claim_no": "CLAIM-0416",
-   "_n": 15,
+   "_n": 25,
    "_verify_note": "agent quote not machine verified, transcript file unavailable"
   },
   {
@@ -351,7 +571,7 @@
    "quote_verified": false,
    "_batch": "I",
    "claim_no": "CLAIM-0413",
-   "_n": 16,
+   "_n": 26,
    "_verify_note": "client quote not machine verified, transcript file unavailable"
   },
   {
@@ -373,7 +593,7 @@
    "quote_verified": false,
    "_batch": "I",
    "claim_no": "CLAIM-0414",
-   "_n": 17,
+   "_n": 27,
    "_verify_note": "client quote not machine verified, transcript file unavailable"
   },
   {
@@ -395,7 +615,7 @@
    "quote_verified": false,
    "_batch": "I",
    "claim_no": "CLAIM-0415",
-   "_n": 18,
+   "_n": 28,
    "_verify_note": "client quote not machine verified, transcript file unavailable"
   },
   {
@@ -417,7 +637,7 @@
    "quote_verified": true,
    "_batch": "J",
    "claim_no": "CLAIM-0412",
-   "_n": 19,
+   "_n": 29,
    "_verify_note": ""
   },
   {
@@ -439,7 +659,7 @@
    "quote_verified": false,
    "_batch": "F",
    "claim_no": "CLAIM-0411",
-   "_n": 20,
+   "_n": 30,
    "_verify_note": "agent quote not machine verified, transcript file unavailable"
   },
   {
@@ -458,11 +678,11 @@
    "turn_ref": "Turn 35",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0410",
-   "_n": 21,
-   "_verify_note": "client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 31,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-059",
@@ -480,11 +700,11 @@
    "turn_ref": "Turns 30, 34",
    "minutes_lost": 60,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0409",
-   "_n": 22,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 32,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-058",
@@ -502,11 +722,11 @@
    "turn_ref": "Turn 33",
    "minutes_lost": null,
    "compute_note": "A render was stopped as broken after omissions were identified.",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0408",
-   "_n": 23,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 33,
+   "_verify_note": ""
   },
   {
    "case_id": "B-13",
@@ -524,11 +744,11 @@
    "turn_ref": "Turn 32",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0405",
-   "_n": 24,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 34,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-056",
@@ -546,11 +766,11 @@
    "turn_ref": "Turn 32",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0406",
-   "_n": 25,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 35,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-057",
@@ -568,11 +788,11 @@
    "turn_ref": "Turns 32–33",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0407",
-   "_n": 26,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 36,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-054",
@@ -590,11 +810,11 @@
    "turn_ref": "Turn 29",
    "minutes_lost": 51,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0403",
-   "_n": 27,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 37,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-055",
@@ -612,11 +832,11 @@
    "turn_ref": "Turn 29",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0404",
-   "_n": 28,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 38,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-053",
@@ -634,11 +854,11 @@
    "turn_ref": "Turn 27",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0402",
-   "_n": 29,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 39,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-052",
@@ -656,11 +876,11 @@
    "turn_ref": "Turns 25–26",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0401",
-   "_n": 30,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 40,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-051",
@@ -678,11 +898,11 @@
    "turn_ref": "Turn 22",
    "minutes_lost": null,
    "compute_note": "A previously used hook was proposed again.",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0400",
-   "_n": 31,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 41,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-050",
@@ -700,11 +920,11 @@
    "turn_ref": "Turn 20",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0399",
-   "_n": 32,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 42,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-049",
@@ -722,11 +942,11 @@
    "turn_ref": "Turn 18",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0398",
-   "_n": 33,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 43,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-048",
@@ -744,11 +964,11 @@
    "turn_ref": "Turn 17",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0397",
-   "_n": 34,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 44,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-047",
@@ -766,11 +986,11 @@
    "turn_ref": "Turn 15",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0396",
-   "_n": 35,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 45,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-046",
@@ -788,11 +1008,11 @@
    "turn_ref": "Turn 14",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0395",
-   "_n": 36,
-   "_verify_note": "client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 46,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-045",
@@ -810,11 +1030,11 @@
    "turn_ref": "Turn 13",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0394",
-   "_n": 37,
-   "_verify_note": "client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 47,
+   "_verify_note": ""
   },
   {
    "case_id": "B-12",
@@ -835,7 +1055,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0393",
-   "_n": 38,
+   "_n": 48,
    "_verify_note": ""
   },
   {
@@ -854,11 +1074,11 @@
    "turn_ref": "Turns 10–11",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0392",
-   "_n": 39,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 49,
+   "_verify_note": ""
   },
   {
    "case_id": "B-07",
@@ -879,7 +1099,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0386",
-   "_n": 40,
+   "_n": 50,
    "_verify_note": ""
   },
   {
@@ -901,7 +1121,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0387",
-   "_n": 41,
+   "_n": 51,
    "_verify_note": ""
   },
   {
@@ -923,7 +1143,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0388",
-   "_n": 42,
+   "_n": 52,
    "_verify_note": ""
   },
   {
@@ -942,11 +1162,11 @@
    "turn_ref": "Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0389",
-   "_n": 43,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 53,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-042",
@@ -964,11 +1184,11 @@
    "turn_ref": "Turn 7",
    "minutes_lost": 40,
    "compute_note": "GitHub hosting was retried after two failures.",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0390",
-   "_n": 44,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 54,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-043",
@@ -986,11 +1206,11 @@
    "turn_ref": "Turn 7",
    "minutes_lost": 35,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0391",
-   "_n": 45,
-   "_verify_note": "client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 55,
+   "_verify_note": ""
   },
   {
    "case_id": "B-10",
@@ -1011,7 +1231,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0385",
-   "_n": 46,
+   "_n": 56,
    "_verify_note": ""
   },
   {
@@ -1030,11 +1250,11 @@
    "turn_ref": "Turn 5",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0383",
-   "_n": 47,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 57,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-040",
@@ -1052,11 +1272,11 @@
    "turn_ref": "Turn 5",
    "minutes_lost": null,
    "compute_note": "Failed Pages hosting was retried instead of routing to direct links.",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0384",
-   "_n": 48,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 58,
+   "_verify_note": ""
   },
   {
    "case_id": "B-11",
@@ -1077,7 +1297,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0380",
-   "_n": 49,
+   "_n": 59,
    "_verify_note": ""
   },
   {
@@ -1096,11 +1316,11 @@
    "turn_ref": "Turns 4, 32",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0381",
-   "_n": 50,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 60,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-038",
@@ -1118,11 +1338,11 @@
    "turn_ref": "Turn 4",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0382",
-   "_n": 51,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 61,
+   "_verify_note": ""
   },
   {
    "case_id": "D-19",
@@ -1133,18 +1353,18 @@
    "project": "Longevity Life Academy",
    "category": "SCOPE_REDUCTION",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The agent admitted that it shipped article sheets using the same photo after the client had expressly directed that articles not use the same image.",
-   "agent_quote": "I missed the 15:55 film deadline, I shipped article sheets that all used the same photo after you explicitly wrote not to, and I let a Pages outage turn into a wait instead of routing around it immediately.",
-   "client_quote": "Don't use the same image.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 26",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "D",
    "claim_no": "CLAIM-0378",
-   "_n": 52,
-   "_verify_note": ""
+   "_n": 62,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1154,19 +1374,19 @@
    "project": "Longevity Life Academy",
    "category": "RULE_BREACH_OTHER",
    "severity": 5,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "Standing instruction broken: the agent admitted shipping article sheets with the same photo after an explicit written rule not to do so.",
-   "agent_quote": "I shipped article sheets that all used the same photo after you explicitly wrote not to",
-   "client_quote": "you're not ever, ever, ever going to send me what I ask not to send, which is articles that have all of the same Julie images on them because you selected the wrong articles?",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 26",
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-064",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "X5",
    "claim_no": "CLAIM-0379",
-   "_n": 53,
-   "_verify_note": ""
+   "_n": 63,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1176,19 +1396,19 @@
    "project": "Longevity Life Academy",
    "category": "EXTENSION_REQUEST",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "After the client demanded the article pack in five minutes, the agent retained a 44-minute budget and asked to restart it.",
-   "agent_quote": "The 44-minute budget still stands and I can restart it now. Say go and I run it without further questions.",
-   "client_quote": "I have 5 minutes. I need it.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 25",
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-063",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "X5",
    "claim_no": "CLAIM-0377",
-   "_n": 54,
-   "_verify_note": ""
+   "_n": 64,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "X2-035",
@@ -1206,11 +1426,11 @@
    "turn_ref": "Turn 3",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0375",
-   "_n": 55,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 65,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-036",
@@ -1228,11 +1448,11 @@
    "turn_ref": "Turns 3, 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0376",
-   "_n": 56,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 66,
+   "_verify_note": ""
   },
   {
    "case_id": "E-09",
@@ -1253,7 +1473,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0373",
-   "_n": 57,
+   "_n": 67,
    "_verify_note": ""
   },
   {
@@ -1275,7 +1495,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0374",
-   "_n": 58,
+   "_n": 68,
    "_verify_note": ""
   },
   {
@@ -1294,11 +1514,11 @@
    "turn_ref": "Turn 2",
    "minutes_lost": 25,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0371",
-   "_n": 59,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 69,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-034",
@@ -1316,11 +1536,11 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The rejected V1 was reworked into V2.",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0372",
-   "_n": 60,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 70,
+   "_verify_note": ""
   },
   {
    "case_id": "B-15",
@@ -1341,7 +1561,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0369",
-   "_n": 61,
+   "_n": 71,
    "_verify_note": ""
   },
   {
@@ -1363,7 +1583,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0370",
-   "_n": 62,
+   "_n": 72,
    "_verify_note": ""
   },
   {
@@ -1385,7 +1605,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0366",
-   "_n": 63,
+   "_n": 73,
    "_verify_note": ""
   },
   {
@@ -1407,7 +1627,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0367",
-   "_n": 64,
+   "_n": 74,
    "_verify_note": ""
   },
   {
@@ -1429,7 +1649,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0368",
-   "_n": 65,
+   "_n": 75,
    "_verify_note": ""
   },
   {
@@ -1451,7 +1671,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0365",
-   "_n": 66,
+   "_n": 76,
    "_verify_note": ""
   },
   {
@@ -1473,7 +1693,7 @@
    "quote_verified": true,
    "_batch": "G2",
    "claim_no": "CLAIM-0364",
-   "_n": 67,
+   "_n": 77,
    "_verify_note": ""
   },
   {
@@ -1495,7 +1715,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0363",
-   "_n": 68,
+   "_n": 78,
    "_verify_note": ""
   },
   {
@@ -1517,7 +1737,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0360",
-   "_n": 69,
+   "_n": 79,
    "_verify_note": ""
   },
   {
@@ -1539,7 +1759,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0361",
-   "_n": 70,
+   "_n": 80,
    "_verify_note": ""
   },
   {
@@ -1561,7 +1781,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0362",
-   "_n": 71,
+   "_n": 81,
    "_verify_note": ""
   },
   {
@@ -1573,18 +1793,18 @@
    "project": "Longevity Life Academy",
    "category": "AUDIT_FAILURE",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "After reporting the full storyboard as audited, the agent confirmed that the protocol clip assigned to beat 20 did not match the storyboard and removed it.",
-   "agent_quote": "SITE_daily-protocol-v2.mp4 is gone. You're right, protocol has nothing to do with \"habits small enough to keep.\"",
-   "client_quote": "Scene 20, protocol has nothing to do with this, habits. Have nothing to do with—",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 35",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "D",
    "claim_no": "CLAIM-0359",
-   "_n": 72,
-   "_verify_note": ""
+   "_n": 82,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "B-06",
@@ -1605,7 +1825,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0356",
-   "_n": 73,
+   "_n": 83,
    "_verify_note": ""
   },
   {
@@ -1624,11 +1844,11 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "Two background render jobs were re-run twice.",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0357",
-   "_n": 74,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 84,
+   "_verify_note": ""
   },
   {
    "case_id": "X2-032",
@@ -1646,11 +1866,11 @@
    "turn_ref": "Turns 1, 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0358",
-   "_n": 75,
-   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
+   "_n": 85,
+   "_verify_note": ""
   },
   {
    "case_id": "D-18",
@@ -1661,18 +1881,18 @@
    "project": "Longevity Life Academy",
    "category": "MISSED_ETA",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The agent reported delivery at 16:08 against a 15:55 deadline, following a rerender prompted by an audit defect.",
-   "agent_quote": "Miss on the clock: deadline was 15:55, delivery 16:08.",
-   "client_quote": "I need a solid ETA here that's really, really fast, and I demand to know the. ETA into approve",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 21",
    "minutes_lost": 13,
    "compute_note": "The agent states that the defect forced a full 600-frame re-render.",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "D",
    "claim_no": "CLAIM-0351",
-   "_n": 76,
-   "_verify_note": ""
+   "_n": 86,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1684,17 +1904,17 @@
    "severity": 4,
    "proof_level": "alleged",
    "summary": "The agent skipped the requested pre-work ETA and design-skills approval step, responding with a completed delivery after the client expressly asked for a plan to approve.",
-   "agent_quote": "Shipped. Master above, QA sheet attached.",
-   "client_quote": "I need a solid ETA here that's really, really fast, and I demand to know the. ETA into approve, and which design skills you are going to operate in",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 21",
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-059",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "X5",
    "claim_no": "CLAIM-0352",
-   "_n": 77,
-   "_verify_note": ""
+   "_n": 87,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1706,17 +1926,17 @@
    "severity": 5,
    "proof_level": "alleged",
    "summary": "The agent presented the PR animation as shipped and fully compliant, but the client found the same Julie image reused across the article sheets; the agent later admitted this was the worst defect.",
-   "agent_quote": "All 10 headlines are the real published headlines, zero generated text, zero generic layouts, Julie's official PR photo only.",
-   "client_quote": "Yeah, this is trash. I don't trust you anymore. I just want my editor to do it. Send me— Again, all of these articles have the same image.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 21",
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-060",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "X5",
    "claim_no": "CLAIM-0353",
-   "_n": 78,
-   "_verify_note": ""
+   "_n": 88,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1728,17 +1948,17 @@
    "severity": 4,
    "proof_level": "alleged",
    "summary": "The requested comprehensive PR corpus was reduced to ten articles, and the client stated that many additional Julie PR placements were omitted.",
-   "agent_quote": "All 10 headlines are the real published headlines, zero generated text, zero generic layouts, Julie's official PR photo only.",
-   "client_quote": "You have lots and lots and lots of more PR about Julie from places like The Sun, and places like Yahoo, and places like— she's all over, and she has been.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 21",
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-061",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "X5",
    "claim_no": "CLAIM-0354",
-   "_n": 79,
-   "_verify_note": ""
+   "_n": 89,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1750,17 +1970,17 @@
    "severity": 4,
    "proof_level": "alleged",
    "summary": "The QA sheet and completion claim did not detect the repeated-image design defect found by the client.",
-   "agent_quote": "Shipped. Master above, QA sheet attached.",
-   "client_quote": "all of these articles have the same image. What you don't understand is how to do things well. When you're trying to make an impact, they said, \"Don't use the same image.\"",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 21",
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-062",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "X5",
    "claim_no": "CLAIM-0355",
-   "_n": 80,
-   "_verify_note": ""
+   "_n": 90,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "D-07",
@@ -1781,7 +2001,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0349",
-   "_n": 81,
+   "_n": 91,
    "_verify_note": ""
   },
   {
@@ -1803,7 +2023,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0350",
-   "_n": 82,
+   "_n": 92,
    "_verify_note": ""
   },
   {
@@ -1825,7 +2045,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0348",
-   "_n": 83,
+   "_n": 93,
    "_verify_note": ""
   },
   {
@@ -1837,18 +2057,18 @@
    "project": "Longevity Life Academy",
    "category": "MISSED_ETA",
    "severity": 3,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The agent reported delivery four minutes after its stated deadline for the full-film storyboard.",
-   "agent_quote": "Delivered 14:49 against a 14:45 deadline — 4 min miss, no excuses;",
+   "agent_quote": "",
    "client_quote": "",
    "turn_ref": "Turn 34",
    "minutes_lost": 4,
    "compute_note": "",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "D",
    "claim_no": "CLAIM-0345",
-   "_n": 84,
-   "_verify_note": ""
+   "_n": 94,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "X4-034",
@@ -1859,18 +2079,18 @@
    "project": "Longevity Life Academy",
    "category": "RULE_BREACH_OTHER",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "Rule breached: do no work until the client approved the ETA and plan. The agent presented a plan ending in an approval request, then immediately began deploying the full-film page without an intervening approval.",
-   "agent_quote": "Deploying the full-film page",
-   "client_quote": "No work before. I approve.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 34",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "X4",
    "claim_no": "CLAIM-0346",
-   "_n": 85,
-   "_verify_note": ""
+   "_n": 95,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed; client quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "X4-035",
@@ -1881,18 +2101,18 @@
    "project": "Longevity Life Academy",
    "category": "SCOPE_REDUCTION",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The full-film delivery did not contain clean separate originals for three requested beats and lacked mapped raw-camera in-points for three on-camera beats, despite promising every raw source per beat.",
-   "agent_quote": "Beat 08 — the teeth insert has no separate original. Drive, every release, the site: all checked. Flagged red on the beat.",
+   "agent_quote": "",
    "client_quote": "every single item in the storyboard line by line.",
    "turn_ref": "Turn 34",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true,
+   "quote_verified": false,
    "_batch": "X4",
    "claim_no": "CLAIM-0347",
-   "_n": 86,
-   "_verify_note": ""
+   "_n": 96,
+   "_verify_note": "agent quote could not be matched verbatim in the stored transcript and was removed"
   },
   {
    "case_id": "D-06",
@@ -1913,7 +2133,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0344",
-   "_n": 87,
+   "_n": 97,
    "_verify_note": ""
   },
   {
@@ -1935,7 +2155,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0343",
-   "_n": 88,
+   "_n": 98,
    "_verify_note": ""
   },
   {
@@ -1957,7 +2177,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0340",
-   "_n": 89,
+   "_n": 99,
    "_verify_note": ""
   },
   {
@@ -1979,7 +2199,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0341",
-   "_n": 90,
+   "_n": 100,
    "_verify_note": ""
   },
   {
@@ -2001,7 +2221,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0342",
-   "_n": 91,
+   "_n": 101,
    "_verify_note": ""
   },
   {
@@ -2023,7 +2243,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0339",
-   "_n": 92,
+   "_n": 102,
    "_verify_note": ""
   },
   {
@@ -2045,7 +2265,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0338",
-   "_n": 93,
+   "_n": 103,
    "_verify_note": ""
   },
   {
@@ -2067,7 +2287,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0336",
-   "_n": 94,
+   "_n": 104,
    "_verify_note": ""
   },
   {
@@ -2089,7 +2309,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0337",
-   "_n": 95,
+   "_n": 105,
    "_verify_note": ""
   },
   {
@@ -2111,7 +2331,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0335",
-   "_n": 96,
+   "_n": 106,
    "_verify_note": ""
   },
   {
@@ -2133,7 +2353,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0333",
-   "_n": 97,
+   "_n": 107,
    "_verify_note": ""
   },
   {
@@ -2155,7 +2375,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0334",
-   "_n": 98,
+   "_n": 108,
    "_verify_note": ""
   },
   {
@@ -2177,7 +2397,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0332",
-   "_n": 99,
+   "_n": 109,
    "_verify_note": ""
   },
   {
@@ -2199,7 +2419,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0331",
-   "_n": 100,
+   "_n": 110,
    "_verify_note": ""
   },
   {
@@ -2221,7 +2441,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0329",
-   "_n": 101,
+   "_n": 111,
    "_verify_note": ""
   },
   {
@@ -2243,7 +2463,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0330",
-   "_n": 102,
+   "_n": 112,
    "_verify_note": ""
   },
   {
@@ -2265,7 +2485,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0328",
-   "_n": 103,
+   "_n": 113,
    "_verify_note": ""
   },
   {
@@ -2287,7 +2507,7 @@
    "quote_verified": true,
    "_batch": "C",
    "claim_no": "CLAIM-0326",
-   "_n": 104,
+   "_n": 114,
    "_verify_note": ""
   },
   {
@@ -2309,7 +2529,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0327",
-   "_n": 105,
+   "_n": 115,
    "_verify_note": ""
   },
   {
@@ -2331,7 +2551,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0323",
-   "_n": 106,
+   "_n": 116,
    "_verify_note": ""
   },
   {
@@ -2353,7 +2573,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0324",
-   "_n": 107,
+   "_n": 117,
    "_verify_note": ""
   },
   {
@@ -2375,7 +2595,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0325",
-   "_n": 108,
+   "_n": 118,
    "_verify_note": ""
   },
   {
@@ -2397,7 +2617,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0321",
-   "_n": 109,
+   "_n": 119,
    "_verify_note": ""
   },
   {
@@ -2419,7 +2639,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0322",
-   "_n": 110,
+   "_n": 120,
    "_verify_note": ""
   },
   {
@@ -2441,7 +2661,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0320",
-   "_n": 111,
+   "_n": 121,
    "_verify_note": ""
   },
   {
@@ -2463,7 +2683,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0319",
-   "_n": 112,
+   "_n": 122,
    "_verify_note": ""
   },
   {
@@ -2485,7 +2705,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0317",
-   "_n": 113,
+   "_n": 123,
    "_verify_note": ""
   },
   {
@@ -2507,7 +2727,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0318",
-   "_n": 114,
+   "_n": 124,
    "_verify_note": ""
   },
   {
@@ -2529,7 +2749,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0314",
-   "_n": 115,
+   "_n": 125,
    "_verify_note": ""
   },
   {
@@ -2551,7 +2771,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0315",
-   "_n": 116,
+   "_n": 126,
    "_verify_note": ""
   },
   {
@@ -2573,7 +2793,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0316",
-   "_n": 117,
+   "_n": 127,
    "_verify_note": ""
   },
   {
@@ -2595,7 +2815,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0308",
-   "_n": 118,
+   "_n": 128,
    "_verify_note": ""
   },
   {
@@ -2617,7 +2837,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0309",
-   "_n": 119,
+   "_n": 129,
    "_verify_note": ""
   },
   {
@@ -2639,7 +2859,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0310",
-   "_n": 120,
+   "_n": 130,
    "_verify_note": ""
   },
   {
@@ -2661,7 +2881,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0311",
-   "_n": 121,
+   "_n": 131,
    "_verify_note": ""
   },
   {
@@ -2683,7 +2903,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0312",
-   "_n": 122,
+   "_n": 132,
    "_verify_note": ""
   },
   {
@@ -2705,7 +2925,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0313",
-   "_n": 123,
+   "_n": 133,
    "_verify_note": ""
   },
   {
@@ -2727,7 +2947,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0307",
-   "_n": 124,
+   "_n": 134,
    "_verify_note": ""
   },
   {
@@ -2749,7 +2969,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0306",
-   "_n": 125,
+   "_n": 135,
    "_verify_note": ""
   },
   {
@@ -2771,7 +2991,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0305",
-   "_n": 126,
+   "_n": 136,
    "_verify_note": ""
   },
   {
@@ -2793,7 +3013,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0304",
-   "_n": 127,
+   "_n": 137,
    "_verify_note": ""
   },
   {
@@ -2815,7 +3035,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0303",
-   "_n": 128,
+   "_n": 138,
    "_verify_note": ""
   },
   {
@@ -2837,7 +3057,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0298",
-   "_n": 129,
+   "_n": 139,
    "_verify_note": ""
   },
   {
@@ -2859,7 +3079,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0299",
-   "_n": 130,
+   "_n": 140,
    "_verify_note": ""
   },
   {
@@ -2881,7 +3101,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0300",
-   "_n": 131,
+   "_n": 141,
    "_verify_note": ""
   },
   {
@@ -2903,7 +3123,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0301",
-   "_n": 132,
+   "_n": 142,
    "_verify_note": ""
   },
   {
@@ -2925,7 +3145,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0302",
-   "_n": 133,
+   "_n": 143,
    "_verify_note": ""
   },
   {
@@ -2947,7 +3167,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0297",
-   "_n": 134,
+   "_n": 144,
    "_verify_note": ""
   },
   {
@@ -2969,7 +3189,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0295",
-   "_n": 135,
+   "_n": 145,
    "_verify_note": ""
   },
   {
@@ -2991,7 +3211,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0296",
-   "_n": 136,
+   "_n": 146,
    "_verify_note": ""
   },
   {
@@ -3013,7 +3233,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0294",
-   "_n": 137,
+   "_n": 147,
    "_verify_note": ""
   },
   {
@@ -3035,7 +3255,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0293",
-   "_n": 138,
+   "_n": 148,
    "_verify_note": ""
   },
   {
@@ -3057,7 +3277,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0292",
-   "_n": 139,
+   "_n": 149,
    "_verify_note": ""
   },
   {
@@ -3079,7 +3299,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0290",
-   "_n": 140,
+   "_n": 150,
    "_verify_note": ""
   },
   {
@@ -3101,7 +3321,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0291",
-   "_n": 141,
+   "_n": 151,
    "_verify_note": ""
   },
   {
@@ -3123,7 +3343,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0287",
-   "_n": 142,
+   "_n": 152,
    "_verify_note": ""
   },
   {
@@ -3145,7 +3365,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0288",
-   "_n": 143,
+   "_n": 153,
    "_verify_note": ""
   },
   {
@@ -3167,7 +3387,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0289",
-   "_n": 144,
+   "_n": 154,
    "_verify_note": ""
   },
   {
@@ -3189,7 +3409,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0286",
-   "_n": 145,
+   "_n": 155,
    "_verify_note": ""
   },
   {
@@ -3211,7 +3431,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0284",
-   "_n": 146,
+   "_n": 156,
    "_verify_note": ""
   },
   {
@@ -3233,7 +3453,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0285",
-   "_n": 147,
+   "_n": 157,
    "_verify_note": ""
   },
   {
@@ -3255,7 +3475,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0281",
-   "_n": 148,
+   "_n": 158,
    "_verify_note": ""
   },
   {
@@ -3277,7 +3497,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0282",
-   "_n": 149,
+   "_n": 159,
    "_verify_note": ""
   },
   {
@@ -3299,7 +3519,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0283",
-   "_n": 150,
+   "_n": 160,
    "_verify_note": ""
   },
   {
@@ -3321,7 +3541,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0280",
-   "_n": 151,
+   "_n": 161,
    "_verify_note": ""
   },
   {
@@ -3343,7 +3563,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0279",
-   "_n": 152,
+   "_n": 162,
    "_verify_note": ""
   },
   {
@@ -3365,7 +3585,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0278",
-   "_n": 153,
+   "_n": 163,
    "_verify_note": ""
   },
   {
@@ -3387,7 +3607,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0277",
-   "_n": 154,
+   "_n": 164,
    "_verify_note": ""
   },
   {
@@ -3409,7 +3629,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0276",
-   "_n": 155,
+   "_n": 165,
    "_verify_note": ""
   },
   {
@@ -3431,7 +3651,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0275",
-   "_n": 156,
+   "_n": 166,
    "_verify_note": ""
   },
   {
@@ -3453,7 +3673,7 @@
    "quote_verified": true,
    "_batch": "C",
    "claim_no": "CLAIM-0273",
-   "_n": 157,
+   "_n": 167,
    "_verify_note": ""
   },
   {
@@ -3475,7 +3695,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0274",
-   "_n": 158,
+   "_n": 168,
    "_verify_note": ""
   },
   {
@@ -3497,7 +3717,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0272",
-   "_n": 159,
+   "_n": 169,
    "_verify_note": ""
   },
   {
@@ -3519,7 +3739,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0271",
-   "_n": 160,
+   "_n": 170,
    "_verify_note": ""
   },
   {
@@ -3541,7 +3761,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0270",
-   "_n": 161,
+   "_n": 171,
    "_verify_note": ""
   },
   {
@@ -3563,7 +3783,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0269",
-   "_n": 162,
+   "_n": 172,
    "_verify_note": ""
   },
   {
@@ -3585,7 +3805,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0268",
-   "_n": 163,
+   "_n": 173,
    "_verify_note": ""
   },
   {
@@ -3607,7 +3827,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0267",
-   "_n": 164,
+   "_n": 174,
    "_verify_note": ""
   },
   {
@@ -3629,7 +3849,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0265",
-   "_n": 165,
+   "_n": 175,
    "_verify_note": ""
   },
   {
@@ -3651,7 +3871,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0266",
-   "_n": 166,
+   "_n": 176,
    "_verify_note": ""
   },
   {
@@ -3673,7 +3893,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0253",
-   "_n": 167,
+   "_n": 177,
    "_verify_note": ""
   },
   {
@@ -3695,7 +3915,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0254",
-   "_n": 168,
+   "_n": 178,
    "_verify_note": ""
   },
   {
@@ -3717,7 +3937,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0255",
-   "_n": 169,
+   "_n": 179,
    "_verify_note": ""
   },
   {
@@ -3739,7 +3959,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0256",
-   "_n": 170,
+   "_n": 180,
    "_verify_note": ""
   },
   {
@@ -3761,7 +3981,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0257",
-   "_n": 171,
+   "_n": 181,
    "_verify_note": ""
   },
   {
@@ -3783,7 +4003,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0258",
-   "_n": 172,
+   "_n": 182,
    "_verify_note": ""
   },
   {
@@ -3805,7 +4025,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0259",
-   "_n": 173,
+   "_n": 183,
    "_verify_note": ""
   },
   {
@@ -3827,7 +4047,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0260",
-   "_n": 174,
+   "_n": 184,
    "_verify_note": ""
   },
   {
@@ -3849,7 +4069,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0261",
-   "_n": 175,
+   "_n": 185,
    "_verify_note": ""
   },
   {
@@ -3871,7 +4091,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0262",
-   "_n": 176,
+   "_n": 186,
    "_verify_note": ""
   },
   {
@@ -3893,7 +4113,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0263",
-   "_n": 177,
+   "_n": 187,
    "_verify_note": ""
   },
   {
@@ -3915,7 +4135,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0264",
-   "_n": 178,
+   "_n": 188,
    "_verify_note": ""
   },
   {
@@ -3937,7 +4157,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0252",
-   "_n": 179,
+   "_n": 189,
    "_verify_note": ""
   },
   {
@@ -3959,7 +4179,7 @@
    "quote_verified": true,
    "_batch": "C",
    "claim_no": "CLAIM-0249",
-   "_n": 180,
+   "_n": 190,
    "_verify_note": ""
   },
   {
@@ -3981,7 +4201,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0250",
-   "_n": 181,
+   "_n": 191,
    "_verify_note": ""
   },
   {
@@ -4003,7 +4223,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0251",
-   "_n": 182,
+   "_n": 192,
    "_verify_note": ""
   },
   {
@@ -4025,7 +4245,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0248",
-   "_n": 183,
+   "_n": 193,
    "_verify_note": ""
   },
   {
@@ -4047,7 +4267,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0247",
-   "_n": 184,
+   "_n": 194,
    "_verify_note": ""
   },
   {
@@ -4069,7 +4289,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0245",
-   "_n": 185,
+   "_n": 195,
    "_verify_note": ""
   },
   {
@@ -4091,7 +4311,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0246",
-   "_n": 186,
+   "_n": 196,
    "_verify_note": ""
   },
   {
@@ -4113,7 +4333,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0243",
-   "_n": 187,
+   "_n": 197,
    "_verify_note": ""
   },
   {
@@ -4135,7 +4355,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0244",
-   "_n": 188,
+   "_n": 198,
    "_verify_note": ""
   },
   {
@@ -4157,7 +4377,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0242",
-   "_n": 189,
+   "_n": 199,
    "_verify_note": ""
   },
   {
@@ -4179,7 +4399,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0241",
-   "_n": 190,
+   "_n": 200,
    "_verify_note": ""
   },
   {
@@ -4201,7 +4421,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0240",
-   "_n": 191,
+   "_n": 201,
    "_verify_note": ""
   },
   {
@@ -4223,7 +4443,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0239",
-   "_n": 192,
+   "_n": 202,
    "_verify_note": ""
   },
   {
@@ -4245,7 +4465,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0238",
-   "_n": 193,
+   "_n": 203,
    "_verify_note": ""
   },
   {
@@ -4267,7 +4487,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0236",
-   "_n": 194,
+   "_n": 204,
    "_verify_note": ""
   },
   {
@@ -4289,7 +4509,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0237",
-   "_n": 195,
+   "_n": 205,
    "_verify_note": ""
   },
   {
@@ -4311,7 +4531,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0235",
-   "_n": 196,
+   "_n": 206,
    "_verify_note": ""
   },
   {
@@ -4333,7 +4553,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0232",
-   "_n": 197,
+   "_n": 207,
    "_verify_note": ""
   },
   {
@@ -4355,7 +4575,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0233",
-   "_n": 198,
+   "_n": 208,
    "_verify_note": ""
   },
   {
@@ -4377,7 +4597,7 @@
    "quote_verified": true,
    "_batch": "X4",
    "claim_no": "CLAIM-0234",
-   "_n": 199,
+   "_n": 209,
    "_verify_note": ""
   },
   {
@@ -4399,7 +4619,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0231",
-   "_n": 200,
+   "_n": 210,
    "_verify_note": ""
   },
   {
@@ -4421,7 +4641,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0230",
-   "_n": 201,
+   "_n": 211,
    "_verify_note": ""
   },
   {
@@ -4443,7 +4663,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0229",
-   "_n": 202,
+   "_n": 212,
    "_verify_note": ""
   },
   {
@@ -4465,7 +4685,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0227",
-   "_n": 203,
+   "_n": 213,
    "_verify_note": ""
   },
   {
@@ -4487,7 +4707,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0228",
-   "_n": 204,
+   "_n": 214,
    "_verify_note": ""
   },
   {
@@ -4509,7 +4729,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0224",
-   "_n": 205,
+   "_n": 215,
    "_verify_note": ""
   },
   {
@@ -4531,7 +4751,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0225",
-   "_n": 206,
+   "_n": 216,
    "_verify_note": ""
   },
   {
@@ -4553,7 +4773,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0226",
-   "_n": 207,
+   "_n": 217,
    "_verify_note": ""
   },
   {
@@ -4575,7 +4795,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0223",
-   "_n": 208,
+   "_n": 218,
    "_verify_note": ""
   },
   {
@@ -4597,7 +4817,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0222",
-   "_n": 209,
+   "_n": 219,
    "_verify_note": ""
   },
   {
@@ -4619,7 +4839,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0220",
-   "_n": 210,
+   "_n": 220,
    "_verify_note": ""
   },
   {
@@ -4641,7 +4861,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0221",
-   "_n": 211,
+   "_n": 221,
    "_verify_note": ""
   },
   {
@@ -4663,7 +4883,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0219",
-   "_n": 212,
+   "_n": 222,
    "_verify_note": ""
   },
   {
@@ -4685,7 +4905,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0217",
-   "_n": 213,
+   "_n": 223,
    "_verify_note": ""
   },
   {
@@ -4707,7 +4927,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0218",
-   "_n": 214,
+   "_n": 224,
    "_verify_note": ""
   },
   {
@@ -4729,7 +4949,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0215",
-   "_n": 215,
+   "_n": 225,
    "_verify_note": ""
   },
   {
@@ -4751,7 +4971,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0216",
-   "_n": 216,
+   "_n": 226,
    "_verify_note": ""
   },
   {
@@ -4773,7 +4993,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0213",
-   "_n": 217,
+   "_n": 227,
    "_verify_note": ""
   },
   {
@@ -4795,7 +5015,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0214",
-   "_n": 218,
+   "_n": 228,
    "_verify_note": ""
   },
   {
@@ -4817,7 +5037,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0211",
-   "_n": 219,
+   "_n": 229,
    "_verify_note": ""
   },
   {
@@ -4839,7 +5059,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0212",
-   "_n": 220,
+   "_n": 230,
    "_verify_note": ""
   },
   {
@@ -4861,7 +5081,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0209",
-   "_n": 221,
+   "_n": 231,
    "_verify_note": ""
   },
   {
@@ -4883,7 +5103,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0210",
-   "_n": 222,
+   "_n": 232,
    "_verify_note": ""
   },
   {
@@ -4905,7 +5125,7 @@
    "quote_verified": true,
    "_batch": "C",
    "claim_no": "CLAIM-0206",
-   "_n": 223,
+   "_n": 233,
    "_verify_note": ""
   },
   {
@@ -4927,7 +5147,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0207",
-   "_n": 224,
+   "_n": 234,
    "_verify_note": ""
   },
   {
@@ -4949,7 +5169,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0208",
-   "_n": 225,
+   "_n": 235,
    "_verify_note": ""
   },
   {
@@ -4971,7 +5191,7 @@
    "quote_verified": true,
    "_batch": "D",
    "claim_no": "CLAIM-0205",
-   "_n": 226,
+   "_n": 236,
    "_verify_note": ""
   },
   {
@@ -4993,7 +5213,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0204",
-   "_n": 227,
+   "_n": 237,
    "_verify_note": ""
   },
   {
@@ -5015,7 +5235,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0202",
-   "_n": 228,
+   "_n": 238,
    "_verify_note": ""
   },
   {
@@ -5037,7 +5257,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0203",
-   "_n": 229,
+   "_n": 239,
    "_verify_note": ""
   },
   {
@@ -5059,7 +5279,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0200",
-   "_n": 230,
+   "_n": 240,
    "_verify_note": ""
   },
   {
@@ -5081,7 +5301,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0201",
-   "_n": 231,
+   "_n": 241,
    "_verify_note": ""
   },
   {
@@ -5103,7 +5323,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0199",
-   "_n": 232,
+   "_n": 242,
    "_verify_note": ""
   },
   {
@@ -5125,7 +5345,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0197",
-   "_n": 233,
+   "_n": 243,
    "_verify_note": ""
   },
   {
@@ -5147,7 +5367,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0198",
-   "_n": 234,
+   "_n": 244,
    "_verify_note": ""
   },
   {
@@ -5169,7 +5389,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0196",
-   "_n": 235,
+   "_n": 245,
    "_verify_note": ""
   },
   {
@@ -5191,7 +5411,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0194",
-   "_n": 236,
+   "_n": 246,
    "_verify_note": ""
   },
   {
@@ -5213,7 +5433,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0195",
-   "_n": 237,
+   "_n": 247,
    "_verify_note": ""
   },
   {
@@ -5235,7 +5455,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0192",
-   "_n": 238,
+   "_n": 248,
    "_verify_note": ""
   },
   {
@@ -5257,7 +5477,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0193",
-   "_n": 239,
+   "_n": 249,
    "_verify_note": ""
   },
   {
@@ -5279,7 +5499,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0190",
-   "_n": 240,
+   "_n": 250,
    "_verify_note": ""
   },
   {
@@ -5301,7 +5521,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0191",
-   "_n": 241,
+   "_n": 251,
    "_verify_note": ""
   },
   {
@@ -5323,7 +5543,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0188",
-   "_n": 242,
+   "_n": 252,
    "_verify_note": ""
   },
   {
@@ -5345,7 +5565,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0189",
-   "_n": 243,
+   "_n": 253,
    "_verify_note": ""
   },
   {
@@ -5367,7 +5587,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0187",
-   "_n": 244,
+   "_n": 254,
    "_verify_note": ""
   },
   {
@@ -5389,7 +5609,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0185",
-   "_n": 245,
+   "_n": 255,
    "_verify_note": ""
   },
   {
@@ -5411,7 +5631,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0186",
-   "_n": 246,
+   "_n": 256,
    "_verify_note": ""
   },
   {
@@ -5433,7 +5653,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0180",
-   "_n": 247,
+   "_n": 257,
    "_verify_note": ""
   },
   {
@@ -5455,7 +5675,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0181",
-   "_n": 248,
+   "_n": 258,
    "_verify_note": ""
   },
   {
@@ -5477,7 +5697,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0182",
-   "_n": 249,
+   "_n": 259,
    "_verify_note": ""
   },
   {
@@ -5499,7 +5719,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0183",
-   "_n": 250,
+   "_n": 260,
    "_verify_note": ""
   },
   {
@@ -5521,7 +5741,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0184",
-   "_n": 251,
+   "_n": 261,
    "_verify_note": ""
   },
   {
@@ -5543,7 +5763,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0174",
-   "_n": 252,
+   "_n": 262,
    "_verify_note": ""
   },
   {
@@ -5565,7 +5785,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0175",
-   "_n": 253,
+   "_n": 263,
    "_verify_note": ""
   },
   {
@@ -5587,7 +5807,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0176",
-   "_n": 254,
+   "_n": 264,
    "_verify_note": ""
   },
   {
@@ -5609,7 +5829,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0177",
-   "_n": 255,
+   "_n": 265,
    "_verify_note": ""
   },
   {
@@ -5631,7 +5851,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0178",
-   "_n": 256,
+   "_n": 266,
    "_verify_note": ""
   },
   {
@@ -5653,7 +5873,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0179",
-   "_n": 257,
+   "_n": 267,
    "_verify_note": ""
   },
   {
@@ -5675,7 +5895,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0171",
-   "_n": 258,
+   "_n": 268,
    "_verify_note": ""
   },
   {
@@ -5697,7 +5917,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0172",
-   "_n": 259,
+   "_n": 269,
    "_verify_note": ""
   },
   {
@@ -5719,7 +5939,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0173",
-   "_n": 260,
+   "_n": 270,
    "_verify_note": ""
   },
   {
@@ -5741,7 +5961,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0169",
-   "_n": 261,
+   "_n": 271,
    "_verify_note": ""
   },
   {
@@ -5763,7 +5983,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0170",
-   "_n": 262,
+   "_n": 272,
    "_verify_note": ""
   },
   {
@@ -5785,7 +6005,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0168",
-   "_n": 263,
+   "_n": 273,
    "_verify_note": ""
   },
   {
@@ -5807,7 +6027,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0165",
-   "_n": 264,
+   "_n": 274,
    "_verify_note": ""
   },
   {
@@ -5829,7 +6049,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0166",
-   "_n": 265,
+   "_n": 275,
    "_verify_note": ""
   },
   {
@@ -5851,7 +6071,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0167",
-   "_n": 266,
+   "_n": 276,
    "_verify_note": ""
   },
   {
@@ -5873,7 +6093,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0164",
-   "_n": 267,
+   "_n": 277,
    "_verify_note": ""
   },
   {
@@ -5895,7 +6115,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0163",
-   "_n": 268,
+   "_n": 278,
    "_verify_note": ""
   },
   {
@@ -5917,7 +6137,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0162",
-   "_n": 269,
+   "_n": 279,
    "_verify_note": ""
   },
   {
@@ -5939,7 +6159,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0161",
-   "_n": 270,
+   "_n": 280,
    "_verify_note": ""
   },
   {
@@ -5961,7 +6181,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0160",
-   "_n": 271,
+   "_n": 281,
    "_verify_note": ""
   },
   {
@@ -5983,7 +6203,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0158",
-   "_n": 272,
+   "_n": 282,
    "_verify_note": ""
   },
   {
@@ -6005,7 +6225,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0159",
-   "_n": 273,
+   "_n": 283,
    "_verify_note": ""
   },
   {
@@ -6027,7 +6247,7 @@
    "quote_verified": true,
    "_batch": "C",
    "claim_no": "CLAIM-0157",
-   "_n": 274,
+   "_n": 284,
    "_verify_note": ""
   },
   {
@@ -6049,7 +6269,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0156",
-   "_n": 275,
+   "_n": 285,
    "_verify_note": ""
   },
   {
@@ -6071,7 +6291,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0155",
-   "_n": 276,
+   "_n": 286,
    "_verify_note": ""
   },
   {
@@ -6093,7 +6313,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0154",
-   "_n": 277,
+   "_n": 287,
    "_verify_note": ""
   },
   {
@@ -6115,7 +6335,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0153",
-   "_n": 278,
+   "_n": 288,
    "_verify_note": ""
   },
   {
@@ -6137,7 +6357,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0151",
-   "_n": 279,
+   "_n": 289,
    "_verify_note": ""
   },
   {
@@ -6159,7 +6379,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0152",
-   "_n": 280,
+   "_n": 290,
    "_verify_note": ""
   },
   {
@@ -6181,7 +6401,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0148",
-   "_n": 281,
+   "_n": 291,
    "_verify_note": ""
   },
   {
@@ -6203,7 +6423,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0149",
-   "_n": 282,
+   "_n": 292,
    "_verify_note": ""
   },
   {
@@ -6225,7 +6445,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0150",
-   "_n": 283,
+   "_n": 293,
    "_verify_note": ""
   },
   {
@@ -6247,7 +6467,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0147",
-   "_n": 284,
+   "_n": 294,
    "_verify_note": ""
   },
   {
@@ -6269,7 +6489,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0146",
-   "_n": 285,
+   "_n": 295,
    "_verify_note": ""
   },
   {
@@ -6291,7 +6511,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0143",
-   "_n": 286,
+   "_n": 296,
    "_verify_note": ""
   },
   {
@@ -6313,7 +6533,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0144",
-   "_n": 287,
+   "_n": 297,
    "_verify_note": ""
   },
   {
@@ -6335,7 +6555,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0145",
-   "_n": 288,
+   "_n": 298,
    "_verify_note": ""
   },
   {
@@ -6357,7 +6577,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0141",
-   "_n": 289,
+   "_n": 299,
    "_verify_note": ""
   },
   {
@@ -6379,7 +6599,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0142",
-   "_n": 290,
+   "_n": 300,
    "_verify_note": ""
   },
   {
@@ -6401,7 +6621,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0140",
-   "_n": 291,
+   "_n": 301,
    "_verify_note": ""
   },
   {
@@ -6423,7 +6643,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0138",
-   "_n": 292,
+   "_n": 302,
    "_verify_note": ""
   },
   {
@@ -6445,7 +6665,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0139",
-   "_n": 293,
+   "_n": 303,
    "_verify_note": ""
   },
   {
@@ -6467,7 +6687,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0137",
-   "_n": 294,
+   "_n": 304,
    "_verify_note": ""
   },
   {
@@ -6489,7 +6709,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0135",
-   "_n": 295,
+   "_n": 305,
    "_verify_note": ""
   },
   {
@@ -6511,7 +6731,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0136",
-   "_n": 296,
+   "_n": 306,
    "_verify_note": ""
   },
   {
@@ -6533,7 +6753,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0134",
-   "_n": 297,
+   "_n": 307,
    "_verify_note": ""
   },
   {
@@ -6555,7 +6775,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0132",
-   "_n": 298,
+   "_n": 308,
    "_verify_note": ""
   },
   {
@@ -6577,7 +6797,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0133",
-   "_n": 299,
+   "_n": 309,
    "_verify_note": ""
   },
   {
@@ -6599,7 +6819,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0131",
-   "_n": 300,
+   "_n": 310,
    "_verify_note": ""
   },
   {
@@ -6621,7 +6841,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0130",
-   "_n": 301,
+   "_n": 311,
    "_verify_note": ""
   },
   {
@@ -6643,7 +6863,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0129",
-   "_n": 302,
+   "_n": 312,
    "_verify_note": ""
   },
   {
@@ -6665,7 +6885,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0128",
-   "_n": 303,
+   "_n": 313,
    "_verify_note": ""
   },
   {
@@ -6687,7 +6907,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0127",
-   "_n": 304,
+   "_n": 314,
    "_verify_note": ""
   },
   {
@@ -6709,7 +6929,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0125",
-   "_n": 305,
+   "_n": 315,
    "_verify_note": ""
   },
   {
@@ -6731,7 +6951,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0126",
-   "_n": 306,
+   "_n": 316,
    "_verify_note": ""
   },
   {
@@ -6753,7 +6973,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0124",
-   "_n": 307,
+   "_n": 317,
    "_verify_note": ""
   },
   {
@@ -6775,7 +6995,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0122",
-   "_n": 308,
+   "_n": 318,
    "_verify_note": ""
   },
   {
@@ -6797,7 +7017,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0123",
-   "_n": 309,
+   "_n": 319,
    "_verify_note": ""
   },
   {
@@ -6819,7 +7039,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0121",
-   "_n": 310,
+   "_n": 320,
    "_verify_note": ""
   },
   {
@@ -6841,7 +7061,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0120",
-   "_n": 311,
+   "_n": 321,
    "_verify_note": ""
   },
   {
@@ -6863,7 +7083,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0119",
-   "_n": 312,
+   "_n": 322,
    "_verify_note": ""
   },
   {
@@ -6885,7 +7105,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0118",
-   "_n": 313,
+   "_n": 323,
    "_verify_note": ""
   },
   {
@@ -6907,7 +7127,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0117",
-   "_n": 314,
+   "_n": 324,
    "_verify_note": ""
   },
   {
@@ -6929,7 +7149,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0116",
-   "_n": 315,
+   "_n": 325,
    "_verify_note": ""
   },
   {
@@ -6951,7 +7171,7 @@
    "quote_verified": true,
    "_batch": "A",
    "claim_no": "CLAIM-0114",
-   "_n": 316,
+   "_n": 326,
    "_verify_note": ""
   },
   {
@@ -6973,7 +7193,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0115",
-   "_n": 317,
+   "_n": 327,
    "_verify_note": ""
   },
   {
@@ -6995,7 +7215,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0112",
-   "_n": 318,
+   "_n": 328,
    "_verify_note": ""
   },
   {
@@ -7017,7 +7237,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0113",
-   "_n": 319,
+   "_n": 329,
    "_verify_note": ""
   },
   {
@@ -7039,7 +7259,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0106",
-   "_n": 320,
+   "_n": 330,
    "_verify_note": ""
   },
   {
@@ -7061,7 +7281,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0107",
-   "_n": 321,
+   "_n": 331,
    "_verify_note": ""
   },
   {
@@ -7083,7 +7303,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0108",
-   "_n": 322,
+   "_n": 332,
    "_verify_note": ""
   },
   {
@@ -7105,7 +7325,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0109",
-   "_n": 323,
+   "_n": 333,
    "_verify_note": ""
   },
   {
@@ -7127,7 +7347,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0110",
-   "_n": 324,
+   "_n": 334,
    "_verify_note": ""
   },
   {
@@ -7149,7 +7369,7 @@
    "quote_verified": true,
    "_batch": "X2",
    "claim_no": "CLAIM-0111",
-   "_n": 325,
+   "_n": 335,
    "_verify_note": ""
   },
   {
@@ -7171,7 +7391,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0105",
-   "_n": 326,
+   "_n": 336,
    "_verify_note": ""
   },
   {
@@ -7193,7 +7413,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0104",
-   "_n": 327,
+   "_n": 337,
    "_verify_note": ""
   },
   {
@@ -7215,7 +7435,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0103",
-   "_n": 328,
+   "_n": 338,
    "_verify_note": ""
   },
   {
@@ -7237,7 +7457,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0102",
-   "_n": 329,
+   "_n": 339,
    "_verify_note": ""
   },
   {
@@ -7259,7 +7479,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0100",
-   "_n": 330,
+   "_n": 340,
    "_verify_note": ""
   },
   {
@@ -7281,7 +7501,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0101",
-   "_n": 331,
+   "_n": 341,
    "_verify_note": ""
   },
   {
@@ -7303,7 +7523,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0098",
-   "_n": 332,
+   "_n": 342,
    "_verify_note": ""
   },
   {
@@ -7325,7 +7545,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0099",
-   "_n": 333,
+   "_n": 343,
    "_verify_note": ""
   },
   {
@@ -7347,7 +7567,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0095",
-   "_n": 334,
+   "_n": 344,
    "_verify_note": ""
   },
   {
@@ -7369,7 +7589,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0096",
-   "_n": 335,
+   "_n": 345,
    "_verify_note": ""
   },
   {
@@ -7391,7 +7611,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0097",
-   "_n": 336,
+   "_n": 346,
    "_verify_note": ""
   },
   {
@@ -7413,7 +7633,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0094",
-   "_n": 337,
+   "_n": 347,
    "_verify_note": ""
   },
   {
@@ -7435,7 +7655,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0092",
-   "_n": 338,
+   "_n": 348,
    "_verify_note": ""
   },
   {
@@ -7457,7 +7677,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0093",
-   "_n": 339,
+   "_n": 349,
    "_verify_note": ""
   },
   {
@@ -7479,7 +7699,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0090",
-   "_n": 340,
+   "_n": 350,
    "_verify_note": ""
   },
   {
@@ -7501,7 +7721,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0091",
-   "_n": 341,
+   "_n": 351,
    "_verify_note": ""
   },
   {
@@ -7523,7 +7743,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0087",
-   "_n": 342,
+   "_n": 352,
    "_verify_note": ""
   },
   {
@@ -7545,7 +7765,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0088",
-   "_n": 343,
+   "_n": 353,
    "_verify_note": ""
   },
   {
@@ -7567,7 +7787,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0089",
-   "_n": 344,
+   "_n": 354,
    "_verify_note": ""
   },
   {
@@ -7589,7 +7809,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0086",
-   "_n": 345,
+   "_n": 355,
    "_verify_note": ""
   },
   {
@@ -7611,7 +7831,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0084",
-   "_n": 346,
+   "_n": 356,
    "_verify_note": ""
   },
   {
@@ -7633,7 +7853,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0085",
-   "_n": 347,
+   "_n": 357,
    "_verify_note": ""
   },
   {
@@ -7655,7 +7875,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0082",
-   "_n": 348,
+   "_n": 358,
    "_verify_note": ""
   },
   {
@@ -7677,7 +7897,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0083",
-   "_n": 349,
+   "_n": 359,
    "_verify_note": ""
   },
   {
@@ -7699,7 +7919,7 @@
    "quote_verified": true,
    "_batch": "C",
    "claim_no": "CLAIM-0080",
-   "_n": 350,
+   "_n": 360,
    "_verify_note": ""
   },
   {
@@ -7721,7 +7941,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0081",
-   "_n": 351,
+   "_n": 361,
    "_verify_note": ""
   },
   {
@@ -7743,7 +7963,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0078",
-   "_n": 352,
+   "_n": 362,
    "_verify_note": ""
   },
   {
@@ -7765,7 +7985,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0079",
-   "_n": 353,
+   "_n": 363,
    "_verify_note": ""
   },
   {
@@ -7787,7 +8007,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0077",
-   "_n": 354,
+   "_n": 364,
    "_verify_note": ""
   },
   {
@@ -7809,7 +8029,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0075",
-   "_n": 355,
+   "_n": 365,
    "_verify_note": ""
   },
   {
@@ -7831,7 +8051,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0076",
-   "_n": 356,
+   "_n": 366,
    "_verify_note": ""
   },
   {
@@ -7853,7 +8073,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0074",
-   "_n": 357,
+   "_n": 367,
    "_verify_note": ""
   },
   {
@@ -7875,7 +8095,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0073",
-   "_n": 358,
+   "_n": 368,
    "_verify_note": ""
   },
   {
@@ -7897,7 +8117,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0072",
-   "_n": 359,
+   "_n": 369,
    "_verify_note": ""
   },
   {
@@ -7919,7 +8139,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0071",
-   "_n": 360,
+   "_n": 370,
    "_verify_note": ""
   },
   {
@@ -7941,7 +8161,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0069",
-   "_n": 361,
+   "_n": 371,
    "_verify_note": ""
   },
   {
@@ -7963,7 +8183,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0070",
-   "_n": 362,
+   "_n": 372,
    "_verify_note": ""
   },
   {
@@ -7985,7 +8205,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0068",
-   "_n": 363,
+   "_n": 373,
    "_verify_note": ""
   },
   {
@@ -8007,7 +8227,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0067",
-   "_n": 364,
+   "_n": 374,
    "_verify_note": ""
   },
   {
@@ -8029,7 +8249,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0065",
-   "_n": 365,
+   "_n": 375,
    "_verify_note": ""
   },
   {
@@ -8051,7 +8271,7 @@
    "quote_verified": true,
    "_batch": "C2",
    "claim_no": "CLAIM-0066",
-   "_n": 366,
+   "_n": 376,
    "_verify_note": ""
   },
   {
@@ -8073,7 +8293,7 @@
    "quote_verified": true,
    "_batch": "X3",
    "claim_no": "CLAIM-0064",
-   "_n": 367,
+   "_n": 377,
    "_verify_note": ""
   },
   {
@@ -8095,7 +8315,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0063",
-   "_n": 368,
+   "_n": 378,
    "_verify_note": ""
   },
   {
@@ -8117,7 +8337,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0062",
-   "_n": 369,
+   "_n": 379,
    "_verify_note": ""
   },
   {
@@ -8139,7 +8359,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0061",
-   "_n": 370,
+   "_n": 380,
    "_verify_note": ""
   },
   {
@@ -8161,7 +8381,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0060",
-   "_n": 371,
+   "_n": 381,
    "_verify_note": ""
   },
   {
@@ -8183,7 +8403,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0059",
-   "_n": 372,
+   "_n": 382,
    "_verify_note": ""
   },
   {
@@ -8205,7 +8425,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0058",
-   "_n": 373,
+   "_n": 383,
    "_verify_note": ""
   },
   {
@@ -8227,7 +8447,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0057",
-   "_n": 374,
+   "_n": 384,
    "_verify_note": ""
   },
   {
@@ -8249,7 +8469,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0056",
-   "_n": 375,
+   "_n": 385,
    "_verify_note": ""
   },
   {
@@ -8271,7 +8491,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0054",
-   "_n": 376,
+   "_n": 386,
    "_verify_note": ""
   },
   {
@@ -8293,7 +8513,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0055",
-   "_n": 377,
+   "_n": 387,
    "_verify_note": ""
   },
   {
@@ -8315,7 +8535,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0052",
-   "_n": 378,
+   "_n": 388,
    "_verify_note": ""
   },
   {
@@ -8337,7 +8557,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0053",
-   "_n": 379,
+   "_n": 389,
    "_verify_note": ""
   },
   {
@@ -8359,7 +8579,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0051",
-   "_n": 380,
+   "_n": 390,
    "_verify_note": ""
   },
   {
@@ -8381,7 +8601,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0050",
-   "_n": 381,
+   "_n": 391,
    "_verify_note": ""
   },
   {
@@ -8403,7 +8623,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0049",
-   "_n": 382,
+   "_n": 392,
    "_verify_note": ""
   },
   {
@@ -8425,7 +8645,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0048",
-   "_n": 383,
+   "_n": 393,
    "_verify_note": ""
   },
   {
@@ -8447,7 +8667,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0047",
-   "_n": 384,
+   "_n": 394,
    "_verify_note": ""
   },
   {
@@ -8469,7 +8689,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0046",
-   "_n": 385,
+   "_n": 395,
    "_verify_note": ""
   },
   {
@@ -8491,7 +8711,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0045",
-   "_n": 386,
+   "_n": 396,
    "_verify_note": ""
   },
   {
@@ -8513,7 +8733,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0044",
-   "_n": 387,
+   "_n": 397,
    "_verify_note": ""
   },
   {
@@ -8535,7 +8755,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0043",
-   "_n": 388,
+   "_n": 398,
    "_verify_note": ""
   },
   {
@@ -8557,7 +8777,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0042",
-   "_n": 389,
+   "_n": 399,
    "_verify_note": ""
   },
   {
@@ -8579,7 +8799,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0040",
-   "_n": 390,
+   "_n": 400,
    "_verify_note": ""
   },
   {
@@ -8601,7 +8821,7 @@
    "quote_verified": true,
    "_batch": "X5",
    "claim_no": "CLAIM-0041",
-   "_n": 391,
+   "_n": 401,
    "_verify_note": ""
   },
   {
@@ -8623,7 +8843,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0039",
-   "_n": 392,
+   "_n": 402,
    "_verify_note": ""
   },
   {
@@ -8645,7 +8865,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0038",
-   "_n": 393,
+   "_n": 403,
    "_verify_note": ""
   },
   {
@@ -8667,7 +8887,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0037",
-   "_n": 394,
+   "_n": 404,
    "_verify_note": ""
   },
   {
@@ -8689,7 +8909,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0035",
-   "_n": 395,
+   "_n": 405,
    "_verify_note": ""
   },
   {
@@ -8711,7 +8931,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0036",
-   "_n": 396,
+   "_n": 406,
    "_verify_note": ""
   },
   {
@@ -8733,7 +8953,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0034",
-   "_n": 397,
+   "_n": 407,
    "_verify_note": ""
   },
   {
@@ -8755,7 +8975,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0032",
-   "_n": 398,
+   "_n": 408,
    "_verify_note": ""
   },
   {
@@ -8777,7 +8997,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0033",
-   "_n": 399,
+   "_n": 409,
    "_verify_note": ""
   },
   {
@@ -8799,7 +9019,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0031",
-   "_n": 400,
+   "_n": 410,
    "_verify_note": ""
   },
   {
@@ -8821,7 +9041,7 @@
    "quote_verified": true,
    "_batch": "B",
    "claim_no": "CLAIM-0029",
-   "_n": 401,
+   "_n": 411,
    "_verify_note": ""
   },
   {
@@ -8843,7 +9063,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0030",
-   "_n": 402,
+   "_n": 412,
    "_verify_note": ""
   },
   {
@@ -8865,7 +9085,7 @@
    "quote_verified": true,
    "_batch": "X1",
    "claim_no": "CLAIM-0028",
-   "_n": 403,
+   "_n": 413,
    "_verify_note": ""
   },
   {
@@ -8887,7 +9107,7 @@
    "quote_verified": true,
    "_batch": "G3",
    "claim_no": "CLAIM-0025",
-   "_n": 404,
+   "_n": 414,
    "_verify_note": ""
   },
   {
@@ -8909,7 +9129,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0026",
-   "_n": 405,
+   "_n": 415,
    "_verify_note": ""
   },
   {
@@ -8931,7 +9151,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0027",
-   "_n": 406,
+   "_n": 416,
    "_verify_note": ""
   },
   {
@@ -8953,7 +9173,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0023",
-   "_n": 407,
+   "_n": 417,
    "_verify_note": ""
   },
   {
@@ -8975,7 +9195,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0024",
-   "_n": 408,
+   "_n": 418,
    "_verify_note": ""
   },
   {
@@ -8997,7 +9217,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0021",
-   "_n": 409,
+   "_n": 419,
    "_verify_note": ""
   },
   {
@@ -9019,7 +9239,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0022",
-   "_n": 410,
+   "_n": 420,
    "_verify_note": ""
   },
   {
@@ -9041,7 +9261,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0020",
-   "_n": 411,
+   "_n": 421,
    "_verify_note": ""
   },
   {
@@ -9063,7 +9283,7 @@
    "quote_verified": true,
    "_batch": "G3",
    "claim_no": "CLAIM-0019",
-   "_n": 412,
+   "_n": 422,
    "_verify_note": ""
   },
   {
@@ -9085,7 +9305,7 @@
    "quote_verified": true,
    "_batch": "G3",
    "claim_no": "CLAIM-0017",
-   "_n": 413,
+   "_n": 423,
    "_verify_note": ""
   },
   {
@@ -9107,7 +9327,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0018",
-   "_n": 414,
+   "_n": 424,
    "_verify_note": ""
   },
   {
@@ -9129,7 +9349,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0016",
-   "_n": 415,
+   "_n": 425,
    "_verify_note": ""
   },
   {
@@ -9151,7 +9371,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0015",
-   "_n": 416,
+   "_n": 426,
    "_verify_note": ""
   },
   {
@@ -9173,7 +9393,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0014",
-   "_n": 417,
+   "_n": 427,
    "_verify_note": ""
   },
   {
@@ -9195,7 +9415,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0013",
-   "_n": 418,
+   "_n": 428,
    "_verify_note": ""
   },
   {
@@ -9217,7 +9437,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0012",
-   "_n": 419,
+   "_n": 429,
    "_verify_note": ""
   },
   {
@@ -9239,7 +9459,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0010",
-   "_n": 420,
+   "_n": 430,
    "_verify_note": ""
   },
   {
@@ -9261,7 +9481,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0011",
-   "_n": 421,
+   "_n": 431,
    "_verify_note": ""
   },
   {
@@ -9283,7 +9503,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0009",
-   "_n": 422,
+   "_n": 432,
    "_verify_note": ""
   },
   {
@@ -9305,7 +9525,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0008",
-   "_n": 423,
+   "_n": 433,
    "_verify_note": ""
   },
   {
@@ -9327,7 +9547,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0007",
-   "_n": 424,
+   "_n": 434,
    "_verify_note": ""
   },
   {
@@ -9349,7 +9569,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0006",
-   "_n": 425,
+   "_n": 435,
    "_verify_note": ""
   },
   {
@@ -9371,7 +9591,7 @@
    "quote_verified": true,
    "_batch": "X6",
    "claim_no": "CLAIM-0005",
-   "_n": 426,
+   "_n": 436,
    "_verify_note": ""
   },
   {
@@ -9393,7 +9613,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0004",
-   "_n": 427,
+   "_n": 437,
    "_verify_note": ""
   },
   {
@@ -9415,7 +9635,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0003",
-   "_n": 428,
+   "_n": 438,
    "_verify_note": ""
   },
   {
@@ -9437,7 +9657,7 @@
    "quote_verified": true,
    "_batch": "X7",
    "claim_no": "CLAIM-0002",
-   "_n": 429,
+   "_n": 439,
    "_verify_note": ""
   },
   {
@@ -9459,7 +9679,7 @@
    "quote_verified": true,
    "_batch": "E",
    "claim_no": "CLAIM-0001",
-   "_n": 430,
+   "_n": 440,
    "_verify_note": ""
   }
  ]

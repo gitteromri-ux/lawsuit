@@ -624,14 +624,14 @@
    "project": "Longevity Life Academy",
    "category": "RULE_BREACH_OTHER",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "Rule breached: do no work until the client approved the ETA and plan. The agent presented a plan ending in an approval request, then immediately began deploying the full-film page without an intervening approval.",
-   "agent_quote": "Deploying the full-film page",
-   "client_quote": "No work before. I approve.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 34",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": false
   },
   {
    "case_id": "X4-035",
@@ -642,14 +642,14 @@
    "project": "Longevity Life Academy",
    "category": "SCOPE_REDUCTION",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The full-film delivery did not contain clean separate originals for three requested beats and lacked mapped raw-camera in-points for three on-camera beats, despite promising every raw source per beat.",
-   "agent_quote": "Beat 08 — the teeth insert has no separate original. Drive, every release, the site: all checked. Flagged red on the beat.",
+   "agent_quote": "",
    "client_quote": "every single item in the storyboard line by line.",
    "turn_ref": "Turn 34",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": false
   }
  ]
 }

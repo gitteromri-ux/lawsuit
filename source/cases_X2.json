@@ -577,7 +577,7 @@
    "turn_ref": "Turn 1",
    "minutes_lost": null,
    "compute_note": "Two background render jobs were re-run twice.",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-032",
@@ -595,7 +595,7 @@
    "turn_ref": "Turns 1, 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-033",
@@ -613,7 +613,7 @@
    "turn_ref": "Turn 2",
    "minutes_lost": 25,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-034",
@@ -631,7 +631,7 @@
    "turn_ref": "Turn 2",
    "minutes_lost": null,
    "compute_note": "The rejected V1 was reworked into V2.",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-035",
@@ -649,7 +649,7 @@
    "turn_ref": "Turn 3",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-036",
@@ -667,7 +667,7 @@
    "turn_ref": "Turns 3, 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-037",
@@ -685,7 +685,7 @@
    "turn_ref": "Turns 4, 32",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-038",
@@ -703,7 +703,7 @@
    "turn_ref": "Turn 4",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-039",
@@ -721,7 +721,7 @@
    "turn_ref": "Turn 5",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-040",
@@ -739,7 +739,7 @@
    "turn_ref": "Turn 5",
    "minutes_lost": null,
    "compute_note": "Failed Pages hosting was retried instead of routing to direct links.",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-041",
@@ -757,7 +757,7 @@
    "turn_ref": "Turn 7",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-042",
@@ -775,7 +775,7 @@
    "turn_ref": "Turn 7",
    "minutes_lost": 40,
    "compute_note": "GitHub hosting was retried after two failures.",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-043",
@@ -793,7 +793,7 @@
    "turn_ref": "Turn 7",
    "minutes_lost": 35,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-044",
@@ -811,7 +811,7 @@
    "turn_ref": "Turns 10–11",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-045",
@@ -829,7 +829,7 @@
    "turn_ref": "Turn 13",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-046",
@@ -847,7 +847,7 @@
    "turn_ref": "Turn 14",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-047",
@@ -865,7 +865,7 @@
    "turn_ref": "Turn 15",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-048",
@@ -883,7 +883,7 @@
    "turn_ref": "Turn 17",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-049",
@@ -901,7 +901,7 @@
    "turn_ref": "Turn 18",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-050",
@@ -919,7 +919,7 @@
    "turn_ref": "Turn 20",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-051",
@@ -937,7 +937,7 @@
    "turn_ref": "Turn 22",
    "minutes_lost": null,
    "compute_note": "A previously used hook was proposed again.",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-052",
@@ -955,7 +955,7 @@
    "turn_ref": "Turns 25–26",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-053",
@@ -973,7 +973,7 @@
    "turn_ref": "Turn 27",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-054",
@@ -991,7 +991,7 @@
    "turn_ref": "Turn 29",
    "minutes_lost": 51,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-055",
@@ -1009,7 +1009,7 @@
    "turn_ref": "Turn 29",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-056",
@@ -1027,7 +1027,7 @@
    "turn_ref": "Turn 32",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-057",
@@ -1045,7 +1045,7 @@
    "turn_ref": "Turns 32–33",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-058",
@@ -1063,7 +1063,7 @@
    "turn_ref": "Turn 33",
    "minutes_lost": null,
    "compute_note": "A render was stopped as broken after omissions were identified.",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-059",
@@ -1081,7 +1081,7 @@
    "turn_ref": "Turns 30, 34",
    "minutes_lost": 60,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X2-060",
@@ -1099,7 +1099,7 @@
    "turn_ref": "Turn 35",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   }
  ]
 }

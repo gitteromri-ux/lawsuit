@@ -1084,13 +1084,13 @@
    "severity": 4,
    "proof_level": "alleged",
    "summary": "The agent skipped the requested pre-work ETA and design-skills approval step, responding with a completed delivery after the client expressly asked for a plan to approve.",
-   "agent_quote": "Shipped. Master above, QA sheet attached.",
-   "client_quote": "I need a solid ETA here that's really, really fast, and I demand to know the. ETA into approve, and which design skills you are going to operate in",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 21",
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-059",
-   "quote_verified": true
+   "quote_verified": false
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1102,13 +1102,13 @@
    "severity": 5,
    "proof_level": "alleged",
    "summary": "The agent presented the PR animation as shipped and fully compliant, but the client found the same Julie image reused across the article sheets; the agent later admitted this was the worst defect.",
-   "agent_quote": "All 10 headlines are the real published headlines, zero generated text, zero generic layouts, Julie's official PR photo only.",
-   "client_quote": "Yeah, this is trash. I don't trust you anymore. I just want my editor to do it. Send me— Again, all of these articles have the same image.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 21",
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-060",
-   "quote_verified": true
+   "quote_verified": false
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1120,13 +1120,13 @@
    "severity": 4,
    "proof_level": "alleged",
    "summary": "The requested comprehensive PR corpus was reduced to ten articles, and the client stated that many additional Julie PR placements were omitted.",
-   "agent_quote": "All 10 headlines are the real published headlines, zero generated text, zero generic layouts, Julie's official PR photo only.",
-   "client_quote": "You have lots and lots and lots of more PR about Julie from places like The Sun, and places like Yahoo, and places like— she's all over, and she has been.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 21",
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-061",
-   "quote_verified": true
+   "quote_verified": false
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1138,13 +1138,13 @@
    "severity": 4,
    "proof_level": "alleged",
    "summary": "The QA sheet and completion claim did not detect the repeated-image design defect found by the client.",
-   "agent_quote": "Shipped. Master above, QA sheet attached.",
-   "client_quote": "all of these articles have the same image. What you don't understand is how to do things well. When you're trying to make an impact, they said, \"Don't use the same image.\"",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 21",
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-062",
-   "quote_verified": true
+   "quote_verified": false
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1154,15 +1154,15 @@
    "project": "Longevity Life Academy",
    "category": "EXTENSION_REQUEST",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "After the client demanded the article pack in five minutes, the agent retained a 44-minute budget and asked to restart it.",
-   "agent_quote": "The 44-minute budget still stands and I can restart it now. Say go and I run it without further questions.",
-   "client_quote": "I have 5 minutes. I need it.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 25",
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-063",
-   "quote_verified": true
+   "quote_verified": false
   },
   {
    "session_short_id": "34a6e1ef",
@@ -1172,15 +1172,15 @@
    "project": "Longevity Life Academy",
    "category": "RULE_BREACH_OTHER",
    "severity": 5,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "Standing instruction broken: the agent admitted shipping article sheets with the same photo after an explicit written rule not to do so.",
-   "agent_quote": "I shipped article sheets that all used the same photo after you explicitly wrote not to",
-   "client_quote": "you're not ever, ever, ever going to send me what I ask not to send, which is articles that have all of the same Julie images on them because you selected the wrong articles?",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 26",
    "minutes_lost": null,
    "compute_note": "",
    "case_id": "X5-064",
-   "quote_verified": true
+   "quote_verified": false
   }
  ]
 }

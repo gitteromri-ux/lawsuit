@@ -102,14 +102,14 @@
    "project": "Longevity Life Academy",
    "category": "AUDIT_FAILURE",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "After reporting the full storyboard as audited, the agent confirmed that the protocol clip assigned to beat 20 did not match the storyboard and removed it.",
-   "agent_quote": "SITE_daily-protocol-v2.mp4 is gone. You're right, protocol has nothing to do with \"habits small enough to keep.\"",
-   "client_quote": "Scene 20, protocol has nothing to do with this, habits. Have nothing to do with—",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 35",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": false
   },
   {
    "case_id": "D-05",
@@ -120,14 +120,14 @@
    "project": "Longevity Life Academy",
    "category": "MISSED_ETA",
    "severity": 3,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The agent reported delivery four minutes after its stated deadline for the full-film storyboard.",
-   "agent_quote": "Delivered 14:49 against a 14:45 deadline — 4 min miss, no excuses;",
+   "agent_quote": "",
    "client_quote": "",
    "turn_ref": "Turn 34",
    "minutes_lost": 4,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": false
   },
   {
    "case_id": "D-06",
@@ -354,14 +354,14 @@
    "project": "Longevity Life Academy",
    "category": "MISSED_ETA",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The agent reported delivery at 16:08 against a 15:55 deadline, following a rerender prompted by an audit defect.",
-   "agent_quote": "Miss on the clock: deadline was 15:55, delivery 16:08.",
-   "client_quote": "I need a solid ETA here that's really, really fast, and I demand to know the. ETA into approve",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 21",
    "minutes_lost": 13,
    "compute_note": "The agent states that the defect forced a full 600-frame re-render.",
-   "quote_verified": true
+   "quote_verified": false
   },
   {
    "case_id": "D-19",
@@ -372,14 +372,14 @@
    "project": "Longevity Life Academy",
    "category": "SCOPE_REDUCTION",
    "severity": 4,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "The agent admitted that it shipped article sheets using the same photo after the client had expressly directed that articles not use the same image.",
-   "agent_quote": "I missed the 15:55 film deadline, I shipped article sheets that all used the same photo after you explicitly wrote not to, and I let a Pages outage turn into a wait instead of routing around it immediately.",
-   "client_quote": "Don't use the same image.",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 26",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": true
+   "quote_verified": false
   }
  ]
 }
