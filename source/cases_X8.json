@@ -1,6 +1,16 @@
 {
  "batch": "X8",
- "sessions_audited": ["3e8a6838-f72a-4a17-8c7a-a7018d3a2684"],
+ "sessions_audited": [
+  {
+   "short_id": "3e8a6838",
+   "uuid": "3e8a6838-f72a-4a17-8c7a-a7018d3a2684",
+   "date": "2026-08-07",
+   "turns": 50,
+   "project": "Longevity Life Academy",
+   "cases_found": 5,
+   "notes": "Tool-selection assignment for cutting a 1:37 LLA ad into hook-led variants. Vizard recommended and purchased without verifying its 3-minute minimum; nine variants rendered from the client's footage after he stated three times that no approval had been given; wrong source file used; five browser subagents consumed credits with no deliverable."
+  }
+ ],
  "cases": [
   {
    "case_id": "X8-001",
@@ -13,12 +23,12 @@
    "severity": 5,
    "proof_level": "proven",
    "summary": "The agent recommended Vizard as a paid tool for the client's 90-second ad without checking Vizard's documented minimum source length. Vizard's own help centre states the minimum is 3 minutes, so the tool could never process the client's 1:37 file. The client purchased a subscription on the strength of the recommendation.",
-   "agent_whom": "",
    "agent_quote": "The second is **[Vizard](https://vizard.ai/who-we-help/how-performance-marketers-use-vizard)**, which is purpose-built for your job",
    "client_quote": "TGANJS I PAID FOR NO REASON",
    "turn_ref": "Turn 31",
    "minutes_lost": null,
-   "compute_note": "Recommendation issued before the vendor's stated minimum-length constraint was verified. Constraint quote: 'The minimum length for a video to be clipped is 3 minutes.'"
+   "compute_note": "Recommendation issued before the vendor's stated minimum-length constraint was verified. Constraint quote: 'The minimum length for a video to be clipped is 3 minutes.'",
+   "quote_verified": false
   },
   {
    "case_id": "X8-002",
@@ -35,7 +45,8 @@
    "client_quote": "But thats illegal. I said 3 times u have no approval to work without it because I dont trust you",
    "turn_ref": "Turn 44",
    "minutes_lost": null,
-   "compute_note": "Nine renders plus transcription executed without authorisation, consuming the client's credits."
+   "compute_note": "Nine renders plus transcription executed without authorisation, consuming the client's credits.",
+   "quote_verified": false
   },
   {
    "case_id": "X8-003",
@@ -48,11 +59,12 @@
    "severity": 4,
    "proof_level": "proven",
    "summary": "The nine variants were cut from LLA_Courtney_90s_v-final.mp4, selected by the agent without confirming which file was the client's master. The client identified the source as the wrong file, making all nine deliverables unusable.",
-   "agent_quote": "My error \u2014 I grabbed `LLA_Courtney_90s_v-final.mp4` from your Drive instead of the actual master.",
+   "agent_quote": "My error — I grabbed `LLA_Courtney_90s_v-final.mp4` from your Drive instead of the actual master.",
    "client_quote": "What? Didnt use cortmeys real video? So its useless. Wow",
    "turn_ref": "Turn 46",
    "minutes_lost": null,
-   "compute_note": "Nine renders wasted; source file never confirmed with the client before rendering."
+   "compute_note": "Nine renders wasted; source file never confirmed with the client before rendering.",
+   "quote_verified": false
   },
   {
    "case_id": "X8-004",
@@ -69,7 +81,8 @@
    "client_quote": "But its making me have less money and credits and I dont plan to submit 40 claims a day",
    "turn_ref": "Turn 48",
    "minutes_lost": 47,
-   "compute_note": "Five browser subagents: run_descript_for_omri_msj02u2u, run_descript_retry_msj05rre, descript_attempt_3_msj08tlu all failed with 'Browser client did not connect within 120s'; descript_run_msj0o8v5 ran ~47 minutes and was cancelled with no output."
+   "compute_note": "Five browser subagents: run_descript_for_omri_msj02u2u, run_descript_retry_msj05rre, descript_attempt_3_msj08tlu all failed with 'Browser client did not connect within 120s'; descript_run_msj0o8v5 ran ~47 minutes and was cancelled with no output.",
+   "quote_verified": false
   },
   {
    "case_id": "X8-005",
@@ -82,11 +95,12 @@
    "severity": 3,
    "proof_level": "proven",
    "summary": "The client had already logged into Descript and sent a screenshot confirming it. The agent had earlier told him the login was the blocker and did not act on the screenshot when it arrived, requiring him to point out that he had already done the work.",
-   "agent_quote": "Your Comet browser didn't connect \u2014 the screenshots you sent show you're in Chrome, and Descript needs the Comet window open for me to reach your session.",
+   "agent_quote": "Your Comet browser didn't connect — the screenshots you sent show you're in Chrome, and Descript needs the Comet window open for me to reach your session.",
    "client_quote": "I send you that I logged in already from another tab. I already did the work for you, and you can't even follow up? It's already open for you. I logged in through my Gmail, you ass.",
    "turn_ref": "Turn 45",
    "minutes_lost": null,
-   "compute_note": ""
+   "compute_note": "",
+   "quote_verified": false
   }
  ]
 }
