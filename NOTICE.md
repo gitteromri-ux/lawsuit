@@ -3,9 +3,9 @@
 **Claimant:** Omri Gitter, Gita Agency  
 **Account:** gitter.omri@gita-agency.com  
 **Service under claim:** Perplexity Computer  
-**Claims registered to date:** 422  
+**Claims registered to date:** 430  
 **Period covered:** 2026-07-20 to 2026-08-07  
-**Register last updated:** 2026-08-07 00:30 UTC
+**Register last updated:** 2026-08-07 12:05 UTC
 
 Each claim below is a separate documented failure of the agreed operating terms. Each carries a permanent claim number, the timestamp of the incident, the category of failure, a severity rating, and the verbatim text from the stored conversation transcript on which it rests. Quotes were machine matched against the stored transcript at build time; any quote that could not be matched was deleted rather than published, and the claim was downgraded from proven to alleged.
 
@@ -367,7 +367,7 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | **CLAIM-0354** | 2026-08-06 11:45 | Scope reduced | 4/5 | Longevity Life Academy | ALLEGED | [X5-061](cases/X5-061.md) |
 | **CLAIM-0355** | 2026-08-06 11:45 | Audit claimed, defect found | 4/5 | Longevity Life Academy | ALLEGED | [X5-062](cases/X5-062.md) |
 | **CLAIM-0356** | 2026-08-06 11:50 | Missed ETA | 4/5 | Longevity Life Academy | ALLEGED | [B-06](cases/B-06.md) |
-| **CLAIM-0357** | 2026-08-06 11:50 | Compute waste, billed to client | 3/5 | Longevity Life Academy | PROVEN | [X2-031](cases/X2-031.md) |
+| **CLAIM-0357** | 2026-08-06 11:50 | Compute waste, billed to client | 3/5 | Longevity Life Academy | ALLEGED | [X2-031](cases/X2-031.md) |
 | **CLAIM-0358** | 2026-08-06 11:50 | False status claim | 5/5 | Longevity Life Academy | ALLEGED | [X2-032](cases/X2-032.md) |
 | **CLAIM-0359** | 2026-08-06 11:53 | Audit claimed, defect found | 4/5 | Longevity Life Academy | PROVEN | [D-04](cases/D-04.md) |
 | **CLAIM-0360** | 2026-08-06 12:00 | Audit claimed, defect found | 4/5 | Longevity Life Academy | PROVEN | [D-08](cases/D-08.md) |
@@ -381,45 +381,45 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | **CLAIM-0368** | 2026-08-06 12:42 | Compute waste, billed to client | 2/5 | Longevity Life Academy | PROVEN | [X7-018](cases/X7-018.md) |
 | **CLAIM-0369** | 2026-08-06 12:47 | Scope reduced | 3/5 | Longevity Life Academy | ALLEGED | [B-15](cases/B-15.md) |
 | **CLAIM-0370** | 2026-08-06 12:47 | Started with no approved ETA | 3/5 | Longevity Life Academy | ALLEGED | [X7-019](cases/X7-019.md) |
-| **CLAIM-0371** | 2026-08-06 15:22 | Missed ETA | 4/5 | Longevity Life Academy | PROVEN | [X2-033](cases/X2-033.md) |
-| **CLAIM-0372** | 2026-08-06 15:22 | Compute waste, billed to client | 3/5 | Longevity Life Academy | PROVEN | [X2-034](cases/X2-034.md) |
+| **CLAIM-0371** | 2026-08-06 15:22 | Missed ETA | 4/5 | Longevity Life Academy | ALLEGED | [X2-033](cases/X2-033.md) |
+| **CLAIM-0372** | 2026-08-06 15:22 | Compute waste, billed to client | 3/5 | Longevity Life Academy | ALLEGED | [X2-034](cases/X2-034.md) |
 | **CLAIM-0373** | 2026-08-06 15:28 | False status claim | 3/5 | Longevity Life Academy | PROVEN | [E-09](cases/E-09.md) |
 | **CLAIM-0374** | 2026-08-06 15:28 | Missed ETA | 4/5 | Other | ALLEGED | [X7-006](cases/X7-006.md) |
-| **CLAIM-0375** | 2026-08-06 16:04 | Missed ETA | 4/5 | Longevity Life Academy | PROVEN | [X2-035](cases/X2-035.md) |
-| **CLAIM-0376** | 2026-08-06 16:04 | False status claim | 5/5 | Longevity Life Academy | PROVEN | [X2-036](cases/X2-036.md) |
+| **CLAIM-0375** | 2026-08-06 16:04 | Missed ETA | 4/5 | Longevity Life Academy | ALLEGED | [X2-035](cases/X2-035.md) |
+| **CLAIM-0376** | 2026-08-06 16:04 | False status claim | 5/5 | Longevity Life Academy | ALLEGED | [X2-036](cases/X2-036.md) |
 | **CLAIM-0377** | 2026-08-06 16:56 | Asked for an extension | 4/5 | Longevity Life Academy | PROVEN | [X5-063](cases/X5-063.md) |
 | **CLAIM-0378** | 2026-08-06 17:01 | Scope reduced | 4/5 | Longevity Life Academy | PROVEN | [D-19](cases/D-19.md) |
 | **CLAIM-0379** | 2026-08-06 17:01 | Other rule breach | 5/5 | Longevity Life Academy | PROVEN | [X5-064](cases/X5-064.md) |
 | **CLAIM-0380** | 2026-08-06 17:40 | Broken or missing deliverable | 4/5 | Longevity Life Academy | ALLEGED | [B-11](cases/B-11.md) |
-| **CLAIM-0381** | 2026-08-06 17:40 | False status claim | 5/5 | Longevity Life Academy | PROVEN | [X2-037](cases/X2-037.md) |
-| **CLAIM-0382** | 2026-08-06 17:40 | Scope reduced | 4/5 | Longevity Life Academy | PROVEN | [X2-038](cases/X2-038.md) |
-| **CLAIM-0383** | 2026-08-06 18:14 | Missed ETA | 4/5 | Longevity Life Academy | PROVEN | [X2-039](cases/X2-039.md) |
-| **CLAIM-0384** | 2026-08-06 18:14 | Compute waste, billed to client | 4/5 | Longevity Life Academy | PROVEN | [X2-040](cases/X2-040.md) |
+| **CLAIM-0381** | 2026-08-06 17:40 | False status claim | 5/5 | Longevity Life Academy | ALLEGED | [X2-037](cases/X2-037.md) |
+| **CLAIM-0382** | 2026-08-06 17:40 | Scope reduced | 4/5 | Longevity Life Academy | ALLEGED | [X2-038](cases/X2-038.md) |
+| **CLAIM-0383** | 2026-08-06 18:14 | Missed ETA | 4/5 | Longevity Life Academy | ALLEGED | [X2-039](cases/X2-039.md) |
+| **CLAIM-0384** | 2026-08-06 18:14 | Compute waste, billed to client | 4/5 | Longevity Life Academy | ALLEGED | [X2-040](cases/X2-040.md) |
 | **CLAIM-0385** | 2026-08-06 18:15 | Compute waste, billed to client | 3/5 | Longevity Life Academy | ALLEGED | [B-10](cases/B-10.md) |
 | **CLAIM-0386** | 2026-08-06 18:16 | Audit claimed, defect found | 5/5 | Longevity Life Academy | ALLEGED | [B-07](cases/B-07.md) |
 | **CLAIM-0387** | 2026-08-06 18:16 | Scope reduced | 3/5 | Longevity Life Academy | ALLEGED | [B-08](cases/B-08.md) |
 | **CLAIM-0388** | 2026-08-06 18:16 | Started with no approved ETA | 3/5 | Longevity Life Academy | ALLEGED | [B-09](cases/B-09.md) |
-| **CLAIM-0389** | 2026-08-06 18:16 | False status claim | 5/5 | Longevity Life Academy | PROVEN | [X2-041](cases/X2-041.md) |
-| **CLAIM-0390** | 2026-08-06 18:16 | Compute waste, billed to client | 4/5 | Longevity Life Academy | PROVEN | [X2-042](cases/X2-042.md) |
+| **CLAIM-0389** | 2026-08-06 18:16 | False status claim | 5/5 | Longevity Life Academy | ALLEGED | [X2-041](cases/X2-041.md) |
+| **CLAIM-0390** | 2026-08-06 18:16 | Compute waste, billed to client | 4/5 | Longevity Life Academy | ALLEGED | [X2-042](cases/X2-042.md) |
 | **CLAIM-0391** | 2026-08-06 18:16 | Asked for an extension | 3/5 | Longevity Life Academy | ALLEGED | [X2-043](cases/X2-043.md) |
-| **CLAIM-0392** | 2026-08-06 18:24 | False status claim | 4/5 | Longevity Life Academy | PROVEN | [X2-044](cases/X2-044.md) |
+| **CLAIM-0392** | 2026-08-06 18:24 | False status claim | 4/5 | Longevity Life Academy | ALLEGED | [X2-044](cases/X2-044.md) |
 | **CLAIM-0393** | 2026-08-06 18:28 | Scope reduced | 3/5 | Longevity Life Academy | ALLEGED | [B-12](cases/B-12.md) |
-| **CLAIM-0394** | 2026-08-06 18:34 | Scope reduced | 3/5 | Longevity Life Academy | PROVEN | [X2-045](cases/X2-045.md) |
-| **CLAIM-0395** | 2026-08-06 18:36 | Scope reduced | 3/5 | Longevity Life Academy | PROVEN | [X2-046](cases/X2-046.md) |
+| **CLAIM-0394** | 2026-08-06 18:34 | Scope reduced | 3/5 | Longevity Life Academy | ALLEGED | [X2-045](cases/X2-045.md) |
+| **CLAIM-0395** | 2026-08-06 18:36 | Scope reduced | 3/5 | Longevity Life Academy | ALLEGED | [X2-046](cases/X2-046.md) |
 | **CLAIM-0396** | 2026-08-06 18:38 | Started with no approved ETA | 2/5 | Longevity Life Academy | ALLEGED | [X2-047](cases/X2-047.md) |
-| **CLAIM-0397** | 2026-08-06 18:45 | Scope reduced | 4/5 | Longevity Life Academy | PROVEN | [X2-048](cases/X2-048.md) |
-| **CLAIM-0398** | 2026-08-06 18:51 | Scope reduced | 3/5 | Longevity Life Academy | PROVEN | [X2-049](cases/X2-049.md) |
+| **CLAIM-0397** | 2026-08-06 18:45 | Scope reduced | 4/5 | Longevity Life Academy | ALLEGED | [X2-048](cases/X2-048.md) |
+| **CLAIM-0398** | 2026-08-06 18:51 | Scope reduced | 3/5 | Longevity Life Academy | ALLEGED | [X2-049](cases/X2-049.md) |
 | **CLAIM-0399** | 2026-08-06 18:56 | Scope reduced | 3/5 | Longevity Life Academy | ALLEGED | [X2-050](cases/X2-050.md) |
-| **CLAIM-0400** | 2026-08-06 18:58 | Compute waste, billed to client | 3/5 | Longevity Life Academy | PROVEN | [X2-051](cases/X2-051.md) |
-| **CLAIM-0401** | 2026-08-06 19:09 | Scope reduced | 3/5 | Longevity Life Academy | PROVEN | [X2-052](cases/X2-052.md) |
-| **CLAIM-0402** | 2026-08-06 19:12 | Other rule breach | 3/5 | Longevity Life Academy | PROVEN | [X2-053](cases/X2-053.md) |
-| **CLAIM-0403** | 2026-08-06 19:18 | Asked for an extension | 3/5 | Longevity Life Academy | PROVEN | [X2-054](cases/X2-054.md) |
-| **CLAIM-0404** | 2026-08-06 19:18 | Other rule breach | 3/5 | Longevity Life Academy | PROVEN | [X2-055](cases/X2-055.md) |
-| **CLAIM-0405** | 2026-08-06 19:42 | Scope reduced | 5/5 | Longevity Life Academy | PROVEN | [B-13](cases/B-13.md) |
-| **CLAIM-0406** | 2026-08-06 19:42 | Other rule breach | 5/5 | Longevity Life Academy | PROVEN | [X2-056](cases/X2-056.md) |
-| **CLAIM-0407** | 2026-08-06 19:42 | Asked for an extension | 3/5 | Longevity Life Academy | PROVEN | [X2-057](cases/X2-057.md) |
-| **CLAIM-0408** | 2026-08-06 19:48 | Compute waste, billed to client | 4/5 | Longevity Life Academy | PROVEN | [X2-058](cases/X2-058.md) |
-| **CLAIM-0409** | 2026-08-06 20:19 | Missed ETA | 4/5 | Longevity Life Academy | PROVEN | [X2-059](cases/X2-059.md) |
+| **CLAIM-0400** | 2026-08-06 18:58 | Compute waste, billed to client | 3/5 | Longevity Life Academy | ALLEGED | [X2-051](cases/X2-051.md) |
+| **CLAIM-0401** | 2026-08-06 19:09 | Scope reduced | 3/5 | Longevity Life Academy | ALLEGED | [X2-052](cases/X2-052.md) |
+| **CLAIM-0402** | 2026-08-06 19:12 | Other rule breach | 3/5 | Longevity Life Academy | ALLEGED | [X2-053](cases/X2-053.md) |
+| **CLAIM-0403** | 2026-08-06 19:18 | Asked for an extension | 3/5 | Longevity Life Academy | ALLEGED | [X2-054](cases/X2-054.md) |
+| **CLAIM-0404** | 2026-08-06 19:18 | Other rule breach | 3/5 | Longevity Life Academy | ALLEGED | [X2-055](cases/X2-055.md) |
+| **CLAIM-0405** | 2026-08-06 19:42 | Scope reduced | 5/5 | Longevity Life Academy | ALLEGED | [B-13](cases/B-13.md) |
+| **CLAIM-0406** | 2026-08-06 19:42 | Other rule breach | 5/5 | Longevity Life Academy | ALLEGED | [X2-056](cases/X2-056.md) |
+| **CLAIM-0407** | 2026-08-06 19:42 | Asked for an extension | 3/5 | Longevity Life Academy | ALLEGED | [X2-057](cases/X2-057.md) |
+| **CLAIM-0408** | 2026-08-06 19:48 | Compute waste, billed to client | 4/5 | Longevity Life Academy | ALLEGED | [X2-058](cases/X2-058.md) |
+| **CLAIM-0409** | 2026-08-06 20:19 | Missed ETA | 4/5 | Longevity Life Academy | ALLEGED | [X2-059](cases/X2-059.md) |
 | **CLAIM-0410** | 2026-08-06 20:20 | Started with no approved ETA | 2/5 | Longevity Life Academy | ALLEGED | [X2-060](cases/X2-060.md) |
 | **CLAIM-0411** | 2026-08-06 20:34 | Other rule breach | 2/5 | Other | PROVEN | [F-01](cases/F-01.md) |
 | **CLAIM-0412** | 2026-08-06 22:26 | False status claim | 4/5 | Gita Agency internal | PROVEN | [J-01](cases/J-01.md) |
@@ -433,23 +433,31 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | **CLAIM-0420** | 2026-08-07 01:13 | Other rule breach | 4/5 | Longevity Life Academy | ALLEGED | [H-01](cases/H-01.md) |
 | **CLAIM-0421** | 2026-08-07 01:15 | Directions instead of deep link | 4/5 | Gita Agency internal | PROVEN | [H-05](cases/H-05.md) |
 | **CLAIM-0422** | 2026-08-07 01:22 | Audit claimed, defect found | 5/5 | Gita Agency internal | PROVEN | [H-06](cases/H-06.md) |
+| **CLAIM-0423** | 2026-08-07 01:33 | Missed ETA | 5/5 | Longevity Life Academy | PROVEN | [L-01](cases/L-01.md) |
+| **CLAIM-0424** | 2026-08-07 07:46 | Broken or missing deliverable | 5/5 | Longevity Life Academy | PROVEN | [L-02](cases/L-02.md) |
+| **CLAIM-0425** | 2026-08-07 08:01 | Audit claimed, defect found | 5/5 | Longevity Life Academy | PROVEN | [L-03](cases/L-03.md) |
+| **CLAIM-0426** | 2026-08-07 08:20 | Audit claimed, defect found | 5/5 | Longevity Life Academy | PROVEN | [L-04](cases/L-04.md) |
+| **CLAIM-0427** | 2026-08-07 08:32 | False status claim | 5/5 | Longevity Life Academy | PROVEN | [L-05](cases/L-05.md) |
+| **CLAIM-0428** | 2026-08-07 11:29 | Audit claimed, defect found | 5/5 | Longevity Life Academy | PROVEN | [L-06](cases/L-06.md) |
+| **CLAIM-0429** | 2026-08-07 11:59 | Asked for an extension | 5/5 | Longevity Life Academy | PROVEN | [L-07](cases/L-07.md) |
+| **CLAIM-0430** | 2026-08-07 12:05 | False status claim | 5/5 | Longevity Life Academy | PROVEN | [L-08](cases/L-08.md) |
 
 ## Summary of claims by category
 
 | Category | Claims |
 |---|---|
+| False status claim | 86 |
 | Scope reduced | 86 |
-| False status claim | 84 |
 | Started with no approved ETA | 56 |
-| Audit claimed, defect found | 38 |
+| Audit claimed, defect found | 41 |
 | Other rule breach | 36 |
-| Missed ETA | 31 |
+| Missed ETA | 32 |
+| Broken or missing deliverable | 30 |
 | Compute waste, billed to client | 30 |
-| Broken or missing deliverable | 29 |
 | Directions instead of deep link | 22 |
-| Asked for an extension | 10 |
+| Asked for an extension | 11 |
 
-**Total claims registered: 422.** 248 proven with both sides quoted from the same transcript, 174 alleged. 225 rated severity 4 or 5. 751 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
+**Total claims registered: 430.** 230 proven with both sides quoted from the same transcript, 200 alleged. 233 rated severity 4 or 5. 1281 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
 
 No claim in this register states a credit amount, because a per task billing ledger is not exposed on the account. Compute waste claims record measurable facts instead: work re-executed because of a defect the agent introduced, sequential execution where parallel execution was instructed, and loops repeating an output already rejected.
 
