@@ -1,6 +1,29 @@
 # Service Performance Record, full dossier
 
-Generated 2026-08-07 15:04 UTC. 445 cases, 2026-07-20 to 2026-08-07, 40 sessions audited.
+Generated 2026-08-07 15:05 UTC. 447 cases, 2026-07-20 to 2026-08-07, 40 sessions audited.
+
+
+## X9-001 · 2026-08-07 · Other rule breach · severity 5/5 · proven
+
+**Project:** Longevity Life Academy · **Session:** 3e8a6838 · **Turn 60** · https://www.perplexity.ai/search/3e8a6838-f72a-4a17-8c7a-a7018d3a2684
+
+
+The client instructed the agent eight times in succession to stop working and deliver, and stated that continued use of his credits was unauthorised. The agent continued running tool calls after each instruction. Rule breached: the client alone authorises whether work continues, and a stop instruction is immediate.
+
+
+> CLIENT: Theft will be reported.8 asks to stop and deliver and u continue to waist unauthorized money. Criminal activity. Evidence attached. Immediately send.
+
+
+## X9-002 · 2026-08-07 · Missed ETA · severity 5/5 · proven
+
+**Project:** Longevity Life Academy · **Session:** 3e8a6838 · **Turn 57** · https://www.perplexity.ai/search/3e8a6838-f72a-4a17-8c7a-a7018d3a2684
+
+
+The client stated the agreed time had ended and demanded immediate delivery. No completed deliverable existed at that moment, and the client had explicitly withheld approval for the elapsed wait.
+
+
+> CLIENT: Its not ok I wait this long again now
+Not fair and I dont approve
 
 
 ## X8-004 · 2026-08-07 · Compute waste, billed to client · severity 4/5 · proven

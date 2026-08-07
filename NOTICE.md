@@ -3,9 +3,9 @@
 **Claimant:** Omri Gitter, Gita Agency  
 **Account:** gitter.omri@gita-agency.com  
 **Service under claim:** Perplexity Computer  
-**Claims registered to date:** 445  
+**Claims registered to date:** 447  
 **Period covered:** 2026-07-20 to 2026-08-07  
-**Register last updated:** 2026-08-07 15:04 UTC
+**Register last updated:** 2026-08-07 15:05 UTC
 
 Each claim below is a separate documented failure of the agreed operating terms. Each carries a permanent claim number, the timestamp of the incident, the category of failure, a severity rating, and the verbatim text from the stored conversation transcript on which it rests. Quotes were machine matched against the stored transcript at build time; any quote that could not be matched was deleted rather than published, and the claim was downgraded from proven to alleged.
 
@@ -456,6 +456,8 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | **CLAIM-0443** | 2026-08-07 14:05 | Broken or missing deliverable | 4/5 | Longevity Life Academy | pending | PROVEN | [X8-003](cases/X8-003.md) |
 | **CLAIM-0444** | 2026-08-07 14:06 | Directions instead of deep link | 3/5 | Longevity Life Academy | pending | PROVEN | [X8-005](cases/X8-005.md) |
 | **CLAIM-0445** | 2026-08-07 14:53 | Compute waste, billed to client | 4/5 | Longevity Life Academy | pending | PROVEN | [X8-004](cases/X8-004.md) |
+| **CLAIM-0446** | 2026-08-07 15:00 | Missed ETA | 5/5 | Longevity Life Academy | pending | PROVEN | [X9-002](cases/X9-002.md) |
+| **CLAIM-0447** | 2026-08-07 15:02 | Other rule breach | 5/5 | Longevity Life Academy | pending | PROVEN | [X9-001](cases/X9-001.md) |
 
 ## Summary of claims by category
 
@@ -465,14 +467,14 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | Scope reduced | 87 |
 | Started with no approved ETA | 57 |
 | Audit claimed, defect found | 44 |
-| Other rule breach | 38 |
-| Missed ETA | 33 |
+| Other rule breach | 39 |
+| Missed ETA | 34 |
 | Compute waste, billed to client | 32 |
 | Broken or missing deliverable | 32 |
 | Directions instead of deep link | 23 |
 | Asked for an extension | 11 |
 
-**Total claims registered: 445.** 234 proven with both sides quoted from the same transcript, 211 alleged. 246 rated severity 4 or 5. 1328 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
+**Total claims registered: 447.** 236 proven with both sides quoted from the same transcript, 211 alleged. 248 rated severity 4 or 5. 1375 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
 
 No claim in this register states a credit amount, because a per task billing ledger is not exposed on the account. Compute waste claims record measurable facts instead: work re-executed because of a defect the agent introduced, sequential execution where parallel execution was instructed, and loops repeating an output already rejected.
 

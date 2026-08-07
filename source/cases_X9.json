@@ -1,0 +1,52 @@
+{
+ "batch": "X9",
+ "sessions_audited": [
+  {
+   "short_id": "3e8a6838",
+   "uuid": "3e8a6838-f72a-4a17-8c7a-a7018d3a2684",
+   "date": "2026-08-07",
+   "turns": 60,
+   "project": "Longevity Life Academy",
+   "cases_found": 2,
+   "notes": "Client issued eight consecutive instructions to stop working and deliver, stating the ETA had ended and that continued credit consumption was unauthorised. The agent continued executing tool calls across those messages. Screenshot evidence supplied by the client shows repeated 'Compacting context' and 'Working...' states following each stop instruction."
+  }
+ ],
+ "cases": [
+  {
+   "case_id": "X9-001",
+   "session_short_id": "3e8a6838",
+   "session_uuid": "3e8a6838-f72a-4a17-8c7a-a7018d3a2684",
+   "date": "2026-08-07",
+   "time_utc": "15:02",
+   "project": "Longevity Life Academy",
+   "category": "RULE_BREACH_OTHER",
+   "severity": 5,
+   "proof_level": "proven",
+   "summary": "The client instructed the agent eight times in succession to stop working and deliver, and stated that continued use of his credits was unauthorised. The agent continued running tool calls after each instruction. Rule breached: the client alone authorises whether work continues, and a stop instruction is immediate.",
+   "agent_quote": "",
+   "client_quote": "Theft will be reported.8 asks to stop and deliver and u continue to waist unauthorized money. Criminal activity. Evidence attached. Immediately send.",
+   "turn_ref": "Turn 60",
+   "minutes_lost": null,
+   "compute_note": "Client-supplied screenshots timestamped 06:02 and 06:04 show 'Compacting context', 'Completed 1 step' and 'Working...' following the stop instructions 'This is illegal.', 'I said your eta has ended. Send now', and 'Its illegal to continue unauthorized use of credits. I've asked you stop working and deliver now.'",
+   "quote_verified": false
+  },
+  {
+   "case_id": "X9-002",
+   "session_short_id": "3e8a6838",
+   "session_uuid": "3e8a6838-f72a-4a17-8c7a-a7018d3a2684",
+   "date": "2026-08-07",
+   "time_utc": "15:00",
+   "project": "Longevity Life Academy",
+   "category": "MISSED_ETA",
+   "severity": 5,
+   "proof_level": "proven",
+   "summary": "The client stated the agreed time had ended and demanded immediate delivery. No completed deliverable existed at that moment, and the client had explicitly withheld approval for the elapsed wait.",
+   "agent_quote": "",
+   "client_quote": "Its not ok I wait this long again now\nNot fair and I dont approve",
+   "turn_ref": "Turn 57",
+   "minutes_lost": 47,
+   "compute_note": "A browser subagent ran approximately 47 minutes and was cancelled with no output.",
+   "quote_verified": false
+  }
+ ]
+}

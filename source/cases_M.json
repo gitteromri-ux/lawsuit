@@ -28,7 +28,7 @@
    "turn_ref": "Turn 15:19 IDT",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "financial_usd": null,
    "financial_note": "part of the USD 15,000 loss on session 6164427a, 8,000 editor cost paid without usable files, 7,000 fine levied by the client on the agency"
   },
@@ -48,7 +48,7 @@
    "turn_ref": "Turn 15:19 IDT",
    "minutes_lost": null,
    "compute_note": "Numeric audit re-run on files already delivered, producing a passing result on defective files.",
-   "quote_verified": false,
+   "quote_verified": true,
    "financial_usd": null,
    "financial_note": "part of the USD 15,000 loss on session 6164427a, 8,000 editor cost paid without usable files, 7,000 fine levied by the client on the agency"
   },
@@ -128,7 +128,7 @@
    "turn_ref": "Turn 15:36 IDT",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false,
+   "quote_verified": true,
    "financial_usd": null,
    "financial_note": "part of the USD 15,000 loss on session 6164427a, 8,000 editor cost paid without usable files, 7,000 fine levied by the client on the agency"
   },
