@@ -1,0 +1,34 @@
+{
+ "batch": "K",
+ "sessions_audited": [
+  {
+   "short_id": "aec61b85",
+   "uuid": "aec61b85-f248-43ee-8627-8b52fb8e28bf",
+   "date": "2026-08-07",
+   "turns": 30,
+   "project": "Gita Agency internal",
+   "cases_found": 1,
+   "notes": "This session. Failures by the agent that built the register."
+  }
+ ],
+ "cases": [
+  {
+   "case_id": "K-001",
+   "session_short_id": "aec61b85",
+   "session_uuid": "aec61b85-f248-43ee-8627-8b52fb8e28bf",
+   "date": "2026-08-07",
+   "time_utc": "00:29",
+   "project": "Gita Agency internal",
+   "category": "RULE_BREACH_OTHER",
+   "severity": 5,
+   "proof_level": "proven",
+   "summary": "The client wrote the tag and the agent that designed the tag mechanism did not fire the receipt. It answered the surrounding message and ignored the trigger entirely, in the same conversation where it had stated the mechanism was verified and working.",
+   "agent_quote": "Version 1, the plain trigger: tested, it fired, I read the receipt out of the session.",
+   "client_quote": "#LAWSuit",
+   "turn_ref": "Turn 29",
+   "minutes_lost": null,
+   "compute_note": "Rule breached: the tag is rank 1 priority and is never deferred. The agent responsible for the rule broke it first.",
+   "quote_verified": false
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 # Service Performance Record, full dossier
 
-Generated 2026-08-06 22:48 UTC. 421 cases, 2026-07-20 to 2026-08-07, 40 sessions audited.
+Generated 2026-08-07 00:30 UTC. 422 cases, 2026-07-20 to 2026-08-07, 40 sessions audited.
 
 
 ## H-06 · 2026-08-07 · Audit claimed, defect found · severity 5/5 · proven
@@ -82,6 +82,20 @@ Gorgeous dashboards were an explicit item in the original brief and were not del
 
 
 > CLIENT: Even u here. Didnt do gorgeous.  Gorgeous was on the list. Yes or no?
+
+
+## K-001 · 2026-08-07 · Other rule breach · severity 5/5 · proven
+
+**Project:** Gita Agency internal · **Session:** aec61b85 · **Turn 29** · https://www.perplexity.ai/search/aec61b85-f248-43ee-8627-8b52fb8e28bf
+
+
+The client wrote the tag and the agent that designed the tag mechanism did not fire the receipt. It answered the surrounding message and ignored the trigger entirely, in the same conversation where it had stated the mechanism was verified and working.
+
+
+> AGENT: Version 1, the plain trigger: tested, it fired, I read the receipt out of the session.
+
+
+> CLIENT: #LAWSuit
 
 
 ## I-01 · 2026-08-06 · Missed ETA · severity 5/5 · alleged

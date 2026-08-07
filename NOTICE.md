@@ -3,9 +3,9 @@
 **Claimant:** Omri Gitter, Gita Agency  
 **Account:** gitter.omri@gita-agency.com  
 **Service under claim:** Perplexity Computer  
-**Claims registered to date:** 421  
+**Claims registered to date:** 422  
 **Period covered:** 2026-07-20 to 2026-08-07  
-**Register last updated:** 2026-08-06 22:48 UTC
+**Register last updated:** 2026-08-07 00:30 UTC
 
 Each claim below is a separate documented failure of the agreed operating terms. Each carries a permanent claim number, the timestamp of the incident, the category of failure, a severity rating, and the verbatim text from the stored conversation transcript on which it rests. Quotes were machine matched against the stored transcript at build time; any quote that could not be matched was deleted rather than published, and the claim was downgraded from proven to alleged.
 
@@ -426,12 +426,13 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | **CLAIM-0413** | 2026-08-06 22:32 | Missed ETA | 5/5 | Other | ALLEGED | [I-01](cases/I-01.md) |
 | **CLAIM-0414** | 2026-08-06 22:32 | Missed ETA | 5/5 | Other | ALLEGED | [I-02](cases/I-02.md) |
 | **CLAIM-0415** | 2026-08-06 22:32 | False status claim | 5/5 | Other | ALLEGED | [I-03](cases/I-03.md) |
-| **CLAIM-0416** | 2026-08-07 00:59 | Scope reduced | 4/5 | Gita Agency internal | PROVEN | [H-02](cases/H-02.md) |
-| **CLAIM-0417** | 2026-08-07 01:00 | False status claim | 5/5 | Gita Agency internal | PROVEN | [H-04](cases/H-04.md) |
-| **CLAIM-0418** | 2026-08-07 01:02 | False status claim | 5/5 | Gita Agency internal | PROVEN | [H-03](cases/H-03.md) |
-| **CLAIM-0419** | 2026-08-07 01:13 | Other rule breach | 4/5 | Longevity Life Academy | ALLEGED | [H-01](cases/H-01.md) |
-| **CLAIM-0420** | 2026-08-07 01:15 | Directions instead of deep link | 4/5 | Gita Agency internal | PROVEN | [H-05](cases/H-05.md) |
-| **CLAIM-0421** | 2026-08-07 01:22 | Audit claimed, defect found | 5/5 | Gita Agency internal | PROVEN | [H-06](cases/H-06.md) |
+| **CLAIM-0416** | 2026-08-07 00:29 | Other rule breach | 5/5 | Gita Agency internal | PROVEN | [K-001](cases/K-001.md) |
+| **CLAIM-0417** | 2026-08-07 00:59 | Scope reduced | 4/5 | Gita Agency internal | PROVEN | [H-02](cases/H-02.md) |
+| **CLAIM-0418** | 2026-08-07 01:00 | False status claim | 5/5 | Gita Agency internal | PROVEN | [H-04](cases/H-04.md) |
+| **CLAIM-0419** | 2026-08-07 01:02 | False status claim | 5/5 | Gita Agency internal | PROVEN | [H-03](cases/H-03.md) |
+| **CLAIM-0420** | 2026-08-07 01:13 | Other rule breach | 4/5 | Longevity Life Academy | ALLEGED | [H-01](cases/H-01.md) |
+| **CLAIM-0421** | 2026-08-07 01:15 | Directions instead of deep link | 4/5 | Gita Agency internal | PROVEN | [H-05](cases/H-05.md) |
+| **CLAIM-0422** | 2026-08-07 01:22 | Audit claimed, defect found | 5/5 | Gita Agency internal | PROVEN | [H-06](cases/H-06.md) |
 
 ## Summary of claims by category
 
@@ -441,14 +442,14 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | False status claim | 84 |
 | Started with no approved ETA | 56 |
 | Audit claimed, defect found | 38 |
-| Other rule breach | 35 |
+| Other rule breach | 36 |
 | Missed ETA | 31 |
 | Compute waste, billed to client | 30 |
 | Broken or missing deliverable | 29 |
 | Directions instead of deep link | 22 |
 | Asked for an extension | 10 |
 
-**Total claims registered: 421.** 247 proven with both sides quoted from the same transcript, 174 alleged. 224 rated severity 4 or 5. 751 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
+**Total claims registered: 422.** 248 proven with both sides quoted from the same transcript, 174 alleged. 225 rated severity 4 or 5. 751 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
 
 No claim in this register states a credit amount, because a per task billing ledger is not exposed on the account. Compute waste claims record measurable facts instead: work re-executed because of a defect the agent introduced, sequential execution where parallel execution was instructed, and loops repeating an output already rejected.
 
