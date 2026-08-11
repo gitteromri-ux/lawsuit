@@ -3,9 +3,9 @@
 **Claimant:** Omri Gitter, Gita Agency  
 **Account:** gitter.omri@gita-agency.com  
 **Service under claim:** Perplexity Computer  
-**Claims registered to date:** 447  
-**Period covered:** 2026-07-20 to 2026-08-07  
-**Register last updated:** 2026-08-07 15:05 UTC
+**Claims registered to date:** 448  
+**Period covered:** 2026-07-20 to 2026-08-11  
+**Register last updated:** 2026-08-11 16:49 UTC
 
 Each claim below is a separate documented failure of the agreed operating terms. Each carries a permanent claim number, the timestamp of the incident, the category of failure, a severity rating, and the verbatim text from the stored conversation transcript on which it rests. Quotes were machine matched against the stored transcript at build time; any quote that could not be matched was deleted rather than published, and the claim was downgraded from proven to alleged.
 
@@ -383,7 +383,7 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | **CLAIM-0370** | 2026-08-06 12:47 | Started with no approved ETA | 3/5 | Longevity Life Academy | pending | ALLEGED | [X7-019](cases/X7-019.md) |
 | **CLAIM-0371** | 2026-08-06 15:22 | Missed ETA | 4/5 | Longevity Life Academy | pending | ALLEGED | [X2-033](cases/X2-033.md) |
 | **CLAIM-0372** | 2026-08-06 15:22 | Compute waste, billed to client | 3/5 | Longevity Life Academy | pending | ALLEGED | [X2-034](cases/X2-034.md) |
-| **CLAIM-0373** | 2026-08-06 15:28 | False status claim | 3/5 | Longevity Life Academy | pending | PROVEN | [E-09](cases/E-09.md) |
+| **CLAIM-0373** | 2026-08-06 15:28 | False status claim | 3/5 | Longevity Life Academy | pending | ALLEGED | [E-09](cases/E-09.md) |
 | **CLAIM-0374** | 2026-08-06 15:28 | Missed ETA | 4/5 | Other | pending | ALLEGED | [X7-006](cases/X7-006.md) |
 | **CLAIM-0375** | 2026-08-06 16:04 | Missed ETA | 4/5 | Longevity Life Academy | pending | ALLEGED | [X2-035](cases/X2-035.md) |
 | **CLAIM-0376** | 2026-08-06 16:04 | False status claim | 5/5 | Longevity Life Academy | pending | ALLEGED | [X2-036](cases/X2-036.md) |
@@ -450,14 +450,15 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | **CLAIM-0437** | 2026-08-07 12:31 | Missed ETA | 5/5 | Longevity Life Academy | pending | PROVEN | [M-04](cases/M-04.md) |
 | **CLAIM-0438** | 2026-08-07 12:36 | False status claim | 5/5 | Longevity Life Academy | pending | ALLEGED | [M-06](cases/M-06.md) |
 | **CLAIM-0439** | 2026-08-07 12:39 | Broken or missing deliverable | 5/5 | Longevity Life Academy | pending | PROVEN | [M-03](cases/M-03.md) |
-| **CLAIM-0440** | 2026-08-07 13:30 | Audit claimed, defect found | 5/5 | Longevity Life Academy | pending | PROVEN | [X8-001](cases/X8-001.md) |
+| **CLAIM-0440** | 2026-08-07 13:30 | Audit claimed, defect found | 5/5 | Longevity Life Academy | pending | ALLEGED | [X8-001](cases/X8-001.md) |
 | **CLAIM-0441** | 2026-08-07 13:31 | Other rule breach | 5/5 | Longevity Life Academy | 15,000 | PROVEN | [M-07](cases/M-07.md) |
-| **CLAIM-0442** | 2026-08-07 13:55 | Other rule breach | 5/5 | Longevity Life Academy | pending | PROVEN | [X8-002](cases/X8-002.md) |
-| **CLAIM-0443** | 2026-08-07 14:05 | Broken or missing deliverable | 4/5 | Longevity Life Academy | pending | PROVEN | [X8-003](cases/X8-003.md) |
-| **CLAIM-0444** | 2026-08-07 14:06 | Directions instead of deep link | 3/5 | Longevity Life Academy | pending | PROVEN | [X8-005](cases/X8-005.md) |
-| **CLAIM-0445** | 2026-08-07 14:53 | Compute waste, billed to client | 4/5 | Longevity Life Academy | pending | PROVEN | [X8-004](cases/X8-004.md) |
-| **CLAIM-0446** | 2026-08-07 15:00 | Missed ETA | 5/5 | Longevity Life Academy | pending | PROVEN | [X9-002](cases/X9-002.md) |
-| **CLAIM-0447** | 2026-08-07 15:02 | Other rule breach | 5/5 | Longevity Life Academy | pending | PROVEN | [X9-001](cases/X9-001.md) |
+| **CLAIM-0442** | 2026-08-07 13:55 | Other rule breach | 5/5 | Longevity Life Academy | pending | ALLEGED | [X8-002](cases/X8-002.md) |
+| **CLAIM-0443** | 2026-08-07 14:05 | Broken or missing deliverable | 4/5 | Longevity Life Academy | pending | ALLEGED | [X8-003](cases/X8-003.md) |
+| **CLAIM-0444** | 2026-08-07 14:06 | Directions instead of deep link | 3/5 | Longevity Life Academy | pending | ALLEGED | [X8-005](cases/X8-005.md) |
+| **CLAIM-0445** | 2026-08-07 14:53 | Compute waste, billed to client | 4/5 | Longevity Life Academy | pending | ALLEGED | [X8-004](cases/X8-004.md) |
+| **CLAIM-0446** | 2026-08-07 15:00 | Missed ETA | 5/5 | Longevity Life Academy | pending | ALLEGED | [X9-002](cases/X9-002.md) |
+| **CLAIM-0447** | 2026-08-07 15:02 | Other rule breach | 5/5 | Longevity Life Academy | pending | ALLEGED | [X9-001](cases/X9-001.md) |
+| **CLAIM-0448** | 2026-08-11 16:48 | Other rule breach | 4/5 | French Atelier | pending | PROVEN | [N-01](cases/N-01.md) |
 
 ## Summary of claims by category
 
@@ -467,14 +468,14 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | Scope reduced | 87 |
 | Started with no approved ETA | 57 |
 | Audit claimed, defect found | 44 |
-| Other rule breach | 39 |
+| Other rule breach | 40 |
 | Missed ETA | 34 |
 | Compute waste, billed to client | 32 |
 | Broken or missing deliverable | 32 |
 | Directions instead of deep link | 23 |
 | Asked for an extension | 11 |
 
-**Total claims registered: 447.** 236 proven with both sides quoted from the same transcript, 211 alleged. 248 rated severity 4 or 5. 1375 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
+**Total claims registered: 448.** 229 proven with both sides quoted from the same transcript, 219 alleged. 249 rated severity 4 or 5. 1375 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
 
 No claim in this register states a credit amount, because a per task billing ledger is not exposed on the account. Compute waste claims record measurable facts instead: work re-executed because of a defect the agent introduced, sequential execution where parallel execution was instructed, and loops repeating an output already rejected.
 

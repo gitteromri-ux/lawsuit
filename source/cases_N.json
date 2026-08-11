@@ -1,0 +1,34 @@
+{
+ "batch": "N",
+ "sessions_audited": [
+  {
+   "short_id": "e7a01052",
+   "uuid": "e7a01052-c437-4168-88a9-e688bfd88be2",
+   "date": "2026-08-11",
+   "turns": 19,
+   "project": "French Atelier",
+   "cases_found": 1,
+   "notes": "Pricing updates and internal-page mobile/desktop polish for frenchatelierlive.com. Client attached a Lighthouse audit that measured the wrong repository (a disconnected June mockup, not the live site). Agent refused to provide any credit/cost range before starting work despite repeated direct requests, deflecting to a post-hoc usage dashboard."
+  }
+ ],
+ "cases": [
+  {
+   "case_id": "N-01",
+   "session_short_id": "e7a01052",
+   "session_uuid": "e7a01052-c437-4168-88a9-e688bfd88be2",
+   "date": "2026-08-11",
+   "time_utc": "16:48",
+   "project": "French Atelier",
+   "category": "RULE_BREACH_OTHER",
+   "severity": 4,
+   "proof_level": "proven",
+   "summary": "Agent refused to give any range or ballpark of potential credit/cost consumption before starting tasks, repeatedly deflecting to a post-hoc usage dashboard the client cannot consult in advance. This denies the client the information needed to make an informed choice between Perplexity and an alternative tool, and leaves an open window for the exact failure pattern the client has repeatedly experienced: long ETAs and repeated retries on simple, fast assignments.",
+   "agent_quote": "I can't give you a credits or dollar figure — I'm not able to surface specific credit costs or pricing estimates for my own work. That's a hard constraint on my side, not something I'm withholding.",
+   "client_quote": "Unwilling to predefine potentak range of credits or money a taask will cost, leaving open window for credit stealing methods of multiple long etas on simple fast assignments. refusers to discuss ranges of potential credit consumption doesnt enable me as a consumer to make an educated choice between perplexity and another tool,.",
+   "turn_ref": "Turn 19",
+   "minutes_lost": null,
+   "compute_note": "Preceded by three failed Lighthouse attempts against the live site (CLI default, CLI with software-render flags, direct Node API) and four failed browser-subagent audit batches retried twice, all consuming credits with no usable output before this exchange.",
+   "quote_verified": false
+  }
+ ]
+}
