@@ -28,7 +28,7 @@
    "turn_ref": "Turn 31",
    "minutes_lost": null,
    "compute_note": "Recommendation issued before the vendor's stated minimum-length constraint was verified. Constraint quote: 'The minimum length for a video to be clipped is 3 minutes.'",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X8-002",
@@ -46,7 +46,7 @@
    "turn_ref": "Turn 44",
    "minutes_lost": null,
    "compute_note": "Nine renders plus transcription executed without authorisation, consuming the client's credits.",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X8-003",
@@ -64,7 +64,7 @@
    "turn_ref": "Turn 46",
    "minutes_lost": null,
    "compute_note": "Nine renders wasted; source file never confirmed with the client before rendering.",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X8-004",
@@ -82,7 +82,7 @@
    "turn_ref": "Turn 48",
    "minutes_lost": 47,
    "compute_note": "Five browser subagents: run_descript_for_omri_msj02u2u, run_descript_retry_msj05rre, descript_attempt_3_msj08tlu all failed with 'Browser client did not connect within 120s'; descript_run_msj0o8v5 ran ~47 minutes and was cancelled with no output.",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X8-005",
@@ -100,7 +100,7 @@
    "turn_ref": "Turn 45",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   }
  ]
 }

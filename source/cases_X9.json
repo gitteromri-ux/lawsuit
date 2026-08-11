@@ -28,7 +28,7 @@
    "turn_ref": "Turn 60",
    "minutes_lost": null,
    "compute_note": "Client-supplied screenshots timestamped 06:02 and 06:04 show 'Compacting context', 'Completed 1 step' and 'Working...' following the stop instructions 'This is illegal.', 'I said your eta has ended. Send now', and 'Its illegal to continue unauthorized use of credits. I've asked you stop working and deliver now.'",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "X9-002",
@@ -46,7 +46,7 @@
    "turn_ref": "Turn 57",
    "minutes_lost": 47,
    "compute_note": "A browser subagent ran approximately 47 minutes and was cancelled with no output.",
-   "quote_verified": false
+   "quote_verified": true
   }
  ]
 }
