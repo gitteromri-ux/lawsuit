@@ -1,6 +1,30 @@
 # Service Performance Record, full dossier
 
-Generated 2026-08-11 17:07 UTC. 453 cases, 2026-07-20 to 2026-08-11, 42 sessions audited.
+Generated 2026-09-22 09:06 UTC. 456 cases, 2026-07-20 to 2026-09-22, 43 sessions audited.
+
+
+## G-03 · 2026-09-22 · Missed ETA · severity 5/5 · alleged
+
+**Project:** Longevity Life Academy · **Session:** 88173292 · **Turn 11:58 IDT** · https://www.perplexity.ai/search/88173292-8ba8-4b89-8435-20f250919933
+
+
+Client states that after five days the agent has not found why Ad Set 2 AddToCart events are not attributed, and that all checks were untrustworthy. Agent's 20-minute final audit (deadline 11:26 IDT) delivered at 11:22 and 11:38 with defects the client had to find himself.
+
+
+## G-02 · 2026-09-22 · Audit claimed, defect found · severity 5/5 · alleged
+
+**Project:** Longevity Life Academy · **Session:** 88173292 · **Turn 11:48 IDT** · https://www.perplexity.ai/search/88173292-8ba8-4b89-8435-20f250919933
+
+
+Agent delivered a 'final audit' of the checkout with screenshots that it had captured but not inspected. Client opened one screenshot and found the WhatsApp widget covering the registration fee and card fields. Agent then confirmed the defect and an empty Airwallex card box on Android in-app.
+
+
+## G-01 · 2026-09-22 · False status claim · severity 5/5 · alleged
+
+**Project:** Longevity Life Academy · **Session:** 88173292 · **Turn 11:22 IDT** · https://www.perplexity.ai/search/88173292-8ba8-4b89-8435-20f250919933
+
+
+Agent reported in the final audit that the live checkout had no PayPal button. PayPal tab and button were present and rendering; the agent's probe had only read inside the card iframe. Corrected by the agent 25 minutes later after the client demanded proof.
 
 
 ## O-05 · 2026-08-11 · Other rule breach · severity 3/5 · proven
@@ -5506,15 +5530,12 @@ The agent declared a fresh path corrected and verified. The next client message 
 > CLIENT: You're either using the old repo and not the original repo, or you're just really, really bad.
 
 
-## B-01 · 2026-08-04 · False status claim · severity 5/5 · proven
+## B-01 · 2026-08-04 · False status claim · severity 5/5 · alleged
 
 **Project:** Longevity Life Academy · **Session:** cc4e0505 · **Turn 1; Turn 2** · https://www.perplexity.ai/search/cc4e0505-3765-4dea-949a-1010b12d8f18
 
 
 The agent stated that every requested item was completed and verified, then acknowledged that the navigation logo was defective and had to be fixed.
-
-
-> AGENT: Everything you asked for is done and verified on the live URL. … The nav logo was being run through a brightness(0) invert(1) filter, which crushed the whole lockup into a flat white silhouette. That is why it looked smeared.
 
 
 > CLIENT: Did you even see that the logo is screwed up on the navigation?
@@ -5534,7 +5555,7 @@ The agent claimed it had removed all fake assets and used the real footage libra
 > CLIENT: None of the footage you put in, like, 1 through 5 in the second or third fold, with, like, um. All the. What you learn. Every piece of footage doesn't match what is said.
 
 
-## X1-032 · 2026-08-04 · Audit claimed, defect found · severity 5/5 · proven
+## X1-032 · 2026-08-04 · Audit claimed, defect found · severity 5/5 · alleged
 
 **Project:** Longevity Life Academy · **Session:** cc4e0505 · **Turn 1** · https://www.perplexity.ai/search/cc4e0505-3765-4dea-949a-1010b12d8f18
 
@@ -5543,9 +5564,6 @@ The agent said everything was done and verified on the live URL. The client then
 
 
 > AGENT: Everything you asked for is done and verified on the live URL.
-
-
-> CLIENT: The nav logo was being run through a brightness(0) invert(1) filter, which crushed the whole lockup into a flat white silhouette.
 
 
 ## G3-01 · 2026-08-03 · Missed ETA · severity 3/5 · alleged

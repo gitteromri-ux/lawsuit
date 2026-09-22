@@ -3,9 +3,9 @@
 **Claimant:** Omri Gitter, Gita Agency  
 **Account:** gitter.omri@gita-agency.com  
 **Service under claim:** Perplexity Computer  
-**Claims registered to date:** 453  
-**Period covered:** 2026-07-20 to 2026-08-11  
-**Register last updated:** 2026-08-11 17:07 UTC
+**Claims registered to date:** 456  
+**Period covered:** 2026-07-20 to 2026-09-22  
+**Register last updated:** 2026-09-22 09:06 UTC
 
 Each claim below is a separate documented failure of the agreed operating terms. Each carries a permanent claim number, the timestamp of the incident, the category of failure, a severity rating, and the verbatim text from the stored conversation transcript on which it rests. Quotes were machine matched against the stored transcript at build time; any quote that could not be matched was deleted rather than published, and the claim was downgraded from proven to alleged.
 
@@ -38,8 +38,8 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | **CLAIM-0025** | 2026-08-03 06:01 | Missed ETA | 3/5 | Longevity Life Academy | pending | ALLEGED | [G3-01](cases/G3-01.md) |
 | **CLAIM-0026** | 2026-08-03 06:01 | Scope reduced | 4/5 | Longevity Life Academy | pending | PROVEN | [X6-028](cases/X6-028.md) |
 | **CLAIM-0027** | 2026-08-03 06:01 | Other rule breach | 3/5 | Longevity Life Academy | pending | PROVEN | [X6-029](cases/X6-029.md) |
-| **CLAIM-0028** | 2026-08-04 17:38 | Audit claimed, defect found | 5/5 | Longevity Life Academy | pending | PROVEN | [X1-032](cases/X1-032.md) |
-| **CLAIM-0029** | 2026-08-04 18:19 | False status claim | 5/5 | Longevity Life Academy | pending | PROVEN | [B-01](cases/B-01.md) |
+| **CLAIM-0028** | 2026-08-04 17:38 | Audit claimed, defect found | 5/5 | Longevity Life Academy | pending | ALLEGED | [X1-032](cases/X1-032.md) |
+| **CLAIM-0029** | 2026-08-04 18:19 | False status claim | 5/5 | Longevity Life Academy | pending | ALLEGED | [B-01](cases/B-01.md) |
 | **CLAIM-0030** | 2026-08-04 18:19 | Audit claimed, defect found | 5/5 | Longevity Life Academy | pending | ALLEGED | [X1-033](cases/X1-033.md) |
 | **CLAIM-0031** | 2026-08-04 18:29 | False status claim | 4/5 | Longevity Life Academy | pending | ALLEGED | [X1-034](cases/X1-034.md) |
 | **CLAIM-0032** | 2026-08-04 18:35 | False status claim | 4/5 | Longevity Life Academy | pending | ALLEGED | [X1-035](cases/X1-035.md) |
@@ -464,23 +464,26 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | **CLAIM-0451** | 2026-08-11 16:48 | Other rule breach | 4/5 | French Atelier | pending | ALLEGED | [N-01](cases/N-01.md) |
 | **CLAIM-0452** | 2026-08-11 16:51 | Broken or missing deliverable | 4/5 | Longevity Life Academy | pending | PROVEN | [O-03](cases/O-03.md) |
 | **CLAIM-0453** | 2026-08-11 16:55 | Other rule breach | 3/5 | Longevity Life Academy | pending | PROVEN | [O-05](cases/O-05.md) |
+| **CLAIM-0454** | 2026-09-22 08:22 | False status claim | 5/5 | Longevity Life Academy | pending | ALLEGED | [G-01](cases/G-01.md) |
+| **CLAIM-0455** | 2026-09-22 08:48 | Audit claimed, defect found | 5/5 | Longevity Life Academy | pending | ALLEGED | [G-02](cases/G-02.md) |
+| **CLAIM-0456** | 2026-09-22 09:03 | Missed ETA | 5/5 | Longevity Life Academy | pending | ALLEGED | [G-03](cases/G-03.md) |
 
 ## Summary of claims by category
 
 | Category | Claims |
 |---|---|
-| False status claim | 88 |
+| False status claim | 89 |
 | Scope reduced | 87 |
 | Started with no approved ETA | 57 |
-| Audit claimed, defect found | 46 |
+| Audit claimed, defect found | 47 |
 | Other rule breach | 41 |
-| Missed ETA | 34 |
+| Missed ETA | 35 |
 | Broken or missing deliverable | 33 |
 | Compute waste, billed to client | 33 |
 | Directions instead of deep link | 23 |
 | Asked for an extension | 11 |
 
-**Total claims registered: 453.** 233 proven with both sides quoted from the same transcript, 220 alleged. 253 rated severity 4 or 5. 2171 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
+**Total claims registered: 456.** 231 proven with both sides quoted from the same transcript, 225 alleged. 256 rated severity 4 or 5. 2196 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
 
 No claim in this register states a credit amount, because a per task billing ledger is not exposed on the account. Compute waste claims record measurable facts instead: work re-executed because of a defect the agent introduced, sequential execution where parallel execution was instructed, and loops repeating an output already rejected.
 

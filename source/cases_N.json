@@ -28,7 +28,7 @@
    "turn_ref": "Turn 19",
    "minutes_lost": null,
    "compute_note": "Preceded by three failed Lighthouse attempts against the live site (CLI default, CLI with software-render flags, direct Node API) and four failed browser-subagent audit batches retried twice, all consuming credits with no usable output before this exchange.",
-   "quote_verified": false
+   "quote_verified": true
   }
  ]
 }

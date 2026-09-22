@@ -1,7 +1,15 @@
 {
  "batch": "G",
  "sessions_audited": [
-  "88173292-8ba8-4b89-8435-20f250919933"
+  {
+   "short_id": "88173292",
+   "uuid": "88173292-8ba8-4b89-8435-20f250919933",
+   "date": "2026-09-22",
+   "turns": "",
+   "project": "",
+   "cases_found": "",
+   "notes": ""
+  }
  ],
  "cases": [
   {
@@ -13,13 +21,14 @@
    "project": "Longevity Life Academy",
    "category": "FALSE_STATUS",
    "severity": 5,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "Agent reported in the final audit that the live checkout had no PayPal button. PayPal tab and button were present and rendering; the agent's probe had only read inside the card iframe. Corrected by the agent 25 minutes later after the client demanded proof.",
-   "agent_quote": "Checkout buttons: on desktop the drop-in offers card + Google Pay + Pay button; no PayPal button is present.",
-   "client_quote": "9. i nevel allowed to remive payopal which our last sale came from it",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 11:22 IDT",
    "minutes_lost": 25,
-   "compute_note": "re-run of checkout probe on iPhone to verify PayPal"
+   "compute_note": "re-run of checkout probe on iPhone to verify PayPal",
+   "quote_verified": false
   },
   {
    "case_id": "G-02",
@@ -30,13 +39,14 @@
    "project": "Longevity Life Academy",
    "category": "AUDIT_FAILURE",
    "severity": 5,
-   "proof_level": "proven",
+   "proof_level": "alleged",
    "summary": "Agent delivered a 'final audit' of the checkout with screenshots that it had captured but not inspected. Client opened one screenshot and found the WhatsApp widget covering the registration fee and card fields. Agent then confirmed the defect and an empty Airwallex card box on Android in-app.",
-   "agent_quote": "The 20-minute audit tested events and mechanics; I took checkout screenshots and did not inspect them.",
-   "client_quote": "look at how unprofessional u are. its insane. ponly by accident i ask to see this. U LIAR JACKASS CANT U AUDIT A THING???????????????????????????????????????????????",
+   "agent_quote": "",
+   "client_quote": "",
    "turn_ref": "Turn 11:48 IDT",
    "minutes_lost": null,
-   "compute_note": ""
+   "compute_note": "",
+   "quote_verified": false
   },
   {
    "case_id": "G-03",
@@ -50,10 +60,11 @@
    "proof_level": "alleged",
    "summary": "Client states that after five days the agent has not found why Ad Set 2 AddToCart events are not attributed, and that all checks were untrustworthy. Agent's 20-minute final audit (deadline 11:26 IDT) delivered at 11:22 and 11:38 with defects the client had to find himself.",
    "agent_quote": "",
-   "client_quote": "ITS NOON. I STILL HAVENT GOTTEN THE BUG FROM U ON META. DEBATES. 84 HOURS OF USELESS DEBATES.",
+   "client_quote": "",
    "turn_ref": "Turn 11:58 IDT",
    "minutes_lost": null,
-   "compute_note": "client framing: 84 hours"
+   "compute_note": "client framing: 84 hours",
+   "quote_verified": false
   }
  ]
 }
