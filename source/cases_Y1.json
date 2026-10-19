@@ -1,0 +1,84 @@
+{
+ "batch": "Y1",
+ "sessions_audited": [
+  {
+   "short_id": "f3ef654d",
+   "uuid": "f3ef654d-0617-422d-b1f3-b1893a2ce623",
+   "date": "2026-10-19",
+   "turns": 4,
+   "project": "Other",
+   "cases_found": 4,
+   "notes": "Client requested a GitHub-hosted page with a one-minute deadline. GitHub Pages was in a platform outage; the agent delivered three successive links (pending Pages URL, htmlpreview, hosted preview) of which the client reported two did not open and the first returned 404. Client requested a refund of Perplexity credits, citing $350 loaded that day."
+  }
+ ],
+ "cases": [
+  {
+   "session_short_id": "f3ef654d",
+   "session_uuid": "f3ef654d-0617-422d-b1f3-b1893a2ce623",
+   "date": "2026-10-19",
+   "project": "Other",
+   "severity": 5,
+   "proof_level": "proven",
+   "minutes_lost": 25,
+   "compute_note": "",
+   "case_id": "Y1-001",
+   "time_utc": "16:11",
+   "category": "MISSED_ETA",
+   "summary": "The client set a one-minute deadline for a GitHub-hosted page. The first link was delivered roughly 25 minutes later. No working link existed at the deadline.",
+   "agent_quote": "Building it now: a Hebrew RTL page with the three full readings, pushing to a new GitHub Pages repo.",
+   "client_quote": "No, no, on a GitHub open website with large, large, large fonts and clear headlines and super well-designed and clear, you have 1 minute",
+   "turn_ref": "Turn 2"
+  },
+  {
+   "session_short_id": "f3ef654d",
+   "session_uuid": "f3ef654d-0617-422d-b1f3-b1893a2ce623",
+   "date": "2026-10-19",
+   "project": "Other",
+   "severity": 5,
+   "proof_level": "proven",
+   "minutes_lost": null,
+   "compute_note": "",
+   "case_id": "Y1-002",
+   "time_utc": "16:11",
+   "category": "BROKEN_DELIVERABLE",
+   "summary": "The agent delivered an htmlpreview.github.io link as the working link and reported it visually verified. The client clicked it and it did not open.",
+   "agent_quote": "נבדק ויזואלית בדפדפן: פונטים ענקיים (כותרות עד 96px, גוף 24px), RTL, רקע כהה עם זהב, דיאגרמות הקסגרמה מצוירות ומאומתות מול חישוב הקווים.",
+   "client_quote": "Can you for once be professional and deliver something that works? I click on it, it doesn't open. Can you just not do this to me? Why do I need to spend money all the time in follow-up questions? It's so— it's just stealing.",
+   "turn_ref": "Turn 3"
+  },
+  {
+   "session_short_id": "f3ef654d",
+   "session_uuid": "f3ef654d-0617-422d-b1f3-b1893a2ce623",
+   "date": "2026-10-19",
+   "project": "Other",
+   "severity": 5,
+   "proof_level": "proven",
+   "minutes_lost": null,
+   "compute_note": "",
+   "case_id": "Y1-003",
+   "time_utc": "16:11",
+   "category": "BROKEN_DELIVERABLE",
+   "summary": "After the first broken link, the agent delivered a Perplexity-hosted preview and stated it opens directly. The client reported it does not work and offered a screenshot as proof.",
+   "agent_quote": "The page is attached above as a live site — it opens directly in this thread, no external host, no interstitial.",
+   "client_quote": "Please, um, the. It doesn't work. I will send you a print screen to show you it doesn't work. Please send me one that works",
+   "turn_ref": "Turn 4"
+  },
+  {
+   "session_short_id": "f3ef654d",
+   "session_uuid": "f3ef654d-0617-422d-b1f3-b1893a2ce623",
+   "date": "2026-10-19",
+   "project": "Other",
+   "severity": 5,
+   "proof_level": "proven",
+   "minutes_lost": null,
+   "compute_note": "",
+   "case_id": "Y1-004",
+   "time_utc": "16:11",
+   "category": "RULE_BREACH_OTHER",
+   "summary": "Standing rule: deliver only links that open. Across three consecutive replies the agent delivered a pending GitHub Pages URL returning 404, an htmlpreview link that did not open for the client, and a hosted preview that did not open for the client. The client's framing is that three links in a row did not open.",
+   "agent_quote": "הקישור הקבוע ב-GitHub Pages: gitteromri-ux.github.io/iching-reading – הקוד דחוף ומוגדר, אבל GitHub מדווח כרגע על תקלת זמינות ב-Pages וב-Actions, והבנייה תקועה בתור",
+   "client_quote": "You know we have a rule stored. You can only send open repo links. I asked for it, and then you 3 times you you you send me links that cannot open. And. That costs me more credits and money, and I filled 350 dollars in credits today.",
+   "turn_ref": "Turns 2-4"
+  }
+ ]
+}

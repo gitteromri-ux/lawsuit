@@ -1,6 +1,62 @@
 # Service Performance Record, full dossier
 
-Generated 2026-09-22 09:06 UTC. 456 cases, 2026-07-20 to 2026-09-22, 43 sessions audited.
+Generated 2026-10-19 16:11 UTC. 460 cases, 2026-07-20 to 2026-10-19, 44 sessions audited.
+
+
+## Y1-001 · 2026-10-19 · Missed ETA · severity 5/5 · proven
+
+**Project:** Other · **Session:** f3ef654d · **Turn 2** · https://www.perplexity.ai/search/f3ef654d-0617-422d-b1f3-b1893a2ce623
+
+
+The client set a one-minute deadline for a GitHub-hosted page. The first link was delivered roughly 25 minutes later. No working link existed at the deadline.
+
+
+> AGENT: Building it now: a Hebrew RTL page with the three full readings, pushing to a new GitHub Pages repo.
+
+
+> CLIENT: No, no, on a GitHub open website with large, large, large fonts and clear headlines and super well-designed and clear, you have 1 minute
+
+
+## Y1-002 · 2026-10-19 · Broken or missing deliverable · severity 5/5 · proven
+
+**Project:** Other · **Session:** f3ef654d · **Turn 3** · https://www.perplexity.ai/search/f3ef654d-0617-422d-b1f3-b1893a2ce623
+
+
+The agent delivered an htmlpreview.github.io link as the working link and reported it visually verified. The client clicked it and it did not open.
+
+
+> AGENT: נבדק ויזואלית בדפדפן: פונטים ענקיים (כותרות עד 96px, גוף 24px), RTL, רקע כהה עם זהב, דיאגרמות הקסגרמה מצוירות ומאומתות מול חישוב הקווים.
+
+
+> CLIENT: Can you for once be professional and deliver something that works? I click on it, it doesn't open. Can you just not do this to me? Why do I need to spend money all the time in follow-up questions? It's so— it's just stealing.
+
+
+## Y1-003 · 2026-10-19 · Broken or missing deliverable · severity 5/5 · proven
+
+**Project:** Other · **Session:** f3ef654d · **Turn 4** · https://www.perplexity.ai/search/f3ef654d-0617-422d-b1f3-b1893a2ce623
+
+
+After the first broken link, the agent delivered a Perplexity-hosted preview and stated it opens directly. The client reported it does not work and offered a screenshot as proof.
+
+
+> AGENT: The page is attached above as a live site — it opens directly in this thread, no external host, no interstitial.
+
+
+> CLIENT: Please, um, the. It doesn't work. I will send you a print screen to show you it doesn't work. Please send me one that works
+
+
+## Y1-004 · 2026-10-19 · Other rule breach · severity 5/5 · proven
+
+**Project:** Other · **Session:** f3ef654d · **Turns 2-4** · https://www.perplexity.ai/search/f3ef654d-0617-422d-b1f3-b1893a2ce623
+
+
+Standing rule: deliver only links that open. Across three consecutive replies the agent delivered a pending GitHub Pages URL returning 404, an htmlpreview link that did not open for the client, and a hosted preview that did not open for the client. The client's framing is that three links in a row did not open.
+
+
+> AGENT: הקישור הקבוע ב-GitHub Pages: gitteromri-ux.github.io/iching-reading – הקוד דחוף ומוגדר, אבל GitHub מדווח כרגע על תקלת זמינות ב-Pages וב-Actions, והבנייה תקועה בתור
+
+
+> CLIENT: You know we have a rule stored. You can only send open repo links. I asked for it, and then you 3 times you you you send me links that cannot open. And. That costs me more credits and money, and I filled 350 dollars in credits today.
 
 
 ## G-03 · 2026-09-22 · Missed ETA · severity 5/5 · alleged
