@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=20261019161157">
+<link rel="stylesheet" href="assets/site.css?v=20261026102937">
 </head><body>
 <div class="grain"></div>
 <header class="topbar">
@@ -16,11 +16,11 @@
 <div class="kicker">LIVE COUNTER · UPDATED EVERY SESSION</div>
 <h1 class="mega">The <em>counter</em>.</h1>
 <p class="lede">Running totals across every audited session, and a download for every single case file. This page regenerates from the source data each time a new session is audited.</p>
-<div class="numeral">460</div>
+<div class="numeral">461</div>
 <div class="chips">
-  <div class="chip hot"><span class="n">460</span><span class="l">Total violations counted</span></div>
+  <div class="chip hot"><span class="n">461</span><span class="l">Total violations counted</span></div>
   <div class="chip gold"><span class="n">36</span><span class="l">Missed ETAs</span></div>
-  <div class="chip hot"><span class="n">89</span><span class="l">False status claims</span></div>
+  <div class="chip hot"><span class="n">90</span><span class="l">False status claims</span></div>
   <div class="chip blue"><span class="n">87</span><span class="l">Scope reductions</span></div>
   <div class="chip gold"><span class="n">33</span><span class="l">Compute waste events</span></div>
   <div class="chip blue"><span class="n">$15,000</span><span class="l">Financial implication claimed, USD, proof pending</span></div>
@@ -39,8 +39,8 @@
 <div data-num="02" class="card"><h3><span class="tick tl"></span><span class="tick br"></span>Violations by type</h3><p class="sub">Share of the total record held by each category of breach.</p><div class="cbox"><canvas id="c2"></canvas></div></div>
 <div data-num="03" class="card"><h3><span class="tick tl"></span><span class="tick br"></span>The worst sessions</h3><p class="sub">Documented failures per work session, heaviest at the top.</p><div class="cbox tall"><canvas id="c3"></canvas></div></div>
 <div data-num="04" class="card wide"><h3><span class="tick tl"></span><span class="tick br"></span>How the record splits</h3><p class="sub">Two readings of the same seventy nine cases. Width equals share.</p>
-<div class="striplabel">By severity</div><div class="strip sev"><div class="seg c0" style="flex:121"><span class="sv">121</span><span class="sk">Severity 5, critical</span><span class="sp">26%</span></div><div class="seg c1" style="flex:139"><span class="sv">139</span><span class="sk">Severity 4, severe</span><span class="sp">30%</span></div><div class="seg c2" style="flex:129"><span class="sv">129</span><span class="sk">Severity 3, material</span><span class="sp">28%</span></div><div class="seg c3" style="flex:69"><span class="sv">69</span><span class="sk">Severity 2, minor</span><span class="sp">15%</span></div><div class="seg c4" style="flex:2"><span class="sv">2</span><span class="sk">Severity 1, trivial</span><span class="sp">0%</span></div></div>
-<div class="striplabel">By client project</div><div class="strip proj"><div class="seg c0" style="flex:407"><span class="sv">407</span><span class="sk">Longevity Life Academy</span><span class="sp">88%</span></div><div class="seg c1" style="flex:23"><span class="sv">23</span><span class="sk">French Atelier</span><span class="sp">5%</span></div><div class="seg c2" style="flex:12"><span class="sv">12</span><span class="sk">Other</span><span class="sp">3%</span></div><div class="seg c3" style="flex:11"><span class="sv">11</span><span class="sk">eTeacher</span><span class="sp">2%</span></div><div class="seg c4" style="flex:7"><span class="sv">7</span><span class="sk">Gita Agency internal</span><span class="sp">2%</span></div></div>
+<div class="striplabel">By severity</div><div class="strip sev"><div class="seg c0" style="flex:122"><span class="sv">122</span><span class="sk">Severity 5, critical</span><span class="sp">26%</span></div><div class="seg c1" style="flex:139"><span class="sv">139</span><span class="sk">Severity 4, severe</span><span class="sp">30%</span></div><div class="seg c2" style="flex:129"><span class="sv">129</span><span class="sk">Severity 3, material</span><span class="sp">28%</span></div><div class="seg c3" style="flex:69"><span class="sv">69</span><span class="sk">Severity 2, minor</span><span class="sp">15%</span></div><div class="seg c4" style="flex:2"><span class="sv">2</span><span class="sk">Severity 1, trivial</span><span class="sp">0%</span></div></div>
+<div class="striplabel">By client project</div><div class="strip proj"><div class="seg c0" style="flex:408"><span class="sv">408</span><span class="sk">Longevity Life Academy</span><span class="sp">89%</span></div><div class="seg c1" style="flex:23"><span class="sv">23</span><span class="sk">French Atelier</span><span class="sp">5%</span></div><div class="seg c2" style="flex:12"><span class="sv">12</span><span class="sk">Other</span><span class="sp">3%</span></div><div class="seg c3" style="flex:11"><span class="sv">11</span><span class="sk">eTeacher</span><span class="sp">2%</span></div><div class="seg c4" style="flex:7"><span class="sv">7</span><span class="sk">Gita Agency internal</span><span class="sp">2%</span></div></div>
 </div>
 <div data-num="05" class="card wide"><h3><span class="tick tl"></span><span class="tick br"></span>Severity inside each category</h3><p class="sub">Stacked. Severity 4 and 5 are the client facing ones.</p><div class="cbox"><canvas id="c4"></canvas></div></div>
 <div data-num="06" class="card"><h3><span class="tick tl"></span><span class="tick br"></span>Cumulative total over time</h3><p class="sub">The line only ever goes up. Slope equals rate of failure.</p><div class="cbox"><canvas id="c5"></canvas></div></div>
@@ -49,12 +49,17 @@
 <section><div class="wrap">
 <div class="shead"><p class="snum">03</p><h2>Download the evidence</h2></div><div class="srule"></div>
 <div class="big-dl">
-<a href="data/cases.json" download><span class="t">Full dataset, JSON</span><span class="d">460 cases, every field, machine readable</span></a>
+<a href="data/cases.json" download><span class="t">Full dataset, JSON</span><span class="d">461 cases, every field, machine readable</span></a>
 <a href="data/cases.csv" download><span class="t">Full dataset, CSV</span><span class="d">Opens in Excel or Sheets, one row per case</span></a>
 <a href="data/full-dossier.md" download><span class="t">Full written dossier</span><span class="d">Every case with both verbatim quotes, print ready</span></a>
 </div>
 <table class="dl-table"><thead><tr><th>CLAIM</th><th>DATE</th><th>TYPE</th><th>SEVERITY</th><th>PROJECT</th><th>FILES</th></tr></thead>
-<tbody><tr><td><b>CLAIM-0457</b><br><span class="cid">Y1-001</span></td><td>2026-10-19</td>
+<tbody><tr><td><b>CLAIM-0461</b><br><span class="cid">Y2-001</span></td><td>2026-10-25</td>
+<td>False status claim</td><td>5/5</td>
+<td>Longevity Life Academy</td>
+<td><a class="lnk" href="https://www.perplexity.ai/search/439a0622-9c29-4beb-a842-cfe2507b97c8" target="_blank" rel="noopener">Transcript</a>
+<a class="lnk" href="https://www.perplexity.ai/computer/tasks/439a0622-9c29-4beb-a842-cfe2507b97c8" target="_blank" rel="noopener">Alt</a>
+<a class="lnk dl" href="cases/Y2-001.md" download>Download</a></td></tr><tr><td><b>CLAIM-0457</b><br><span class="cid">Y1-001</span></td><td>2026-10-19</td>
 <td>Missed ETA</td><td>5/5</td>
 <td>Other</td>
 <td><a class="lnk" href="https://www.perplexity.ai/search/f3ef654d-0617-422d-b1f3-b1893a2ce623" target="_blank" rel="noopener">Transcript</a>
@@ -2357,9 +2362,9 @@
 <a class="lnk dl" href="cases/E-13.md" download>Download</a></td></tr></tbody></table>
 </div></section>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-<script>const D={"days": ["2026-07-20", "2026-07-21", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-11", "2026-09-22", "2026-10-19"], "dayVals": [2, 14, 11, 59, 210, 119, 32, 6, 3, 4], "cum": [2, 16, 27, 86, 296, 415, 447, 453, 456, 460], "catLabels": ["Missed ETA", "False status", "Scope cut", "No ETA set", "Extension asked", "Audit failed", "No deep link", "Broken asset", "Compute waste", "Other breach"], "catVals": [36, 89, 87, 57, 11, 47, 23, 35, 33, 42], "projs": ["Longevity Life Academy", "French Atelier", "Other", "eTeacher", "Gita Agency internal"], "projVals": [407, 23, 12, 11, 7], "sevSets": [{"label": "Severity 5", "data": [7, 55, 6, 0, 1, 26, 0, 13, 4, 9]}, {"label": "Severity 4", "data": [16, 26, 35, 5, 3, 15, 2, 16, 11, 10]}, {"label": "Severity 3", "data": [7, 6, 43, 13, 6, 6, 10, 6, 12, 20]}, {"label": "Severity 2", "data": [6, 1, 3, 38, 1, 0, 11, 0, 6, 3]}, {"label": "Severity 1", "data": [0, 1, 0, 1, 0, 0, 0, 0, 0, 0]}], "sevTot": [2, 69, 129, 139, 121], "mprojL": ["2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-11", "2026-09-22", "2026-10-19"], "mprojV": [7, 211, 533, 624, 796, 25, 25], "proven": 235, "alleged": 225, "sessL": ["6164427a", "3e0823c6", "2b6c727f", "cc4e0505", "aef895b6", "3d5fbe49", "2a307fd5", "34a6e1ef", "a1dcbba2", "8b3275ab", "3779792c", "bb25f604", "a10d679b", "d7f5893a", "3e8a6838"], "sessV": [56, 40, 36, 35, 34, 32, 30, 29, 26, 23, 16, 11, 11, 10, 9], "sessP": ["Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "eTeacher", "Longevity Life Academy", "Longevity Life Academy"], "total": 460};</script>
-<script src="assets/charts.js?v=20261019161157"></script>
-<script src="assets/live.js?v=20261019161157"></script>
+<script>const D={"days": ["2026-07-20", "2026-07-21", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-11", "2026-09-22", "2026-10-19", "2026-10-25"], "dayVals": [2, 14, 11, 59, 210, 119, 32, 6, 3, 4, 1], "cum": [2, 16, 27, 86, 296, 415, 447, 453, 456, 460, 461], "catLabels": ["Missed ETA", "False status", "Scope cut", "No ETA set", "Extension asked", "Audit failed", "No deep link", "Broken asset", "Compute waste", "Other breach"], "catVals": [36, 90, 87, 57, 11, 47, 23, 35, 33, 42], "projs": ["Longevity Life Academy", "French Atelier", "Other", "eTeacher", "Gita Agency internal"], "projVals": [408, 23, 12, 11, 7], "sevSets": [{"label": "Severity 5", "data": [7, 56, 6, 0, 1, 26, 0, 13, 4, 9]}, {"label": "Severity 4", "data": [16, 26, 35, 5, 3, 15, 2, 16, 11, 10]}, {"label": "Severity 3", "data": [7, 6, 43, 13, 6, 6, 10, 6, 12, 20]}, {"label": "Severity 2", "data": [6, 1, 3, 38, 1, 0, 11, 0, 6, 3]}, {"label": "Severity 1", "data": [0, 1, 0, 1, 0, 0, 0, 0, 0, 0]}], "sevTot": [2, 69, 129, 139, 122], "mprojL": ["2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-11", "2026-09-22", "2026-10-19"], "mprojV": [7, 211, 533, 624, 796, 25, 25], "proven": 236, "alleged": 225, "sessL": ["6164427a", "3e0823c6", "2b6c727f", "cc4e0505", "aef895b6", "3d5fbe49", "2a307fd5", "34a6e1ef", "a1dcbba2", "8b3275ab", "3779792c", "bb25f604", "a10d679b", "d7f5893a", "3e8a6838"], "sessV": [56, 40, 36, 35, 34, 32, 30, 29, 26, 23, 16, 11, 11, 10, 9], "sessP": ["Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "Longevity Life Academy", "eTeacher", "Longevity Life Academy", "Longevity Life Academy"], "total": 461};</script>
+<script src="assets/charts.js?v=20261026102937"></script>
+<script src="assets/live.js?v=20261026102937"></script>
 <footer class="foot">
   <div class="fwrap">
     <div class="fbig">Compiled by Gita Agency</div>

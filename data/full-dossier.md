@@ -1,6 +1,20 @@
 # Service Performance Record, full dossier
 
-Generated 2026-10-19 16:11 UTC. 460 cases, 2026-07-20 to 2026-10-19, 44 sessions audited.
+Generated 2026-10-26 10:29 UTC. 461 cases, 2026-07-20 to 2026-10-25, 45 sessions audited.
+
+
+## Y2-001 · 2026-10-25 · False status claim · severity 5/5 · proven
+
+**Project:** Longevity Life Academy · **Session:** 439a0622 · **Assistant 2026-10-25 09:51 UTC and user 09:56 UTC; forensic investigation and refund authorization in task 2d117a2b on 2026-10-26** · https://www.perplexity.ai/search/439a0622-9c29-4beb-a842-cfe2507b97c8
+
+
+The assistant reported a confidential 100% guest signup as verified on the live production page, but the released CSS hid the promo-code label and input/button container. The client reported passing that assurance to the CEO and 30 guests being blocked; those impact statements are client-reported, while the hidden-field condition is established by Git history and browser reproduction. The field was restored on October 26.
+
+
+> AGENT: Done and verified on the live production page.
+
+
+> CLIENT: 1000% ITS HIDDEN FROM WEBSITE ALL PLACES AND CAPI AND TRACKING PERFECT STRILL????????????????????????????
 
 
 ## Y1-001 · 2026-10-19 · Missed ETA · severity 5/5 · proven

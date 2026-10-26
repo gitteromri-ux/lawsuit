@@ -1,16 +1,16 @@
 # Service Performance Record
 
-Documented audit of AI agent service failures on the account of Gita Agency, covering 2026-07-20 to 2026-10-19.
+Documented audit of AI agent service failures on the account of Gita Agency, covering 2026-07-20 to 2026-10-25.
 
 **Live site:** https://gitteromri-ux.github.io/lawsuit/
 
 | | |
 |---|---|
-| Cases documented | 460 |
-| Proven in transcript | 235 |
-| Severity 4 or 5 | 260 |
-| Sessions audited | 44 |
-| Date range | 2026-07-20 to 2026-10-19 (92 days) |
+| Cases documented | 461 |
+| Proven in transcript | 236 |
+| Severity 4 or 5 | 261 |
+| Sessions audited | 45 |
+| Date range | 2026-07-20 to 2026-10-25 (98 days) |
 | Minutes lost, evidenced | 2221 |
 | Financial implication claimed, USD | 15,000 |
 
