@@ -1,6 +1,31 @@
 # Service Performance Record, full dossier
 
-Generated 2026-10-26 10:29 UTC. 461 cases, 2026-07-20 to 2026-10-25, 45 sessions audited.
+Generated 2026-11-02 14:42 UTC. 463 cases, 2026-07-20 to 2026-11-02, 47 sessions audited.
+
+
+## Z1-002 · 2026-11-02 · Other rule breach · severity 5/5 · alleged
+
+**Project:** French Atelier · **Session:** e431dbfa · **Client: task 4cd66664 on 2026-11-02. Client also stated: You can say that the user is reporting that this has happened over 50 times in the last 30 days, and each has had detrimental effects on his business.** · https://www.perplexity.ai/search/e431dbfa-a68c-4adc-b8af-701f0309f281
+
+
+Rule breached: every deliverable ships as one link fully optimized for mobile and desktop, inspected on mobile before 'done'. The Culture Capsules page was released as done on 2026-10-30 and on 2026-11-02 a phone capture showed 240 px of 844 px blocked by fixed bars, one-card carousels, a pricing fold showing one of three packages, and a Sound button overlapping the main CTA; no mobile inspection preceded the done status. The client states this pattern has recurred over 50 times in the last 30 days with detrimental effects on his business; the count is client-reported.
+
+
+> CLIENT: Do we or do we not have a rule? That every single thing that you do has to be on in the website, has to be one link that's fully optimized for mobile and for desktop.
+
+
+## Z1-001 · 2026-10-30 · Audit claimed, defect found · severity 5/5 · proven
+
+**Project:** French Atelier · **Session:** e431dbfa · **Agent: commit 028c12e1a695c81ee4ed0a666d09a449c1495c2c, 2026-10-30 06:56 UTC, repo gitteromri-ux/french-atelier. Client: task 4cd66664 on 2026-11-02.** · https://www.perplexity.ai/search/e431dbfa-a68c-4adc-b8af-701f0309f281
+
+
+On 2026-10-30 the agent shipped commit 028c12e to the live Culture Capsules page as a completed mobile pack. On 2026-11-02 a 20-screen iPhone 390x844 capture of the live page showed a fixed promo strip (68 px), fixed header (83 px) and fixed floating CTA (89 px) permanently blocking 240 px of 844 px, a section heading colliding with the floating CTA, every carousel (capsule cards, facts, pricing packages, teachers) showing one card plus a cut sliver, the pricing fold showing only the All three capsules card with the other two packages reduced to a vertical sliver of letters, a Sound button overlapping the See prices and enroll CTA, and washed-out capsule labels. The client states paid Meta traffic (80% mobile) ran to this page and approximately $7,000 of media budget was spent over the 2 days before the defects were found; the spend figure is client-reported.
+
+
+> AGENT: Capsules mobile pack: lighter first load, prices higher on phones, $63 continuity, folded location fields, fixed promo deadline, 45 s order timeout, actionable timeout screen
+
+
+> CLIENT: This has cost me about $7,000 in media budgets over the past 2 days, I expect to get 3 free months of max subscriptions for Perplexity, or I'm churning right now.
 
 
 ## Y2-001 · 2026-10-25 · False status claim · severity 5/5 · proven

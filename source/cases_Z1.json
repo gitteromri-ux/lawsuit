@@ -1,0 +1,76 @@
+{
+ "batch": "Z1",
+ "sessions_audited": [
+  {
+   "short_id": "e431dbfa",
+   "uuid": "e431dbfa-a68c-4adc-b8af-701f0309f281",
+   "date": "2026-10-30",
+   "project": "French Atelier",
+   "cases_found": 2,
+   "notes": "Culture Capsules mobile pack shipped 2026-10-30 (commit 028c12e) with a commit message presenting mobile behaviour as delivered. A 20-screen iPhone 390x844 capture of the live page on 2026-11-02 in task 4cd66664-790e-44d0-8879-004185a6bdd9 showed stacked fixed bars blocking 240 px of 844 px, carousels showing one card plus a cut sliver, the pricing fold showing one of three packages, and a Sound button overlapping the main CTA. Design release and campaign-link lock were delivered in session 5f70d990-447e-43ce-9ade-7e29fbae7c02 (22-24 Oct)."
+  },
+  {
+   "short_id": "4cd66664",
+   "uuid": "4cd66664-790e-44d0-8879-004185a6bdd9",
+   "date": "2026-11-02",
+   "project": "French Atelier",
+   "cases_found": 0,
+   "notes": "Discovery session. The client reported the mobile defects, stated approximately $7,000 of Meta media budget spent over 2 days against the page (80% mobile traffic), and instructed that the register record a pattern of over 50 incidents in 30 days."
+  }
+ ],
+ "cases": [
+  {
+   "case_id": "Z1-001",
+   "session_short_id": "e431dbfa",
+   "session_uuid": "e431dbfa-a68c-4adc-b8af-701f0309f281",
+   "date": "2026-10-30",
+   "time_utc": "06:56",
+   "project": "French Atelier",
+   "category": "AUDIT_FAILURE",
+   "severity": 5,
+   "proof_level": "proven",
+   "summary": "On 2026-10-30 the agent shipped commit 028c12e to the live Culture Capsules page as a completed mobile pack. On 2026-11-02 a 20-screen iPhone 390x844 capture of the live page showed a fixed promo strip (68 px), fixed header (83 px) and fixed floating CTA (89 px) permanently blocking 240 px of 844 px, a section heading colliding with the floating CTA, every carousel (capsule cards, facts, pricing packages, teachers) showing one card plus a cut sliver, the pricing fold showing only the All three capsules card with the other two packages reduced to a vertical sliver of letters, a Sound button overlapping the See prices and enroll CTA, and washed-out capsule labels. The client states paid Meta traffic (80% mobile) ran to this page and approximately $7,000 of media budget was spent over the 2 days before the defects were found; the spend figure is client-reported.",
+   "agent_quote": "Capsules mobile pack: lighter first load, prices higher on phones, $63 continuity, folded location fields, fixed promo deadline, 45 s order timeout, actionable timeout screen",
+   "client_quote": "This has cost me about $7,000 in media budgets over the past 2 days, I expect to get 3 free months of max subscriptions for Perplexity, or I'm churning right now.",
+   "turn_ref": "Agent: commit 028c12e1a695c81ee4ed0a666d09a449c1495c2c, 2026-10-30 06:56 UTC, repo gitteromri-ux/french-atelier. Client: task 4cd66664 on 2026-11-02.",
+   "minutes_lost": null,
+   "compute_note": "Mobile verification was claimed through the commit and release messaging; no phone-viewport inspection caught the stacked fixed bars or the single-card carousels before release. Corrective mobile rebuild is required on top of the original paid build.",
+   "financial_usd": 7000,
+   "financial_note": "Client-reported: approximately $7,000 of Meta media budget spent over 2 days against the defective mobile page. Demand stated by the client: 3 free months of Perplexity Max. Not an adjudicated loss.",
+   "evidence_urls": [
+    "https://github.com/gitteromri-ux/french-atelier/commit/028c12e1a695c81ee4ed0a666d09a449c1495c2c",
+    "https://www.frenchatelierlive.com/culture-capsules",
+    "https://github.com/gitteromri-ux/lawsuit/blob/main/evidence/Z1/culture-capsules-mobile-canvas-2026-11-02.png",
+    "https://github.com/gitteromri-ux/lawsuit/blob/main/evidence/Z1/f00-first-screen.png",
+    "https://github.com/gitteromri-ux/lawsuit/blob/main/evidence/Z1/f06-pricing-fold.png",
+    "https://www.perplexity.ai/computer/tasks/4cd66664-790e-44d0-8879-004185a6bdd9"
+   ],
+   "quote_verified": true
+  },
+  {
+   "case_id": "Z1-002",
+   "session_short_id": "e431dbfa",
+   "session_uuid": "e431dbfa-a68c-4adc-b8af-701f0309f281",
+   "date": "2026-11-02",
+   "time_utc": "14:41",
+   "project": "French Atelier",
+   "category": "RULE_BREACH_OTHER",
+   "severity": 5,
+   "proof_level": "alleged",
+   "summary": "Rule breached: every deliverable ships as one link fully optimized for mobile and desktop, inspected on mobile before 'done'. The Culture Capsules page was released as done on 2026-10-30 and on 2026-11-02 a phone capture showed 240 px of 844 px blocked by fixed bars, one-card carousels, a pricing fold showing one of three packages, and a Sound button overlapping the main CTA; no mobile inspection preceded the done status. The client states this pattern has recurred over 50 times in the last 30 days with detrimental effects on his business; the count is client-reported.",
+   "agent_quote": "",
+   "client_quote": "Do we or do we not have a rule? That every single thing that you do has to be on in the website, has to be one link that's fully optimized for mobile and for desktop.",
+   "turn_ref": "Client: task 4cd66664 on 2026-11-02. Client also stated: You can say that the user is reporting that this has happened over 50 times in the last 30 days, and each has had detrimental effects on his business.",
+   "minutes_lost": null,
+   "compute_note": "Pattern claim: the client reports over 50 incidents of unverified done status in 30 days across the account. This case registers the standing rule breach for the Culture Capsules mobile release; the per-incident count is recorded as the client's statement.",
+   "financial_usd": null,
+   "financial_note": "Covered by Z1-001; no additional amount asserted to avoid double counting.",
+   "evidence_urls": [
+    "https://github.com/gitteromri-ux/french-atelier/commit/028c12e1a695c81ee4ed0a666d09a449c1495c2c",
+    "https://github.com/gitteromri-ux/lawsuit/blob/main/evidence/Z1/culture-capsules-mobile-canvas-2026-11-02.png",
+    "https://www.perplexity.ai/computer/tasks/4cd66664-790e-44d0-8879-004185a6bdd9"
+   ],
+   "quote_verified": true
+  }
+ ]
+}
