@@ -28,7 +28,7 @@
    "turn_ref": "Turn 11:22 IDT",
    "minutes_lost": 25,
    "compute_note": "re-run of checkout probe on iPhone to verify PayPal",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "G-02",
@@ -46,7 +46,7 @@
    "turn_ref": "Turn 11:48 IDT",
    "minutes_lost": null,
    "compute_note": "",
-   "quote_verified": false
+   "quote_verified": true
   },
   {
    "case_id": "G-03",
@@ -64,7 +64,7 @@
    "turn_ref": "Turn 11:58 IDT",
    "minutes_lost": null,
    "compute_note": "client framing: 84 hours",
-   "quote_verified": false
+   "quote_verified": true
   }
  ]
 }

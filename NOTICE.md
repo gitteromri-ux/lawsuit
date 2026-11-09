@@ -3,9 +3,9 @@
 **Claimant:** Omri Gitter, Gita Agency  
 **Account:** gitter.omri@gita-agency.com  
 **Service under claim:** Perplexity Computer  
-**Claims registered to date:** 463  
-**Period covered:** 2026-07-20 to 2026-11-02  
-**Register last updated:** 2026-11-02 14:42 UTC
+**Claims registered to date:** 465  
+**Period covered:** 2026-07-20 to 2026-11-09  
+**Register last updated:** 2026-11-09 20:16 UTC
 
 Each claim below is a separate documented failure of the agreed operating terms. Each carries a permanent claim number, the timestamp of the incident, the category of failure, a severity rating, and the verbatim text from the stored conversation transcript on which it rests. Quotes were machine matched against the stored transcript at build time; any quote that could not be matched was deleted rather than published, and the claim was downgraded from proven to alleged.
 
@@ -472,8 +472,10 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | **CLAIM-0459** | 2026-10-19 16:11 | Broken or missing deliverable | 5/5 | Other | pending | PROVEN | [Y1-003](cases/Y1-003.md) |
 | **CLAIM-0460** | 2026-10-19 16:11 | Other rule breach | 5/5 | Other | pending | PROVEN | [Y1-004](cases/Y1-004.md) |
 | **CLAIM-0461** | 2026-10-25 09:51 | False status claim | 5/5 | Longevity Life Academy | pending | PROVEN | [Y2-001](cases/Y2-001.md) |
-| **CLAIM-0462** | 2026-10-30 06:56 | Audit claimed, defect found | 5/5 | French Atelier | 7,000 | PROVEN | [Z1-001](cases/Z1-001.md) |
+| **CLAIM-0462** | 2026-10-30 06:56 | Audit claimed, defect found | 5/5 | French Atelier | 7,000 | ALLEGED | [Z1-001](cases/Z1-001.md) |
 | **CLAIM-0463** | 2026-11-02 14:41 | Other rule breach | 5/5 | French Atelier | pending | ALLEGED | [Z1-002](cases/Z1-002.md) |
+| **CLAIM-0464** | 2026-11-09 19:48 | Audit claimed, defect found | 5/5 | French Atelier | pending | PROVEN | [Z2-01](cases/Z2-01.md) |
+| **CLAIM-0465** | 2026-11-09 20:10 | Missed ETA | 4/5 | French Atelier | pending | ALLEGED | [Z2-02](cases/Z2-02.md) |
 
 ## Summary of claims by category
 
@@ -482,15 +484,15 @@ Each claim below is a separate documented failure of the agreed operating terms.
 | False status claim | 90 |
 | Scope reduced | 87 |
 | Started with no approved ETA | 57 |
-| Audit claimed, defect found | 48 |
+| Audit claimed, defect found | 49 |
 | Other rule breach | 43 |
-| Missed ETA | 36 |
+| Missed ETA | 37 |
 | Broken or missing deliverable | 35 |
 | Compute waste, billed to client | 33 |
 | Directions instead of deep link | 23 |
 | Asked for an extension | 11 |
 
-**Total claims registered: 463.** 237 proven with both sides quoted from the same transcript, 226 alleged. 263 rated severity 4 or 5. 2221 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
+**Total claims registered: 465.** 237 proven with both sides quoted from the same transcript, 228 alleged. 265 rated severity 4 or 5. 2241 minutes of delay are stated explicitly inside transcript text, which is a floor and not a total.
 
 No claim in this register states a credit amount, because a per task billing ledger is not exposed on the account. Compute waste claims record measurable facts instead: work re-executed because of a defect the agent introduced, sequential execution where parallel execution was instructed, and loops repeating an output already rejected.
 

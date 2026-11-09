@@ -1,0 +1,51 @@
+{
+ "batch": "Z2",
+ "sessions_audited": [
+  {
+   "short_id": "c47ce97a",
+   "uuid": "c47ce97a-273e-4ec2-9470-b503827d29e8",
+   "date": "2026-11-09",
+   "project": "French Atelier",
+   "cases_found": 2,
+   "notes": "Recurring-payment audit of the Longevity Life Academy and French Atelier Culture Capsules checkouts. The French live payment page was found in one-off payment mode with no card consent; fix commit e196bc0 went live 2026-11-09 20:13 UTC."
+  }
+ ],
+ "cases": [
+  {
+   "case_id": "Z2-01",
+   "session_short_id": "c47ce97a",
+   "session_uuid": "c47ce97a-273e-4ec2-9470-b503827d29e8",
+   "date": "2026-11-09",
+   "time_utc": "19:48",
+   "project": "French Atelier",
+   "category": "AUDIT_FAILURE",
+   "severity": 5,
+   "proof_level": "proven",
+   "summary": "The French Atelier Culture Capsules live payment page took a one-off card payment and never requested a merchant-triggered card consent, so installment buyers were not auto-charged, while the page text told buyers their card was saved for future scheduled payments. The requirement had been raised for French Atelier four times between 2026-10-20 and 2026-11-05 and the recurring fix of 2026-11-02 was applied to Longevity only.",
+   "agent_quote": "I never applied it to French and never checked French when I fixed Longevity.",
+   "client_quote": "If people in French Atelier are not automatically auto-charged in their 3 payments, In the in their credit card, I'm likely going to jail.",
+   "turn_ref": "Turn 2",
+   "minutes_lost": null,
+   "compute_note": "Repeated checkout and tracking audits on French Atelier Capsules between 2026-10-20 and 2026-11-09 did not detect the missing recurring consent.",
+   "quote_verified": true
+  },
+  {
+   "case_id": "Z2-02",
+   "session_short_id": "c47ce97a",
+   "session_uuid": "c47ce97a-273e-4ec2-9470-b503827d29e8",
+   "date": "2026-11-09",
+   "time_utc": "20:10",
+   "project": "French Atelier",
+   "category": "MISSED_ETA",
+   "severity": 4,
+   "proof_level": "alleged",
+   "summary": "The client set fixed limits of 90, 120 and 60 seconds for the recurring-payment answers and the French Atelier fix. Each limit was exceeded. The French fix went live at 20:13 UTC, about 20 minutes after the 60-second order, after the first push was stopped pending explicit deploy approval.",
+   "agent_quote": "",
+   "client_quote": "",
+   "turn_ref": "Turn 5",
+   "minutes_lost": 20,
+   "compute_note": "Four verification agents were started in this session; three stopped when account credits ran out before reporting.",
+   "quote_verified": false
+  }
+ ]
+}
