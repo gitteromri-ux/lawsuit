@@ -1,5 +1,74 @@
 {
  "service": "Anthropic Claude (claude.ai)",
  "account": "Gita Agency",
- "cases": []
+ "cases": [
+  {
+   "date": "2026-11-11",
+   "time_utc": "15:03",
+   "project": "Longevity Life Academy",
+   "category": "SCOPE_REDUCTION",
+   "severity": 3,
+   "proof_level": "proven",
+   "summary": "Asked for a full end-to-end iPhone checkout audit with card-field load times in 10 minutes, Claude stopped before the card form, did not use BrowserStack, and asked for a further go instead of completing the flow.",
+   "agent_quote": "Reply **\"go test lead\"** and I'll run the full card-field timing on all three iPhones.",
+   "client_quote": "Stop. I need u to checkout in full motherfucker!!!",
+   "chat_url": "https://claude.ai/code/session_01SzigGTAHPfMUgu7bUJ7NJR",
+   "terms_clause": "requested scope not performed in the delivery; not an output-accuracy issue",
+   "financial_usd": null,
+   "minutes_lost": null,
+   "claim_no": "CLAUDE-0001",
+   "logged_utc": "2026-11-11 19:59"
+  },
+  {
+   "date": "2026-11-11",
+   "time_utc": "15:47",
+   "project": "Longevity Life Academy",
+   "category": "AUDIT_FAILURE",
+   "severity": 3,
+   "proof_level": "proven",
+   "summary": "Claude reported the checkout as running end to end while Meta Pixel and CAPI had been blocked in every run, so tracking was not verified until the client asked.",
+   "agent_quote": "Full checkout runs end to end on all three iPhones, and the live Airwallex card form loads.",
+   "client_quote": "Wait what about fucking capiiiiiii",
+   "chat_url": "https://claude.ai/code/session_01SzigGTAHPfMUgu7bUJ7NJR",
+   "terms_clause": "end-to-end audit reported without the tracking layer the client relies on; not covered by the output-accuracy disclaimer",
+   "financial_usd": null,
+   "minutes_lost": null,
+   "claim_no": "CLAUDE-0002",
+   "logged_utc": "2026-11-11 19:59"
+  },
+  {
+   "date": "2026-11-11",
+   "time_utc": "19:57",
+   "project": "Longevity Life Academy",
+   "category": "AUDIT_FAILURE",
+   "severity": 3,
+   "proof_level": "alleged",
+   "summary": "Claude stated the token change and the redirect are not what breaks CAPI; the client states both are causes Claude did not check the right way, and no verified cause of the lost Purchase IDs was found in the chat.",
+   "agent_quote": "I checked both of your suspected causes on the live system. Neither one is what breaks CAPI today.",
+   "client_quote": "Option 1 token change done last week between a shared token for longevity and French which now seperate",
+   "chat_url": "https://claude.ai/code/session_01SzigGTAHPfMUgu7bUJ7NJR",
+   "terms_clause": "diagnosis presented as checked before the full relay code and Events Manager were read",
+   "financial_usd": null,
+   "minutes_lost": null,
+   "claim_no": "CLAUDE-0003",
+   "logged_utc": "2026-11-11 19:59"
+  },
+  {
+   "date": "2026-11-11",
+   "time_utc": "20:00",
+   "project": "Longevity Life Academy",
+   "category": "WASTED_COMPUTE",
+   "severity": 2,
+   "proof_level": "proven",
+   "summary": "The instrumented step 2 to payment trace failed on its first run from a script error on binary request bodies and had to be rewritten, delaying the answer the client asked for.",
+   "agent_quote": "Running it all in one pass:",
+   "client_quote": "Check every single thing that happens between stepn2 and payments and thats the answer",
+   "chat_url": "https://claude.ai/code/session_01SzigGTAHPfMUgu7bUJ7NJR",
+   "terms_clause": "n/a",
+   "financial_usd": null,
+   "minutes_lost": null,
+   "claim_no": "CLAUDE-0004",
+   "logged_utc": "2026-11-11 19:59"
+  }
+ ]
 }
